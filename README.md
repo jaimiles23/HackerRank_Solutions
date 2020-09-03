@@ -2,7 +2,7 @@
 This repository contains solutions to HackerRank Exercises
 
 ## SQL Exercises
-Contains exercise solutions to the [SQL domain](https://www.hackerrank.com/domains/sql)
+Contains solutions to the [SQL domain](https://www.hackerrank.com/domains/sql) done in MySQL.
 
 Exercises are organized into different domains for:
 1. Basic Select
