@@ -14,18 +14,17 @@ Requirements:
         - challenges > full score, desc
         - hacker_id, asc
 
-NOTES:
+Process NOTES:
     - Because interested in the COUNT of challenges, should use submissions as base table.
-    - Join info from other tables
-    - count statements on hackers
+    - Draw out table schemas and PKs & FKs to understand connection.
 
+SQL NOTES
+    - When using multi-column select, must also use GROUP BY on same columns
  ]
  */
 
-
 SELECT
-    h.hacker_id,
-    h.name
+    h.hacker_id, h.name
 FROM
     Submissions AS s
 INNER JOIN Challenges AS c
@@ -33,15 +32,16 @@ INNER JOIN Challenges AS c
 INNER JOIN Difficulty AS d
     ON c.difficulty_level = d.difficulty_level
 INNER JOIN Hackers AS h
-    ON s.challenge_id = h.hacker_id
+    ON s.hacker_id = h.hacker_id
+
 WHERE
     (s.score = d.score) AND
     (c.difficulty_level = d.difficulty_level)
-GROUP BY 
-    h.hacker_id
-    HAVING
-        COUNT(s.hacker_id) > 1
-ORDER BY 
+GROUP BY
+    h.hacker_id, h.name
+HAVING
+    COUNT(*) > 1
+ORDER BY
     COUNT(*) DESC,
-    h.hacker_id ASC
+    s.hacker_id
 ;
