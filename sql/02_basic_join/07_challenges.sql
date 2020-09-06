@@ -2,7 +2,7 @@
  * @author [Jai Miles]
  * @email [jaimiles23@gmail.com]
  * @create date 2020-09-05 16:07:34
- * @modify date 2020-09-05 16:08:15
+ * @modify date 2020-09-05 17:52:40
  * @desc [
     Solution to Challenges:
     https://www.hackerrank.com/challenges/challenges/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
@@ -16,61 +16,106 @@ Requirements:
 
 Notes:
     - May need to use MAX() on a subquery to find maximum number of challenges created
+    - Used TWO solutions. 
+        - Solution 1: Uses temporary queries inside HAVING.
+        - Solution 2: Uses CTE to create master data and filters the CTE inside of where clauses.
+
+HackerRank Note:
+    - MUST USE MS SQL SERVER To use CTEs with MySQL.
+
+
  ]
  */
 
 
+/* Solution 1: Using temporary subqueries for each condition of displaying the names. */
+
 SELECT
-    h.hacker_id, h.name,
-    COUNT(*) AS num_challenges
-FROM 
+    c.hacker_id, h.name, 
+    COUNT(c.hacker_id) AS c_count
+FROM
     Hackers AS h
-RIGHT JOIN Challenges AS c
-    ON h.hacker_id = c.hacker_id
-GROUP BY
-    h.hacker_id, h.name
+INNER JOIN Challenges AS c
+    ON c.hacker_id = h.hacker_id
+
+GROUP BY h.hacker_id, h.name
+
 HAVING
-    /* Create 2 having conditions: either max, or group with only 1 person*/
-    
-    /* Max number of challenges */
-    num_challenges = (
-        SELECT MAX(temp1.count)
+    c_count = (
+        SELECT 
+            MAX(temp1.cnt)
         FROM
             (
-            SELECT 
-                COUNT(hacker_id) AS cnt
+                SELECT 
+                    COUNT(hacker_id) AS cnt
+                FROM
+                    Challenges
+                GROUP BY
+                    hacker_id
+                ORDER BY 
+                    hacker_id
+            ) AS temp1
+                )
+    OR c_count IN (
+        SELECT 
+            temp2.cnt
+        FROM 
+        (
+            SELECT
+                COUNT(*) AS cnt
             FROM
                 Challenges
             GROUP BY
                 hacker_id
-            ORDER BY
-                hacker_id
-            ) AS temp1)
-    )
-    /* In groups of 1 */
-    OR num_challenges in (
-        SELECT temp2.cnt
-        FROM
-            (
-            SELECT 
-                COUNT(hacker_id) AS cnt
-            FROM 
-                Challenges
-            GROUP BY
-                hacker_id
-            HAVING
-                count(temp2.cnt) = 1
-            )
-    )
+        ) AS temp2
+        GROUP BY
+            temp2.cnt
+        HAVING
+            COUNT(temp2.cnt) = 1
+        )
 ORDER BY
-    num_challenges DESC,
-    hacker_id ASC
+    c_count DESC,
+    c.hacker_id
 ;
 
 
+/* Solution 2: CTE to count submissions per user */
 
+/* Create CTE with all data */
+WITH data (id, name, s_count) AS (
+    SELECT
+        h.hacker_id AS id,
+        h.name AS name,
+        COUNT(c.hacker_id) AS s_count
+    FROM
+        Hackers AS h
+    INNER JOIN Challenges AS c
+        ON h.hacker_id = c.hacker_id
+    GROUP BY
+        h.hacker_id, h.name
+)
 
-
-
+SELECT
+    id, name, s_count
+FROM
+    data
+WHERE
+    (s_count = (    /* NOTE: must have SELECT inside parenthesis to evaluate */
+        SELECT MAX(data.s_count) FROM data))
+    OR
+    (s_count IN (
+        SELECT
+            s_count
+        FROM
+            data
+        GROUP BY
+            s_count
+        HAVING
+            COUNT(s_count) = 1
+    ))
+ORDER BY
+    s_count DESC,
+    id ASC
+;
 
 
