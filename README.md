@@ -1,4 +1,4 @@
-|   # HackerRank
+# HackerRank
 This repository contains solutions to HackerRank Exercises.
 
 ## SQL Exercises
