@@ -1,7 +1,18 @@
 # HackerRank
-This repository contains solutions to HackerRank Exercises.
+This repository contains solutions to HackerRank Exercises. 
 
-## SQL Exercises
+Each section contains a table with links to the problem and solution. 
+
+**Table Columns:**
+1. Number: suggested order within domain
+2. Challenge: name of challenge
+3. Score: points awarded for correct solution
+4. Difficulty: rated from 1-3; easy, medium, hard
+5. Rate: problem acceptance rate across all users
+6. Solution: link to my problem solution
+
+
+## SQL
 Contains solutions to the [SQL domain](https://www.hackerrank.com/domains/sql) using MySQL. *NOTE*: When using Common Table Expressions (CTE), must use the MS SQL Server Console.
 
 Hackerrank categorizes exercises into 6 different domains:
@@ -16,7 +27,7 @@ Hackerrank categorizes exercises into 6 different domains:
 ### Basic Select
 
 |   Number  |   Challenge   |   Score   |   Difficulty  |   Rate    |   Solution    |
-|   --:     |   :--         |   --:     |   :--:        |   --:     |   :--         |
+|   --:     |   :--         |   --:     |   :--        |   --:     |   :--         |
 1       |       [Revising the Select Query I](https://www.hackerrank.com/challenges/revising-the-select-query)  |       10      |       :star:  |       95.92%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/01_basic_select/01_revising_the_select_query_i)
 2       |       [Revising the Select Query II](https://www.hackerrank.com/challenges/revising-the-select-query-2)       |       10      |       :star:  |       98.80%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/01_basic_select/02_revising_the_select_query_ii)
 3       |       [Select All](https://www.hackerrank.com/challenges/select-all-sql)      |       10      |       :star:  |       99.68%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/01_basic_select/03_select_all)
