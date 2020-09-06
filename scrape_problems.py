@@ -17,7 +17,11 @@
 
     Usage:
     - Change HACKERRANK_WEBPAGE and run
-    - CHECK ALL URLS
+    - create_md_rows() prints rows to paste into README.md for that section
+    - print_file_names() used to view filename format
+    - create_files() creates files from filenames
+
+    - URL NOTES
         - Some URLS do not follow the specified format. e.g.
         https://www.hackerrank.com/challenges/salary-of-employees for Employee Salaries problem.
  ]
@@ -240,7 +244,7 @@ def print_file_names(problem_dicts: list) -> None:
         print(problem['file_name'])
 
 
-def create_file_names(problem_dicts: list) -> None:
+def create_files(problem_dicts: list) -> None:
     """Creates files for all problems in the directory."""
     pass
 
