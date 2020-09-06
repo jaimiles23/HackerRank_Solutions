@@ -49,6 +49,7 @@ LOCATE_BY = "class"
 # Imports
 ##########
 
+import os
 import sys
 import time
 import webbrowser
@@ -127,9 +128,11 @@ def get_problem_info(problems: list) -> List[dict]:
         while len(num_problems) != len(problem_num):
             problem_num = '0' + problem_num
         
-        file_name = '_'.join([
+        file_name = ''.join([
             problem_num,
-            name.replace(' ', '_').lower()
+            "_",
+            name.replace(' ', '_').lower(),
+            ".sql"
         ])
         return file_name
     
@@ -256,6 +259,7 @@ def print_file_names(problem_dicts: list) -> None:
 
 def create_files(problem_dicts: list) -> None:
     """Creates files for all problems in the directory."""
+
     pass
 
 
@@ -266,10 +270,16 @@ def create_files(problem_dicts: list) -> None:
 def main():
     driver = get_driver()
     elements = get_elements(driver, PROBLEM_CLASS, LOCATE_BY)
-
     problem_dicts = get_problem_info(elements)
-    create_md_row(problem_dicts)
 
+    ## MD
+    # create_md_row(problem_dicts)
+
+    ## Print file names
+    print_file_names(problem_dicts)
+
+    ## Create files
+    # create_files(problem_dicts)
 
 if __name__ == "__main__":
     main()
