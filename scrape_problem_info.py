@@ -21,10 +21,7 @@
     - print_file_names() used to view filename format
     - create_files() creates files from filenames
 
-    - URL NOTES
-        - Some URLS do not follow the specified format. e.g.
-        https://www.hackerrank.com/challenges/salary-of-employees for Employee Salaries problem.
- ]
+   ]
  */
 """
 
@@ -52,12 +49,16 @@ LOCATE_BY = "class"
 # Imports
 ##########
 
+import sys
 import time
+import webbrowser
 from typing import List
 
+import bs4
+import requests
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-
+import googlesearch
 
 ##########
 # Driver
@@ -157,11 +158,22 @@ def get_problem_info(problems: list) -> List[dict]:
     
 
     def _get_problem_url(problem_name: str) -> str:
-        """Returns url of challenge problem from text."""
-        url_base = "https://www.hackerrank.com/challenges/{}/problem"
-        name = problem_name.replace(" ", "-")
-        return url_base.format(name)
-    
+        """Returns url of challenge problem from text.
+        
+        NOTE: Some URLS do not follow the specified format. e.g.
+            https://www.hackerrank.com/challenges/salary-of-employees for Employee Salaries problem.
+        
+        As such, I instead use the first URL yielded from a specific websearch.
+            1. Web search for 
+        
+        """
+        # url_base = "https://www.hackerrank.com/challenges/{}/problem"
+        # name = problem_name.replace(" ", "-")
+        # return url_base.format(name)
+
+        search_items = "site: hackerrank.com Challenges {}".format(problem_name)
+        return googlesearch.lucky(search_items)
+
 
     def _get_github_url(file_name: str) -> str:
         """Returns url of github solution from text.
@@ -263,4 +275,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
