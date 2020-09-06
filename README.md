@@ -38,5 +38,3 @@ Hackerrank categorizes exercises into 6 different domains:
 19      |       [Employee Names](https://www.hackerrank.com/challenges/Employee-Names/problem)  |       10      |       :star:  |       99.73%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/01_basic_select/19_employee_names)
 20      |       [Employee Salaries](https://www.hackerrank.com/challenges/Employee-Salaries/problem)    |       10      |       :star:  |       99.66%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/01_basic_select/20_employee_salaries)
 
-NOTE: TODO
-- Write webscraping script, get all challenges, create all .py files, and auto format table.
