@@ -162,15 +162,13 @@ def get_problem_info(problems: list) -> List[dict]:
         
         NOTE: Some URLS do not follow the specified format. e.g.
             https://www.hackerrank.com/challenges/salary-of-employees for Employee Salaries problem.
-        
-        As such, I instead use the first URL yielded from a specific websearch.
-            1. Web search for 
-        
-        """
-        # url_base = "https://www.hackerrank.com/challenges/{}/problem"
-        # name = problem_name.replace(" ", "-")
-        # return url_base.format(name)
+                url_base = "https://www.hackerrank.com/challenges/{}/problem"
+                name = problem_name.replace(" ", "-")
+                return url_base.format(name)
 
+        Instead, I used 3rd party library googlesearch. 
+        NOTE: Much slower
+        """
         search_items = "site: hackerrank.com Challenges {}".format(problem_name)
         return googlesearch.lucky(search_items)
 
