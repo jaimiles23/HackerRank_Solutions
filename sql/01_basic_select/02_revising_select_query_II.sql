@@ -4,7 +4,7 @@
  * @create date 2020-09-03 12:25:26
  * @modify date 2020-09-03 12:25:26
  * @desc [
-     Solution to revising the select query II: https://www.hackerrank.com/challenges/revising-the-select-query-2/problem?h_r=next-challenge&h_v=zen&isFullScreen=true
+     Solution to revising the select query II: https://www.hackerrank.com/challenges/revising-the-select-query-2/
  ]
  */
 

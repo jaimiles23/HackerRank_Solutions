@@ -5,7 +5,7 @@
  * @modify date 2020-09-05 11:51:40
  * @desc [
      Solution to Employee Salaries
-     https://www.hackerrank.com/challenges/salary-of-employees/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
+     https://www.hackerrank.com/challenges/salary-of-employees/
 
      NOTES:
      - write requirements of each query to make sure I understand the desire & more clearly document.
