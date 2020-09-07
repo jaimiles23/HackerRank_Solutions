@@ -43,6 +43,10 @@ Number | Challenge | Score | Difficulty | Rate | Solution
 
 <br/>
 
+## Advanced Slect
+
+<br/> 
+
 ## Aggregation
 Number | Challenge | Score | Difficulty | Rate | Solution
 --: | :-- | --: | :-- | :-- | :--
