@@ -27,7 +27,7 @@ Hackerrank categorizes exercises into 6 different domains:
 ### Basic Select
 
 |   Number  |   Challenge   |   Score   |   Difficulty  |   Rate    |   Solution    |
-|   --:     |   :--         |   --:     |   :--        |   --:     |   :--         |
+|   --:     |   :--         |   :--     |   :--         |   :--     |   :--         |
 1       |       [Revising the Select Query I](https://www.hackerrank.com/challenges/revising-the-select-query)  |       10      |       :star:  |       95.92%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/01_basic_select/01_revising_the_select_query_i.sql)
 2       |       [Revising the Select Query II](https://www.hackerrank.com/challenges/revising-the-select-query-2)       |       10      |       :star:  |       98.80%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/01_basic_select/02_revising_the_select_query_ii.sql)
 3       |       [Select All](https://www.hackerrank.com/challenges/select-all-sql)      |       10      |       :star:  |       99.68%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/01_basic_select/03_select_all.sql)
@@ -48,4 +48,17 @@ Hackerrank categorizes exercises into 6 different domains:
 18      |       [Higher Than 75 Marks](https://www.hackerrank.com/challenges/more-than-75-marks/problem)        |       15      |       :star:  |       98.84%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/01_basic_select/18_higher_than_75_marks.sql)
 19      |       [Employee Names](https://www.hackerrank.com/challenges/name-of-employees)       |       10      |       :star:  |       99.73%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/01_basic_select/19_employee_names.sql)
 20      |       [Employee Salaries](https://www.hackerrank.com/challenges/salary-of-employees)  |       10      |       :star:  |       99.66%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/01_basic_select/20_employee_salaries.sql)
+
+### Basic Join
+
+|   Number  |   Challenge   |   Score   |   Difficulty  |   Rate    |   Solution    |
+|   --:     |   :--         |   :--     |   :--         |   :--     |   :--         |
+1       |       [Asian Population](https://www.hackerrank.com/challenges/asian-population)      |       10      |       :star:  |       98.38%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/04_basic_join/1_asian_population.sql)
+2       |       [African Cities](https://www.hackerrank.com/challenges/african-cities)  |       10      |       :star:  |       99.37%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/04_basic_join/2_african_cities.sql)
+3       |       [Average Population of Each Continent](https://www.hackerrank.com/challenges/average-population-of-each-continent/problem)      |       10      |       :star:  |       97.87%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/04_basic_join/3_average_population_of_each_continent.sql)
+4       |       [The Report](https://www.hackerrank.com/challenges/the-report/problem)  |       20      |       :star::star:    |       96.94%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/04_basic_join/4_the_report.sql)
+5       |       [Top Competitors](https://www.hackerrank.com/challenges/full-score/problem)     |       30      |       :star::star:    |       96.06%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/04_basic_join/5_top_competitors.sql)
+6       |       [Ollivander's Inventory](https://www.hackerrank.com/challenges/harry-potter-and-wands/problem)  |       30      |       :star::star:    |       94.04%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/04_basic_join/6_ollivander's_inventory.sql)
+7       |       [Challenges](https://www.hackerrank.com/challenges/challenges/problem)  |       30      |       :star::star:    |       92.18%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/04_basic_join/7_challenges.sql)
+8       |       [Contest Leaderboard](https://www.hackerrank.com/challenges/contest-leaderboard)        |       30      |       :star::star:    |       97.41%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/04_basic_join/8_contest_leaderboard.sql)
 
