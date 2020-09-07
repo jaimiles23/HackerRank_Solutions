@@ -45,8 +45,9 @@ Change 3 constants b/w runs:
 - sub_dir - directory to store code into
 """
 
-## Webpage - change subdomain filter per problem
+## URL - change subdomain filter per problem
 HACKERRANK_WEBPAGE = "https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=join"
+GITHUB_URL_BASE = "https://github.com/jaimiles23/hacker_rank/blob/master/{}/{}/{}"
 
 ## Dirs/filenames for repo
 LANG_DIR = "sql"
@@ -205,8 +206,8 @@ def get_problem_info(problems: list) -> List[dict]:
 
     def _get_github_url(file_name: str) -> str:
         """Returns url of github solution from text."""
-        github_url_base = "https://github.com/jaimiles23/hacker_rank/blob/master/{}/{}/{}"
-        return github_url_base.format( LANG_DIR, SUB_DIR, file_name)
+        
+        return GITHUB_URL_BASE.format( LANG_DIR, SUB_DIR, file_name)
 
 
     ########## Create list of dictionaries
