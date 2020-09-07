@@ -29,7 +29,6 @@
     - print_file_names() used to view filename format
     - create_files() creates files from filenames
 
-
    ]
  */
 """
@@ -39,14 +38,19 @@
 ##########
 """
 This section changes constants processed by the script.
+
+Change 3 constants b/w runs:
+- hackerrank_webpage - correct filter to create table
+- lang_dir - language practicing
+- sub_dir - directory to store code into
 """
 
-## Website
-HACKERRANK_WEBPAGE = "https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=aggregation"
+## Webpage - change subdomain filter per problem
+HACKERRANK_WEBPAGE = "https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=join"
 
 ## Dirs/filenames for repo
 LANG_DIR = "sql"
-SUB_DIR = "03_aggregation"
+SUB_DIR = "04_basic_join"
 PICKLE_DIR = "pickle\\"
 SOLUTION_FILENAME = "MySQL"
 
@@ -294,6 +298,7 @@ def print_md_table(problem_dicts: list) -> None:
     }
     link_text_str = "[{}]({})"
 
+    print_output_header("print table")
     ## Print table headers
     columns = ('Name', 'Challenge', 'Score', 'Difficulty', 'Rate', 'Solution')
     tbl_formatters = [':--' for col in columns]
@@ -321,6 +326,7 @@ def print_md_table(problem_dicts: list) -> None:
 
 def print_file_names(problem_dicts: list) -> None:
     """Prints the file names for all problems in the directory."""
+    print_output_header("printing file names")
     for problem in problem_dicts:
         print(problem['file_name'])
 
@@ -339,6 +345,8 @@ def create_files(problem_dicts: list) -> None:
     ])
     os.chdir(path)
 
+
+    print_output_header("creating files")
     ## Check for file in each problem & create
     for problem in problem_dicts:
         file_name = problem['file_name']
@@ -353,6 +361,16 @@ def create_files(problem_dicts: list) -> None:
     
 
 ##########
+# Auxiliary Methods
+##########
+def print_output_header(header: str) -> None:
+    """Prints header for output."""
+    line = "#" * 10
+    print(line, header.upper(), line,
+        sep = "\n", end = "\n\n")
+
+
+##########
 # Main
 ##########
 
@@ -364,7 +382,7 @@ def main():
     save_problem_urls(problem_dicts)
 
     ## Print file names
-    print_file_names(problem_dicts)
+    # print_file_names(problem_dicts)
 
     ## Create files
     create_files(problem_dicts)
