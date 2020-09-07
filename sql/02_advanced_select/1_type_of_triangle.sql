@@ -2,10 +2,14 @@
  * @author [Jai Miles]
  * @email [jaimiles23@gmail.com]
  * @create date 2020-09-07 16:43:38
- * @modify date 2020-09-07 16:43:38
+ * @modify date 2020-09-07 16:46:30
  * @desc [
 	 Solution to: Type of Triangle
 		https://www.hackerrank.com/challenges/what-type-of-triangle/problem
+
+NOTES:
+	- Watch equality operator when checking if valid triangle:
+		(20, 20, 40) is NOT a triangle.
 
 Requirements:
     - output type of triangle:  
@@ -18,6 +22,7 @@ Process:
     - Use IF to check if is triangle, then enter CASE structure
     - Include triangle check inside CASE structure
  ]
+
  */
 
 
