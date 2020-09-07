@@ -2,7 +2,7 @@
  * @author [Jai Miles]
  * @email [jaimiles23@gmail.com]
  * @create date 2020-09-06 12:31:54
- * @modify date 2020-09-06 14:12:15
+ * @modify date 2020-09-06 17:21:02
  * @desc [
     Script to webscrape hackerrank problems and format them into markdown table.
 
@@ -14,7 +14,6 @@
         2. Construct future github address
         3. Create line in markdown file
     
-
     Usage:
     - Change HACKERRANK_WEBPAGE and run
     - create_md_rows() prints rows to paste into README.md for that section
@@ -163,7 +162,7 @@ def get_problem_info(problems: list) -> List[dict]:
             text.find(rate_str) + len(rate_str) : ]
     
 
-    def _get_problem_url(problem_name: str) -> str:
+    def _get_problem_url(problem_name: str, problem_url_dict: dict) -> str:
         """Returns url of challenge problem from text.
         
         NOTE: Some URLS do not follow the specified format. e.g.
@@ -176,9 +175,12 @@ def get_problem_info(problems: list) -> List[dict]:
         NOTE:  HTTPError 429 - Too Many Requests
             > Google uses a rate limiter to stop spamming. Does not specify length of timeout.
         """
+        if problem_name in problem_url_dict.keys():
+            return problem_url_dict[problem_name]
+        
         search_items = "site: hackerrank.com Challenges {}".format(problem_name)
         return googlesearch.lucky(search_items)
-
+    
 
     def _get_github_url(file_name: str) -> str:
         """Returns url of github solution from text."""
@@ -189,7 +191,11 @@ def get_problem_info(problems: list) -> List[dict]:
     ########## Create list of dictionaries
     problem_dicts = list()
     problem_num = 0
-    
+
+    ## General vars
+    num_problems = len(problems)
+    problem_url_dict = load_problem_urls()
+
     for p in problems:
         ## vars for dict
         text = p.text
@@ -198,7 +204,6 @@ def get_problem_info(problems: list) -> List[dict]:
 
         ## vars for functions
         problem_name = _get_name(text)
-        num_problems = len(problems)
         file_name = _get_file_name(num_problems, problem_num, problem_name)
 
         ## create dict
@@ -209,12 +214,49 @@ def get_problem_info(problems: list) -> List[dict]:
             'difficulty'    :   _get_difficulty(text),
             'score'         :   _get_score(text),
             'rate'          :   _get_rate(text),
-            'problem_url'   :   _get_problem_url(problem_name),
+            'problem_url'   :   _get_problem_url(problem_name, problem_url_dict),
             'github_url'    :   _get_github_url(file_name),
         }
         problem_dicts.append(problem_dict)
     
     return problem_dicts
+
+
+##########
+# Pickled Problem URLs
+##########
+
+def get_pickle_file_name() -> str:
+    """Returns file name for pickled information."""
+    return ''.join([
+        LANG_DIR, 
+        '_', 
+        SUB_DIR, 
+        '.p'
+    ])
+
+
+def save_problem_urls(problem_dicts: list) -> None:
+    """Saves pickled object of the problem urls. 
+
+    google.lucky() has a ratelimit and will limit requests. Thus, if problem URL
+    has already been acquired, save it in pickled object to avoid repetitive requests.
+    """
+    problem_url_dict = dict()
+
+    for problem in problem_dicts:
+        problem_name, problem_url = problem['name'], problem['problem_url']
+        problem_url_dict[problem_name] = problem_url
+    
+    p_filename = get_pickle_file_name()
+    pickle.dump( problem_url_dict, open(p_filename, 'wb'))
+    return None
+
+
+def load_problem_urls() -> dict:
+    """Returns dictionary of problem urls if they have been created yet."""
+    p_filename = get_pickle_file_name()
+    return pickle.load( open(p_filename, 'rb'))
 
 
 ##########
@@ -295,13 +337,15 @@ def create_files(problem_dicts: list) -> None:
 def main():
     driver = get_driver()
     elements = get_elements(driver, PROBLEM_CLASS, LOCATE_BY)
-    problem_dicts = get_problem_info(elements)
 
-    ## MD
+    problem_dicts = get_problem_info(elements)
+    save_problem_urls(problem_dicts)
+
+    ## Markdown
     create_md_row(problem_dicts)
 
     ## Print file names
-    # print_file_names(problem_dicts)
+    print_file_names(problem_dicts)
 
     ## Create files
     create_files(problem_dicts)
@@ -309,3 +353,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
