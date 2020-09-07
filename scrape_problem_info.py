@@ -4,7 +4,7 @@
  * @create date 2020-09-06 12:31:54
  * @modify date 2020-09-06 17:21:02
  * @desc [
-    Script to webscrape hackerrank problems and format them into markdown table.
+    Script to webscrape hackerrank problems and format them into README.md markdown table.
 
     1. Create meta list of problem information
         1. Scrape problem name, difficulty, and score from page.
@@ -19,7 +19,7 @@
     
     Usage:
     - Change HACKERRANK_WEBPAGE and run
-    - create_md_rows() prints rows to paste into README.md for that section
+    - print_md_tables() prints rows to paste into README.md for that section
     - print_file_names() used to view filename format
     - create_files() creates files from filenames
 
@@ -272,7 +272,7 @@ def load_problem_urls() -> dict:
 # Print Markdown columns
 ##########
 
-def create_md_row(problem_dicts: list) -> None:
+def print_md_table(problem_dicts: list) -> None:
     """Prints rows for hacker_rank README.md markdown table for the specified problems.
     
     Markdown table headers as follow:
@@ -286,6 +286,13 @@ def create_md_row(problem_dicts: list) -> None:
     }
     link_text_str = "[{}]({})"
 
+    ## Print table headers
+    columns = ('Name', 'Challenge', 'Score', 'Difficulty', 'Rate', 'Solution')
+    tbl_formatters = [':--' for col in columns]
+    print(' | '.join(columns))
+    print(' | '.join(tbl_formatters))
+
+    ## Print table rows
     for problem in problem_dicts:
         row_join = " | "
         row_contents = [
@@ -317,11 +324,9 @@ def create_files(problem_dicts: list) -> None:
     and adds comments for problem name and fiel requests."""
 
     ## change to appropriate directory
-    path = ''.join([
+    path = '\\'.join([
         os.getcwd(),
-        '\\',
         LANG_DIR,
-        '\\', 
         SUB_DIR
     ])
     os.chdir(path)
@@ -357,7 +362,7 @@ def main():
     create_files(problem_dicts)
 
     ## Markdown rows
-    create_md_row(problem_dicts)
+    print_md_table(problem_dicts)
 
 
 if __name__ == "__main__":
