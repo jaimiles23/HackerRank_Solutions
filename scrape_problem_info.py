@@ -8,17 +8,22 @@
 
     1. Create meta list of problem information
         1. Scrape problem name, difficulty, and score from page.
-        2. Construct URL
-    2. For each problem
-        1. Create python file with problem name and link to URL
-        2. Construct future github address
-        3. Create line in markdown file
+        2. Construct URL, future github profile
+    2. Options to:
+        1. Print out Markdown row for each problem
+        2. Print out file names
+        3. Create files for each file_name
+    
+    Notes:
+    - Uses pickle to save dictionary of problem_urls to avoid HTTP 429 rate-limits on web scraping
     
     Usage:
     - Change HACKERRANK_WEBPAGE and run
     - create_md_rows() prints rows to paste into README.md for that section
     - print_file_names() used to view filename format
     - create_files() creates files from filenames
+
+
 
    ]
  */
@@ -256,7 +261,10 @@ def save_problem_urls(problem_dicts: list) -> None:
 def load_problem_urls() -> dict:
     """Returns dictionary of problem urls if they have been created yet."""
     p_filename = get_pickle_file_name()
-    return pickle.load( open(p_filename, 'rb'))
+    try:
+        return pickle.load( open(p_filename, 'rb'))
+    except (FileNotFoundError):
+        return dict()
 
 
 ##########
