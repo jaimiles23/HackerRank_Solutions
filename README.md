@@ -13,7 +13,8 @@ Each section contains a table with links to the problem and solution.
 
 
 ## SQL
-Contains solutions to the [SQL domain](https://www.hackerrank.com/domains/sql) using MySQL. *NOTE*: When using Common Table Expressions (CTE), must use the MS SQL Server Console.
+Contains solutions to the [SQL domain](https://www.hackerrank.com/domains/sql) using MySQL. 
+*NOTE*: When using Common Table Expressions (CTE), must use the MS SQL Server Console.
 
 Hackerrank categorizes exercises into 6 different domains:
 1. Basic Select
