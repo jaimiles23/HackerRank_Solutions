@@ -5,7 +5,7 @@
  * @modify date 2020-09-05 18:40:27
  * @desc [
      Solution to Average population:
-     https://www.hackerrank.com/challenges/average-population/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
+     https://www.hackerrank.com/challenges/average-population/problem
  ]
  */
 

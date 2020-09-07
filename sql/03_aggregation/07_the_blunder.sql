@@ -5,7 +5,7 @@
  * @modify date 2020-09-05 18:43:05
  * @desc [
      Solution to The Blunder:
-     https://www.hackerrank.com/challenges/the-blunder/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
+     https://www.hackerrank.com/challenges/the-blunder/problem
 
 Process Notes:
     - Must include CONVERT() in both averages to get correct answer. Otherwise average is off... I would not expect this functionality from average?

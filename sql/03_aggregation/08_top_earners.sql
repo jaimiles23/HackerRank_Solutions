@@ -5,9 +5,9 @@
  * @modify date 2020-09-05 19:24:10
  * @desc [
      Solution to Top Earners:
-     https://www.hackerrank.com/challenges/earnings-of-employees/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
+     https://www.hackerrank.com/challenges/earnings-of-employees/problem
      
- ]
+
 Requirements
     - max total earnings
     - number of employees who made that
@@ -16,6 +16,7 @@ Steps:
     - Calculate total earnings, take max
     - Group by total earnings
     - Take top result
+]
 */
 
 SELECT
@@ -30,4 +31,4 @@ HAVING
 ORDER BY
     total_earnings DESC
 LIMIT 1
-
+;

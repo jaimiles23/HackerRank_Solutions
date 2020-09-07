@@ -4,12 +4,12 @@
  * @create date 2020-09-05 19:34:54
  * @modify date 2020-09-05 19:34:54
  * @desc [
-     Solution to weather observation station 13
-     https://www.hackerrank.com/challenges/weather-observation-station-13/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
+     Solution to:
+     https://www.hackerrank.com/challenges/weather-observation-station-13/problem
 
-    /*
+
 Requirements: 
-    - SUm of LAT_N greater than 38.7880 and less than 137.2345
+    - Sum of LAT_N greater than 38.7880 and less than 137.2345
 
 SQL process:
     Need to use IF function inside SUM
