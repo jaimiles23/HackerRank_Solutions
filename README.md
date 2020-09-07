@@ -1,7 +1,11 @@
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6OxRFdDwjpPp8M88E5qbu5Bt7iP9ZVmCCpQ&usqp=CAU)
 
-# HackerRank
-This repository contains solutions to HackerRank Exercises. 
+[Hackerrank.com](https://www.hackerrank.com/dashboard) contains practice problems and competitions to refine your programming skills. This repository contains hackerrank problems and solutions. 
+
+- [SQL](#sql)
+  - [Basic Select](#basic-select)
+  - [Aggregation](#aggregation)
+  - [Basic Join](#basic-join)
 
 
 ## SQL
