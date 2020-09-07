@@ -3,7 +3,8 @@ This repository contains solutions to HackerRank Exercises.
 
 
 ## SQL
-Contains solutions to the [SQL domain](https://www.hackerrank.com/domains/sql) using MySQL. 
+Contains solutions to the [SQL domain](https://www.hackerrank.com/domains/sql) using MySQL.
+
 *NOTE*: When using Common Table Expressions (CTE), must use the MS SQL Server Console.
 
 Hackerrank categorizes exercises into 6 different domains:
