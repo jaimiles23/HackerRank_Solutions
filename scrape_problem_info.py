@@ -369,9 +369,9 @@ def create_files(problem_dicts: list) -> None:
 ##########
 def print_output_header(header: str) -> None:
     """Prints header for output."""
-    line = "#" * 15
-    print("", line, header.upper(), line,
-        sep = "\n", end = "\n\n")
+    line = "\n" + "#" * 15 + "\n"
+    print(line, SUB_DIR, header.upper(), line,
+        sep = " ", end = "\n\n")
 
 
 ##########
