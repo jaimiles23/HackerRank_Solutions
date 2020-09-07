@@ -50,6 +50,7 @@ Hackerrank categorizes exercises into 6 different domains:
 20      |       [Employee Salaries](https://www.hackerrank.com/challenges/salary-of-employees)  |       10      |       :star:  |       99.66%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/01_basic_select/20_employee_salaries.sql)
 
 
+
 ### Aggregation
 
 |   Number  |   Challenge   |   Score   |   Difficulty  |   Rate    |   Solution    |
@@ -78,4 +79,5 @@ Hackerrank categorizes exercises into 6 different domains:
 6       |       [Ollivander's Inventory](https://www.hackerrank.com/challenges/harry-potter-and-wands/problem)  |       30      |       :star::star:    |       94.04%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/04_basic_join/6_ollivander's_inventory.sql)
 7       |       [Challenges](https://www.hackerrank.com/challenges/challenges/problem)  |       30      |       :star::star:    |       92.18%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/04_basic_join/7_challenges.sql)
 8       |       [Contest Leaderboard](https://www.hackerrank.com/challenges/contest-leaderboard)        |       30      |       :star::star:    |       97.41%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/04_basic_join/8_contest_leaderboard.sql)
+
 
