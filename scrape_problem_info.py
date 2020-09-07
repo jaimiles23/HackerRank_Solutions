@@ -41,6 +41,7 @@ HACKERRANK_WEBPAGE = "https://www.hackerrank.com/domains/sql?filters%5Bsubdomain
 LANG_DIR = "sql"
 SUB_DIR = "01_basic_select"      # used to create github url.
 SOLUTION_FILENAME = "MySQL"
+PICKLE_FOLDER = "pickle\\"
 
 ## HTML identifiers
 PROBLEM_CLASS = 'challengecard-title' # class
@@ -234,6 +235,7 @@ def get_problem_info(problems: list) -> List[dict]:
 def get_pickle_file_name() -> str:
     """Returns file name for pickled information."""
     return ''.join([
+        PICKLE_FOLDER,
         LANG_DIR, 
         '_', 
         SUB_DIR, 
