@@ -351,14 +351,14 @@ def main():
     problem_dicts = get_problem_info(elements)
     save_problem_urls(problem_dicts)
 
-    ## Markdown
-    create_md_row(problem_dicts)
-
     ## Print file names
     print_file_names(problem_dicts)
 
     ## Create files
     create_files(problem_dicts)
+
+    ## Markdown rows
+    create_md_row(problem_dicts)
 
 
 if __name__ == "__main__":
