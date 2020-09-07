@@ -6,17 +6,23 @@
  * @desc [
     Script to webscrape hackerrank problems and format them into README.md markdown table.
 
-    1. Create meta list of problem information
-        1. Scrape problem name, difficulty, and score from page.
-        2. Construct URL, future github profile
-    2. Options to:
-        1. Print out Markdown row for each problem
-        2. Print out file names
-        3. Create files for each file_name
-    
-    Notes:
-    - Uses pickle to save dictionary of problem_urls to avoid HTTP 429 rate-limits on web scraping
-    
+    Code Sections:
+    1. Constants
+        - used for web scraping and dirs
+    2. Imports
+    3. Driver
+        - Instantiate Selenium driver
+        - get_elements method to retrieve html
+    4. Get Info 
+        - gets/constructs information about each challenge
+    5. Pickled Problem URLS
+        - pickels challenge URLs to avoid HTTP 429 rate limits on google webscraping
+    6. Print Markdown Table
+        - prints entire table to be pasted into README.md
+    7. Challenge Files
+        - creates non-existent files 
+        - prints file names
+
     Usage:
     - Change HACKERRANK_WEBPAGE and run
     - print_md_tables() prints rows to paste into README.md for that section
@@ -37,10 +43,12 @@ This section changes constants processed by the script.
 
 ## Website
 HACKERRANK_WEBPAGE = "https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=aggregation"
+
+## Dirs/filenames for repo
 LANG_DIR = "sql"
-SUB_DIR = "03_aggregation"      # used to create github url.
+SUB_DIR = "03_aggregation"
+PICKLE_DIR = "pickle\\"
 SOLUTION_FILENAME = "MySQL"
-PICKLE_FOLDER = "pickle\\"
 
 ## HTML identifiers
 PROBLEM_CLASS = 'challengecard-title' # class
@@ -234,7 +242,7 @@ def get_problem_info(problems: list) -> List[dict]:
 def get_pickle_file_name() -> str:
     """Returns file name for pickled information."""
     return ''.join([
-        PICKLE_FOLDER,
+        PICKLE_DIR,
         LANG_DIR, 
         '_', 
         SUB_DIR, 
@@ -269,7 +277,7 @@ def load_problem_urls() -> dict:
 
 
 ##########
-# Print Markdown columns
+# Print Markdown Table
 ##########
 
 def print_md_table(problem_dicts: list) -> None:
@@ -308,7 +316,7 @@ def print_md_table(problem_dicts: list) -> None:
 
 
 ##########
-# File names
+# Challenge Files
 ##########
 
 def print_file_names(problem_dicts: list) -> None:
