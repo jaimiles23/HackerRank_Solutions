@@ -34,7 +34,8 @@ This section changes constants processed by the script.
 
 ## Website
 HACKERRANK_WEBPAGE = "https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=select"
-DOMAIN = "01_basic_select"      # used to create github url.
+LANG_DIR = "sql"
+SUB_DIR = "01_basic_select"      # used to create github url.
 SOLUTION_FILENAME = "MySQL"
 
 ## HTML identifiers
@@ -50,16 +51,18 @@ LOCATE_BY = "class"
 ##########
 
 import os
+import pickle
 import sys
 import time
 import webbrowser
 from typing import List
 
 import bs4
+import googlesearch
 import requests
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-import googlesearch
+
 
 ##########
 # Driver
@@ -169,19 +172,18 @@ def get_problem_info(problems: list) -> List[dict]:
                 name = problem_name.replace(" ", "-")
                 return url_base.format(name)
 
-        Instead, I used 3rd party library googlesearch. 
-        NOTE: Much slower
+        Instead, I used 3rd party library googlesearch. This is much slower
+        NOTE:  HTTPError 429 - Too Many Requests
+            > Google uses a rate limiter to stop spamming. Does not specify length of timeout.
         """
         search_items = "site: hackerrank.com Challenges {}".format(problem_name)
         return googlesearch.lucky(search_items)
 
 
     def _get_github_url(file_name: str) -> str:
-        """Returns url of github solution from text.
-        https://github.com/jaimiles23/hacker_rank/blob/master/sql/01_basic_select/01_revising_select_query_I.sql
-        """
-        github_url_base = "https://github.com/jaimiles23/hacker_rank/blob/master/sql/{}/{}"
-        return github_url_base.format(DOMAIN, file_name)
+        """Returns url of github solution from text."""
+        github_url_base = "https://github.com/jaimiles23/hacker_rank/blob/master/{}/{}/{}"
+        return github_url_base.format( LANG_DIR, SUB_DIR, file_name)
 
 
     ########## Create list of dictionaries
@@ -258,10 +260,33 @@ def print_file_names(problem_dicts: list) -> None:
 
 
 def create_files(problem_dicts: list) -> None:
-    """Creates files for all problems in the directory."""
+    """Creates files for all problems in the directory.
+    
+    Checks if the file exists first. If doesn't exist, then creates file
+    and adds comments for problem name and fiel requests."""
 
-    pass
+    ## change to appropriate directory
+    path = ''.join([
+        os.getcwd(),
+        '\\',
+        LANG_DIR,
+        '\\', 
+        SUB_DIR
+    ])
+    os.chdir(path)
 
+    ## Check for file in each problem & create
+    for problem in problem_dicts:
+        file_name = problem['file_name']
+
+        if os.path.exists( file_name):
+            continue
+        
+        with open( file_name, 'w') as outfile:
+            outfile.write(f"""Solution to: {problem['name']}\n\t\t{problem['problem_url']}""")
+
+        print(f"Created {file_name}")
+    
 
 ##########
 # Main
@@ -273,13 +298,14 @@ def main():
     problem_dicts = get_problem_info(elements)
 
     ## MD
-    # create_md_row(problem_dicts)
+    create_md_row(problem_dicts)
 
     ## Print file names
-    print_file_names(problem_dicts)
+    # print_file_names(problem_dicts)
 
     ## Create files
-    # create_files(problem_dicts)
+    create_files(problem_dicts)
+
 
 if __name__ == "__main__":
     main()
