@@ -1,16 +1,6 @@
 # HackerRank
 This repository contains solutions to HackerRank Exercises. 
 
-Each section contains a table with links to the problem and solution. 
-
-**Table Columns:**
-1. Number: suggested challenge order within domain
-2. Challenge: name of challenge
-3. Score: points awarded for correct solution
-4. Difficulty: rated from 1-3; easy, medium, hard
-5. Rate: problem acceptance rate across all users
-6. Solution: link to my problem solution
-
 
 ## SQL
 Contains solutions to the [SQL domain](https://www.hackerrank.com/domains/sql) using MySQL. 
