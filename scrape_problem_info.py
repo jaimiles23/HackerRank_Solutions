@@ -46,12 +46,12 @@ Change 3 constants b/w runs:
 """
 
 ## URL - change subdomain filter per problem
-HACKERRANK_WEBPAGE = "https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=join"
+HACKERRANK_WEBPAGE = "https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=advanced-select"
 GITHUB_URL_BASE = "https://github.com/jaimiles23/hacker_rank/blob/master/{}/{}/{}"
 
 ## Dirs/filenames for repo
 LANG_DIR = "sql"
-SUB_DIR = "04_basic_join"
+SUB_DIR = "02_advanced_select"
 PICKLE_DIR = "pickle\\"
 SOLUTION_FILENAME = "MySQL"
 
@@ -351,8 +351,10 @@ def create_files(problem_dicts: list) -> None:
         LANG_DIR,
         SUB_DIR
     ])
-    os.chdir(path)
+    if not os.path.exists(path):
+        os.mkdir(path)
 
+    os.chdir(path)
 
     print_output_header("creating files")
     ## Check for file in each problem & create
