@@ -1,23 +1,21 @@
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6OxRFdDwjpPp8M88E5qbu5Bt7iP9ZVmCCpQ&usqp=CAU)
 
-# Hackerrank
-[Hackerrank.com](https://www.hackerrank.com/dashboard) contains practice problems and competitions to refine your programming skills. This repository contains  problems and solutions. 
+Solutions to HackerRank problems.
 
-- [Hackerrank](#hackerrank)
-  - [SQL](#sql)
-    - [Basic Select](#basic-select)
-    - [Aggregation](#aggregation)
-    - [Basic Join](#basic-join)
+- [SQL](#sql)
+  - [Basic Select](#basic-select)
+  - [Aggregation](#aggregation)
+  - [Basic Join](#basic-join)
 
 
-## SQL
+# SQL
 Contains solutions to the [SQL domain](https://www.hackerrank.com/domains/sql) using MySQL.
 
 *NOTE*: When using Common Table Expressions (CTE), must use the MS SQL Server Console.
 
 <br/>
 
-### Basic Select
+## Basic Select
 
 Name | Challenge | Score | Disficulty | Rate | Solution
 :-- | :-- | :-- | :-- | :-- | :--
@@ -45,7 +43,7 @@ Name | Challenge | Score | Disficulty | Rate | Solution
 
 <br/>
 
-### Aggregation
+## Aggregation
 
 |   Number  |   Challenge   |   Score   |   Difficulty  |   Rate    |   Solution    |
 |   --:     |   :--         |   :--     |   :--         |   :--     |   :--         |
@@ -70,7 +68,7 @@ Name | Challenge | Score | Disficulty | Rate | Solution
 
 <br/>
 
-### Basic Join
+## Basic Join
 
 Name | Challenge | Score | Difficulty | Rate | Solution
 :-- | :-- | :-- | :-- | :-- | :--
