@@ -1,13 +1,12 @@
 /**
  * @author [Jai Miles]
  * @email [jaimiles23@gmail.com]
- * @create date 2020-09-05 18:30:57
- * @modify date 2020-09-05 18:30:57
+ * @create date 2020-09-06 17:59:47
+ * @modify date 2020-09-06 17:59:47
  * @desc [
-    Solution to Contest Leaderboard:
-    https://www.hackerrank.com/challenges/contest-leaderboard/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
+	Solution to: Contest Leaderboard
+		https://www.hackerrank.com/challenges/contest-leaderboard
 
-     
 Requirements:
     - Columns: hacker_id, name, total_score
     - Order by:
@@ -50,4 +49,3 @@ ORDER BY
     total_score DESC,
     h.hacker_id
 ;
-

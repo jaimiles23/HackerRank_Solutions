@@ -1,11 +1,11 @@
 /**
  * @author [Jai Miles]
  * @email [jaimiles23@gmail.com]
- * @create date 2020-09-05 14:53:33
- * @modify date 2020-09-05 14:53:33
+ * @create date 2020-09-06 17:59:45
+ * @modify date 2020-09-06 17:59:45
  * @desc [
-    Solution to Olivander's Inventory:
-    https://www.hackerrank.com/challenges/harry-potter-and-wands/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
+	 Solution to: Ollivander's Inventory
+		https://www.hackerrank.com/challenges/harry-potter-and-wands/problem
 
 Requirements:
     - Columns: id, age, coins_needed, power wand
@@ -17,11 +17,9 @@ Requirements:
 Process:
     - Problem requirements don't clearly explain that looking for the minimum of each wand's power and age groupings.
     
-
-SQL Notes:
-    - NOTE: 
  ]
  */
+
 
 SELECT
     w.id, p.age, w.coins_needed, w.power

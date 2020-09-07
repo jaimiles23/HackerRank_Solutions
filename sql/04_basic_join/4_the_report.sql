@@ -1,13 +1,13 @@
 /**
  * @author [Jai Miles]
  * @email [jaimiles23@gmail.com]
- * @create date 2020-09-05 12:51:16
- * @modify date 2020-09-05 12:51:16
+ * @create date 2020-09-06 17:59:40
+ * @modify date 2020-09-06 17:59:40
  * @desc [
-    Solution to The Report:
-    https://www.hackerrank.com/challenges/the-report/problem
- 
- Requirements:
+	 Solution to: The Report
+		https://www.hackerrank.com/challenges/the-report/problem
+
+Requirements:
     - Columns: Name, Grade, Mark
     - If mark < 8, name = NULL
     - Order by: 
@@ -21,8 +21,6 @@ NOTES:
  ]
  */
 
-
-
 SELECT
     IF (Grades.Grade > 7, Students.Name, NULL),
     Grades.Grade,
@@ -34,8 +32,3 @@ INNER JOIN Grades
 ORDER BY
     Grades.Grade DESC,
     Students.Name
-    
-
-
-
-

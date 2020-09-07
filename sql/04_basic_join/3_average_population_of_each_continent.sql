@@ -1,23 +1,21 @@
 /**
  * @author [Jai Miles]
  * @email [jaimiles23@gmail.com]
- * @create date 2020-09-05 12:49:36
- * @modify date 2020-09-05 12:49:36
+ * @create date 2020-09-06 17:59:39
+ * @modify date 2020-09-06 17:59:39
  * @desc [
-     Solution to Average Population Of Each Continent:
-     https://www.hackerrank.com/challenges/average-population-of-each-continent/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
+	 Solution to: Average Population of Each Continent
+		https://www.hackerrank.com/challenges/average-population-of-each-continent/problem
 
-
-     Requirements:
+Requirements:
     - Names of continents
     - flooredAverage city populations
 
-    Notes:
+Notes:
     - Left join on country code
     - Group by Continent
  ]
  */
-
 
 SELECT
     COUNTRY.CONTINENT,
@@ -29,8 +27,3 @@ INNER JOIN COUNTRY ON
 GROUP BY
     COUNTRY.CONTINENT
 ;
-
-
-
-
-

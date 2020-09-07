@@ -37,9 +37,9 @@ This section changes constants processed by the script.
 """
 
 ## Website
-HACKERRANK_WEBPAGE = "https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=select"
+HACKERRANK_WEBPAGE = "https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=join"
 LANG_DIR = "sql"
-SUB_DIR = "01_basic_select"      # used to create github url.
+SUB_DIR = "04_basic_join"      # used to create github url.
 SOLUTION_FILENAME = "MySQL"
 PICKLE_FOLDER = "pickle\\"
 

@@ -1,11 +1,11 @@
 /**
  * @author [Jai Miles]
  * @email [jaimiles23@gmail.com]
- * @create date 2020-09-05 16:07:34
- * @modify date 2020-09-05 17:52:40
+ * @create date 2020-09-06 17:59:46
+ * @modify date 2020-09-06 17:59:46
  * @desc [
-    Solution to Challenges:
-    https://www.hackerrank.com/challenges/challenges/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
+	 Solution to: Challenges
+		https://www.hackerrank.com/challenges/challenges/problem
 
 Requirements:
     - Columns: hacker_id, name, number_challenges
@@ -22,14 +22,11 @@ Notes:
 
 HackerRank Note:
     - MUST USE MS SQL SERVER To use CTEs with MySQL.
-
-
  ]
  */
 
 
 /* Solution 1: Using temporary subqueries for each condition of displaying the names. */
-
 SELECT
     c.hacker_id, h.name, 
     COUNT(c.hacker_id) AS c_count
@@ -117,5 +114,3 @@ ORDER BY
     s_count DESC,
     id ASC
 ;
-
-
