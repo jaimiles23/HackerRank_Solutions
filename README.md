@@ -19,7 +19,7 @@ Contains solutions to the [SQL domain](https://www.hackerrank.com/domains/sql) u
 
 ### Basic Select
 
-Name | Challenge | Score | Difficulty | Rate | Solution
+Name | Challenge | Score | Disficulty | Rate | Solution
 :-- | :-- | :-- | :-- | :-- | :--
 1 | [Revising the Select Query I](https://www.hackerrank.com/challenges/revising-the-select-query) | 10 | :star: | 95.92% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/01_basic_select/01_revising_the_select_query_i.sql)
 2 | [Revising the Select Query II](https://www.hackerrank.com/challenges/revising-the-select-query-2) | 10 | :star: | 98.80% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/01_basic_select/02_revising_the_select_query_ii.sql)

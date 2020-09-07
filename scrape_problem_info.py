@@ -46,7 +46,7 @@ Change 3 constants b/w runs:
 """
 
 ## Webpage - change subdomain filter per problem
-HACKERRANK_WEBPAGE = "https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=join"
+HACKERRANK_WEBPAGE = "https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=aggregation"
 
 ## Dirs/filenames for repo
 LANG_DIR = "sql"
