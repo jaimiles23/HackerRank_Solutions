@@ -1,3 +1,5 @@
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6OxRFdDwjpPp8M88E5qbu5Bt7iP9ZVmCCpQ&usqp=CAU)
+
 # HackerRank
 This repository contains solutions to HackerRank Exercises. 
 
@@ -47,16 +49,23 @@ Hackerrank categorizes exercises into 6 different domains:
 
 |   Number  |   Challenge   |   Score   |   Difficulty  |   Rate    |   Solution    |
 |   --:     |   :--         |   :--     |   :--         |   :--     |   :--         |
-1       |       [Revising Aggregations - The Count Function](https://www.hackerrank.com/challenges/revising-aggregations-the-count-function)    |       10      |       :star:  |       99.49%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/01_revising_aggregations_-_the_count_function.sql)
-2       |       [Revising Aggregations - The Sum Function](https://www.hackerrank.com/challenges/revising-aggregations-sum/forum)       |       10      |       :star:  |       99.63%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/02_revising_aggregations_-_the_sum_function.sql)
-3       |       [Revising Aggregations - Averages](https://www.hackerrank.com/challenges/revising-aggregations-the-average-function)    |       10      |       :star:  |       99.81%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/03_revising_aggregations_-_averages.sql)
-4       |       [Average Population](https://www.hackerrank.com/challenges/average-population/problem)  |       10      |       :star:  |       99.51%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/04_average_population.sql)
-5       |       [Japan Population](https://www.hackerrank.com/challenges/japan-population)      |       10      |       :star:  |       99.86%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/05_japan_population.sql)
-6       |       [Population Density Difference](https://www.hackerrank.com/challenges/population-density-difference)    |       10      |       :star:  |       99.84%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/06_population_density_difference.sql)
-7       |       [The Blunder](https://www.hackerrank.com/challenges/the-blunder/problem)        |       15      |       :star:  |       97.76%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/07_the_blunder.sql)
-8       |       [Top Earners](https://www.hackerrank.com/challenges/earnings-of-employees/problem)      |       20      |       :star:  |       97.84%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/08_top_earners.sql)
-9       |       [Weather Observation Station 2](https://www.hackerrank.com/challenges/weather-observation-station-2)    |       15      |       :star:  |       99.35%  |       [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/09_weather_observation_station_2.sql)
-
+1 | [Revising Aggregations - The Count Function](https://www.hackerrank.com/challenges/revising-aggregations-the-count-function) | 10 | :star: | 99.49% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/01_revising_aggregations_-_the_count_function.sql)
+2 | [Revising Aggregations - The Sum Function](https://www.hackerrank.com/challenges/revising-aggregations-sum/forum) | 10 | :star: | 99.63% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/02_revising_aggregations_-_the_sum_function.sql)
+3 | [Revising Aggregations - Averages](https://www.hackerrank.com/challenges/revising-aggregations-the-average-function) | 10 | :star: | 99.81% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/03_revising_aggregations_-_averages.sql)
+4 | [Average Population](https://www.hackerrank.com/challenges/average-population/problem) | 10 | :star: | 99.51% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/04_average_population.sql)
+5 | [Japan Population](https://www.hackerrank.com/challenges/japan-population) | 10 | :star: | 99.86% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/05_japan_population.sql)
+6 | [Population Density Difference](https://www.hackerrank.com/challenges/population-density-difference) | 10 | :star: | 99.84% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/06_population_density_difference.sql)
+7 | [The Blunder](https://www.hackerrank.com/challenges/the-blunder/problem) | 15 | :star: | 97.76% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/07_the_blunder.sql)
+8 | [Top Earners](https://www.hackerrank.com/challenges/earnings-of-employees/problem) | 20 | :star: | 97.84% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/08_top_earners.sql)
+9 | [Weather Observation Station 2](https://www.hackerrank.com/challenges/weather-observation-station-2) | 15 | :star: | 99.35% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/09_weather_observation_station_2.sql)
+10 | [Weather Observation Station 13](https://www.hackerrank.com/challenges/weather-observation-station-13/forum) | 10 | :star: | 99.48% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/10_weather_observation_station_13.sql)
+11 | [Weather Observation Station 14](https://www.hackerrank.com/challenges/weather-observation-station-14/forum) | 10 | :star: | 99.68% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/11_weather_observation_station_14.sql)
+12 | [Weather Observation Station 15](https://www.hackerrank.com/challenges/weather-observation-station-15) | 15 | :star: | 98.99% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/12_weather_observation_station_15.sql)
+13 | [Weather Observation Station 16](https://www.hackerrank.com/challenges/weather-observation-station-16) | 10 | :star: | 99.78% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/13_weather_observation_station_16.sql)
+14 | [Weather Observation Station 17](https://www.hackerrank.com/challenges/weather-observation-station-17) | 15 | :star: | 99.34% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/14_weather_observation_station_17.sql)
+15 | [Weather Observation Station 18](https://www.hackerrank.com/challenges/weather-observation-station-18/problem) | 25 | :star::star: | 98.44% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/15_weather_observation_station_18.sql)
+16 | [Weather Observation Station 19](https://www.hackerrank.com/challenges/weather-observation-station-19) | 30 | :star::star: | 98.39% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/16_weather_observation_station_19.sql)
+17 | [Weather Observation Station 20](https://www.hackerrank.com/challenges/weather-observation-station-20) | 40 | :star::star: | 96.26% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/17_weather_observation_station_20.sql)
 
 
 ### Basic Join
