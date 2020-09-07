@@ -195,6 +195,7 @@ def get_problem_info(problems: list) -> List[dict]:
         if problem_name in problem_url_dict.keys():
             return problem_url_dict[problem_name]
         
+        time.sleep(1/5)     # slow HTTP requests
         search_items = "site: hackerrank.com Challenges {}".format(problem_name)
         return (
             googlesearch.lucky(search_items)
