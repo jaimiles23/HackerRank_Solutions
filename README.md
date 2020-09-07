@@ -17,12 +17,12 @@ Contains solutions to the [SQL domain](https://www.hackerrank.com/domains/sql) u
 
 ## Basic Select
 
-Name | Challenge | Score | Disficulty | Rate | Solution
-:-- | :-- | :-- | :-- | :-- | :--
+Number | Challenge | Score | Difficulty | Rate | Solution
+--: | :-- | --: | :-- | :-- | :--
 1 | [Revising the Select Query I](https://www.hackerrank.com/challenges/revising-the-select-query) | 10 | :star: | 95.92% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/01_basic_select/01_revising_the_select_query_i.sql)
 2 | [Revising the Select Query II](https://www.hackerrank.com/challenges/revising-the-select-query-2) | 10 | :star: | 98.80% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/01_basic_select/02_revising_the_select_query_ii.sql)
-3 | [Select All](https://www.hackerrank.com/challenges/select-all-sql) | 10 | :star: | 99.68% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/01_basic_select/03_select_all.sql)
-4 | [Select By ID](https://www.hackerrank.com/challenges/select-by-id) | 10 | :star: | 99.71% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/01_basic_select/04_select_by_id.sql)
+3 | [Select All](https://www.hackerrank.com/challenges/select-all-sql) | 10 | :star: | 99.68% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/01_basic_select/03_select_all.sql)     
+4 | [Select By ID](https://www.hackerrank.com/challenges/select-by-id) | 10 | :star: | 99.71% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/01_basic_select/04_select_by_id.sql)   
 5 | [Japanese Cities' Attributes](https://www.hackerrank.com/challenges/japanese-cities-attributes) | 10 | :star: | 99.69% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/01_basic_select/05_japanese_cities'_attributes.sql)
 6 | [Japanese Cities' Names](https://www.hackerrank.com/challenges/japanese-cities-name) | 10 | :star: | 99.72% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/01_basic_select/06_japanese_cities'_names.sql)
 7 | [Weather Observation Station 1](https://www.hackerrank.com/challenges/weather-observation-station-1) | 15 | :star: | 99.53% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/01_basic_select/07_weather_observation_station_1.sql)
@@ -44,9 +44,8 @@ Name | Challenge | Score | Disficulty | Rate | Solution
 <br/>
 
 ## Aggregation
-
-|   Number  |   Challenge   |   Score   |   Difficulty  |   Rate    |   Solution    |
-|   --:     |   :--         |   :--     |   :--         |   :--     |   :--         |
+Number | Challenge | Score | Difficulty | Rate | Solution
+--: | :-- | --: | :-- | :-- | :--
 1 | [Revising Aggregations - The Count Function](https://www.hackerrank.com/challenges/revising-aggregations-the-count-function) | 10 | :star: | 99.49% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/01_revising_aggregations_-_the_count_function.sql)
 2 | [Revising Aggregations - The Sum Function](https://www.hackerrank.com/challenges/revising-aggregations-sum/problem) | 10 | :star: | 99.63% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/02_revising_aggregations_-_the_sum_function.sql)
 3 | [Revising Aggregations - Averages](https://www.hackerrank.com/challenges/revising-aggregations-the-average-function) | 10 | :star: | 99.81% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/03_revising_aggregations_-_averages.sql)
@@ -63,15 +62,15 @@ Name | Challenge | Score | Disficulty | Rate | Solution
 14 | [Weather Observation Station 17](https://www.hackerrank.com/challenges/weather-observation-station-17) | 15 | :star: | 99.34% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/14_weather_observation_station_17.sql)
 15 | [Weather Observation Station 18](https://www.hackerrank.com/challenges/weather-observation-station-18/problem) | 25 | :star::star: | 98.44% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/15_weather_observation_station_18.sql)
 16 | [Weather Observation Station 19](https://www.hackerrank.com/challenges/weather-observation-station-19) | 30 | :star::star: | 98.39% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/16_weather_observation_station_19.sql)
-17 | [Weather Observation Station 20](https://www.hackerrank.com/challenges/weather-observation-station-20) | 40 | :star::star: | 96.26% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/17_weather_observation_station_20.sql)
+17 | [Weather Observation Station 20](https://www.hackerrank.com/challenges/weather-observation-station-20) | 40 | :star::star: | 96.25% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/03_aggregation/17_weather_observation_station_20.sql)
 
 
 <br/>
 
 ## Basic Join
 
-Name | Challenge | Score | Difficulty | Rate | Solution
-:-- | :-- | :-- | :-- | :-- | :--
+Number | Challenge | Score | Difficulty | Rate | Solution
+--: | :-- | --: | :-- | :-- | :--
 1 | [Asian Population](https://www.hackerrank.com/challenges/asian-population) | 10 | :star: | 98.38% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/04_basic_join/1_asian_population.sql)
 2 | [African Cities](https://www.hackerrank.com/challenges/african-cities) | 10 | :star: | 99.37% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/04_basic_join/2_african_cities.sql)
 3 | [Average Population of Each Continent](https://www.hackerrank.com/challenges/average-population-of-each-continent/problem) | 10 | :star: | 97.87% | [MySQL](https://github.com/jaimiles23/hacker_rank/blob/master/sql/04_basic_join/3_average_population_of_each_continent.sql)

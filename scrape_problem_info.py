@@ -46,11 +46,11 @@ Change 3 constants b/w runs:
 """
 
 ## Webpage - change subdomain filter per problem
-HACKERRANK_WEBPAGE = "https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=aggregation"
+HACKERRANK_WEBPAGE = "https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=join"
 
 ## Dirs/filenames for repo
 LANG_DIR = "sql"
-SUB_DIR = "03_aggregation"
+SUB_DIR = "04_basic_join"
 PICKLE_DIR = "pickle\\"
 SOLUTION_FILENAME = "MySQL"
 
@@ -292,7 +292,7 @@ def print_md_table(problem_dicts: list) -> None:
     """Prints rows for hacker_rank README.md markdown table for the specified problems.
     
     Markdown table headers as follow:
-    Name    |   Challenge   |   Score   |   Difficulty  |   Rate    |   Solution
+    Number    |   Challenge   |   Score   |   Difficulty  |   Rate    |   Solution
     """
     star_str = ":star:"
     num_stars = {
@@ -303,9 +303,12 @@ def print_md_table(problem_dicts: list) -> None:
     link_text_str = "[{}]({})"
 
     print_output_header("print table")
+
     ## Print table headers
-    columns = ('Name', 'Challenge', 'Score', 'Difficulty', 'Rate', 'Solution')
+    columns = ('Number', 'Challenge', 'Score', 'Difficulty', 'Rate', 'Solution')
     tbl_formatters = [':--' for col in columns]
+    for i in [0, 2]:
+        tbl_formatters[i] = "--:"       # right align
     print(' | '.join(columns))
     print(' | '.join(tbl_formatters))
 
