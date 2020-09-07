@@ -5,7 +5,7 @@
  * @modify date 2020-09-05 11:48:48
  * @desc [
      Solution to higher than 75 marks:
-     https://www.hackerrank.com/challenges/more-than-75-marks/problem?isFullScreen=true&h_r=next-challenge&h_v=zen
+     https://www.hackerrank.com/challenges/more-than-75-marks/problem
 
      NOTES:
      - Write out the requirements for each query

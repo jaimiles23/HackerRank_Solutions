@@ -5,7 +5,7 @@
  * @modify date 2020-09-05 11:35:50
  * @desc [
      Solution to weather observation station 9:
-     https://www.hackerrank.com/challenges/weather-observation-station-9/problem?isFullScreen=true&h_r=next-challenge&h_v=zen
+     https://www.hackerrank.com/challenges/weather-observation-station-9/problem
 
      NOTES:
      - REGEXP character for STARTS and EXCLUDES are the same. Difference is their placement inside brackets (inside= exclusion).FROM

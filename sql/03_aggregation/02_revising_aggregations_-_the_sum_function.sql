@@ -5,7 +5,7 @@
  * @modify date 2020-09-06 18:12:30
  * @desc [
 	 Solution to: Revising Aggregations - The Sum Function
-		https://www.hackerrank.com/challenges/revising-aggregations-sum/forum
+		https://www.hackerrank.com/challenges/revising-aggregations-sum/
 
  ]
  */

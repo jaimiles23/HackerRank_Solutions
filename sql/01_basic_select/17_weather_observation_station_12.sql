@@ -5,7 +5,7 @@
  * @modify date 2020-09-05 11:44:31
  * @desc [
      Solution to weather observation station 12:
-     https://www.hackerrank.com/challenges/weather-observation-station-12/problem?isFullScreen=true
+     https://www.hackerrank.com/challenges/weather-observation-station-12/problem
 
      NOTES:
      - Change boolean operator from 11.
