@@ -50,7 +50,7 @@ HACKERRANK_WEBPAGE = "https://www.hackerrank.com/domains/sql?filters%5Bsubdomain
 
 ## Dirs/filenames for repo
 LANG_DIR = "sql"
-SUB_DIR = "04_basic_join"
+SUB_DIR = "03_aggregation"
 PICKLE_DIR = "pickle\\"
 SOLUTION_FILENAME = "MySQL"
 
@@ -196,7 +196,10 @@ def get_problem_info(problems: list) -> List[dict]:
             return problem_url_dict[problem_name]
         
         search_items = "site: hackerrank.com Challenges {}".format(problem_name)
-        return googlesearch.lucky(search_items)
+        return (
+            googlesearch.lucky(search_items)
+                .replace("/forum", "/problem")          # top search may return forum for problem.
+        ) 
     
 
     def _get_github_url(file_name: str) -> str:
