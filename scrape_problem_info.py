@@ -287,7 +287,7 @@ def create_md_row(problem_dicts: list) -> None:
     link_text_str = "[{}]({})"
 
     for problem in problem_dicts:
-        row_join = "\t|\t"
+        row_join = " | "
         row_contents = [
             problem['num'],
             link_text_str.format( problem['name'], problem['problem_url']),
