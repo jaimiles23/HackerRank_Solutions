@@ -11,24 +11,19 @@
      - Separated this solution into 2 separate queries. Re-arranged the order and took the top result.
  ]
  */
-
+ 
 SELECT
-    CITY,
-    LENGTH(CITY) 
+    CITY, LENGTH(CITY) 
 FROM 
     STATION
 ORDER BY
-    LENGTH(CITY),
-    CITY
-    ASC
+    LENGTH(CITY), CITY ASC
 LIMIT 1;
 
 SELECT
-    CITY,
-    LENGTH(CITY)
+    CITY, LENGTH(CITY)
 FROM
     STATION
 ORDER BY
-    LENGTH(CITY)
-    DESC
+    LENGTH(CITY) DESC
 LIMIT 1;
