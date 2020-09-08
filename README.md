@@ -50,9 +50,7 @@ Number | Challenge | Score | Difficulty | Rate | Solution
 --: | :-- | --: | :-- | :-- | :--
 1 | [Type of Triangle](https://www.hackerrank.com/challenges/what-type-of-triangle/problem) | 20 | :star: | 95.66% | [MySQL](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/02_advanced_select/1_type_of_triangle.sql)
 2 | [The PADS](https://www.hackerrank.com/challenges/the-pads) | 30 | :star::star: | 93.12% | [MySQL](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/02_advanced_select/2_the_pads.sql)
-3 | [Occupations](https://www.hackerrank.com/challenges/occupations/problem) | 30 | :star::star: | 91.02% | [TODO]
-4 | [Binary Tree Nodes](https://www.hackerrank.com/challenges/binary-search-tree-1/problem) | 30 | :star::star: | 97.81% | [MySQL](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/02_advanced_select/4_binary_tree_nodes.sql)
-5 | [New Companies](https://www.hackerrank.com/challenges/the-company) | 30 | :star::star: | 96.16% | [MySQL](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/02_advanced_select/5_new_companies.sql)
+
 
 <br/> 
 
