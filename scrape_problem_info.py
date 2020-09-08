@@ -47,7 +47,7 @@ Change 3 constants b/w runs:
 
 ## URL - change subdomain filter per problem
 HACKERRANK_WEBPAGE = "https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=advanced-select"
-GITHUB_URL_BASE = "https://github.com/jaimiles23/hacker_rank/blob/master/{}/{}/{}"
+GITHUB_URL_BASE = "https://github.com/jaimiles23/HackerRank_Solutions/blob/master/{}/{}/{}"
 
 ## Dirs/filenames for repo
 LANG_DIR = "sql"
