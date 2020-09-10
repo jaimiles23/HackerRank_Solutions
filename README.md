@@ -100,6 +100,6 @@ Number | Challenge | Score | Difficulty | Rate | Solution
 8 | [Contest Leaderboard](https://www.hackerrank.com/challenges/contest-leaderboard) | 30 | :star::star: | 97.41% | [MySQL](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/04_basic_join/8_contest_leaderboard.sql)
 
 
-<b><a href="#hackerrank">⬆️ Table of Contents</a></b>
+<b><a href="#hackerrank">:arrow_up: Table of Contents</a></b>
 <br/>
 <br/>
