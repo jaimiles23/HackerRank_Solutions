@@ -55,6 +55,9 @@ SUB_DIR = "02_advanced_select"
 PICKLE_DIR = "pickle\\"
 SOLUTION_FILENAME = "MySQL"
 
+## Create back to TOC Header
+TOC_HEADER = "#hackerrank"
+
 ## HTML identifiers
 PROBLEM_CLASS = 'challengecard-title' # class
 PROBLEM_TAG = 'h4'                # tag
@@ -325,6 +328,7 @@ def print_md_table(problem_dicts: list) -> None:
             link_text_str.format( SOLUTION_FILENAME, problem['github_url'])
         ]
         print(row_join.join(row_contents))
+    print_back_to_toc()
     return None
 
 
@@ -378,6 +382,17 @@ def print_output_header(header: str) -> None:
     line = "\n" + "#" * 15 + "\n"
     print(line, SUB_DIR, header.upper(), line,
         sep = " ", end = "\n\n")
+
+
+def print_back_to_toc() -> None:
+    """Prints method to return to TOC."""
+    print("""
+<br/>
+<div align="right">
+    <b><a href="{}">⬆️ To Top</a></b>
+</div>
+<br/>
+""".format(TOC_HEADER))
 
 
 ##########
