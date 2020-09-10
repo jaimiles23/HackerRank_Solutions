@@ -44,12 +44,9 @@ Number | Challenge | Score | Difficulty | Rate | Solution
 20 | [Employee Salaries](https://www.hackerrank.com/challenges/salary-of-employees) | 10 | :star: | 99.66% | [MySQL](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/01_basic_select/20_employee_salaries.sql)
 
 
-<div align="left">
-    <b><a href="#hackerrank">⬆️ Table of Contents</a></b>
-</div>
+<b><a href="#hackerrank">⬆️ Table of Contents</a></b>
 <br/>
 <br/>
-
 
 ## Advanced Select
 
@@ -59,9 +56,7 @@ Number | Challenge | Score | Difficulty | Rate | Solution
 2 | [The PADS](https://www.hackerrank.com/challenges/the-pads) | 30 | :star::star: | 93.12% | [MySQL](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/02_advanced_select/2_the_pads.sql)
 
 
-<div align="left">
-    <b><a href="#hackerrank">⬆️ Table of Contents</a></b>
-</div>
+<b><a href="#hackerrank">⬆️ Table of Contents</a></b>
 <br/>
 <br/>
 
@@ -87,10 +82,7 @@ Number | Challenge | Score | Difficulty | Rate | Solution
 17 | [Weather Observation Station 20](https://www.hackerrank.com/challenges/weather-observation-station-20) | 40 | :star::star: | 96.25% | [MySQL](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/03_aggregation/17_weather_observation_station_20.sql)
 
 
-
-<div align="left">
-    <b><a href="#hackerrank">⬆️ Table of Contents</a></b>
-</div>
+<b><a href="#hackerrank">⬆️ Table of Contents</a></b>
 <br/>
 <br/>
 
@@ -108,8 +100,6 @@ Number | Challenge | Score | Difficulty | Rate | Solution
 8 | [Contest Leaderboard](https://www.hackerrank.com/challenges/contest-leaderboard) | 30 | :star::star: | 97.41% | [MySQL](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/04_basic_join/8_contest_leaderboard.sql)
 
 
-<div align="left">
-    <b><a href="#hackerrank">⬆️ Table of Contents</a></b>
-</div>
+<b><a href="#hackerrank">⬆️ Table of Contents</a></b>
 <br/>
 <br/>
