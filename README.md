@@ -44,7 +44,7 @@ Number | Challenge | Score | Difficulty | Rate | Solution
 20 | [Employee Salaries](https://www.hackerrank.com/challenges/salary-of-employees) | 10 | :star: | 99.66% | [MySQL](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/01_basic_select/20_employee_salaries.sql)
 
 
-<b><a href="#hackerrank">⬆️ Table of Contents</a></b>
+<b><a href="#hackerrank">:arrow_up: Table of Contents</a></b>
 <br/>
 <br/>
 
@@ -56,7 +56,7 @@ Number | Challenge | Score | Difficulty | Rate | Solution
 2 | [The PADS](https://www.hackerrank.com/challenges/the-pads) | 30 | :star::star: | 93.12% | [MySQL](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/02_advanced_select/2_the_pads.sql)
 
 
-<b><a href="#hackerrank">⬆️ Table of Contents</a></b>
+<b><a href="#hackerrank">:arrow_up: Table of Contents</a></b>
 <br/>
 <br/>
 
@@ -82,7 +82,7 @@ Number | Challenge | Score | Difficulty | Rate | Solution
 17 | [Weather Observation Station 20](https://www.hackerrank.com/challenges/weather-observation-station-20) | 40 | :star::star: | 96.25% | [MySQL](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/03_aggregation/17_weather_observation_station_20.sql)
 
 
-<b><a href="#hackerrank">⬆️ Table of Contents</a></b>
+<b><a href="#hackerrank">:arrow_up: Table of Contents</a></b>
 <br/>
 <br/>
 
