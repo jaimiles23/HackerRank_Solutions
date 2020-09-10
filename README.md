@@ -43,7 +43,7 @@ Number | Challenge | Score | Difficulty | Rate | Solution
 19 | [Employee Names](https://www.hackerrank.com/challenges/name-of-employees) | 10 | :star: | 99.73% | [MySQL](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/01_basic_select/19_employee_names.sql)
 20 | [Employee Salaries](https://www.hackerrank.com/challenges/salary-of-employees) | 10 | :star: | 99.66% | [MySQL](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/01_basic_select/20_employee_salaries.sql)
 
-<br/>
+
 <div align="left">
     <b><a href="#hackerrank">⬆️ Table of Contents</a></b>
 </div>
@@ -58,7 +58,7 @@ Number | Challenge | Score | Difficulty | Rate | Solution
 1 | [Type of Triangle](https://www.hackerrank.com/challenges/what-type-of-triangle/problem) | 20 | :star: | 95.66% | [MySQL](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/02_advanced_select/1_type_of_triangle.sql)
 2 | [The PADS](https://www.hackerrank.com/challenges/the-pads) | 30 | :star::star: | 93.12% | [MySQL](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/02_advanced_select/2_the_pads.sql)
 
-<br/>
+
 <div align="left">
     <b><a href="#hackerrank">⬆️ Table of Contents</a></b>
 </div>
@@ -87,7 +87,7 @@ Number | Challenge | Score | Difficulty | Rate | Solution
 17 | [Weather Observation Station 20](https://www.hackerrank.com/challenges/weather-observation-station-20) | 40 | :star::star: | 96.25% | [MySQL](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/03_aggregation/17_weather_observation_station_20.sql)
 
 
-<br/>
+
 <div align="left">
     <b><a href="#hackerrank">⬆️ Table of Contents</a></b>
 </div>
@@ -107,7 +107,7 @@ Number | Challenge | Score | Difficulty | Rate | Solution
 7 | [Challenges](https://www.hackerrank.com/challenges/challenges/problem) | 30 | :star::star: | 92.17% | [MySQL](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/04_basic_join/7_challenges.sql)
 8 | [Contest Leaderboard](https://www.hackerrank.com/challenges/contest-leaderboard) | 30 | :star::star: | 97.41% | [MySQL](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/04_basic_join/8_contest_leaderboard.sql)
 
-<br/>
+
 <div align="left">
     <b><a href="#hackerrank">⬆️ Table of Contents</a></b>
 </div>
