@@ -121,8 +121,6 @@ Number | Challenge | Score | Difficulty | Rate | Solution
 1 | [Day 0: Mean, Median, and Mode](https://www.hackerrank.com/challenges/s10-basic-statistics/problem) | 30 | :star: | 87.14% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/01_day_0__mean,_median,_and_mode.py)
 2 | [Day 0: Weighted Mean](https://www.hackerrank.com/challenges/s10-weighted-mean) | 30 | :star: | 96.71% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/02_day_0__weighted_mean.py)    
 
+<b><a href="#hackerrank">:arrow_up: Table of Contents</a></b>
 <br/>
-<div align="right">
-    <b><a href="#hackerrank">⬆️ To Top</a></b>
-</div>
 <br/>

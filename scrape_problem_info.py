@@ -429,10 +429,9 @@ def print_output_header(header: str) -> None:
 def print_back_to_toc() -> None:
     """Prints method to return to TOC."""
     print("""
+    
+<b><a href="{}">:arrow_up: Table of Contents</a></b>
 <br/>
-<div align="right">
-    <b><a href="{}">⬆️ To Top</a></b>
-</div>
 <br/>
 """.format(TOC_HEADER))
 
