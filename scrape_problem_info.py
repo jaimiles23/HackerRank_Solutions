@@ -184,7 +184,7 @@ def get_problem_info(problems: list) -> List[dict]:
         difficulty = text[
             text.find("\n") + 1 : text.find("Max")
         ]
-        difficulty = difficulty if difficulty != 'The challenge is not available yet' else 0
+        difficulty = difficulty if difficulty != 'The challenge is not available yet' else 0        # for locked problems
         return difficulty
 
 
