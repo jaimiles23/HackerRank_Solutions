@@ -384,17 +384,19 @@ def create_files(problem_dicts: list) -> None:
     go_to_dir()
 
     print_output_header("creating files")
-    ## Check for file in each problem & create
-    for problem in problem_dicts:
+    created = 0
+    for problem in problem_dicts:   ## Check for file in each problem & create
         file_name = problem['file_name']
 
         if os.path.exists( file_name):
             continue
         
+        created + 1
         with open( file_name, 'w') as outfile:
             outfile.write(f"""Solution to: {problem['name']}\n\t\t{problem['problem_url']}""")
 
         print(f"Created {file_name}")
+    print(f"Created {created} files.")
 
 
 def go_to_dir() -> None:
