@@ -381,7 +381,7 @@ def go_to_dir() -> None:
     ## Nested directories
     dirs = [LANG_DIR, SUB_DIR]
 
-    for i in range(len(dirs)):
+    for i in range(1, len(dirs) + 1):
         ## Create path for nested directory.
         path = '\\'.join(dirs[:i])
         if not os.path.exists(path):
