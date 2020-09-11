@@ -51,6 +51,7 @@ HACKERRANK_WEBPAGE = "https://www.hackerrank.com/domains/tutorials/10-days-of-st
 # NOTE: Some learning challenges require your profile to access
 # Easy solution here is to log-in with webbrowser with github profile
 # Sufficient time allowed to log-in.
+# TODO: figure out how to login with driver?
 
 
 ## Dirs/filenames for repo
@@ -324,7 +325,7 @@ def print_md_table(problem_dicts: list) -> None:
     num_stars = {
         'Easy'      :   1,
         'Medium'    :   2, 
-        'Hard'      :   3,
+        'Hard'      :   3
     }
     link_text_str = "[{}]({})"
 
@@ -346,7 +347,7 @@ def print_md_table(problem_dicts: list) -> None:
                     problem['num'],
                     link_text_str.format( problem['name'], problem['problem_url']),
                     problem['score'],
-                    star_str * num_stars[ problem['difficulty']],
+                    star_str * num_stars.get(problem['difficulty'], 0),
                     problem['rate'],
                     link_text_str.format( SOLUTION_FILENAME, problem['github_url'])
                 ]
