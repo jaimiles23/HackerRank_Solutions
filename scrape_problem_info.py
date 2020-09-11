@@ -46,12 +46,16 @@ Change 3 constants b/w runs:
 """
 
 ## URL - change subdomain filter per problem
-HACKERRANK_WEBPAGE = "https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=advanced-select"
 GITHUB_URL_BASE = "https://github.com/jaimiles23/HackerRank_Solutions/blob/master/{}/{}/{}"
+HACKERRANK_WEBPAGE = "https://www.hackerrank.com/domains/tutorials/10-days-of-statistics"
+# NOTE: Some learning challenges require your profile to access
+# Easy solution here is to log-in with webbrowser with github profile
+# Sufficient time allowed to log-in.
+
 
 ## Dirs/filenames for repo
-LANG_DIR = "sql"
-SUB_DIR = "02_advanced_select"
+LANG_DIR = "statistics"
+SUB_DIR = "10_days"
 PICKLE_DIR = "pickle\\"
 SOLUTION_FILENAME = "MySQL"
 
@@ -98,6 +102,9 @@ def get_driver() -> object:
     ## Desktop
     driver = webdriver.Firefox()
 
+    ## Chrome driver
+    # driver = webbrowser.Chrome(r"C:\Users\Jai\chromedriver.exe")  # path to Chromedriver. get method not workign
+
     ## Remote server
     # driver = webdriver.Remote(
     #     command_executor='http://127.0.0.1:4446/wd/hub',
@@ -111,7 +118,7 @@ def get_elements( driver: object, identifier: str, LOCATE_BY: str) -> list:
     """Auxiliary method to get list of elements with identifier."""
 
     for _ in range(5):
-        time.sleep(1)       # NOTE: Need timer so whole page loads.
+        time.sleep(20)       # NOTE: Need timer so whole page loads.
         
         if LOCATE_BY == "class":
             output = driver.find_elements_by_class_name(identifier)
@@ -347,18 +354,10 @@ def create_files(problem_dicts: list) -> None:
     """Creates files for all problems in the directory.
     
     Checks if the file exists first. If doesn't exist, then creates file
-    and adds comments for problem name and fiel requests."""
-
+    and adds comments for problem name and fiel requests.
+    """
     ## change to appropriate directory
-    path = '\\'.join([
-        os.getcwd(),
-        LANG_DIR,
-        SUB_DIR
-    ])
-    if not os.path.exists(path):
-        os.mkdir(path)
-
-    os.chdir(path)
+    go_to_dir()
 
     print_output_header("creating files")
     ## Check for file in each problem & create
@@ -373,6 +372,23 @@ def create_files(problem_dicts: list) -> None:
 
         print(f"Created {file_name}")
     
+
+def go_to_dir() -> None:
+    """ Changes cwd to desired directory.
+
+    If doesn't exist, creates.
+    """
+    ## Nested directories
+    dirs = [LANG_DIR, SUB_DIR]
+
+    for i in range(len(dirs)):
+        ## Create path for nested directory.
+        path = '\\'.join(dirs[:i])
+        if not os.path.exists(path):
+            os.mkdir(path)
+
+    os.chdir(path)
+
 
 ##########
 # Auxiliary Methods
