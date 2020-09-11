@@ -57,7 +57,8 @@ HACKERRANK_WEBPAGE = "https://www.hackerrank.com/domains/tutorials/10-days-of-st
 LANG_DIR = "statistics"
 SUB_DIR = "10_days"
 PICKLE_DIR = "pickle\\"
-SOLUTION_FILENAME = "MySQL"
+SOLUTION_FILENAME = "Python"
+FILE_TYPE = ".py"
 
 ## Table headers
 columns = ('Number', 'Challenge', 'Score', 'Difficulty', 'Rate', 'Solution')
@@ -158,7 +159,7 @@ def get_problem_info(problems: list) -> List[dict]:
         """Returns file name for hackerrank problem."""
         def remove_special_chars(file_name: str) -> str:
             """Aux func to remove special characters from file name."""
-            special_chars = ['<', '>', ':', '"', "'", '/', '\\', '|', '?', '*']
+            special_chars = [' ','<', '>', ':', '"', "'", '/', '\\', '|', '?', '*', ' ']
             for char in special_chars:
                 file_name = file_name.replace(char, '_')
             return file_name
@@ -171,8 +172,8 @@ def get_problem_info(problems: list) -> List[dict]:
         file_name = ''.join([
             problem_num,
             "_",
-            name.replace(' ', '_').lower(),
-            ".sql"
+            name.lower(),
+            FILE_TYPE
         ])
 
         return remove_special_chars(file_name)
@@ -180,9 +181,12 @@ def get_problem_info(problems: list) -> List[dict]:
 
     def _get_difficulty(text: str) -> str:
         """Returns difficulty of problem from text."""
-        return text[
+        difficulty = text[
             text.find("\n") + 1 : text.find("Max")
         ]
+        difficulty = difficulty if difficulty != 'The challenge is not available yet' else 0
+        return difficulty
+
 
 
     def _get_score(text: str) -> str:
@@ -347,11 +351,12 @@ def print_md_table(problem_dicts: list) -> None:
                     link_text_str.format( SOLUTION_FILENAME, problem['github_url'])
                 ]
                 print(row_join.join(row_contents))
-    except (KeyError):
+
+    except (KeyError) as e:
+        print_output_header("markdown table error")
+        print(e)
         for problem in problem_dicts:
             print(problem)
-            # for k, v in problem:
-                # print(k, "\t", v)
 
     print_back_to_toc()
     return None
@@ -389,7 +394,7 @@ def create_files(problem_dicts: list) -> None:
             outfile.write(f"""Solution to: {problem['name']}\n\t\t{problem['problem_url']}""")
 
         print(f"Created {file_name}")
-    
+
 
 def go_to_dir() -> None:
     """ Changes cwd to desired directory.
