@@ -9,6 +9,8 @@ Solutions to HackerRank problems.
   - [Advanced Select](#advanced-select)
   - [Aggregation](#aggregation)
   - [Basic Join](#basic-join)
+- [Statistics](#statistics)
+  - [10 days of statistics](#10-days-of-statistics)
 
 
 # SQL
@@ -102,4 +104,25 @@ Number | Challenge | Score | Difficulty | Rate | Solution
 
 <b><a href="#hackerrank">:arrow_up: Table of Contents</a></b>
 <br/>
+<br/>
+
+
+# Statistics
+
+Contains solutions to the [10 Days of Statistics](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics) using Python 3.
+
+
+<br/>
+
+## 10 days of statistics
+
+Number | Challenge | Score | Difficulty | Rate | Solution
+--: | :-- | --: | :-- | :-- | :--
+1 | [Day 0: Mean, Median, and Mode](https://www.hackerrank.com/challenges/s10-basic-statistics/problem) | 30 | :star: | 87.14% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/01_day_0__mean,_median,_and_mode.py)
+2 | [Day 0: Weighted Mean](https://www.hackerrank.com/challenges/s10-weighted-mean) | 30 | :star: | 96.71% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/02_day_0__weighted_mean.py)    
+
+<br/>
+<div align="right">
+    <b><a href="#hackerrank">⬆️ To Top</a></b>
+</div>
 <br/>
