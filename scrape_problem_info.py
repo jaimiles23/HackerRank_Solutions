@@ -59,6 +59,9 @@ SUB_DIR = "10_days"
 PICKLE_DIR = "pickle\\"
 SOLUTION_FILENAME = "MySQL"
 
+## Table headers
+columns = ('Number', 'Challenge', 'Score', 'Difficulty', 'Rate', 'Solution')
+
 ## Create back to TOC Header
 TOC_HEADER = "#hackerrank"
 
@@ -153,8 +156,15 @@ def get_problem_info(problems: list) -> List[dict]:
 
     def _get_file_name(num_problems: int, problem_num: int, name: str) -> str:
         """Returns file name for hackerrank problem."""
-        num_problems, problem_num = str(num_problems), str(problem_num)
+        def remove_special_chars(file_name: str) -> str:
+            """Aux func to remove special characters from file name."""
+            special_chars = ['<', '>', ':', '"', "'", '/', '\\', '|', '?', '*']
+            for char in special_chars:
+                file_name = file_name.replace(char, '_')
+            return file_name
 
+
+        num_problems, problem_num = str(num_problems), str(problem_num)
         while len(num_problems) != len(problem_num):
             problem_num = '0' + problem_num
         
@@ -164,7 +174,8 @@ def get_problem_info(problems: list) -> List[dict]:
             name.replace(' ', '_').lower(),
             ".sql"
         ])
-        return file_name
+
+        return remove_special_chars(file_name)
     
 
     def _get_difficulty(text: str) -> str:
@@ -316,7 +327,7 @@ def print_md_table(problem_dicts: list) -> None:
     print_output_header("print table")
 
     ## Print table headers
-    columns = ('Number', 'Challenge', 'Score', 'Difficulty', 'Rate', 'Solution')
+    
     tbl_formatters = [':--' for col in columns]
     for i in [0, 2]:
         tbl_formatters[i] = "--:"       # right align
@@ -324,17 +335,24 @@ def print_md_table(problem_dicts: list) -> None:
     print(' | '.join(tbl_formatters))
 
     ## Print table rows
-    for problem in problem_dicts:
-        row_join = " | "
-        row_contents = [
-            problem['num'],
-            link_text_str.format( problem['name'], problem['problem_url']),
-            problem['score'],
-            star_str * num_stars[ problem['difficulty']],
-            problem['rate'],
-            link_text_str.format( SOLUTION_FILENAME, problem['github_url'])
-        ]
-        print(row_join.join(row_contents))
+    try:
+        for problem in problem_dicts:
+                row_join = " | "
+                row_contents = [
+                    problem['num'],
+                    link_text_str.format( problem['name'], problem['problem_url']),
+                    problem['score'],
+                    star_str * num_stars[ problem['difficulty']],
+                    problem['rate'],
+                    link_text_str.format( SOLUTION_FILENAME, problem['github_url'])
+                ]
+                print(row_join.join(row_contents))
+    except (KeyError):
+        for problem in problem_dicts:
+            print(problem)
+            # for k, v in problem:
+                # print(k, "\t", v)
+
     print_back_to_toc()
     return None
 
