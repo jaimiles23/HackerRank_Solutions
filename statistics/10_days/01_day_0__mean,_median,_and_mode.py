@@ -3,7 +3,7 @@
  * @author [Jai Miles]
  * @email [jaimiles23@gmail.com]
  * @create date 2020-09-11 16:24:44
- * @modify date 2020-09-11 16:24:44
+ * @modify date 2020-09-11 17:21:36
  * @desc [Solution to: Day 0: Mean, Median, and Mode
 		https://www.hackerrank.com/challenges/s10-basic-statistics/problem]
 
