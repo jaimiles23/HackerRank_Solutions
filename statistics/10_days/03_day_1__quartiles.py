@@ -57,12 +57,11 @@ def get_input() -> Tuple[int, List[int]]:
 
 
 ##########
-# Median method
+# Median
 ##########
 
 def calc_median(nums: list) -> Union[int, float]:
 	"""Returns the median value from a list of nums with length n."""
-
 	mid, remainder = divmod(len(nums), 2)
 	if remainder:
 		return nums[mid]
@@ -70,6 +69,10 @@ def calc_median(nums: list) -> Union[int, float]:
 	median = sum(nums[mid-1: mid+1]) / 2
 	return format_int(median)
 
+
+##########
+# Quantile data
+##########
 
 def get_q_data(nums: list, quartile: str) -> List[int]:
 	"""Returns list of data to calculate relevant quantile (Q1, Q3).
