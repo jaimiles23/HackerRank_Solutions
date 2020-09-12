@@ -111,6 +111,7 @@ Number | Challenge | Score | Difficulty | Rate | Solution
 
 Contains solutions to the [10 Days of Statistics](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics) using Python 3.
 
+Instead of using pre-existing Python libraries, I design functions derived from the mathematical logic behind each summary statistic.
 
 <br/>
 
