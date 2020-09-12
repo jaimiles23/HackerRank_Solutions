@@ -43,7 +43,6 @@ Then, I will find the data set for Q1 and Q3, and calculate the median for those
 
 from typing import List, Tuple, Union
 
-
 ##########
 # Inputs
 ##########
@@ -128,4 +127,3 @@ def main():
 
 if __name__ == "__main__":
 	main()
-
