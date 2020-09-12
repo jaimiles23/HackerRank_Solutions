@@ -34,7 +34,7 @@ SCALE = 1			# scale refers to number of decimal places
 ##########
 
 n = int(input())
-nums = list( map(int, input().split()))
+nums = list( map(int, input().split())).sort()
 
 
 ##########
@@ -48,7 +48,6 @@ def calc_mean(nums: List[int], n: int) -> Union[int, float]:
 
 def calc_median(nums: List[int], n: int) -> Union[int, float]:
 	"""Returns median of nums list with n elements."""
-	nums.sort()
 	if n % 2 == 1:
 		median = nums[n//2]
 	else:
