@@ -49,7 +49,7 @@ def calc_mean(nums: List[int], n: int) -> Union[int, float]:
 
 def calc_median(nums: List[int], n: int) -> Union[int, float]:
     """Returns median of nums list with n elements."""
-    if n % 2 == 1:
+    if n % 2:
         median = nums[n//2]
     else:
         median = calc_mean( nums[n//2 - 1: n//2 + 1], 2)
