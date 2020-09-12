@@ -2,7 +2,7 @@
  * @author [Jai Miles]
  * @email [jaimiles23@gmail.com]
  * @create date 2020-09-06 12:31:54
- * @modify date 2020-09-06 17:21:02
+ * @modify date 2020-09-11 17:32:52
  * @desc [
     Script to webscrape hackerrank problems and format them into README.md markdown table.
 
@@ -154,7 +154,7 @@ def get_problem_info(problems: list) -> List[dict]:
         """Returns name of problem from text."""
         return text[0:
             text.find("\n")]
-    
+
 
     def _get_file_name(num_problems: int, problem_num: int, name: str) -> str:
         """Returns file name for hackerrank problem."""
@@ -187,7 +187,6 @@ def get_problem_info(problems: list) -> List[dict]:
         ]
         difficulty = difficulty if difficulty != 'The challenge is not available yet' else 0        # for locked problems
         return difficulty
-
 
 
     def _get_score(text: str) -> str:
