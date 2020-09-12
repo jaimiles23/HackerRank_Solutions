@@ -160,9 +160,9 @@ def get_problem_info(problems: list) -> List[dict]:
         """Returns file name for hackerrank problem."""
         def remove_special_chars(file_name: str) -> str:
             """Aux func to remove special characters from file name."""
-            special_chars = [' ','<', '>', ':', '"', "'", '/', '\\', '|', '?', '*', ' ']
+            special_chars = [' ','<', '>', ':', '"', "'", '/', '\\', '|', '?', '*',]
             for char in special_chars:
-                file_name = file_name.replace(char, '_')
+                file_name = file_name.replace(char, '')
             return file_name
 
 
@@ -173,7 +173,7 @@ def get_problem_info(problems: list) -> List[dict]:
         file_name = ''.join([
             problem_num,
             "_",
-            name.lower(),
+            name.replace(' ', '_').lower(),
             FILE_TYPE
         ])
 
