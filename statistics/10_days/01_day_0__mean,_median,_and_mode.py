@@ -20,9 +20,8 @@ NOTE:
 # Imports
 ##########
 
-from typing import List, Union
-from collections import Counter		# used to count instances for mode
-
+from collections import Counter  # used to count instances for mode
+from typing import List, Tuple, Union
 
 ##########
 # Constants
@@ -35,8 +34,14 @@ SCALE = 1	# scale refers to number of decimal places
 # Get Input
 ##########
 
-n = int(input())
-nums = sorted(int(num) for num in input().split())
+def get_input() -> Tuple[int, list]:
+	"""Returns tuple of input:
+	n: int, length of list.
+	nums: list, nums to use.
+	"""
+	n = int(input())
+	nums = sorted(int(num) for num in input().split())
+	return (n, nums)
 
 
 
@@ -98,6 +103,7 @@ def main():
 		calc_median,
 		calc_mode
 	)
+	n, nums = get_input()
 	for measure in measure_central_tendency:
 		print(measure(nums, n))
 
