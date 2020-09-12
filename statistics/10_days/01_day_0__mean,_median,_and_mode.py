@@ -90,11 +90,11 @@ def format_scale(num: Union[int, float]) -> float:
 ##########
 
 def main():
-    measure_central_tendency = [
+    measure_central_tendency = (
         calc_mean,
         calc_median,
         calc_mode
-    ]
+	)
     for measure in measure_central_tendency:
         print(measure(nums, n))
 
