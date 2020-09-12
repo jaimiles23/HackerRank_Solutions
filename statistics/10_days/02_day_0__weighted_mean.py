@@ -2,7 +2,7 @@
  * @author [Jai Miles]
  * @email [jaimiles23@gmail.com]
  * @create date 2020-09-11 17:23:28
- * @modify date 2020-09-11 17:23:28
+ * @modify date 2020-09-11 17:31:06
  * @desc [
 	Solution to: Day 0: Weighted Mean
 		https://www.hackerrank.com/challenges/s10-weighted-mean
@@ -22,6 +22,7 @@ from typing import List, Union
 ##########
 
 SCALE = 1	# number of decimals
+
 
 ##########
 # Weighted Mean

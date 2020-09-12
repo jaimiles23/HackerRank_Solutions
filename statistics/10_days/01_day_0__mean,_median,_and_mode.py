@@ -7,6 +7,8 @@
  * @desc [Solution to: Day 0: Mean, Median, and Mode
 		https://www.hackerrank.com/challenges/s10-basic-statistics/problem]
 
+For this problem, I opted to re-write the measures of central tendency rather than use imported libraries.
+
 NOTE:
 	- Print on separate lines (mean, median, mode)
 	- Scale of 1 decimal place
