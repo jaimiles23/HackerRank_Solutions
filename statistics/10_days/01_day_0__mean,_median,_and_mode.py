@@ -19,14 +19,14 @@ NOTE:
 ##########
 
 from typing import List, Union
-from collections import Counter			# used to count instances for mode
+from collections import Counter		# used to count instances for mode
 
 
 ##########
 # Constants
 ##########
 
-SCALE = 1			# scale refers to number of decimal places
+SCALE = 1	# scale refers to number of decimal places
 
 
 ##########
