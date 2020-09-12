@@ -34,8 +34,8 @@ SCALE = 1            # scale refers to number of decimal places
 ##########
 
 n = int(input())
-nums = [int(num) for num in input().split()]
-nums.sort()
+nums = sorted(int(num) for num in input().split())
+
 
 
 ##########
