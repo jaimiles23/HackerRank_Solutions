@@ -49,11 +49,11 @@ def calc_mean(nums: List[int], n: int) -> Union[int, float]:
 
 def calc_median(nums: List[int], n: int) -> Union[int, float]:
 	"""Returns median of nums list with n elements."""
-	mid, is_odd = divmod(nums, 2)
+	mid, is_odd = divmod(len(nums), 2)
 	if is_odd:
 		median = nums[mid]
 	else:
-		median = calc_mean( nums[mid - 1, mid + 1], 2)
+		median = calc_mean( nums[mid - 1: mid + 1], 2)
 	return format_scale(median)
 
 
