@@ -26,3 +26,59 @@
 # Imports
 ##########
 
+from typing import List, Tuple
+
+
+##########
+# Instantiate Urns
+##########
+
+def create_urns(urn_balls: Tuple[Tuple[int, int]]) -> List[List[int]]:
+	"""Returns a list of urns and their number of red and black balls.
+	
+	Input is a tuple of tuples representing each urn and their number of red and black balls.
+	Red and black balls are represented by 0 and 1 respectively
+	"""
+	urns = []
+	for balls in urn_balls:
+		# red & black balls, respectively
+		urn = [0 for val in balls[0]] + [1 for val in balls[1]]
+		urns.append(urn)
+	return urns
+
+
+##########
+# Drawing permutations
+##########
+"""
+TODO
+Create recursive solution to generate all possible permutations - don't reference dice rolling.
+"""
+
+
+
+
+
+
+
+##########
+# Main
+##########
+
+def main():
+	## Create urns with balls
+	urn_balls = (
+		(4, 3),			# red, black respectively
+		(5, 4),
+		(4, 4)
+	)
+	urns = create_urns(urn_balls)
+
+	## Create all possible permutations
+
+
+
+
+if __name__ == "__main__":
+	main()
+
