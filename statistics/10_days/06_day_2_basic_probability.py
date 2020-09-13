@@ -114,7 +114,7 @@ P(A) = (number favorable events) / (total number events) = P(A) / P(S)
 ##########
 # Probability of dice rolls at target
 ##########
-def prob_dice_rolls_at_target(num_dice: int, dice_face: int, target: int) -> None:
+def prob_dice_under_target(num_dice: int, dice_face: int, target: int) -> None:
 	"""Prints probability that rolling 2 dice will return less than or equal to 9."""
 
 	def _get_possible_combinations() -> List[List[int]]:
@@ -155,13 +155,13 @@ def prob_dice_rolls_at_target(num_dice: int, dice_face: int, target: int) -> Non
 	roll_combos = _get_possible_combinations()
 
 	## Count combos at target
-	num_at_target = 0
+	num_under_target = 0
 	for combo in roll_combos:
 		if sum(combo) <= target:
-			num_at_target += 1
+			num_under_target += 1
 	
 	## Return P(A) / P(S)
-	prob = num_at_target / len(roll_combos)
+	prob = num_under_target / len(roll_combos)
 	print( round(prob, 3))
 
 
@@ -174,7 +174,7 @@ def main():
 	dice_face = 6
 	target = 9
 
-	prob_dice_rolls_at_target(num_dice, dice_face, target)
+	prob_dice_under_target(num_dice, dice_face, target)
 
 
 if __name__ == "__main__":
