@@ -390,7 +390,7 @@ def create_files(problem_dicts: list) -> None:
         if os.path.exists( file_name):
             continue
         
-        created + 1
+        created += 1
         with open( file_name, 'w') as outfile:
             outfile.write(f"""Solution to: {problem['name']}\n\t\t{problem['problem_url']}""")
 
