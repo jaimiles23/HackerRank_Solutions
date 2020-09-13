@@ -7,10 +7,14 @@
 	Solution to: Day 0: Weighted Mean
 		https://www.hackerrank.com/challenges/s10-weighted-mean
 
-Numpy's average function includes an optional weights arg.
-I opted to created the weighted mean function from scratch.
+## Wiki definition
+The weighted arithmetic mean is similar to an ordinary arithmetic mean (the most common type of average), 
+except that instead of each of the data points contributing equally to the final average, some data points contribute more than others. 
+The notion of weighted mean plays a role in descriptive statistics and also occurs in a more general form in several other areas of mathematics.
 
-NOTE:
+If all the weights are equal, then the weighted mean is the same as the arithmetic mean. 
+
+## NOTE:
 	- Output scaled to 1 decimal place
 
  ]

@@ -9,7 +9,18 @@
 
 For this problem, I opted to re-write the measures of central tendency rather than use imported libraries.
 
-NOTE:
+## Wiki definition
+In statistics, a central tendency (or measure of central tendency) is a central or typical value for a probability distribution.
+
+The most common measures of central tendency are the arithmetic mean, the median, and the mode. 
+A middle tendency can be calculated for either a finite set of values or for a theoretical distribution, such as the normal distribution. 
+Occasionally authors use central tendency to denote "the tendency of quantitative data to cluster around some central value."
+
+The central tendency of a distribution is typically contrasted with its dispersion or variability; 
+dispersion and central tendency are the often characterized properties of distributions. 
+Analysis may judge whether data has a strong or a weak central tendency based on its dispersion.
+
+## NOTE:
 	- Print on separate lines (mean, median, mode)
 	- Scale of 1 decimal place
 	- With multiple mode values, select min.
