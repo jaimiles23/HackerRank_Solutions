@@ -8,8 +8,16 @@
 	Solution to: Day 2: More Dice
 		https://www.hackerrank.com/challenges/s10-mcq-2/problem
 
+Notes on basic probability available in #6: Day 2 Basic probability.
 
-NOTE: 
+## Information
+	- Experiment: Roll 2 die and find the probability that sum == 6 with differnt die faces
+	- Sample Space: possible outcomes == 36
+	- Event: P( (A !+ B) n (A + B == 6))
+	- Formula: P(number favorable events) / P(total number of events) = P(A) / P(S)
+
+
+## NOTE: 
 - For this solution, I use the def _get_possible_combinations() function defined in the 06_day_2_basic_probability.py solution.
  ]
  */
@@ -20,18 +28,6 @@ NOTE:
 ##########
 
 from typing import List
-
-
-##########
-# Information
-##########
-"""
-Information
-	- Experiment: Roll 2 die and find the probability that sum == 6 with differnt die faces
-	- Sample Space: possible outcomes == 36
-	- Event: P( (A !+ B) n (A + B == 6))
-	- Formula: P(number favorable events) / P(total number of events) = P(A) / P(S)
-"""
 
 
 ##########
