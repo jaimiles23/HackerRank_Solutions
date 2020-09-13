@@ -1,8 +1,9 @@
-"""/**
+"""
+ /**
  * @author [Jai Miles]
  * @email [jaimiles23@gmail.com]
  * @create date 2020-09-12 15:12:07
- * @modify date 2020-09-12 15:12:07
+ * @modify date 2020-09-12 17:59:06
  * @desc [
 	Solution to: Day 1: Interquartile Range
 		https://www.hackerrank.com/challenges/s10-interquartile-range/problem
@@ -29,6 +30,13 @@ It is a trimmed estimator, defined as the 25% trimmed range, and is a commonly u
 
 from typing import Dict, List, Tuple, Union
 
+
+##########
+# Constants
+##########
+SCALE = 1
+
+
 ##########
 # Input
 ##########
@@ -39,31 +47,46 @@ def get_input() -> Tuple[int, List[int], List[int]]:
 	x: list, list of integers
 	f: list, list of integers, index corresponds to frequency of the index of x elements.
 	"""
-	n = int(input())
-	x = [int(val) for val in input().split()]
-	f = [int(val) for val in input().split()]
+	# n = int(input())
+	# x = [int(val) for val in input().split()]
+	# f = [int(val) for val in input().split()]
+	n = 6
+	x = [6, 12, 8, 10, 20, 16]
+	f = [5, 4, 3, 2, 1, 5]
 	return (n, x, f)
 
 
 ##########
 # Create list of elements
 ##########
-def create_val_freq_dict(nums: List[int], freq: List[int]) -> Dict[int, int]:
-	"""Creates a dictionary of numbers & their frequencies in the list."""
-	val_freq_dict = dict()
-	for i in range(len(nums)):
-		val_freq_dict[ nums[i]] = freq[i]
+
+def get_master_list(nums: List[int], freq: List[int]) -> List[int]:
+	"""Returns list of ints with appropriate frequencies.
 	
-	assert sum(val_freq_dict.values()) == sum(freq)	## check that no duplicate keys in nums
-	return val_freq_dict
+	2 auxiliary functions:
+	- Create_val_freq_dict
+	- create_total_nums
+	"""
+	def create_val_freq_dict(nums: List[int], freq: List[int]) -> Dict[int, int]:
+		"""Creates a dictionary of numbers & their frequencies in the list."""
+		val_freq_dict = dict()
+		for i in range(len(nums)):
+			val_freq_dict[ nums[i]] = freq[i]
+		
+		assert sum(val_freq_dict.values()) == sum(freq)	## check that no duplicate keys in nums
+		return val_freq_dict
 
 
-def create_total_nums(val_freq_dict: Dict[int, int]) -> List[int]:
-	"""Creates list of values from dictionary with values and frequencies."""
-	total_nums = []
-	for k in sorted(val_freq_dict.keys()):
-		total_nums += [int(k) for k in range(val_freq_dict[k])]
-	return total_nums
+	def create_total_nums(val_freq_dict: Dict[int, int]) -> List[int]:
+		"""Creates list of values from dictionary with values and frequencies."""
+		total_nums = []
+		for k in sorted(val_freq_dict.keys()):
+			total_nums += [int(k) for k in range(val_freq_dict[k])]
+		return total_nums
+	
+
+	val_freq_dict = create_val_freq_dict(nums, freq)
+	return create_total_nums(val_freq_dict)
 
 
 ##########
@@ -80,7 +103,7 @@ def get_quantile_range(n: int, nums: List[int], quantile: int) -> List[int]:
 	"""
 	bound = 0 if quantile == 1 else n
 
-	index, r = divmod(n)
+	index, r = divmod(n, 2)
 	if r and quantile == 3:
 		index += 1
 	
@@ -88,21 +111,27 @@ def get_quantile_range(n: int, nums: List[int], quantile: int) -> List[int]:
 	return nums[b1: b2]
 
 
-
-	
-	
-	
-
-
-def calc_median(nums: List[int], median_index: Union[float, int):
-	pass
-
+def calc_median(nums: List[int]) -> Union[float, int]:
+	"""Calculates the median from list of numbers."""
+	index, r = divmod(len(nums), 2)
+	if r:
+		return nums[index]
+	return sum(nums[index - 1: index + 1]) / 2
 
 
 ##########
-# Quartiles
+# Aux functions
 ##########
 
+def format_scale(num: Union[float, int]) -> Union[float, int]:
+	"""
+	If num is float, returns to scale.
+	"""
+	if isinstance(num, int):
+		return num
+	elif num.is_integer():		## ints with decimal
+		return int(num)
+	return round(num, SCALE)
 
 
 ##########
@@ -110,7 +139,29 @@ def calc_median(nums: List[int], median_index: Union[float, int):
 ##########
 
 def main():
-	pass
+	## Input
+	n, x, f = get_input()
+	print(n, x, f)
+
+	## Get list of ints
+	master_list = get_master_list(x, f)
+	print(master_list)
+
+	## Quantile ranges
+	q1_range = get_quantile_range(n, master_list, quantile=1)
+	q3_range = get_quantile_range(n, master_list, quantile=3)
+	print(q1_range)
+	print(q3_range)
+
+	## Quantiles
+	q1 = calc_median(q1_range)
+	q3 = calc_median(q3_range)
+	print(q1)
+	print(q3)
+
+	## IQR
+	iqr = format_scale(q3 - q1)
+	print(iqr)
 
 
 if __name__ == "__main__":
