@@ -3,7 +3,7 @@
  * @author [Jai Miles]
  * @email [jaimiles23@gmail.com]
  * @create date 2020-09-13 13:13:52
- * @modify date 2020-09-13 13:13:52
+ * @modify date 2020-09-13 13:24:58
  * @desc [
 	Solution to: Day 2: More Dice
 		https://www.hackerrank.com/challenges/s10-mcq-2/problem
@@ -35,7 +35,7 @@ Information
 
 
 ##########
-# Probability of dice rolls at target
+# Probability of unique dice rolls at target
 ##########
 
 def prob_dice_unique_and_equal_target(num_dice: int, dice_face: int, target: int) -> None:
