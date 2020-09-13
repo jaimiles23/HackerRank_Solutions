@@ -119,8 +119,12 @@ Instead of using pre-existing Python libraries, I design functions derived from 
 
 Number | Challenge | Score | Difficulty | Rate | Solution
 --: | :-- | --: | :-- | :-- | :--
-1 | [Day 0: Mean, Median, and Mode](https://www.hackerrank.com/challenges/s10-basic-statistics/problem) | 30 | :star: | 87.14% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/01_day_0__mean,_median,_and_mode.py)
-2 | [Day 0: Weighted Mean](https://www.hackerrank.com/challenges/s10-weighted-mean) | 30 | :star: | 96.71% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/02_day_0__weighted_mean.py)    
+1 | [Day 0: Mean, Median, and Mode](https://www.hackerrank.com/challenges/s10-basic-statistics/problem) | 30 | :star: | 87.15% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/01_day_0_mean,_median,_and_mode.py)
+2 | [Day 0: Weighted Mean](https://www.hackerrank.com/challenges/s10-weighted-mean) | 30 | :star: | 96.71% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/02_day_0_weighted_mean.py)
+3 | [Day 1: Quartiles](https://www.hackerrank.com/challenges/s10-quartiles) | 30 | :star: | 91.85% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/03_day_1_quartiles.py)
+4 | [Day 1: Interquartile Range](https://www.hackerrank.com/challenges/s10-interquartile-range/problem) | 30 | :star: | 93.81% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/04_day_1_interquartile_range.py)
+5 | [Day 1: Standard Deviation](https://www.hackerrank.com/challenges/s10-standard-deviation/problem) | 30 | :star: | 98.72% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/05_day_1_standard_deviation.py)  
+
 
 <b><a href="#hackerrank">:arrow_up: Table of Contents</a></b>
 <br/>
