@@ -118,7 +118,7 @@ def prob_dice_under_target(num_dice: int, dice_face: int, target: int) -> None:
 	"""Prints probability that rolling 2 dice will return less than or equal to 9."""
 
 	def _get_possible_combinations() -> List[List[int]]:
-		"""Returns possible combinations less than num_dice with dice_face less than or equal to target.
+		"""Returns Cartesian product of all possible dice rolls.
 		
 		Uses two helper functions:
 			- get_possible_rolls, generator func to yield all die rolls.
