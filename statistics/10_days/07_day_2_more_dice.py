@@ -29,7 +29,86 @@ from typing import List
 Information
 	- Experiment: Roll 2 die and find the probability that sum == 6 with differnt die faces
 	- Sample Space: possible outcomes == 36
+	- Event: P( (A !+ B) n (A + B == 6))
+	- Formula: P(number favorable events) / P(total number of events) = P(A) / P(S)
+"""
+
+
+##########
+# Probability of dice rolls at target
+##########
+
+def prob_dice_unique_and_equal_target(num_dice: int, dice_face: int, target: int) -> None:
+	"""Prints probability that rolling 2 dice will return less than or equal to 9."""
+
+	def _get_possible_combinations() -> List[List[int]]:
+		"""Returns possible combinations less than num_dice with dice_face less than or equal to target.
+		
+		Uses two helper functions:
+			- get_possible_rolls, generator func to yield all die rolls.
+			- recurse_roll_combos, helper recursion to create combinations for `num_dice`
+		"""
+		def get_possible_rolls(dice_face: int) -> int:
+			"""Generator funct to yield possible rolls."""
+			for i in range(1, dice_face + 1): yield i
+		
+
+		def recurse_roll_combos(processed_dice: int, all_roll_combos: list) -> List[List[int]]:
+			"""Helper func to recurse through all dice."""
+			if processed_dice == num_dice:		## Base case
+				return all_roll_combos
+			
+			new_roll_combos = []
+			for roll in all_roll_combos:
+				roll_combo = [roll + [val] for val in get_possible_rolls(dice_face)]
+				new_roll_combos += (roll_combo)
+			
+			processed_dice += 1
+			return recurse_roll_combos(processed_dice= processed_dice, all_roll_combos = new_roll_combos)
+
+		
+		first_rolls = [[val] for val in get_possible_rolls(dice_face)]
+		roll_combinations = recurse_roll_combos( 1, first_rolls)
+
+
+		assert (len(roll_combinations) == dice_face ** num_dice)
+		return roll_combinations
 	
 
-"""
+	## Get Combinations
+	roll_combos = _get_possible_combinations()
+
+	## Count unique combos in target
+	num_at_target = 0
+	for combo in roll_combos:
+
+		flag_unique = True
+		for c in combo:
+			if combo.count(c) > 1:
+				flag_unique = False
+				break
+		
+		if flag_unique and sum(combo) == target:
+			num_at_target += 1
+	
+	## Return P(A) / P(S)
+	prob = num_at_target / len(roll_combos)
+	print( round(prob, 3))
+
+
+##########
+# Main
+##########
+
+def main():
+	num_dice = 2
+	dice_face = 6
+	target = 6
+
+	prob_dice_unique_and_equal_target(num_dice, dice_face, target)
+
+
+if __name__ == "__main__":
+	main()
+
 
