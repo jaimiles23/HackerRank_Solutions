@@ -47,12 +47,9 @@ def get_input() -> Tuple[int, List[int], List[int]]:
 	x: list, list of integers
 	f: list, list of integers, index corresponds to frequency of the index of x elements.
 	"""
-	# n = int(input())
-	# x = [int(val) for val in input().split()]
-	# f = [int(val) for val in input().split()]
-	n = 6
-	x = [6, 12, 8, 10, 20, 16]
-	f = [5, 4, 3, 2, 1, 5]
+	n = int(input())
+	x = [int(val) for val in input().split()]
+	f = [int(val) for val in input().split()]
 	return (n, x, f)
 
 
@@ -71,7 +68,9 @@ def get_master_list(nums: List[int], freq: List[int]) -> List[int]:
 		"""Creates a dictionary of numbers & their frequencies in the list."""
 		val_freq_dict = dict()
 		for i in range(len(nums)):
-			val_freq_dict[ nums[i]] = freq[i]
+			val = val_freq_dict.get(nums[i], 0)
+			val += freq[i]
+			val_freq_dict[ nums[i]] = val
 		
 		assert sum(val_freq_dict.values()) == sum(freq)	## check that no duplicate keys in nums
 		return val_freq_dict
@@ -81,7 +80,8 @@ def get_master_list(nums: List[int], freq: List[int]) -> List[int]:
 		"""Creates list of values from dictionary with values and frequencies."""
 		total_nums = []
 		for k in sorted(val_freq_dict.keys()):
-			total_nums += [int(k) for k in range(val_freq_dict[k])]
+			total_nums += [int(k) for _ in range(val_freq_dict[k])]
+
 		return total_nums
 	
 
@@ -93,7 +93,7 @@ def get_master_list(nums: List[int], freq: List[int]) -> List[int]:
 # Median
 ##########
 
-def get_quantile_range(n: int, nums: List[int], quantile: int) -> List[int]:
+def get_quantile_range(nums: List[int], quantile: int) -> List[int]:
 	"""Returns list of integers for the specified quantile range.
 	
 	n: int, length of list
@@ -101,6 +101,7 @@ def get_quantile_range(n: int, nums: List[int], quantile: int) -> List[int]:
 	median_index: Union[float, int]. Index of the median
 	quantile: int, what quantile to return
 	"""
+	n = len(nums)
 	bound = 0 if quantile == 1 else n
 
 	index, r = divmod(n, 2)
@@ -127,11 +128,7 @@ def format_scale(num: Union[float, int]) -> Union[float, int]:
 	"""
 	If num is float, returns to scale.
 	"""
-	if isinstance(num, int):
-		return num
-	elif num.is_integer():		## ints with decimal
-		return int(num)
-	return round(num, SCALE)
+	return "{0:.1f}".format(num)	## Change to scale
 
 
 ##########
@@ -141,23 +138,17 @@ def format_scale(num: Union[float, int]) -> Union[float, int]:
 def main():
 	## Input
 	n, x, f = get_input()
-	print(n, x, f)
 
 	## Get list of ints
 	master_list = get_master_list(x, f)
-	print(master_list)
 
 	## Quantile ranges
-	q1_range = get_quantile_range(n, master_list, quantile=1)
-	q3_range = get_quantile_range(n, master_list, quantile=3)
-	print(q1_range)
-	print(q3_range)
+	q1_range = get_quantile_range(master_list, quantile=1)
+	q3_range = get_quantile_range(master_list, quantile=3)
 
 	## Quantiles
 	q1 = calc_median(q1_range)
 	q3 = calc_median(q3_range)
-	print(q1)
-	print(q3)
 
 	## IQR
 	iqr = format_scale(q3 - q1)
