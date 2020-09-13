@@ -93,9 +93,8 @@ We can use our fundamental rules of probability to solve this problem:
 from typing import List
 
 
-
 ##########
-# Question 1
+# Information
 ##########
 """
 ## Information
@@ -112,7 +111,10 @@ P(A) = (number favorable events) / (total number events) = P(A) / P(S)
 - Divide by number of total events
 """
 
-def print_prob_dice_rolls_at_target(num_dice: int, dice_face: int, target: int) -> None:
+##########
+# Probability of dice rolls at target
+##########
+def prob_dice_rolls_at_target(num_dice: int, dice_face: int, target: int) -> None:
 	"""Prints probability that rolling 2 dice will return less than or equal to 9."""
 
 	def _get_possible_combinations() -> List[List[int]]:
@@ -143,6 +145,9 @@ def print_prob_dice_rolls_at_target(num_dice: int, dice_face: int, target: int) 
 		
 		first_rolls = [[val] for val in get_possible_rolls(dice_face)]
 		roll_combinations = recurse_roll_combos( 1, first_rolls)
+
+
+		assert (len(roll_combinations) == dice_face ** num_dice)
 		return roll_combinations
 	
 
@@ -169,7 +174,7 @@ def main():
 	dice_face = 6
 	target = 9
 
-	print_prob_dice_rolls_at_target(num_dice, dice_face, target)
+	prob_dice_rolls_at_target(num_dice, dice_face, target)
 
 
 if __name__ == "__main__":
