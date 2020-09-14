@@ -2,15 +2,38 @@
  * @author [Jai Miles]
  * @email [jaimiles23@gmail.com]
  * @create date 2020-09-13 13:26:57
- * @modify date 2020-09-13 17:18:35
+ * @modify date 2020-09-13 18:46:19
  * @desc [
 	 Solution to: Day 2: Compound Event Probability
 		https://www.hackerrank.com/challenges/s10-mcq-3/problem
 
+This script has 2 parts:
+	1. Math Solution
+	2. Brute force algorithm implemented in Python
+
+
+##########
+# Math solution
+##########
+
+Urn X contains 4 red balls and 3 black balls, 7 balls total.
+Urn Y contains 5 red balls and 4 black balls, 9 balls total.
+Urn Z contains 4 red balls and 4 black balls, 8 balls total.
+
 ## Information
 	- Experiment: Given 3 urns with 2 options, what is the compound probability of drawing 2 red and 1 black.
-	- Space: number of combinations, 2 * 2 * 2, with different probabilities of each.
-	- P(A) = P()
+	- Space: 8 * 9 * 8 = 576 possible permutations
+	- Formula: sum the  P(of each possible permutation) where you can have 1 black ball.
+
+P(A) 	=	(3/7)(5/9)(1/2) + (4/7)(4/9)(1/2) + (4/7)(5/9)(1/2)
+		=	(15/126) + (16/126) + (20/126)
+		=	51/126
+		=	17/42
+
+
+##########
+# Brute Force algorithm
+##########
 
 ## Process
 	- Use A urns with B black balls and C red balls, represented by (1, 0) respectively
