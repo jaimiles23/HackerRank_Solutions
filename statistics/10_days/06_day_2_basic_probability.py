@@ -106,11 +106,14 @@ In a single toss of 2 fair (evenly-weighted) six-sided dice, find the probabilit
 P(A) = (number favorable events) / (total number events) = P(A) / P(S)
 
 ## Implementation
-P(A) = ((1 * 6) + (1 * 6) + (1 * 6) + (1 * 5) + (1 * 4) + (1 * 3)) / 6 ** 2 = 30/36 = 5/6 = 0.833
+P(A) 	= ( P(1, {1,2,3,4,5,6}) + P(2, {1,2,3,4,5,6}) + P(3, {1,2,3,4,5,6}) + P(4, {1,2,3,4,5}) + P(5, {1,2,3,4}) + P(6, {1,2,3}) ) / 6 ** 2
+		= ( 6 + 6 + 6 + 5 + 4 + 3) / 36
+		= 30 / 36
+		= 5/6
+		= 0.833
 
 	* For numbers 1-3, all accompanying die roll <= 9, thus, 100% of roles with these numbers are favored.
 	* a role of 4 meets criteria with accompanying roles 1-5, thus resulting in 5 possible permutations, etc.
-	* The index (base 1) of the added numbers above correlate to the die roll and the probability of an accompanying roll that sum to <= 9.
  ]
  */
 """
