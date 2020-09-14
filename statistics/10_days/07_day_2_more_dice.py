@@ -10,11 +10,24 @@
 
 Notes on basic probability available in #6: Day 2 Basic probability.
 
+This script contains two parts:
+	1. Math solution
+	2. Brute force algorithm solution implemented in Python
+
+##########
+# Math solution
+##########
+
 ## Information
 	- Experiment: Roll 2 die and find the probability that sum == 6 with differnt die faces
 	- Sample Space: possible outcomes == 36
 	- Event: P( (A !+ B) n (A + B == 6))
 	- Formula: P(number favorable events) / P(total number of events) = P(A) / P(S)
+
+P(A) 	= ( P([1, 5]), P( [2, 4])) / S				# prob of rolling (1, 5) or (2, 4) divided by S
+		= 2 + 2 / 36
+		= 4 / 36
+		= 1 / 9
 
 
 ## NOTE: 
