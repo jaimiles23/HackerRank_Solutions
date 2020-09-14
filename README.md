@@ -124,9 +124,9 @@ Number | Challenge | Score | Difficulty | Rate | Solution
 3 | [Day 1: Quartiles](https://www.hackerrank.com/challenges/s10-quartiles) | 30 | :star: | 91.86% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/03_day_1_quartiles.py)
 4 | [Day 1: Interquartile Range](https://www.hackerrank.com/challenges/s10-interquartile-range/problem) | 30 | :star: | 93.81% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/04_day_1_interquartile_range.py)
 5 | [Day 1: Standard Deviation](https://www.hackerrank.com/challenges/s10-standard-deviation/problem) | 30 | :star: | 98.72% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/05_day_1_standard_deviation.py)
-6 | [Day 2: Basic Probability](https://www.hackerrank.com/challenges/s10-mcq-1/tutorial) | 10 |  | 69.67% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/06_day_2_basic_probability.py)
-7 | [Day 2: More Dice](https://www.hackerrank.com/challenges/s10-mcq-2/problem) | 10 |  | 84.21% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/07_day_2_more_dice.py)
-8 | [Day 2: Compound Event Probability](https://www.hackerrank.com/challenges/s10-mcq-3/problem) | 10 |  | 77.94% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/08_day_2_compound_event_probability.py)
+6 | [Day 2: Basic Probability](https://www.hackerrank.com/challenges/s10-mcq-1/tutorial) | 10 | :star: | 69.67% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/06_day_2_basic_probability.py)
+7 | [Day 2: More Dice](https://www.hackerrank.com/challenges/s10-mcq-2/problem) | 10 | :star: | 84.21% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/07_day_2_more_dice.py)
+8 | [Day 2: Compound Event Probability](https://www.hackerrank.com/challenges/s10-mcq-3/problem) | 10 | :star: | 77.94% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/08_day_2_compound_event_probability.py)
 
 
 <b><a href="#hackerrank">:arrow_up: Table of Contents</a></b>
