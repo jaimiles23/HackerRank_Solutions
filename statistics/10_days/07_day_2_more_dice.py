@@ -28,10 +28,11 @@ P(A) 	= ( P([1, 5]), P( [2, 4])) / S				# prob of rolling (1, 5) or (2, 4) divid
 		= 2 + 2 / 36
 		= 4 / 36
 		= 1 / 9
+		= 0.11
 
 
 ## NOTE: 
-- For this solution, I use the def _get_possible_combinations() function defined in the 06_day_2_basic_probability.py solution.
+- For this solution, I use the def get_all_possible_combos() function defined in the 06_day_2_basic_probability.py solution.
  ]
  */
 """
@@ -47,45 +48,54 @@ from typing import List
 # Probability of unique dice rolls at target
 ##########
 
-def prob_dice_unique_and_equal_target(num_dice: int, dice_face: int, target: int) -> None:
-	"""Prints probability that rolling 2 dice will return less than or equal to 9."""
-
-	def _get_possible_combinations() -> List[List[int]]:
-		"""RReturns Cartesian product of all possible dice rolls.
-		
-		Uses two helper functions:
-			- get_possible_rolls, generator func to yield all die rolls.
-			- recurse_roll_combos, helper recursion to create combinations for `num_dice`
-		"""
-		def get_possible_rolls(dice_face: int) -> int:
-			"""Generator funct to yield possible rolls."""
-			for i in range(1, dice_face + 1): yield i
-		
-
-		def recurse_roll_combos(processed_dice: int, all_roll_combos: list) -> List[List[int]]:
-			"""Helper func to recurse through all dice."""
-			if processed_dice == num_dice:		## Base case
-				return all_roll_combos
-			
-			new_roll_combos = []
-			for roll in all_roll_combos:
-				roll_combo = [roll + [val] for val in get_possible_rolls(dice_face)]
-				new_roll_combos += (roll_combo)
-			
-			processed_dice += 1
-			return recurse_roll_combos(processed_dice= processed_dice, all_roll_combos = new_roll_combos)
-
-		
-		first_rolls = [[val] for val in get_possible_rolls(dice_face)]
-		roll_combinations = recurse_roll_combos( 1, first_rolls)
-
-
-		assert (len(roll_combinations) == dice_face ** num_dice)
-		return roll_combinations
+def get_all_possible_combos(num_dice: int, dice_face: int, target: int) -> List[List[int]]:
+	"""Returns Cartesian product of all possible dice rolls.
+	
+	Uses two helper functions:
+		- get_possible_rolls, generator func to yield all die rolls.
+		- recurse_roll_combos, helper recursion to create combinations for `num_dice`
+	"""
+	def get_possible_rolls(dice_face: int) -> int:
+		"""Generator funct to yield possible rolls."""
+		for i in range(1, dice_face + 1): yield i
 	
 
+	def recurse_roll_combos(processed_dice: int, all_roll_combos: list) -> List[List[int]]:
+		"""Helper func to recurse through all dice."""
+		if processed_dice == num_dice:		## Base case
+			return all_roll_combos
+		
+		new_roll_combos = []
+		for roll in all_roll_combos:
+			roll_combo = [roll + [val] for val in get_possible_rolls(dice_face)]
+			new_roll_combos += (roll_combo)
+		
+		processed_dice += 1
+		return recurse_roll_combos(processed_dice= processed_dice, all_roll_combos = new_roll_combos)
+
+	
+	first_rolls = [[val] for val in get_possible_rolls(dice_face)]
+	roll_combinations = recurse_roll_combos( 1, first_rolls)
+
+
+	assert (len(roll_combinations) == dice_face ** num_dice)
+	return roll_combinations
+
+
+	
+
+
+##########
+# Main
+##########
+
+def main():
+	num_dice = 2
+	dice_face = 6
+	target = 6
+
 	## Get Combinations
-	roll_combos = _get_possible_combinations()
+	roll_combos = get_all_possible_combos(num_dice, dice_face, target)
 
 	## Count unique combos in target
 	num_at_target = 0
@@ -103,18 +113,6 @@ def prob_dice_unique_and_equal_target(num_dice: int, dice_face: int, target: int
 	## Return P(A) / P(S)
 	prob = num_at_target / len(roll_combos)
 	print( round(prob, 3))
-
-
-##########
-# Main
-##########
-
-def main():
-	num_dice = 2
-	dice_face = 6
-	target = 6
-
-	prob_dice_unique_and_equal_target(num_dice, dice_face, target)
 
 
 if __name__ == "__main__":
