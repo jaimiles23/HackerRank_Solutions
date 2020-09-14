@@ -7,7 +7,15 @@
 	 Solution to: Day 2: Basic Probability
 		https://www.hackerrank.com/challenges/s10-mcq-1/tutorial
 
-# NOTES from problem tutorial: https://www.hackerrank.com/challenges/s10-mcq-1/tutorial
+There are 3 sections to this script:
+	- Notes on probability from the problem tutorial: https://www.hackerrank.com/challenges/s10-mcq-1/tutorial
+	- Mathematic solution to Problem 6 solution
+	- Brute force python algorithm to Problem 6 solution
+
+
+##########
+# Notes on probability
+##########
 
 ## Event, Sample Space, and Probability
 n probability theory, an experiment is any procedure that can be infinitely repeated and has a well-defined set of possible outcomes, known as the sample space, s. 
@@ -82,6 +90,27 @@ We can use our fundamental rules of probability to solve this problem:
 	P(A n B) = P(A) + P(B) - P(A u B)
 	P(A n B) = 2/5 + 4/5 - 3/5
 	P(A n B) = 3/5
+
+
+##########
+# Math Solution
+##########
+
+## Information
+In a single toss of 2 fair (evenly-weighted) six-sided dice, find the probability that their sum will be at most 9.
+	- Experiment: rolling 2 dice
+	- Sample space(S) = possible outcomes = 6 * 6 = 36
+	- Event P(A + B) <= 9
+
+## Formula:
+P(A) = (number favorable events) / (total number events) = P(A) / P(S)
+
+## Implementation
+P(A) = ((1 * 6) + (1 * 6) + (1 * 6) + (1 * 5) + (1 * 4) + (1 * 3)) / 6 ** 2 = 30/36 = 5/6 = 0.833
+
+	* For numbers 1-3, all accompanying die roll <= 9, thus, 100% of roles with these numbers are favored.
+	* a role of 4 meets criteria with accompanying roles 1-5, thus resulting in 5 possible permutations, etc.
+	* The index (base 1) of the added numbers above correlate to the die roll and the probability of an accompanying roll that sum to <= 9.
  ]
  */
 """
@@ -97,14 +126,7 @@ from typing import List
 # Information
 ##########
 """
-## Information
-In a single toss of 2 fair (evenly-weighted) six-sided dice, find the probability that their sum will be at most 9.
-	- Experiment: rolling 2 dice
-	- Sample space(S) = possible outcomes = 6 * 6 = 36
-	- Event P(A + B) <= 9
 
-## Formula:
-P(A) = (number favorable events) / (total number events) = P(A) / P(S)
 
 ## Process
 - Iterate through all possible rolling combinations and create list of values <= 9
@@ -114,55 +136,42 @@ P(A) = (number favorable events) / (total number events) = P(A) / P(S)
 ##########
 # Probability of dice rolls at target
 ##########
-def prob_dice_under_target(num_dice: int, dice_face: int, target: int) -> None:
-	"""Prints probability that rolling 2 dice will return less than or equal to 9."""
 
-	def _get_possible_combinations() -> List[List[int]]:
-		"""Returns Cartesian product of all possible dice rolls.
-		
-		Uses two helper functions:
-			- get_possible_rolls, generator func to yield all die rolls.
-			- recurse_roll_combos, helper recursion to create combinations for `num_dice`
-		"""
-		def get_possible_rolls(dice_face: int) -> int:
-			"""Generator funct to yield possible rolls."""
-			for i in range(1, dice_face + 1): yield i
-		
-
-		def recurse_roll_combos(processed_dice: int, all_roll_combos: list) -> List[List[int]]:
-			"""Helper func to recurse through all dice."""
-			if processed_dice == num_dice:		## Base case
-				return all_roll_combos
-			
-			new_roll_combos = []
-			for roll in all_roll_combos:
-				roll_combo = [roll + [val] for val in get_possible_rolls(dice_face)]
-				new_roll_combos += (roll_combo)
-			
-			processed_dice += 1
-			return recurse_roll_combos(processed_dice= processed_dice, all_roll_combos = new_roll_combos)
-
-		
-		first_rolls = [[val] for val in get_possible_rolls(dice_face)]
-		roll_combinations = recurse_roll_combos( 1, first_rolls)
-
-
-		assert (len(roll_combinations) == dice_face ** num_dice)
-		return roll_combinations
+def get_possible_combinations(num_dice: int, dice_face: int, target: int) -> List[List[int]]:
+	"""Returns Cartesian product of all possible dice rolls.
+	
+	Uses two helper functions:
+		- get_possible_rolls, generator func to yield all die rolls.
+		- recurse_roll_combos, helper recursion to create combinations for `num_dice`
+	"""
+	def get_possible_rolls(dice_face: int) -> int:
+		"""Generator funct to yield possible rolls."""
+		for i in range(1, dice_face + 1): yield i
 	
 
-	## Get Combinations
-	roll_combos = _get_possible_combinations()
+	def recurse_roll_combos(processed_dice: int, all_roll_combos: list) -> List[List[int]]:
+		"""Helper func to recurse through all dice."""
+		if processed_dice == num_dice:		## Base case
+			return all_roll_combos
+		
+		new_roll_combos = []
+		for roll in all_roll_combos:
+			roll_combo = [roll + [val] for val in get_possible_rolls(dice_face)]
+			new_roll_combos += (roll_combo)
+		
+		processed_dice += 1
+		return recurse_roll_combos(processed_dice= processed_dice, all_roll_combos = new_roll_combos)
 
-	## Count combos at target
-	num_under_target = 0
-	for combo in roll_combos:
-		if sum(combo) <= target:
-			num_under_target += 1
 	
-	## Return P(A) / P(S)
-	prob = num_under_target / len(roll_combos)
-	print( round(prob, 3))
+	first_rolls = [[val] for val in get_possible_rolls(dice_face)]
+	roll_combinations = recurse_roll_combos( 1, first_rolls)
+
+
+	assert (len(roll_combinations) == dice_face ** num_dice)
+	return roll_combinations
+
+
+	
 
 
 ##########
@@ -174,7 +183,18 @@ def main():
 	dice_face = 6
 	target = 9
 
-	prob_dice_under_target(num_dice, dice_face, target)
+	## Get Combinations
+	roll_combos = get_possible_combinations(num_dice, dice_face, target)
+
+	## Count combos at target
+	num_under_target = 0
+	for combo in roll_combos:
+		if sum(combo) <= target:
+			num_under_target += 1
+	
+	## Return P(A) / P(S)
+	prob = num_under_target / len(roll_combos)
+	print( round(prob, 3))
 
 
 if __name__ == "__main__":
