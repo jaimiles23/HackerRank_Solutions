@@ -320,14 +320,19 @@ def print_md_table(problem_dicts: list) -> None:
     Markdown table headers as follow:
     Number    |   Challenge   |   Score   |   Difficulty  |   Rate    |   Solution
     """
-    star_str = ":star:"
-    num_stars = {
-        'Easy'      :   1,
-        'Medium'    :   2, 
-        'Hard'      :   3
-    }
-    link_text_str = "[{}]({})"
+    def get_star_str(problem: dict) -> str:
+        """Returns star string corresponding to problem difficulty from problem dictionary."""
+        star_str = ':star:'
+        num_stars = {
+            'Easy'      :   1,
+            'Medium'    :   2, 
+            'Hard'      :   3
+        }
+        diff_str = star_str * num_stars.get(problem['difficulty'], 0)
+        return diff_str if len(diff_str) else '-'
 
+
+    link_text_str = "[{}]({})"
     print_output_header("print table")
 
     ## Print table headers
@@ -346,7 +351,7 @@ def print_md_table(problem_dicts: list) -> None:
                     problem['num'],
                     link_text_str.format( problem['name'], problem['problem_url']),
                     problem['score'],
-                    star_str * num_stars.get(problem['difficulty'], 0),
+                    get_star_str(problem),
                     problem['rate'],
                     link_text_str.format( SOLUTION_FILENAME, problem['github_url'])
                 ]
