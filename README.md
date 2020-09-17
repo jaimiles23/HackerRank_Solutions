@@ -20,6 +20,7 @@ Contains solutions to the [SQL domain](https://www.hackerrank.com/domains/sql) u
 
 <br/>
 
+
 ## Basic Select
 
 Number | Challenge | Score | Difficulty | Rate | Solution
@@ -111,7 +112,7 @@ Number | Challenge | Score | Difficulty | Rate | Solution
 
 Contains solutions to the [10 Days of Statistics](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics) using Python 3.
 
-I implement all solutions in Python3 without native nor 3rd party libraries.
+I implement all solutions in Python3 without using native nor using 3rd party libraries.
 
 <br/>
 
