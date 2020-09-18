@@ -19,7 +19,6 @@ This script contains 2 sections:
 # Imports
 ##########
 
-from math import factorial
 from typing import Tuple
 
 
@@ -127,6 +126,24 @@ b(5, 10, 0.5)
 """ Functions to calculate Binomial Mass Probability Functions
 """
 
+def factorial(num: int) -> float:
+	"""Returns factorial for num
+
+	Args:
+		num (int): Number to get factorial
+
+	Returns:
+		float: Factorial of num
+	"""
+	if num == 0:
+		return 1
+
+	output = num
+	for i in range(num-1, 0, -1):
+		output *= i
+	return output
+
+
 def calc_bin_mass_prob_func(x: int, n: int, p: float) -> float:
 	"""Returns the probability of X/N trials in binomial probability distribution defined by p.
 
@@ -177,15 +194,106 @@ Input Format:
 A single line containing the following values:
 1.09 1
 """
+##### Imports
+from typing import Tuple
 
+
+##### Input
 def get_input() -> Tuple[float, int]:
 	"""Returns ipnut for binomial distribution problem i
 
 	Returns:
-		Tuple[float, int]: Represents respective probabilities of female and male babies
+		Tuple[float, int]: Represents respective probabilities of girl and boy babies.
 	"""
-	pass
+	girl_prob, boy_prob = [x for x in input().split()]
+	return (float(girl_prob), int(boy_prob))
 
+
+##### Get p
+def get_probability_p(girl_prob: float, boy_prob: int, desired_sex: str) -> float:
+	"""Returns probability of successful trial.
+
+	Args:
+		girl_prob (float): P(girl)
+		boy_prob (int): P(boy)
+		desired_sex (str): calc p for sex
+
+	Returns:
+		float: [description]
+	"""
+	if desired_sex == 'm':
+		return boy_prob / (girl_prob + boy_prob)
+	return girl_prob / (girl_prob + boy_prob)
+
+
+def factorial(num: int) -> float:
+	"""Returns factorial for num
+
+	Args:
+		num (int): Number to get factorial
+
+	Returns:
+		float: Factorial of num
+	"""
+	if num == 0:
+		return 1
+
+	output = num
+	for i in range(num-1, 0, -1):
+		output *= i
+	return output
+
+
+def get_bin_mass_dist(x, n, p) -> float:
+	"""Returns binomial mass distribution of p(x, n, p).
+
+	Args:
+		x ([type]): Success trials
+		n ([type]): Total Trials
+		p ([type]): P(X)
+
+	Returns:
+		float: probability mass distribution
+	"""
+
+	combinations = factorial(n) / (factorial(x) * factorial(n - x))
+	bin_mass = combinations * p ** x * (1 - p) ** (n - x)
+	return bin_mass
+
+
+def get_cum_prob_bin_dist(r: int, x: int, n: int, p: float) -> float:
+	"""Returns cumulative prob of binary distribution with inclusive limits [r:x].
+
+	Args:
+		r (int): lower limit of dist
+		x (int): upper limit of dist
+		n (int): total trial
+		p (float): probability of x
+
+	Returns:
+		float: cumulative probability of binary distribution
+	"""
+	cum_prob = 0
+	for i in range(r, x + 1):
+		bin_mass = get_bin_mass_dist(i, n, p)
+		cum_prob += bin_mass
+	return cum_prob
+
+
+def solution() -> None:
+	"""Prints solution to Day 4: Binomial Distribution i.
+	"""
+	## Constants
+	N = 6
+	R = 3
+	X = 6
+	DESIRED_SEX = 'b'
+
+	## funcs
+	girl_prob, boy_prob = get_input()
+	p = get_probability_p(girl_prob, boy_prob, DESIRED_SEX)
+	cum_prob = get_cum_prob_bin_dist(R, X, N, p)
+	print("{0:.3f}".format(cum_prob))
 
 
 ##########
@@ -208,6 +316,9 @@ def main():
 	print("\nExample 3")
 	r, x, n, p = 5, 10, 10, 0.5
 	print( calc_bin_cum_dist_func(r, x, n, p))
+
+	print("\nSolution Problem")
+	solution()
 
 
 
