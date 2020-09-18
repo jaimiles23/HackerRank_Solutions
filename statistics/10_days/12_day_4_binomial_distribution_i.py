@@ -11,8 +11,22 @@ This script contains 2 sections:
 	1. Notes on binominal distributions
 	2. Example problem
 	3. Solution to Day 4: Binomial Distribution I
+ ]
+ */
+"""
+
+##########
+# Imports
+##########
+
+from math import factorial
+from typing import Tuple
 
 
+##########
+# Notes on binomial distributions
+##########
+"""
 ## Random Variable
 A random variable, 	X, is the real-valued function X: S -> R in which there is an event for each interval I where I <=R. 
 You can think of it as the set of probabilities for the possible outcomes of a sample space. 
@@ -77,11 +91,12 @@ As the CDF expresses a cumulative range of values, we can use the following form
 	P(a < X <= b) = Fx(b) - Fx(a)
 
 This formula takes a summation of the binomial probability mass function
-
+"""
 
 ##########
-# Example
+# Example Problems
 ##########
+"""
 NOTE: Solutions to the example problems are printed in the main script below*
 
 A fair coin is tossed n times. Find the following probabilities:
@@ -104,20 +119,13 @@ b(5, 10, 0.5)
 
 ## Getting 5+ heads
 	= Summation from 5, 10 of b(x, n, p)
-
- ]
- */
 """
-##########
-# Imports
-##########
-
-from math import factorial
-
 
 ##########
-# Binomial Mass Probability Functions
+# Example problem code
 ##########
+""" Functions to calculate Binomial Mass Probability Functions
+"""
 
 def calc_bin_mass_prob_func(x: int, n: int, p: float) -> float:
 	"""Returns the probability of X/N trials in binomial probability distribution defined by p.
@@ -157,6 +165,30 @@ def calc_bin_cum_dist_func(r: int, x: int, n: int, p: float) -> float:
 
 
 ##########
+# Binomial Distribution Problem
+##########
+"""
+The ratio of boys to girls for babies born in Russia is 1.09: 1. 
+If there is 1 child born per birth, what proportion of Russian families with exactly 6 children will have at least 3 boys?
+
+Write a program to compute the answer using the above parameters. Then print your result, rounded to a scale of 3 decimal places (i.e., 1.234 format).
+
+Input Format:
+A single line containing the following values:
+1.09 1
+"""
+
+def get_input() -> Tuple[float, int]:
+	"""Returns ipnut for binomial distribution problem i
+
+	Returns:
+		Tuple[float, int]: Represents respective probabilities of female and male babies
+	"""
+	pass
+
+
+
+##########
 # Main
 ##########
 
@@ -165,19 +197,19 @@ def main():
 		- Example problems 1, 2, & 3.
 		- Day 4: Binomial Distribution i problem.
 	"""
-	## Example 1
+	print("\nExample 1")
 	x, n, p = 5, 10, 0.5
 	print(calc_bin_mass_prob_func(x, n, p))
 
-	## Example 2
-	r, x = 0, 5
+	print("\nExample 2")
+	r, x, n, p = 0, 5, 10, 0.5
 	print( calc_bin_cum_dist_func(r, x, n, p))
 
-	## Example 3
-	r, x = 5, 10
+	print("\nExample 3")
+	r, x, n, p = 5, 10, 10, 0.5
 	print( calc_bin_cum_dist_func(r, x, n, p))
+
 
 
 if __name__ == "__main__":
 	main()
-
