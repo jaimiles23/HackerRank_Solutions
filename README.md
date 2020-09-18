@@ -120,14 +120,18 @@ I implement all solutions in Python3 without using native nor using 3rd party li
 
 Number | Challenge | Score | Difficulty | Rate | Solution
 --: | :-- | --: | :-- | :-- | :--
-1 | [Day 0: Mean, Median, and Mode](https://www.hackerrank.com/challenges/s10-basic-statistics/problem) | 30 | :star: | 87.15% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/01_day_0_mean,_median,_and_mode.py)
-2 | [Day 0: Weighted Mean](https://www.hackerrank.com/challenges/s10-weighted-mean) | 30 | :star: | 96.72% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/02_day_0_weighted_mean.py)
+1 | [Day 0: Mean, Median, and Mode](https://www.hackerrank.com/challenges/s10-basic-statistics/problem) | 30 | :star: | 87.17% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/01_day_0_mean,_median,_and_mode.py)
+2 | [Day 0: Weighted Mean](https://www.hackerrank.com/challenges/s10-weighted-mean) | 30 | :star: | 96.71% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/02_day_0_weighted_mean.py)
 3 | [Day 1: Quartiles](https://www.hackerrank.com/challenges/s10-quartiles) | 30 | :star: | 91.86% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/03_day_1_quartiles.py)
 4 | [Day 1: Interquartile Range](https://www.hackerrank.com/challenges/s10-interquartile-range/problem) | 30 | :star: | 93.81% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/04_day_1_interquartile_range.py)
-5 | [Day 1: Standard Deviation](https://www.hackerrank.com/challenges/s10-standard-deviation/problem) | 30 | :star: | 98.72% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/05_day_1_standard_deviation.py)
-6 | [Day 2: Basic Probability](https://www.hackerrank.com/challenges/s10-mcq-1/tutorial) | 10 | - | 69.67% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/06_day_2_basic_probability.py)
-7 | [Day 2: More Dice](https://www.hackerrank.com/challenges/s10-mcq-2/problem) | 10 | - | 84.21% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/07_day_2_more_dice.py)
+5 | [Day 1: Standard Deviation](https://www.hackerrank.com/challenges/s10-standard-deviation/problem) | 30 | :star: | 98.73% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/05_day_1_standard_deviation.py)
+6 | [Day 2: Basic Probability](https://www.hackerrank.com/challenges/s10-mcq-1/tutorial) | 10 | - | 69.68% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/06_day_2_basic_probability.py)
+7 | [Day 2: More Dice](https://www.hackerrank.com/challenges/s10-mcq-2/problem) | 10 | - | 84.18% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/07_day_2_more_dice.py)
 8 | [Day 2: Compound Event Probability](https://www.hackerrank.com/challenges/s10-mcq-3/problem) | 10 | - | 77.94% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/08_day_2_compound_event_probability.py)
+9 | [Day 3: Conditional Probability](https://www.hackerrank.com/challenges/s10-mcq-4/problem) | 10 | - | 49.17% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/09_day_3_conditional_probability.py)
+10 | [Day 3: Cards of the Same Suit](https://www.hackerrank.com/challenges/s10-mcq-5/problem) | 10 | - | 84.08% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/10_day_3_cards_of_the_same_suit.py)
+11 | [Day 3: Drawing Marbles](https://www.hackerrank.com/challenges/s10-mcq-6/problem) | 10 | - | 87.59% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/11_day_3_drawing_marbles.py)
+   
 
 
 <b><a href="#hackerrank">:arrow_up: Table of Contents</a></b>
