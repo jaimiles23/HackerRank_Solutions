@@ -52,6 +52,7 @@ HACKERRANK_WEBPAGE = "https://www.hackerrank.com/domains/tutorials/10-days-of-st
 # Easy solution here is to log-in with webbrowser with github profile
 # Sufficient time allowed to log-in.
 # TODO: figure out how to login with driver?
+# TODO: scroll down page to load with driver.
 
 
 ## Dirs/filenames for repo
