@@ -120,8 +120,6 @@ I implement all solutions in Python3 without using native nor using 3rd party li
 
 Number | Challenge | Score | Difficulty | Rate | Solution
 --: | :-- | --: | :-- | :-- | :--
-Number | Challenge | Score | Difficulty | Rate | Solution
---: | :-- | --: | :-- | :-- | :--
 1 | [Day 0: Mean, Median, and Mode](https://www.hackerrank.com/challenges/s10-basic-statistics/problem) | 30 | :star: | 87.17% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/01_day_0_mean,_median,_and_mode.py)
 2 | [Day 0: Weighted Mean](https://www.hackerrank.com/challenges/s10-weighted-mean) | 30 | :star: | 96.71% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/02_day_0_weighted_mean.py)
 3 | [Day 1: Quartiles](https://www.hackerrank.com/challenges/s10-quartiles) | 30 | :star: | 91.86% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/03_day_1_quartiles.py)
