@@ -60,8 +60,7 @@ from typing import Tuple
 # Constants
 ##########
 
-from math import pi
-from math import e
+import math
 
 
 ##########
@@ -74,6 +73,8 @@ def get_input() -> Tuple[int, int, float, ]:
 	Returns:
 		Tuple[int, int, float, int]: Represents: mean, sd, less than value, and interval
 	"""
+	return (20, 2, 19.5, 20, 22)
+
 	mean, sd = (int(x) for x in input().split())
 	less_than = float(input())
 	interval_1, interval_2 = (int(x) for x in input().split())
@@ -84,7 +85,7 @@ def get_input() -> Tuple[int, int, float, ]:
 # Cumulative Probability function
 ##########
 
-def erf(z: int) -> float:
+def custom_erf(z: int) -> float:
 	"""Returns error from error function for normal distribution
 
 	Args:
@@ -92,13 +93,31 @@ def erf(z: int) -> float:
 
 	Returns:
 		float: error amount
+	
+	NOTE:
+		- math module has an inbuilt erf function
+		- dt represents an infinitely small value from a maclaurin series
+		- formula taken from: https://www.johndcook.com/blog/python_erf/
 	"""
-	constant = 2 / pi**(1/2)
-	summation_val = 0
-	for x in range(0, z + 1):
-		val = (e ** -x**2) * (d * t)
-		summation_val += val
-	return constant * summation_val
+	## Vars
+	constants = (
+		1.061405429,
+		-1.453152027,
+		1.421413741,
+		-0.284496736,
+		0.254829592,
+	)
+	p = 0.3275911
+	sign = 1 if z >= 0 else -1
+	z = abs(z)
+	t = 1 / ( 1 + p * z)
+
+	## Calc
+	y = 0
+	for c in constants: y = (y + c) * t
+	y = 1 - (y * math.e ** (-z * z))
+
+	return y * sign
 
 
 def calc_cum_distr(x: int, mean: float,	sd: float) -> float:
@@ -110,8 +129,8 @@ def calc_cum_distr(x: int, mean: float,	sd: float) -> float:
 	Returns:
 		float: cumulative probability of x
 	"""
-	erf = (x - mean) / (sd * 2 ** 1/2)
-	return 1/2 * (1 + erf)
+	z = (x - mean) / (sd * 2 ** (1/2))
+	return 1/2 * (1 + custom_erf(z))
 
 
 def format_scale(num: float) -> float:
@@ -124,6 +143,7 @@ def format_scale(num: float) -> float:
 		float: formatted number
 	"""
 	return f'{num :.3f}'
+
 
 ##########
 # Main
@@ -149,3 +169,4 @@ def main():
 if __name__ == "__main__":
 	main()
 
+	
