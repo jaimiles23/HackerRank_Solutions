@@ -96,7 +96,7 @@ def custom_erf(z: int) -> float:
 	
 	NOTE:
 		- math module has an inbuilt erf function
-		- dt represents an infinitely small value from a maclaurin series
+		- dt represents an infinitely small value from a Maclaurin series
 		- formula taken from: https://www.johndcook.com/blog/python_erf/
 	"""
 	## Vars
