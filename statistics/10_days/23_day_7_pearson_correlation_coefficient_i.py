@@ -44,6 +44,7 @@ from typing import Tuple
 ##########
 # Input
 ##########
+
 def get_input() -> Tuple[int, list, list]:
 	"""Returns input for Pearson Correlation Coefficient I
 
