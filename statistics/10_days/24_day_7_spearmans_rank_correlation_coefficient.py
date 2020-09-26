@@ -51,7 +51,8 @@ rs = 1 - 6 summation(di**2) / (n * (n**2 - 1))
 ##########
 
 from typing import Tuple
-
+import math
+import statistics
 
 ##########
 # Input
@@ -63,6 +64,8 @@ def get_input() -> Tuple[int, list, list]:
 	Returns:
 		Tuple[int, float, float]: number of items, x, y
 	"""
+	return 10, [10, 9.8, 8, 7.8, 7.7, 1.7, 6, 5, 1.4, 2, ], [200, 44, 32, 24, 22, 17, 15, 12, 8, 4,]
+
 	num_items = int(input())
 	x = [float(val) for val in input().split()]
 	y = [float(val) for val in input().split()]
@@ -83,7 +86,7 @@ def print_to_scale(num: int) -> None:
 
 
 ##########
-# Spearman's Rank
+# Spearman's Rank - standard implementation
 ##########
 
 def get_ranks(x: list) -> list:
@@ -105,7 +108,7 @@ def get_ranks(x: list) -> list:
 	## Create ranking
 	x_ranks = []
 	for val in x:
-		x_ranks.append( val_ranks[val])	
+		x_ranks.append( val_ranks[val])
 	return x_ranks
 
 
@@ -118,10 +121,13 @@ def calc_mean(x: list) -> float:
 	Returns:
 		float: mean of x
 	"""
+	# mean = sum(x) / len(x)
+	# print(mean)
+	# print(statistics.mean(x))
 	return sum(x) / len(x)
 
 
-def calc_sd(x: list) -> float:
+def calc_sd(x: list, population: bool = True) -> float:
 	"""Returns standard deviation of list, x.
 
 	Args:
@@ -131,10 +137,13 @@ def calc_sd(x: list) -> float:
 		float: standard deviation of x
 	"""
 	x_mean = calc_mean(x)
-	sd_num = 0
+	numerator = 0
 	for val in x:
-		sd_num += (val - x_mean) ** 2
-	return (sd_num / len(x)) ** (1/2)
+		numerator += ((val - x_mean) ** 2)
+
+	n = len(x) if population else len(x) - 1
+	sd = (numerator / n) ** (1/2)
+	return sd
 
 
 def calc_cov(num_items: int, x: list, y: list) -> float:
@@ -152,7 +161,7 @@ def calc_cov(num_items: int, x: list, y: list) -> float:
 
 	numerator = 0
 	for i in range(num_items):
-		numerator += (x[i] - mean_x) * (y[i] - calc_mean(y))
+		numerator += (x[i] - mean_x) * (y[i] - mean_y)
 	
 	return numerator / num_items
 
@@ -177,6 +186,66 @@ def calc_spearmans_coef(num_items: int, x: list, y: list) -> float:
 	return cov / (sd_x * sd_y)
 
 
+def spearman_rank_norm_sol(num_items: int, x: list, y: list) -> None:
+	"""Prints solution using standard formula for spearman rank.
+
+	Args:
+		num_items (int): number of items
+		x (list): Series 1
+		y (list): Series 2
+	"""
+	print_to_scale( calc_spearmans_coef(num_items, x, y))
+
+
+##########
+# Spearman correlation solution for unique values
+##########
+
+def calc_d(x: list, y: list) -> float:
+	"""Returns difference between respective values of x and y.
+
+	Args:
+		x_ranks (list): Series 1
+		y_ranks (list): Series 2
+
+	Returns:
+		float: statistic representing difference between x and y ranks
+	"""
+	x_ranks, y_ranks = get_ranks(x), get_ranks(y)
+
+	sum_dif = 0
+	for i in range(len(x_ranks)):
+		sum_dif += (x_ranks[i] - y_ranks[i]) ** 2
+	return sum_dif
+
+
+def spearman_rank_unique_vals(num_items: int, x: list, y: list) -> None:
+	"""Prints solution using formula for unique values.
+
+	Args:
+		num_items (int): number of items
+		x (list): Series 1
+		y (list): Series 2
+	"""
+	d = calc_d(x, y)
+	r = 1 - ((6 * d) / (num_items * (num_items**2 - 1)))
+	print_to_scale(r)
+
+
+##########
+# Main
+##########
+
+def main():
+	num_items, x, y = get_input()
+
+	# spearman_rank_norm_sol(num_items, x, y)
+	spearman_rank_unique_vals(num_items, x, y)
+
+
+if __name__ == "__main__":
+	main()
+	
 
 
 	
