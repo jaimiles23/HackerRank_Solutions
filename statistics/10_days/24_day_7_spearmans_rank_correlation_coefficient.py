@@ -2,7 +2,7 @@
  * @author [Jai Miles]
  * @email [jaimiles23@gmail.com]
  * @create date 2020-09-26 12:41:10
- * @modify date 2020-09-26 12:59:26
+ * @modify date 2020-09-26 14:39:49
  * @desc [
 	Solution to: Day 7: Spearman's Rank Correlation Coefficient
 		https://www.hackerrank.com/challenges/s10-spearman-rank-correlation-coefficient/problem
@@ -181,7 +181,7 @@ def calc_spearmans_coef(num_items: int, x: list, y: list) -> float:
 	rank_x, rank_y = get_ranks(x), get_ranks(y)
 
 	cov = calc_cov(num_items, rank_x, rank_y)
-	sd_x, sd_y = calc_sd(x), calc_sd(y)
+	sd_x, sd_y = calc_sd(rank_x), calc_sd(rank_y)
 
 	return cov / (sd_x * sd_y)
 
@@ -239,7 +239,7 @@ def spearman_rank_unique_vals(num_items: int, x: list, y: list) -> None:
 def main():
 	num_items, x, y = get_input()
 
-	# spearman_rank_norm_sol(num_items, x, y)
+	spearman_rank_norm_sol(num_items, x, y)
 	spearman_rank_unique_vals(num_items, x, y)
 
 
