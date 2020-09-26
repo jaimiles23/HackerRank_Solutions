@@ -110,7 +110,7 @@ Number | Challenge | Score | Difficulty | Rate | Solution
 
 # Statistics
 
-Contains solutions to the [10 Days of Statistics](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics) using Python 3.
+Contains solutions to the [10 Days of Statistics](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics).
 
 I implement all solutions in Python3 with user-defined functions for statistical analysis. As such, I do not use statistical functions available in standard nor 3rd party libraries.
 
@@ -141,8 +141,8 @@ Number | Challenge | Score | Difficulty | Rate | Solution
 19 | [Day 5: Normal Distribution II](https://www.hackerrank.com/challenges/s10-normal-distribution-2/problem) | 30 | :star: | 97.90% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/19_day_5_normal_distribution_ii.py)
 20 | [Day 6: The Central Limit Theorem I](https://www.hackerrank.com/challenges/s10-the-central-limit-theorem-1/problem) | 30 | :star: | 97.12% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/20_day_6_the_central_limit_theorem_i.py)
 21 | [Day 6: The Central Limit Theorem II](https://www.hackerrank.com/challenges/s10-the-central-limit-theorem-2/problem) | 30 | :star: | 98.85% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/21_day_6_the_central_limit_theorem_ii.py)
-<!-- 22 | [Day 6: The Central Limit Theorem III](https://www.hackerrank.com/challenges/s10-the-central-limit-theorem-3/problem) | 30 | :star: | 97.85% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/22_day_6_the_central_limit_theorem_iii.py)
-23 | [Day 7: Pearson Correlation Coefficient I](https://www.hackerrank.com/challenges/s10-pearson-correlation-coefficient/problem) | 30 | :star: | 98.60% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/23_day_7_pearson_correlation_coefficient_i.py)
+22 | [Day 6: The Central Limit Theorem III](https://www.hackerrank.com/challenges/s10-the-central-limit-theorem-3/problem) | 30 | :star: | 97.85% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/22_day_6_the_central_limit_theorem_iii.py)
+<!-- 23 | [Day 7: Pearson Correlation Coefficient I](https://www.hackerrank.com/challenges/s10-pearson-correlation-coefficient/problem) | 30 | :star: | 98.60% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/23_day_7_pearson_correlation_coefficient_i.py)
 24 | [Day 7: Spearman's Rank Correlation Coefficient](https://www.hackerrank.com/challenges/s10-spearman-rank-correlation-coefficient/problem) | 30 | :star: | 98.83% | [Python](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/24_day_7_spearmans_rank_correlation_coefficient.py)
 25 | [Day 8: Least Square Regression Line](https://www.hackerrank.com/challenges/s10-least-square-regression-line/problem) |  Least Square Regression Line
 The challenge is not available yet | - | : Least Square Regression Line
