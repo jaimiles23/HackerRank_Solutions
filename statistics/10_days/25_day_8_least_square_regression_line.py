@@ -93,6 +93,128 @@ So, the regression line is .
 # Imports
 ##########
 
+from typing import Tuple
 
+
+##########
+# Input
+##########
+def get_input() -> Tuple[list, list]:
+	"""Returns tuple representing data points
+
+	Returns:
+		Tuple[list, list]: X and Y, respectively
+	"""
+	num_inputs = 5
+	x, y = [], []
+	for i in range(num_inputs):
+		x_val, y_val = [float(val) for val in input().split()]
+		x.append(x_val)
+		y.append(y_val)
+
+	return (x, y)
+
+
+##########
+# Mean
+##########
+def calc_mean(x: list) -> float:
+	"""Returns mean of list
+
+	Args:
+		x (list): Input list
+
+	Returns:
+		float: mean of list
+	"""
+	return sum(x) / len(x)
+
+
+##########
+# Calculate b
+##########
+
+def calc_b(x: list, y: list) -> float:
+	"""Returns b coefficient for x in simple linear regression
+
+	Args:
+		x (list): series 1
+		y (list): series 2
+
+	Returns:
+		float: b coefficient for x
+	"""
+	n = len(x)
+	xy = sum([x[i] * y[i] for i in range(len(x))])
+	x_sq_sum = sum([val**2 for val in x])
+
+	return (n * xy - sum(x) * sum(y)) / ( n * x_sq_sum - sum(x) ** 2)
+
+
+##########
+# Calculate A
+##########
+
+def calc_a(x: list, y: list, b: float) -> float:
+	"""Returns `a` coefficient for regression equation.
+
+	Args:
+		x (list): predictor variable
+		y (list): Outcome variable
+		b (float): coefficient for predictor variable
+
+	Returns:
+		float: slope intercept
+	"""
+	return calc_mean(y) - b * calc_mean(x)
+
+
+##########
+# Predict
+##########
+
+def predict_val(a: float, b: float, x: int = 80) -> float:
+	"""Predicts value for simple linear regression equation
+
+	Args:
+		a (float): Slope intercept constant
+		b (float): Coefficient for x
+		x (int): value of X
+
+	Returns:
+		float: predicted value of y
+	"""
+	return a + b * x
+
+
+##########
+# Print to scale
+##########
+
+def print_to_scale(num: float) -> None:
+	"""Prints number to 3 decimal
+
+	Args:
+		num (float): Number to print
+	"""
+	print(f"{num :.3f}")
+
+
+##########
+# Main
+##########
+
+def main():
+	x, y = get_input()
+
+	b = calc_b(x, y)
+	a = calc_a(x, y, b)
+
+	prediction = predict_val(a, b)
+	print_to_scale(prediction)
+
+
+if __name__ == "__main__":
+	main()
 
 
