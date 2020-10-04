@@ -79,12 +79,6 @@ Regression equation:
 	ŷ = 0.6 + 0.8 * x
 
 
-
-
-
-Now we can compute the values of  and :
-And,
-So, the regression line is .
  ]
  */
 """

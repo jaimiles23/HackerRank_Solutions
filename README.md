@@ -12,6 +12,7 @@ Solutions to HackerRank problems.
 - [Statistics](#statistics)
   - [10 days of statistics](#10-days-of-statistics)
 
+---
 
 # SQL
 Contains solutions to the [SQL domain](https://www.hackerrank.com/domains/sql) using MySQL.
