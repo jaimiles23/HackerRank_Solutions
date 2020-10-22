@@ -1,0 +1,8 @@
+- [ ] Modulate web scraper leaderboard for readability & re-usability
+- [ ] Use to update readmes in each subdirectory
+  - [ ] Will need to iterate through named tuples with info on each directory.
+- [ ] Construct masters readme from each subdirectory
+- [ ] Create batch script that randomly selects problem to do:
+  - [ ] 75% new content
+  - [ ] 25% review problem
+  - [ ] Optional argument to choose review or new (allow full words, or single letter flags)
