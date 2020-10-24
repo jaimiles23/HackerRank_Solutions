@@ -59,22 +59,22 @@ Thus, the math is:
 
 """
 
-##########
+# #########
 # Monte Carlo simulation
-##########
+# #########
 
-##########
+# #########
 # Imports
-##########
+# #########
 
 import random
 import copy
 from typing import List
 
 
-##########
+# #########
 # Constants
-##########
+# #########
 
 DECK_SIZE = 52
 NUM_SUITS = 4

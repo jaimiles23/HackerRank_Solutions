@@ -45,16 +45,16 @@ P(A) 	=	(3/7)(5/9)(1/2) + (4/7)(4/9)(1/2) + (4/7)(5/9)(1/2)
  */
 """
 
-##########
+# #########
 # Imports
-##########
+# #########
 
 from typing import List, Tuple
 
 
-##########
+# #########
 # Instantiate Urns
-##########
+# #########
 
 def create_urns(urn_balls: Tuple[Tuple[int, int]]) -> List[List[int]]:
 	"""Returns a list of urns and their number of red and black balls.
@@ -109,9 +109,9 @@ def get_all_combos(urns: List[List[int]]) -> List[List[int]]:
 	return recursively_draw_balls(0, list())
 
 
-##########
+# #########
 # Main
-##########
+# #########
 
 def main():
 	## Create urns with balls

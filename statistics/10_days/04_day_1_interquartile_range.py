@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
  /**
  * @author [Jai Miles]
@@ -24,9 +25,9 @@ It is a trimmed estimator, defined as the 25% trimmed range, and is a commonly u
  */
 """
 
-##########
+# #########
 # Imports
-##########
+# #########
 
 from typing import Dict, List, Tuple, Union
 
@@ -37,9 +38,9 @@ from typing import Dict, List, Tuple, Union
 SCALE = 1
 
 
-##########
+# #########
 # Input
-##########
+# #########
 
 def get_input() -> Tuple[int, List[int], List[int]]:
 	"""Returns a tuple of problem input.
@@ -53,9 +54,9 @@ def get_input() -> Tuple[int, List[int], List[int]]:
 	return (n, x, f)
 
 
-##########
+# #########
 # Create list of elements
-##########
+# #########
 
 def get_master_list(nums: List[int], freq: List[int]) -> List[int]:
 	"""Returns list of ints with appropriate frequencies.
@@ -89,9 +90,9 @@ def get_master_list(nums: List[int], freq: List[int]) -> List[int]:
 	return create_total_nums(val_freq_dict)
 
 
-##########
+# #########
 # Median
-##########
+# #########
 
 def get_quantile_range(nums: List[int], quantile: int) -> List[int]:
 	"""Returns list of integers for the specified quantile range.
@@ -120,9 +121,9 @@ def calc_median(nums: List[int]) -> Union[float, int]:
 	return sum(nums[index - 1: index + 1]) / 2
 
 
-##########
+# #########
 # Aux functions
-##########
+# #########
 
 def format_scale(num: Union[float, int]) -> Union[float, int]:
 	"""
@@ -131,9 +132,9 @@ def format_scale(num: Union[float, int]) -> Union[float, int]:
 	return "{0:.1f}".format(num)	## Change to scale
 
 
-##########
+# #########
 # Main
-##########
+# #########
 
 def main():
 	## Input

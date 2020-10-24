@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """/**
  * @author [Jai Miles]
  * @email [jaimiles23@gmail.com]
@@ -49,23 +50,23 @@ Where erf is the error function:
 */
 """
 
-##########
+# #########
 # Imports
-##########
+# #########
 
 from typing import Tuple
 
 
-##########
+# #########
 # Constants
-##########
+# #########
 
 import math
 
 
-##########
+# #########
 # Input
-##########
+# #########
 
 def get_input() -> Tuple[int, int, float, ]:
 	"""Returns input for Day 5: Normal Distribution I
@@ -81,9 +82,9 @@ def get_input() -> Tuple[int, int, float, ]:
 	return mean, sd, less_than, interval_1, interval_2
 
 
-##########
+# #########
 # Cumulative Probability function
-##########
+# #########
 
 def custom_erf(z: int) -> float:
 	"""Returns error from error function for normal distribution
@@ -145,9 +146,9 @@ def format_scale(num: float) -> float:
 	return f'{num :.3f}'
 
 
-##########
+# #########
 # Main
-##########
+# #########
 
 def main():
 	"""Runs script

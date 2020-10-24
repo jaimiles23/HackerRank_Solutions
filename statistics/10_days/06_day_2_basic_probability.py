@@ -118,9 +118,9 @@ P(A) 	= ( P(1, {1,2,3,4,5,6}) + P(2, {1,2,3,4,5,6}) + P(3, {1,2,3,4,5,6}) + P(4,
  */
 """
 
-##########
+# #########
 # Imports
-##########
+# #########
 
 from typing import List
 
@@ -136,9 +136,9 @@ from typing import List
 - Divide by number of total events
 """
 
-##########
+# #########
 # Probability of dice rolls at target
-##########
+# #########
 
 def get_possible_combinations(num_dice: int, dice_face: int, target: int) -> List[List[int]]:
 	"""Returns Cartesian product of all possible dice rolls.
@@ -174,12 +174,12 @@ def get_possible_combinations(num_dice: int, dice_face: int, target: int) -> Lis
 	return roll_combinations
 
 
-	
 
 
-##########
+
+# #########
 # Main
-##########
+# #########
 
 def main():
 	num_dice = 2

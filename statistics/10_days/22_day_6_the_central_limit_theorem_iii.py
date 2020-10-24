@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """/**
  * @author [Jai Miles]
  * @email [jaimiles23@gmail.com]
@@ -23,16 +24,16 @@ NOTE:
  */
 """
 
-##########
+# #########
 # Imports
-##########
+# #########
 
 from typing import Tuple
 
 
-##########
+# #########
 # Input
-##########
+# #########
 
 def get_input() -> Tuple[int, int, int, float, float]:
 	"""Returns input for Day 6: Central Limit Theorem III.
@@ -43,9 +44,9 @@ def get_input() -> Tuple[int, int, int, float, float]:
 	return 100, 500, 80, 0.95, 1.96
 
 
-##########
+# #########
 # Calculate val from z-score
-##########
+# #########
 
 def calc_std_err(sd: int, n: int) -> float:
 	"""Returns standard error of population

@@ -16,16 +16,16 @@ Binomial mass probability function:
  */
 """
 
-##########
+# #########
 # Imports
-##########
+# #########
 
 from typing import Tuple
 
 
-##########
+# #########
 # Input
-##########
+# #########
 
 def get_input() -> Tuple[float, int]:
 	"""Returns tuple input from standard in.
@@ -37,9 +37,9 @@ def get_input() -> Tuple[float, int]:
 	return (perc_defective_pistons / 100, num_pistons)
 
 
-##########
+# #########
 # Mass probability function
-##########
+# #########
 
 def factorial(n: int) -> int:
 	"""Returns factorial of n

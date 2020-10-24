@@ -37,16 +37,16 @@ P(A) 	= ( P([1, 5]), P( [2, 4])) / S				# prob of rolling (1, 5) or (2, 4) divid
  */
 """
 
-##########
+# #########
 # Imports
-##########
+# #########
 
 from typing import List
 
 
-##########
+# #########
 # Probability of unique dice rolls at target
-##########
+# #########
 
 def get_all_possible_combos(num_dice: int, dice_face: int, target: int) -> List[List[int]]:
 	"""Returns Cartesian product of all possible dice rolls.
@@ -82,12 +82,12 @@ def get_all_possible_combos(num_dice: int, dice_face: int, target: int) -> List[
 	return roll_combinations
 
 
-	
 
 
-##########
+
+# #########
 # Main
-##########
+# #########
 
 def main():
 	num_dice = 2

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """/**
  * @author [Jai Miles]
  * @email [jaimiles23@gmail.com]
@@ -35,9 +36,9 @@ This formula means that the expectation of X**2 is the mean squared + the varian
 from typing import Tuple
 
 
-##########
+# #########
 # Input
-##########
+# #########
 
 def get_input() -> Tuple[float, float]:
 	"""Returns input for Day 5: Poisson Distribution II.
@@ -49,9 +50,9 @@ def get_input() -> Tuple[float, float]:
 	return a_cost, b_cost
 
 
-##########
+# #########
 # Calculate Expected Costs
-##########
+# #########
 
 def calc_expected_operating_costs(poisson_mean: float, coefficient: int, constant: int) -> float:
 	"""Return cost of operating machine with arguments

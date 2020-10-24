@@ -14,17 +14,17 @@ Thus, this script uses a CDF (Cumulative Density Function) to calculate the cumu
  */
 """
 
-##########
+# #########
 # Imports
-##########
+# #########
 
 import math
 from typing import Tuple
 
 
-##########
+# #########
 # Input
-##########
+# #########
 
 def get_input() -> Tuple[int, int, int, int]:
 	"""Returns input for Central Limit Theorem II
@@ -35,9 +35,9 @@ def get_input() -> Tuple[int, int, int, int]:
 	return 250, 100, 2.4, 2
 
 
-##########
+# #########
 # CDF
-##########
+# #########
 
 def erf(x: int) -> float:
 	"""Returns probability that random var in range defined by x
@@ -92,9 +92,9 @@ def print_to_scale(num: int) -> None:
 	print(f"{num :.4f}")
 
 
-###########
+# ##########
 # Main
-###########
+# ##########
 
 def main():
 

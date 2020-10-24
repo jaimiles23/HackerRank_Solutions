@@ -35,17 +35,17 @@ Thus, we use the 6 remaining marbles.
 # Monte Carlo
 ##########
 
-##########
+# #########
 # Imports
-##########
+# #########
 
 from typing import List
 import random
 
 
-##########
+# #########
 # Constants
-##########
+# #########
 
 MARBLE_DICT = {
 	'r'	:	3,
@@ -87,9 +87,9 @@ def get_ratio(bag: List[str], marble: str, iterations: int) -> float:
 	return was_marble / iterations
 
 
-##########
+# #########
 # Main
-##########
+# #########
 
 def main():
 	bag = create_marble_bag(MARBLE_DICT)

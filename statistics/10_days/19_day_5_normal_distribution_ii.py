@@ -17,9 +17,9 @@ import math
 from typing import Tuple
 
 
-##########
+# #########
 # Input
-##########
+# #########
 
 def get_input() -> Tuple[int, int, int, int]:
 	"""Returns input for Normal Dist II.
@@ -34,9 +34,9 @@ def get_input() -> Tuple[int, int, int, int]:
 	return mean, sd, high_grade, pass_threshold
 
 
-##########
+# #########
 # Error Function
-##########
+# #########
 
 def erf(x: int) -> float:
 	"""Returns probability that random variable will be within range -x:x.
@@ -68,9 +68,9 @@ def erf(x: int) -> float:
 	return (y * sign)
 
 
-##########
+# #########
 # Cumulative Probability
-##########
+# #########
 
 def calc_norm_cum_prob(number: int, mean: int, sd: int) -> float:
 	"""Returns cumulative probability of number from normal distribution
@@ -88,9 +88,9 @@ def calc_norm_cum_prob(number: int, mean: int, sd: int) -> float:
 	return cum_prob
 
 
-##########
+# #########
 # Format scale
-##########
+# #########
 
 def print_to_scale(num: float) -> float:
 	"""Prints number to 3 decimal scale
@@ -104,9 +104,9 @@ def print_to_scale(num: float) -> float:
 	print(f'{num:.2f}')
 
 
-##########
+# #########
 # Main
-##########
+# #########
 
 def main():
 	mean, sd, high_grade, pass_threshold = get_input()

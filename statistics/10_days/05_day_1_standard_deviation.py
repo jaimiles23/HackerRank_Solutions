@@ -20,16 +20,16 @@ sd = (Summation{(xi - mean) ** 2)}) ** 1/2 / n
  */
 """
 
-##########
+# #########
 # Imports
-##########
+# #########
 
 from typing import List, Tuple
 
 
-##########
+# #########
 # Input
-##########
+# #########
 
 def get_inputs() -> Tuple[int, list]:
 	"""Return tuple of inputs:
@@ -42,9 +42,9 @@ def get_inputs() -> Tuple[int, list]:
 	return (n, nums)
 
 
-##########
+# #########
 # Standard Deviation
-##########
+# #########
 
 def calc_stdev(n: int, nums: List[int]) -> float:
 	"""Returns standard deviation from nums."""
@@ -59,18 +59,18 @@ def calc_stdev(n: int, nums: List[int]) -> float:
 	return variance ** (1/2)
 
 
-##########
+# #########
 # Format scale
-##########
+# #########
 
 def format_scale(num: float) -> float:
 	"""Formats number to 1 decimal place."""
 	return '{0:.1f}'.format(num)
 
 
-##########
+# #########
 # Main
-##########
+# #########
 
 def main():
 	## Input

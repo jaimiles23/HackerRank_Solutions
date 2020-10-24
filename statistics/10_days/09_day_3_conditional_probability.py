@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """/**
  * @author [Jai Miles]
  * @email [jaimiles23@gmail.com]
@@ -141,17 +142,17 @@ What is the probability that we select the family with both boys?
 This script uses a monte carlo simulation to determine the probability of selecting a family with both boys.
 """
 
-##########
+# #########
 # Imports
-##########
+# #########
 
 import random
 from typing import List, Set
 
 
-##########
+# #########
 # Constants
-##########
+# #########
 
 CHILDREN = 2
 TYPES = ['B', 'G']
@@ -221,9 +222,9 @@ def get_ratio(families: List[List[str]], gender: str, iterations: int) -> float:
 	return number_picked / iterations
 
 
-##########
+# #########
 # Main
-##########
+# #########
 
 def main():
 	possible_families = create_all_possible_families(

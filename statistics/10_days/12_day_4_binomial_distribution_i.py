@@ -15,9 +15,9 @@ This script contains 2 sections:
  */
 """
 
-##########
+# #########
 # Imports
-##########
+# #########
 
 from typing import Tuple
 
@@ -296,9 +296,9 @@ def solution() -> None:
 	print("{0:.3f}".format(cum_prob))
 
 
-##########
+# #########
 # Main
-##########
+# #########
 
 def main():
 	"""Prints solutions to:

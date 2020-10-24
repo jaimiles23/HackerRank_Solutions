@@ -46,17 +46,17 @@ rs = 1 - 6 summation(di**2) / (n * (n**2 - 1))
 """
 
 
-##########
+# #########
 # Imports
-##########
+# #########
 
 from typing import Tuple
 import math
 import statistics
 
-##########
+# #########
 # Input
-##########
+# #########
 
 def get_input() -> Tuple[int, list, list]:
 	"""Returns input for Spearman's rank correlation coefficient.
@@ -72,9 +72,9 @@ def get_input() -> Tuple[int, list, list]:
 	return num_items, x, y
 
 
-##########
+# #########
 # Print
-##########
+# #########
 
 def print_to_scale(num: int) -> None:
 	"""Prints number formatted to 3 decimal scale.
@@ -85,9 +85,9 @@ def print_to_scale(num: int) -> None:
 	print(f"{num :.3f}")
 
 
-##########
+# #########
 # Spearman's Rank - standard implementation
-##########
+# #########
 
 def get_ranks(x: list) -> list:
 	"""Returns corresponding ranks of x list.
@@ -197,9 +197,9 @@ def spearman_rank_norm_sol(num_items: int, x: list, y: list) -> None:
 	print_to_scale( calc_spearmans_coef(num_items, x, y))
 
 
-##########
+# #########
 # Spearman correlation solution for unique values
-##########
+# #########
 
 def calc_d(x: list, y: list) -> float:
 	"""Returns difference between respective values of x and y.
@@ -232,9 +232,9 @@ def spearman_rank_unique_vals(num_items: int, x: list, y: list) -> None:
 	print_to_scale(r)
 
 
-##########
+# #########
 # Main
-##########
+# #########
 
 def main():
 	num_items, x, y = get_input()
@@ -245,7 +245,7 @@ def main():
 
 if __name__ == "__main__":
 	main()
-	
+
 
 
 	

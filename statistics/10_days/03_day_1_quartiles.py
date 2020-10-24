@@ -37,15 +37,15 @@ Then, I will find the data set for Q1 and Q3, and calculate the median for those
 */
 """
 
-##########
+# #########
 # Imports
-##########
+# #########
 
 from typing import List, Tuple, Union
 
-##########
+# #########
 # Inputs
-##########
+# #########
 
 def get_input() -> Tuple[int, List[int]]:
 	"""Returns input for n: number of integers and nums: list of integers."""
@@ -55,9 +55,9 @@ def get_input() -> Tuple[int, List[int]]:
 	return (n, nums)
 
 
-##########
+# #########
 # Median
-##########
+# #########
 
 def calc_median(nums: list) -> Union[int, float]:
 	"""Returns the median value from a list of nums with length n."""
@@ -69,9 +69,9 @@ def calc_median(nums: list) -> Union[int, float]:
 	return format_int(median)
 
 
-##########
+# #########
 # Quantile data
-##########
+# #########
 
 def get_q_data(nums: list, quartile: str) -> List[int]:
 	"""Returns list of data to calculate relevant quantile (Q1, Q3).
@@ -90,9 +90,9 @@ def get_q_data(nums: list, quartile: str) -> List[int]:
 	return nums[b1:b2]
 
 
-##########
+# #########
 # Format
-##########
+# #########
 
 def format_int(num: Union[float, int]) -> Union[float, int]:
 	"""Formats decimal integer to integer else returns float"""
@@ -101,9 +101,9 @@ def format_int(num: Union[float, int]) -> Union[float, int]:
 	return num
 
 
-##########
+# #########
 # Main
-##########
+# #########
 
 def main():
 	## Input

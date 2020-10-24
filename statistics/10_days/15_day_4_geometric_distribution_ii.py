@@ -23,16 +23,16 @@ Because triasl are independent, we can use calculate this by finding the complem
  */
 """
 
-##########
+# #########
 # Imports
-##########
+# #########
 
 from typing import Tuple
 
 
-##########
+# #########
 # Input
-##########
+# #########
 
 def get_input() -> Tuple[float, int]:
 	"""Return input for Day 4: Geom Dist II.
@@ -46,9 +46,9 @@ def get_input() -> Tuple[float, int]:
 	return (p, n)
 
 
-##########
+# #########
 # Geometric Distribution
-##########
+# #########
 
 def calc_geom_dist(n: int, p: float) -> float:
 	"""Returns probability mass of geom distribution for n, p
@@ -82,9 +82,9 @@ def get_cum_geom_prob(n: int, p: float) -> float:
 	return cum_prob
 
 
-##########
+# #########
 # Format
-##########
+# #########
 
 def format_scale(num: float) -> float:
 	"""Returns number with decimals formatted to scale
@@ -98,9 +98,9 @@ def format_scale(num: float) -> float:
 	return f'{num:.3f}'
 
 
-##########
+# #########
 # Main
-##########
+# #########
 
 def main():
 	p, n = get_input()

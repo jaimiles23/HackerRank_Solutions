@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """/**
  * @author [Jai Miles]
  * @email [jaimiles23@gmail.com]
@@ -34,16 +35,16 @@ You may also see ρ(xy) written as r(xy).
  */
 """
 
-##########
+# #########
 # Imports
-##########
+# #########
 
 from typing import Tuple
 
 
-##########
+# #########
 # Input
-##########
+# #########
 
 def get_input() -> Tuple[int, list, list]:
 	"""Returns input for Pearson Correlation Coefficient I
@@ -57,9 +58,9 @@ def get_input() -> Tuple[int, list, list]:
 	return num_items, x, y
 
 
-##########
+# #########
 # Covariance
-##########
+# #########
 
 def calc_mean(x: list) -> float:
 	"""Returns mean of list

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """/**
  * @author [Jai Miles]
  * @email [jaimiles23@gmail.com]
@@ -36,16 +37,16 @@ For large n, the distribution of sample sums Sn is close to normal distribution 
  */
 """
 
-##########
+# #########
 # Imports
-##########
+# #########
 
 from typing import Tuple
 import math
 
-##########
+# #########
 # Input
-##########
+# #########
 
 def get_input() -> Tuple[int, int, int, int]:
 	"""Returns input for Central Limit Theorem I
@@ -56,9 +57,9 @@ def get_input() -> Tuple[int, int, int, int]:
 	return 9800, 49, 205, 15
 
 
-##########
+# #########
 # Cumulative Distribution Function
-##########
+# #########
 
 def erf(x: int) -> float:
 	"""Returns probability that random number in range [-x, x]
@@ -115,9 +116,9 @@ def print_to_scale(num: int) -> None:
 	print(f"{num :.4f}")
 
 
-##########
+# #########
 # Main
-##########
+# #########
 
 def main():
 	"""

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """/**
  * @author [Jai Miles]
  * @email [jaimiles23@gmail.com]
@@ -83,9 +84,9 @@ Regression equation:
  */
 """
 
-##########
+# #########
 # Imports
-##########
+# #########
 
 from typing import Tuple
 
@@ -124,9 +125,9 @@ def calc_mean(x: list) -> float:
 	return sum(x) / len(x)
 
 
-##########
+# #########
 # Calculate b
-##########
+# #########
 
 def calc_b(x: list, y: list) -> float:
 	"""Returns b coefficient for x in simple linear regression
@@ -145,9 +146,9 @@ def calc_b(x: list, y: list) -> float:
 	return (n * xy - sum(x) * sum(y)) / ( n * x_sq_sum - sum(x) ** 2)
 
 
-##########
+# #########
 # Calculate A
-##########
+# #########
 
 def calc_a(x: list, y: list, b: float) -> float:
 	"""Returns `a` coefficient for regression equation.
@@ -163,9 +164,9 @@ def calc_a(x: list, y: list, b: float) -> float:
 	return calc_mean(y) - b * calc_mean(x)
 
 
-##########
+# #########
 # Predict
-##########
+# #########
 
 def predict_val(a: float, b: float, x: int = 80) -> float:
 	"""Predicts value for simple linear regression equation
@@ -181,9 +182,9 @@ def predict_val(a: float, b: float, x: int = 80) -> float:
 	return a + b * x
 
 
-##########
+# #########
 # Print to scale
-##########
+# #########
 
 def print_to_scale(num: float) -> None:
 	"""Prints number to 3 decimal
@@ -194,9 +195,9 @@ def print_to_scale(num: float) -> None:
 	print(f"{num :.3f}")
 
 
-##########
+# #########
 # Main
-##########
+# #########
 
 def main():
 	x, y = get_input()

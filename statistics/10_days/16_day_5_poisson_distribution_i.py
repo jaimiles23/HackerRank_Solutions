@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """/**
  * @author [Jai Miles]
  * @email [jaimiles23@gmail.com]
@@ -108,16 +109,16 @@ P(5, 2.5) = 2.5 ** 5 * e ** -2.5 / k!
  */
 """
 
-##########
+# #########
 # Imports
-##########
+# #########
 
 from typing import Tuple
 
 
-##########
+# #########
 # Constants
-##########
+# #########
 
 E = 2.71828
 
@@ -136,9 +137,9 @@ def get_input() -> Tuple[float, int]:
 	return (var_mean, desired_value)
 
 
-##########
+# #########
 # Poisson Distribution
-##########
+# #########
 
 def factorial(num: int) -> int:
 	"""Returns factorial of num
@@ -180,9 +181,9 @@ def format_scale(num: float) -> float:
 	return f"{num:.3f}"
 
 
-##########
+# #########
 # Main
-##########
+# #########
 
 def main():
 	var_mean, desired_value = get_input()
