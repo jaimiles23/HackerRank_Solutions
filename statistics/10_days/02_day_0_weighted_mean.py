@@ -21,22 +21,22 @@ If all the weights are equal, then the weighted mean is the same as the arithmet
  */
 """
 
-##########
+# #########
 # Imports
-##########
+# #########
 
 from typing import List, Tuple, Union
 
-##########
+# #########
 # Constants
-##########
+# #########
 
 SCALE = 1	# number of decimals
 
 
-##########
+# #########
 # Input
-##########
+# #########
 
 def get_input() -> Tuple[int, list, list]:
 	"""Returns 3 variabless:
@@ -50,9 +50,9 @@ def get_input() -> Tuple[int, list, list]:
 	return (n, nums, weights)
 
 
-##########
+# #########
 # Weighted Mean
-##########
+# #########
 
 def calc_weighted_mean(n: int, nums: List[int], weights: List[int]) -> float:
 	"""Returns weighted mean from list of nums and weights with length n."""
@@ -65,9 +65,9 @@ def calc_weighted_mean(n: int, nums: List[int], weights: List[int]) -> float:
 	return format_scale( weighted_total / sum(weights))
 
 
-##########
+# #########
 # Format scale
-##########
+# #########
 
 def format_scale(num: Union[int, float]) -> Union[int, float]:
 	if isinstance(num, int):
@@ -76,9 +76,9 @@ def format_scale(num: Union[int, float]) -> Union[int, float]:
 	return round(num, 1)
 
 
-##########
+# #########
 # Main
-##########
+# #########
 
 def main():
 	n, nums, weights = get_input()

@@ -1,15 +1,14 @@
+# Solution to: [Day 0: Mean, Median, and Mode](https://www.hackerrank.com/challenges/s10-basic-statistics/problem)
 #
-# /**
-#  * @author [Jai Miles]
-#  * @email [jaimiles23@gmail.com]
-#  * @create date 2020-09-11 16:24:44
-#  * @modify date 2020-09-11 17:21:36
-#  * @desc [Solution to: Day 0: Mean, Median, and Mode
-# 		https://www.hackerrank.com/challenges/s10-basic-statistics/problem]
-#
-# For this problem, I opted to re-write the measures of central tendency rather than use imported libraries.
-#
-# ## Wiki definition
+
+# <h1 id="tocheading">Table of Contents</h1>
+# <div id="toc"></div>
+
+# + language="javascript"
+# $.getScript('https://kmahelona.github.io/ipython_notebook_goodies/ipython_notebook_toc.js')
+# -
+
+# # Wiki definition
 # In statistics, a central tendency (or measure of central tendency) is a central or typical value for a probability distribution.
 #
 # The most common measures of central tendency are the arithmetic mean, the median, and the mode. 
@@ -20,45 +19,36 @@
 # dispersion and central tendency are the often characterized properties of distributions. 
 # Analysis may judge whether data has a strong or a weak central tendency based on its dispersion.
 #
-# ## Notes:
+
+# # Solution
 # 	- Print on separate lines (mean, median, mode)
 # 	- Scale of 1 decimal place
 # 	- With multiple mode values, select min.
-#  */
-# """
+#
 
-# #########
-# Imports
-# #########
+# ## Imports
 
 from collections import Counter  # used to count instances for mode
 from typing import List, Tuple, Union
 
-# #########
-# Constants
-# #########
+# ## Constants
 
 SCALE = 1	# scale refers to number of decimal places
 
 
-# #########
-# Get Input
-# #########
+# ## Input
 
 def get_input() -> Tuple[int, list]:
-	"""Returns tuple of input:
-	n: int, length of list.
-	nums: list, nums to use.
-	"""
-	n = int(input())
-	nums = sorted(int(num) for num in input().split())
-	return (n, nums)
+    """Returns tuple of input:
+    n: int, length of list.
+    nums: list, nums to use.
+    """
+    n = int(input())
+    nums = sorted(int(num) for num in input().split())
+    return (n, nums)
 
 
-
-# #########
-# Measures of Central Tendency funcs
-# #########
+# ## Measures of Central Tendency
 
 def calc_mean(nums: List[int], n: int) -> Union[int, float]:
 	"""Returns mean of nums list with n elements."""
@@ -93,9 +83,7 @@ def calc_mode(nums: List[int], n: int) -> int:
 	return min(list(get_mode_ties(num_counts, max_freq)))
 
 
-# #########
-# Aux Functions
-# #########
+# ## Scale function
 
 def format_scale(num: Union[int, float]) -> float:
 	"""Returns float number ."""
@@ -104,9 +92,7 @@ def format_scale(num: Union[int, float]) -> float:
 	return round(num, SCALE)
 
 
-# #########
-# Main
-# #########
+# ## Main
 
 def main():
 	measure_central_tendency = (
