@@ -1,0 +1,3 @@
+- If you use excessive $$ to open & close equations, GitHub will not render all of them.
+  - Better to default to using \begin{question} and \end{equation} tags.
+- 
