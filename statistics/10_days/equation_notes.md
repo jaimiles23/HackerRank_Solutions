@@ -1,3 +1,4 @@
 - If you use excessive $$ to open & close equations, GitHub will not render all of them.
   - Better to default to using \begin{question} and \end{equation} tags.
-- 
+- https://kapeli.com/cheat_sheets/LaTeX_Math_Symbols.docset/Contents/Resources/Documents/index
+  - Use to look up symbols
