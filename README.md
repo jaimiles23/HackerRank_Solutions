@@ -113,7 +113,7 @@ Number | Challenge | Score | Difficulty | Rate | Solution
 
 Contains solutions to the [10 Days of Statistics](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics).
 
-I implement all solutions in Python 3 without using 3rd party statistical libraries. Solutions in .ipynb format include relevant problem notes, formulas, and exmaple problems.
+I implement all solutions in Python 3 without using 3rd party statistical libraries. Solutions in .ipynb format include relevant problem notes, formulas, and examples.
 
 _NOTE_:
 - GitHub does not consistently render .ipynb files. This is a [well documented issue](https://github.com/jupyter/notebook/issues/3555).
