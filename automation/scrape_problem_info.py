@@ -1,35 +1,28 @@
-"""/**
- * @author [Jai Miles]
- * @email [jaimiles23@gmail.com]
- * @create date 2020-09-06 12:31:54
- * @modify date 2020-09-11 17:32:52
- * @desc [
-    Script to webscrape hackerrank problems and format them into README.md markdown table.
+"""
+Script to webscrape hackerrank problems and format them into README.md markdown table.
 
-    Code Sections:
-    1. Constants
-        - used for web scraping and dirs
-    2. Imports
-    3. Driver
-        - Instantiate Selenium driver
-        - get_elements method to retrieve html
-    4. Get Info 
-        - gets/constructs information about each challenge
-    5. Pickled Problem URLS
-        - pickels challenge URLs to avoid HTTP 429 rate limits on google webscraping
-    6. Print Markdown Table
-        - prints entire table to be pasted into README.md
-    7. Challenge Files
-        - creates non-existent files 
-        - prints file names
+Code Sections:
+1. Constants
+    - used for web scraping and dirs
+2. Imports
+3. Driver
+    - Instantiate Selenium driver
+    - get_elements method to retrieve html
+4. Get Info 
+    - gets/constructs information about each challenge
+5. Pickled Problem URLS
+    - pickels challenge URLs to avoid HTTP 429 rate limits on google webscraping
+6. Print Markdown Table
+    - prints entire table to be pasted into README.md
+7. Challenge Files
+    - creates non-existent files 
+    - prints file names
 
-    Usage:
-    - Change HACKERRANK_WEBPAGE and run
-    - print_md_tables() prints rows to paste into README.md for that section
-    - print_file_names() used to view filename format
-    - create_files() creates files from filenames
-
-   ]
+Usage:
+- Change HACKERRANK_WEBPAGE and run
+- print_md_tables() prints rows to paste into README.md for that section
+- print_file_names() used to view filename format
+- create_files() creates files from filenames
  */
 """
 
