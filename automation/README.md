@@ -4,7 +4,7 @@
 ## Purpose
 This directory contains automation for my Hacker Rank Solutions. Automation falls into 2 categories:
 1. Select Challenge
-2. Update REadme
+2. Update Readme
 
 
 ### Select Challenge
