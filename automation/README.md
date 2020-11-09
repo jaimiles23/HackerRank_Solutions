@@ -25,6 +25,7 @@ This script will have 6 steps:
 I automatically update the README with challenge information. This includes the challenge's name, url, difficulty, acceptance rate, and link to my solution.
 
 The script to update the README has 3 steps:
-1. Open webpage
-2. Web scrape page and parse HTML for information
+1. Open and scrape webpage
+2. Parse HTML for problem information
 3. Write information to a formatted table in the README
+
