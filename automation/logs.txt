@@ -1,0 +1,2 @@
+2020-11-08 20:59:19,363 root         DEBUG    Creating sql class
+2020-11-08 20:59:19,364 root         DEBUG    Creating statistics class
