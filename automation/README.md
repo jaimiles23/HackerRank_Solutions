@@ -24,7 +24,7 @@ This script will have 6 steps:
 ### Update README
 I automatically update the README with challenge information. This includes the challenge's name, url, difficulty, acceptance rate, and link to my solution.
 
-The script to update the REAME has 3 steps:
+The script to update the README has 3 steps:
 1. Connect to the challenge webpage
 2. Parse HTML to extract the challenge's information
 3. Write information to a formatted in the README
