@@ -55,19 +55,6 @@ PICKLE_DIR = "pickle\\"
 SOLUTION_FILENAME = "Python"
 FILE_TYPE = ".py"
 
-## Table headers
-columns = ('Number', 'Challenge', 'Score', 'Difficulty', 'Rate', 'Solution')
-
-## Create back to TOC Header
-TOC_HEADER = "#hackerrank"
-
-## HTML identifiers
-PROBLEM_CLASS = 'challengecard-title' # class
-PROBLEM_TAG = 'h4'                # tag
-
-## location method
-LOCATE_BY = "class"
-
 
 ##########
 # Imports
