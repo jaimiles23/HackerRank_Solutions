@@ -26,10 +26,3 @@ PROBLEM_TAG = 'h4'                # tag
 
 ## location method
 LOCATE_BY = "class"
-
-
-##########
-# Domain
-##########
-DOMAIN = 'domain'
-FILETYPE = 'filetype'

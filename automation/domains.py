@@ -11,8 +11,6 @@ The domain classes help navigate between directories in each challenge domain.
 from dataclasses import dataclass
 from logger import logging
 
-from constants import DOMAIN, FILETYPE
-
 
 ##########
 # Domains
@@ -33,15 +31,16 @@ class DomainInfo(object):
 
     def __post_init__(self):
         # Name
-        logging.debug(f"Creating {self.info[DOMAIN]} class")
-        setattr(self, DOMAIN, self.info.pop(DOMAIN))
-        setattr(self, FILETYPE, self.info.pop(FILETYPE))
+        logging.debug(f"Creating {self.info['name']} class")
+        self.name = self.info.pop('name')
+        self.filetype = self.info.pop('filetype')
+
 
 
 ##### Domain Information
 sql = {
-    DOMAIN                  :   'sql',
-    FILETYPE                :   'sql',
+    'name'                  :   'sql',
+    'filetype'              :   'sql',
     'Basic Select'          :   'https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=select',
     'Advanced Select'       :   'https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=advanced-select',
     'Aggregation'           :   'https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=aggregation',
@@ -51,17 +50,18 @@ sql = {
 }
 
 stats = {
-    DOMAIN      :   'statistics',
-    FILETYPE    :   'ipynb',        
+    'name'      :   'statistics',
+    'filetype'  :   'ipynb',        
     '10_days'   :   'https://www.hackerrank.com/domains/tutorials/10-days-of-statistics'
 }
 
 
 ##### Create Domain Classes
-problem_domains = [
+domain_list = [
     sql,
     stats
 ]
 
-for i in range(len(problem_domains)):
-    problem_domains[i] = DomainInfo(i, problem_domains[i])
+problem_domains = []
+for i in range(len(domain_list)):
+    problem_domains.append(DomainInfo(i, domain_list[i]))

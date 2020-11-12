@@ -10,10 +10,10 @@
 # Imports
 ##########
 
-import pathlib
+from pathlib import Path
 import os
 from domains import problem_domains
-import constants
+
 
 ##########
 # Main
@@ -21,20 +21,56 @@ import constants
 
 def main():
 
-    ## Make all directories in folder
+    home_dir = Path(__file__).resolve().parents[1]
+
+    ## All domain directories exist
     for domain in problem_domains:
-        domain_dir = getattr(domain, constants.DOMAIN)
-        if not pathlib.Path.is_dir( domain_dir):
-            pathlib.Path.mkdir( domain_dir)
+        new_dir = Path(domain.name)
+
+        if not Path.is_dir(new_dir):
+            print(f"Creating dir for: {new_dir}")
+            os.mkdir(new_dir)
+    
+
+    for domain in problem_domains:
+        os.chdir( home_dir / domain.name)
+
+        for subdir, url in domain.info.items():
+            print(subdir, url)
+            subdir = subdir.replace(' ', '_')
+
+            if not Path.is_dir(subdir):
+                print(f"Creating dir for: {subdir}")
+                os.mkdir(subdir)
+            
+            ## TODO: open browser for URL
+
+            ## TODO: Webscrape information
+
+            ## TODO: Save information to pickle file
+
+            ## TODO: Write to markdown
+
+            ## TODO: Back up to domain dir
+
+        
+        ##TODO Back up to home_dir
+        os.chdir(home_dir)
+            
+
+
+        
+    
+            
 
 
 
+
+
+##########
+# Main
+##########
 
 if __name__ == "__main__":
     main()
-            
-        
 
-
-
-    
