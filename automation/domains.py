@@ -11,6 +11,8 @@ The domain classes help navigate between directories in each challenge domain.
 from dataclasses import dataclass
 from logger import logging
 
+from constants import DOMAIN, FILETYPE
+
 
 ##########
 # Domains
@@ -21,10 +23,6 @@ Domains has 3 sections:
     2. Set the domain information
     3. Create the domain classes.
 """
-
-DOMAIN = 'domain'
-FILETYPE = 'filetype'
-
 
 ##### Define Domain Class
 @dataclass
@@ -60,10 +58,10 @@ stats = {
 
 
 ##### Create Domain Classes
-domains = [
+problem_domains = [
     sql,
     stats
 ]
 
-for i in range(len(domains)):
-    domains[i] = DomainInfo(i, domains[i])
+for i in range(len(problem_domains)):
+    problem_domains[i] = DomainInfo(i, problem_domains[i])
