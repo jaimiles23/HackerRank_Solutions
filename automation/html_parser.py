@@ -169,4 +169,5 @@ class InfoParser(object):
         github_url = InfoParser.GITHUB_URL_BASE.format( 
             self.domain, self.sub_domain, self.filename)
         logging.debug(f"github_url: {github_url}")
+        return github_url
 
