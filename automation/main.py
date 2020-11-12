@@ -13,6 +13,9 @@
 from pathlib import Path
 import os
 from domains import problem_domains
+import dir_functions
+from logger import logging
+from webpage import WebPage
 
 
 ##########
@@ -21,29 +24,32 @@ from domains import problem_domains
 
 def main():
 
-    home_dir = Path(__file__).resolve().parents[1]
+    home_dir = Path(__file__).resolve().parents[0]
+    logging.debug(f"Home dir: {home_dir}")
 
     ## All domain directories exist
     for domain in problem_domains:
         new_dir = Path(domain.name)
 
         if not Path.is_dir(new_dir):
-            print(f"Creating dir for: {new_dir}")
+            logging.debug(f"Creating dir for: {Path() / new_dir}")
             os.mkdir(new_dir)
     
 
     for domain in problem_domains:
         os.chdir( home_dir / domain.name)
 
-        for subdir, url in domain.info.items():
-            print(subdir, url)
-            subdir = subdir.replace(' ', '_')
+        for subdomain, url in domain.info.items():
+            subdir = Path( dir_functions.get_subdomain_dirname(subdomain))
 
             if not Path.is_dir(subdir):
-                print(f"Creating dir for: {subdir}")
+                logging.debug(f"Creating dir for: {Path(subdir)}")
                 os.mkdir(subdir)
             
+            
             ## TODO: open browser for URL
+            webpage = WebPage(url)
+            subdomain_info = webpage.get_info()
 
             ## TODO: Webscrape information
 
