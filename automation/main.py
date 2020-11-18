@@ -5,6 +5,11 @@
 4. Save information to pickle file
 5. Write information to markdown file
 """
+## TODO: Add to geckdriver to path -- currently in users.
+import sys
+
+for x in sys.path:
+    print(x)
 
 ##########
 # Imports
@@ -16,7 +21,7 @@ from domains import problem_domains
 import dir_functions
 from logger import logging
 from webpage import WebPage
-
+import constants
 
 ##########
 # Main
@@ -46,9 +51,9 @@ def main():
                 logging.debug(f"Creating dir for: {Path(subdir)}")
                 os.mkdir(subdir)
             
-            
+    
             ## TODO: open browser for URL
-            webpage = WebPage(url)
+            webpage = WebPage(url = url, locate_by = constants.LOCATE_BY, identifier = constants.PROBLEM_CLASS) 
             subdomain_info = webpage.get_info()
 
             ## TODO: Webscrape information

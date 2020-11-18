@@ -22,7 +22,7 @@ TOC_HEADER = "#hackerrank"
 
 ## HTML identifiers
 PROBLEM_CLASS = 'challengecard-title' # class
-PROBLEM_TAG = 'h4'                # tag
+# PROBLEM_TAG = 'h4'                # tag
 
 ## location method
 LOCATE_BY = "class"
