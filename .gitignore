@@ -1,4 +1,5 @@
 # Other
+.vscode/
 .google-cookie
 *.p
 pickle
