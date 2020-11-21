@@ -1,4 +1,9 @@
-"""Main script to:
+#! env/bin/python
+
+"""
+https://stackoverflow.com/questions/56936293/run-python-script-without-activating-virtual-environment/56936385
+
+Main script to:
 1. Identify & navigate to relevant directories
 2. Open relevant webpage
 3. Parse HTML for relevant information
