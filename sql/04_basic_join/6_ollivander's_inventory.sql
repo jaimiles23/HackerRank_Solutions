@@ -1,11 +1,6 @@
 /**
- * @author [Jai Miles]
- * @email [jaimiles23@gmail.com]
- * @create date 2020-09-06 17:59:45
- * @modify date 2020-09-06 17:59:45
- * @desc [
-	 Solution to: Ollivander's Inventory
-		https://www.hackerrank.com/challenges/harry-potter-and-wands/problem
+Solution to: Ollivander's Inventory
+https://www.hackerrank.com/challenges/harry-potter-and-wands/problem
 
 Requirements:
     - Columns: id, age, coins_needed, power wand
@@ -16,8 +11,6 @@ Requirements:
 
 Process:
     - Problem requirements don't clearly explain that looking for the minimum of each wand's power and age groupings.
-    
- ]
  */
 
 

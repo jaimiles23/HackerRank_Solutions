@@ -1,11 +1,6 @@
 /**
- * @author [Jai Miles]
- * @email [jaimiles23@gmail.com]
- * @create date 2020-09-05 19:34:54
- * @modify date 2020-09-05 19:34:54
- * @desc [
-     Solution to:
-     https://www.hackerrank.com/challenges/weather-observation-station-13/problem
+Solution to:
+https://www.hackerrank.com/challenges/weather-observation-station-13/problem
 
 
 Requirements: 
@@ -14,8 +9,6 @@ Requirements:
 SQL process:
     Need to use IF function inside SUM
 */
- ]
- */
 
 SELECT
     ROUND( SUM(LAT_N), 4)

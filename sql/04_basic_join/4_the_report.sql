@@ -1,11 +1,6 @@
 /**
- * @author [Jai Miles]
- * @email [jaimiles23@gmail.com]
- * @create date 2020-09-06 17:59:40
- * @modify date 2020-09-06 17:59:40
- * @desc [
-	 Solution to: The Report
-		https://www.hackerrank.com/challenges/the-report/problem
+Solution to: The Report
+https://www.hackerrank.com/challenges/the-report/problem
 
 Requirements:
     - Columns: Name, Grade, Mark
@@ -18,7 +13,6 @@ NOTES:
     - Join on Marks using the BETWEEN operator
         - Let's you select a range between 2 columns.
     - IF statement can be used inside SELECT to determine pull.
- ]
  */
 
 SELECT

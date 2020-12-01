@@ -1,11 +1,6 @@
 /**
- * @author [Jai Miles]
- * @email [jaimiles23@gmail.com]
- * @create date 2020-09-05 19:24:10
- * @modify date 2020-09-05 19:24:10
- * @desc [
-     Solution to Top Earners:
-     https://www.hackerrank.com/challenges/earnings-of-employees/problem
+Solution to Top Earners:
+https://www.hackerrank.com/challenges/earnings-of-employees/problem
      
 
 Requirements
@@ -16,7 +11,6 @@ Steps:
     - Calculate total earnings, take max
     - Group by total earnings
     - Take top result
-]
 */
 
 SELECT

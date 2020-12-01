@@ -1,11 +1,6 @@
 /**
- * @author [Jai Miles]
- * @email [jaimiles23@gmail.com]
- * @create date 2020-09-06 17:59:46
- * @modify date 2020-09-06 17:59:46
- * @desc [
-	 Solution to: Challenges
-		https://www.hackerrank.com/challenges/challenges/problem
+Solution to: Challenges
+https://www.hackerrank.com/challenges/challenges/problem
 
 Requirements:
     - Columns: hacker_id, name, number_challenges
@@ -22,7 +17,6 @@ Notes:
 
 HackerRank Note:
     - MUST USE MS SQL SERVER To use CTEs with MySQL.
- ]
  */
 
 

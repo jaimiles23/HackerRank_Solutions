@@ -1,11 +1,6 @@
 /**
- * @author [Jai Miles]
- * @email [jaimiles23@gmail.com]
- * @create date 2020-09-06 17:59:47
- * @modify date 2020-09-06 17:59:47
- * @desc [
-	Solution to: Contest Leaderboard
-		https://www.hackerrank.com/challenges/contest-leaderboard
+Solution to: Contest Leaderboard
+https://www.hackerrank.com/challenges/contest-leaderboard
 
 Requirements:
     - Columns: hacker_id, name, total_score
@@ -17,7 +12,6 @@ Requirements:
 Process Notes:
     - Hackers may have made multiple submissions. Take MAX of their submissions
     - Create a CTE of the top scores and then pull high_scores from that CTE.
- ]
  */
 
 /* Create CTE with MAX of submissions? */

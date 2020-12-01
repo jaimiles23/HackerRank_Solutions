@@ -1,11 +1,6 @@
 /**
- * @author [Jai Miles]
- * @email [jaimiles23@gmail.com]
- * @create date 2020-09-06 18:12:47
- * @modify date 2020-09-06 18:12:47
- * @desc [
-	Solution to: Weather Observation Station 17
-		https://www.hackerrank.com/challenges/weather-observation-station-17
+Solution to: Weather Observation Station 17
+    https://www.hackerrank.com/challenges/weather-observation-station-17
 
 Requirements:
     - ROUND(LONG_W, 4)
@@ -17,7 +12,6 @@ Requirements:
 
 Speed complexity:
 	- ORDER BY is more costly than an aggregate function -- generally fastest sort is O log(N). 
- ]
  */
 
 /* Solution 1: Subquery */

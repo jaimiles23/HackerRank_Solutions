@@ -1,9 +1,4 @@
 /**
- * @author [Jai Miles]
- * @email [jaimiles23@gmail.com]
- * @create date 2020-09-06 18:12:50
- * @modify date 2020-09-06 18:12:50
- * @desc [
 	Solution to: Weather Observation Station 20
 		https://www.hackerrank.com/challenges/weather-observation-station-20
 
@@ -17,7 +12,6 @@ Process:
     - Create row numbers for LAT_N, both ASC & DESC
     - For an ODD length col, find where ASC == DESC
     - For an EVEN length col, select both values above and below
- ]
  */
 
 SELECT

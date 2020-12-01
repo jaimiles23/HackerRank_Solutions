@@ -1,11 +1,6 @@
 /**
- * @author [Jai Miles]
- * @email [jaimiles23@gmail.com]
- * @create date 2020-09-06 17:59:43
- * @modify date 2020-09-06 17:59:43
- * @desc [
-	Solution to: Top Competitors
-		https://www.hackerrank.com/challenges/full-score/problem
+Solution to: Top Competitors
+https://www.hackerrank.com/challenges/full-score/problem
 
 Requirements:
     - columns: hacker_id, hacker_name
@@ -20,8 +15,8 @@ Process NOTES:
 
 SQL NOTES
     - When using multi-column select, must also use GROUP BY on same columns
- ]
  */
+ 
 SELECT
     h.hacker_id, h.name
 FROM

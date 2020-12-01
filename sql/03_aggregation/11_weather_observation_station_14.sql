@@ -1,11 +1,6 @@
 /**
- * @author [Jai Miles]
- * @email [jaimiles23@gmail.com]
- * @create date 2020-09-06 11:45:20
- * @modify date 2020-09-06 11:45:20
- * @desc [
-     Solution to:
-     https://www.hackerrank.com/challenges/weather-observation-station-14/problem
+Solution to:
+https://www.hackerrank.com/challenges/weather-observation-station-14/problem
      
 Requirements:
     - greatest value
@@ -14,7 +9,6 @@ Requirements:
 
 NOTES:
     - Can use TRUNCATE function instead of round.
- ]
  */
 
 

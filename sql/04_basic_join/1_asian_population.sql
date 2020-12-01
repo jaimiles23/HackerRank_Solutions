@@ -1,11 +1,6 @@
 /**
- * @author [Jai Miles]
- * @email [jaimiles23@gmail.com]
- * @create date 2020-09-06 17:59:33
- * @modify date 2020-09-06 17:59:33
- * @desc [
-	 Solution to: Asian Population
-		https://www.hackerrank.com/challenges/asian-population
+Solution to: Asian Population
+https://www.hackerrank.com/challenges/asian-population
 
 NOTES:
     - Requirements to understand the metrics desired (SUM)
@@ -17,7 +12,6 @@ Requirements:
 
 NOTES:
     - JOIN CITY.CountryCode and COUNTRY.Code
- ]
  */
 
 SELECT

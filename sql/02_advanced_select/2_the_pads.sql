@@ -1,9 +1,4 @@
 /**
- * @author [Jai Miles]
- * @email [jaimiles23@gmail.com]
- * @create date 2020-09-07 16:51:56
- * @modify date 2020-09-07 16:51:56
- * @desc [
 	Solution to: The PADS
 		https://www.hackerrank.com/challenges/the-pads
 
@@ -16,11 +11,6 @@ Requirements:
             output: There are a total of [occupation_count] [occupation]s.
         - Order by
             number
-
-Needed SQL string operators:
-    - CONCAT
-    - LEFT
-    - LOWER
  ]
  */
 

@@ -1,18 +1,10 @@
 /**
- * @author [Jai Miles]
- * @email [jaimiles23@gmail.com]
- * @create date 2020-09-05 11:51:40
- * @modify date 2020-09-05 11:51:40
- * @desc [
      Solution to Employee Salaries
      https://www.hackerrank.com/challenges/salary-of-employees/
 
      NOTES:
      - write requirements of each query to make sure I understand the desire & more clearly document.
- ]
- */
 
-/*
 Requirements:
 - Names 
 - >2k salary

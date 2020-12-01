@@ -1,11 +1,6 @@
 /**
- * @author [Jai Miles]
- * @email [jaimiles23@gmail.com]
- * @create date 2020-09-06 18:12:50
- * @modify date 2020-09-06 18:12:50
- * @desc [
-	Solution to: Weather Observation Station 19
-		https://www.hackerrank.com/challenges/weather-observation-station-19
+Solution to: Weather Observation Station 19
+    https://www.hackerrank.com/challenges/weather-observation-station-19
 
 In mathematics, the Euclidean distance or Euclidean metric is the "ordinary" straight-line distance between two points in Euclidean space.
 dist((x1, y1), (x2, y2)) = √(x1 - x2)² + (y1 - y2)²
@@ -13,7 +8,6 @@ dist((x1, y1), (x2, y2)) = √(x1 - x2)² + (y1 - y2)²
 Requirements:
     - Find MIN/MAX of LAT_N and LONG_W
     - Calc Euclidean distance, to 4 decimals	
- ]
  */
 
 
