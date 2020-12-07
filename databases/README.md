@@ -17,6 +17,7 @@ Number   |   Challenge                                                          
 4        |   [Basics of Sets and Relations #4](https://www.hackerrank.com/challenges/basics-of-sets-and-relational-algebra-4/problem)   |   5       |   :star:       |   96.91%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/1_relational_algebra/04_basicsofsetsandrelations4.md)
 5        |   [Basics of Sets and Relations #5](https://www.hackerrank.com/challenges/basics-of-sets-and-relational-algebra-5/problem)   |   5       |   :star:       |   97.79%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/1_relational_algebra/05_basicsofsetsandrelations5.md)
 6        |   [Basics of Sets and Relations #6](https://www.hackerrank.com/challenges/basics-of-sets-and-relational-algebra-6/problem)   |   5       |   :star:       |   97.02%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/1_relational_algebra/06_basicsofsetsandrelations6.md)
+7        |   [Basics of Sets and Relations #7](https://www.hackerrank.com/challenges/basics-of-sets-and-relational-algebra-7/problem)   |   5       |   :star:       |   98.24%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/1_relational_algebra/07_basicsofsetsandrelations7.md)
 
 
 
