@@ -69,7 +69,7 @@ TOC_HEADER = "#hackerrank"
 
 PRE_README_FILENAME = "pre_README.md"
 README_FILENAME = "README.md"
-README_CONTENTS_FILENAME = "temp-readme.md"
+README_CONTENTS_FILENAME = "readme_contents.md"
 TOC_FILENAME = "toc_readme.md"
 
 LINE_BREAK = "\n<br/>\n"
