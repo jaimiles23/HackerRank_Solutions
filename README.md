@@ -223,6 +223,7 @@ Number   |   Challenge                                                          
 10       |   [Database Query Languages](https://www.hackerrank.com/challenges/database-query-languages)                                 |   2       |   Multiple Choice   |   84.37%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/1_relational_algebra/10_databasequerylanguages.md)   
 11       |   [Procedural Language](https://www.hackerrank.com/challenges/procedural-language)                                           |   2       |   Multiple Choice   |   46.76%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/1_relational_algebra/11_procedurallanguage.md)       
 12       |   [Relations - 1](https://www.hackerrank.com/challenges/relations-1)                                                         |   2       |   Multiple Choice   |   68.18%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/1_relational_algebra/12_relations-1.md)              
+13       |   [Relations - 2](https://www.hackerrank.com/challenges/relations-2/problem)                                                 |   2       |   Multiple Choice   |   74.00%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/1_relational_algebra/13_relations-2.md)              
 
 
 
