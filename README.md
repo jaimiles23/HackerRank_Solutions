@@ -3,26 +3,22 @@
 # HackerRank
 [HackerRank](hackerrank.com) hosts programming challenges for developers to learn, practice, and refine their programming skills. This repository contains my solutions to HackerRank challenges.
 
-<br/>
 
 **Table of Contents**
  - [Sql](#sql) 
-     - [Basic Select](#basic_select) 
-     - [Advanced Select](#advanced_select) 
+     - [Basic Select](#basic-select) 
+     - [Advanced Select](#advanced-select) 
      - [Aggregation](#aggregation) 
-     - [Basic Join](#basic_join) 
+     - [Basic Join](#basic-join) 
  - [Statistics](#statistics) 
      - [10 Days](#10_days) 
 
-<br/>
 
 
-<br/>
 
 # Sql
 Contains solutions to [sql](https://www.hackerrank.com/domains/sql).
 
-<br/>
 <br/>
 
 ## Basic Select
@@ -61,7 +57,6 @@ Number   |   Challenge                                                          
 
 
 
-<br/>
 
 ## Advanced Select
 Contains solutions to [Advanced Select](https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=advanced-select).
@@ -81,7 +76,6 @@ Number   |   Challenge                                                          
 
 
 
-<br/>
 
 ## Aggregation
 Contains solutions to [Aggregation](https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=aggregation).
@@ -116,7 +110,6 @@ Number   |   Challenge                                                          
 
 
 
-<br/>
 
 ## Basic Join
 Contains solutions to [Basic Join](https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=join).
@@ -142,12 +135,10 @@ Number   |   Challenge                                                          
 
 
 
-<br/>
 
 # Statistics
 Contains solutions to [statistics](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics).
 
-<br/>
 <br/>
 
 ## 10_Days
@@ -192,12 +183,10 @@ Number   |   Challenge                                                          
 
 
 
-<br/>
 
 # Databases
 Contains solutions to [databases](https://www.hackerrank.com/domains/databases).
 
-<br/>
 <br/>
 
 # Python

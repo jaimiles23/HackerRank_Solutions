@@ -3,7 +3,6 @@
 Contains solutions to [sql](https://www.hackerrank.com/domains/sql).
 
 <br/>
-<br/>
 
 ## Basic Select
 Contains solutions to [Basic Select](https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=select).
@@ -41,7 +40,6 @@ Number   |   Challenge                                                          
 
 
 
-<br/>
 
 ## Advanced Select
 Contains solutions to [Advanced Select](https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=advanced-select).
@@ -61,7 +59,6 @@ Number   |   Challenge                                                          
 
 
 
-<br/>
 
 ## Aggregation
 Contains solutions to [Aggregation](https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=aggregation).
@@ -96,7 +93,6 @@ Number   |   Challenge                                                          
 
 
 
-<br/>
 
 ## Basic Join
 Contains solutions to [Basic Join](https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=join).

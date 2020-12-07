@@ -41,7 +41,7 @@ def write_to_md():
             - write to README.md
             - write all subdomains to master domain README.md
     """
-    ## Home dir
+    ## Home dir 
     home_dir = Path(__file__).resolve().parents[1]
     logging.info(f"DIR - Home: {home_dir}\n")
 

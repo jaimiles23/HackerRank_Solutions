@@ -54,15 +54,15 @@ def write_to_toc_file(domain_dir: str, level: int, toc_file: str) -> None:
 
     header  = sub_dir.replace('_', ' ').title()
     doc_link = sub_dir.lower()
-    for c in doc_link:      ## Cant use 2 replace funcs
-        if c == '-':
-            c = '_'
-        elif c == '_':
-            c = '-'
+
+    ## Replace ToC contents based on format
+    if doc_link in constants.number_dirs:
+        doc_link = doc_link.replace('-', '_')
+    else:
+        doc_link = doc_link.replace('_', '-')
 
 
     logging.debug(header + doc_link)
-
     with open(toc_file, 'a') as infile:
         formatted_header = " ".join([
             " " * 4 * (level - 1),
@@ -139,7 +139,8 @@ def write_in_to_out_file(in_file: str, out_file: str) -> None:
     """
     logging.debug(f"Files - in: {in_file}, out: {out_file}")
     with open(out_file, 'a') as outfile:
-        outfile.write(constants.LINE_BREAK)
+        # outfile.write(constants.LINE_BREAK)
+        outfile.write('\n')
 
         with open(in_file, 'r') as in_file:
             for line in in_file:
