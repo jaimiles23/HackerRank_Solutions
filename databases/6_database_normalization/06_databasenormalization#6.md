@@ -1,1 +1,0 @@
-Solution to [Database Normalization #6](https://www.hackerrank.com/challenges/database-normalization-6)

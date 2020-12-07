@@ -1,1 +1,0 @@
-Solution to [Database Normalization #2 - 1/2/3 NF](https://www.hackerrank.com/challenges/database-normalization-123nf)

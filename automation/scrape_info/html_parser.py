@@ -105,7 +105,7 @@ class InfoParser(object):
         """Returns file name for hackerrank problem."""
         def remove_special_chars(name: str) -> str:
             """Aux func to remove special characters from file name."""
-            special_chars = [' ','<', '>', ':', '"', "'", '/', '\\', '|', '?', '*', ',', '!']
+            special_chars = [' ','<', '>', ':', '"', "'", '/', '\\', '|', '?', '*', ',', '!', '#']
             for char in special_chars:
                 name = name.replace(char, '')
             logging.debug(f'No special chars: {name}')

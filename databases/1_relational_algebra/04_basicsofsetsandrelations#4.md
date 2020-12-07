@@ -1,1 +1,0 @@
-Solution to [Basics of Sets and Relations #4](https://www.hackerrank.com/challenges/basics-of-sets-and-relational-algebra-4/problem)

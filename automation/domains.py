@@ -112,10 +112,10 @@ python = {
 
 ##### Create Domain Classes
 domain_list = (
-    sql,
-    stats,
+    # sql,
+    # stats,
     databases,
-    python,
+    # python,
 )
 
 problem_domains = []
