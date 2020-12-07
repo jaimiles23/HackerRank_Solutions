@@ -10,8 +10,9 @@ Contains solutions to [Relational Algebra](https://www.hackerrank.com/domains/da
 <br/>
 
 Number   |   Challenge                                                                                                          |   Score   |   Difficulty   |   Rate     |   Solution                                                                                                                           
---:      |   --:                                                                                                                |   --:     |   --:          |   --:      |   --:                                                                                                                                
+--:      |   :--                                                                                                                |   --:     |   :--          |   :--      |   :--                                                                                                                                
 1        |   [Basics of Sets and Relations #1](https://www.hackerrank.com/challenges/basics-of-sets-and-relational-algebra-1)   |   5       |   :star:       |   90.73%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/1_relational_algebra/01_basicsofsetsandrelations1.md)
+2        |   [Basics of Sets and Relations #2](https://www.hackerrank.com/challenges/basics-of-sets-and-relational-algebra-2)   |   5       |   :star:       |   97.48%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/1_relational_algebra/02_basicsofsetsandrelations2.md)
 
 
 
