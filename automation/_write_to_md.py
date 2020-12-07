@@ -51,7 +51,7 @@ def write_to_md():
     ## Home readme
     readme_contents, readme_toc = readme_funcs.get_readme_helper_filenames(home_dir)
     readme_funcs.create_file(readme_contents)
-    readme_funcs.create_file(readme_toc, doc_title= "Table of Contents")
+    readme_funcs.create_file(readme_toc, header= "Table of Contents")
 
     for domain_dir in domain_dirs:
         domain_toc = True

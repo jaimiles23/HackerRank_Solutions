@@ -4,7 +4,7 @@
 [HackerRank](hackerrank.com) hosts programming challenges for developers to learn, practice, and refine their programming skills. This repository contains my solutions to HackerRank challenges.
 
 
-**Table of Contents**
+ ## Table of Contents
  - [Sql](#sql) 
      - [Basic Select](#basic-select) 
      - [Advanced Select](#advanced-select) 

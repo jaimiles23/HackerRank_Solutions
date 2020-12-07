@@ -1,359 +1,359 @@
-2020-12-06 20:13:22,247 root         DEBUG    Creating sql DomainInfo
-2020-12-06 20:13:22,247 root         DEBUG    Creating statistics DomainInfo
-2020-12-06 20:13:22,247 root         DEBUG    Creating databases DomainInfo
-2020-12-06 20:13:22,247 root         DEBUG    Creating python DomainInfo
-2020-12-06 20:13:22,407 git.cmd      DEBUG    Popen(['git', 'version'], cwd=C:\Users\Jai\Documents\github\hacker_rank\automation, universal_newlines=False, shell=None, istream=None)
-2020-12-06 20:13:22,460 git.cmd      DEBUG    Popen(['git', 'version'], cwd=C:\Users\Jai\Documents\github\hacker_rank\automation, universal_newlines=False, shell=None, istream=None)
-2020-12-06 20:13:22,515 root         INFO     DIR - Home: C:\Users\Jai\Documents\github\hacker_rank
+2020-12-06 20:18:03,739 root         DEBUG    Creating sql DomainInfo
+2020-12-06 20:18:03,740 root         DEBUG    Creating statistics DomainInfo
+2020-12-06 20:18:03,740 root         DEBUG    Creating databases DomainInfo
+2020-12-06 20:18:03,740 root         DEBUG    Creating python DomainInfo
+2020-12-06 20:18:03,884 git.cmd      DEBUG    Popen(['git', 'version'], cwd=C:\Users\Jai\Documents\github\hacker_rank\automation, universal_newlines=False, shell=None, istream=None)
+2020-12-06 20:18:03,936 git.cmd      DEBUG    Popen(['git', 'version'], cwd=C:\Users\Jai\Documents\github\hacker_rank\automation, universal_newlines=False, shell=None, istream=None)
+2020-12-06 20:18:03,992 root         INFO     DIR - Home: C:\Users\Jai\Documents\github\hacker_rank
 
-2020-12-06 20:13:22,515 root         DEBUG    DIR - Domain dirs:C:\Users\Jai\Documents\github\hacker_rank\sql
+2020-12-06 20:18:03,993 root         DEBUG    DIR - Domain dirs:C:\Users\Jai\Documents\github\hacker_rank\sql
 -C:\Users\Jai\Documents\github\hacker_rank\statistics
 -C:\Users\Jai\Documents\github\hacker_rank\databases
 -C:\Users\Jai\Documents\github\hacker_rank\python
-2020-12-06 20:13:22,515 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank
-2020-12-06 20:13:22,515 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\temp-readme.md, C:\Users\Jai\Documents\github\hacker_rank\toc_readme.md
-2020-12-06 20:13:22,515 root         INFO     Creating file C:\Users\Jai\Documents\github\hacker_rank\temp-readme.md
-2020-12-06 20:13:22,517 root         INFO     Creating file C:\Users\Jai\Documents\github\hacker_rank\toc_readme.md
-2020-12-06 20:13:22,518 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\sql
-2020-12-06 20:13:22,518 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\sql
-2020-12-06 20:13:22,518 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\sql\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\sql\README.md
-2020-12-06 20:13:22,527 root         DEBUG    Dirname 1_basic_select from C:\Users\Jai\Documents\github\hacker_rank\sql\1_basic_select
-2020-12-06 20:13:22,527 root         DEBUG    Check dir - 1_basic_select
-2020-12-06 20:13:22,527 root         DEBUG    Dirname 2_advanced_select from C:\Users\Jai\Documents\github\hacker_rank\sql\2_advanced_select
-2020-12-06 20:13:22,528 root         DEBUG    Check dir - 2_advanced_select
-2020-12-06 20:13:22,528 root         DEBUG    Dirname 3_aggregation from C:\Users\Jai\Documents\github\hacker_rank\sql\3_aggregation
-2020-12-06 20:13:22,528 root         DEBUG    Check dir - 3_aggregation
-2020-12-06 20:13:22,528 root         DEBUG    Dirname 4_basic_join from C:\Users\Jai\Documents\github\hacker_rank\sql\4_basic_join
-2020-12-06 20:13:22,529 root         DEBUG    Check dir - 4_basic_join
-2020-12-06 20:13:22,529 root         DEBUG    Dirname 5_advanced_join from C:\Users\Jai\Documents\github\hacker_rank\sql\5_advanced_join
-2020-12-06 20:13:22,529 root         DEBUG    Check dir - 5_advanced_join
-2020-12-06 20:13:22,529 root         DEBUG    Dirname 6_alternative_queries from C:\Users\Jai\Documents\github\hacker_rank\sql\6_alternative_queries
-2020-12-06 20:13:22,530 root         DEBUG    Check dir - 6_alternative_queries
-2020-12-06 20:13:22,544 root         DEBUG    DIR - Subdomain dirs:C:\Users\Jai\Documents\github\hacker_rank\sql\1_basic_select
+2020-12-06 20:18:03,994 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank
+2020-12-06 20:18:03,994 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\temp-readme.md, C:\Users\Jai\Documents\github\hacker_rank\toc_readme.md
+2020-12-06 20:18:03,994 root         INFO     Creating file C:\Users\Jai\Documents\github\hacker_rank\temp-readme.md
+2020-12-06 20:18:03,994 root         INFO     Creating file C:\Users\Jai\Documents\github\hacker_rank\toc_readme.md
+2020-12-06 20:18:03,996 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\sql
+2020-12-06 20:18:03,997 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\sql
+2020-12-06 20:18:03,997 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\sql\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\sql\README.md
+2020-12-06 20:18:04,001 root         DEBUG    Dirname 1_basic_select from C:\Users\Jai\Documents\github\hacker_rank\sql\1_basic_select
+2020-12-06 20:18:04,001 root         DEBUG    Check dir - 1_basic_select
+2020-12-06 20:18:04,001 root         DEBUG    Dirname 2_advanced_select from C:\Users\Jai\Documents\github\hacker_rank\sql\2_advanced_select
+2020-12-06 20:18:04,002 root         DEBUG    Check dir - 2_advanced_select
+2020-12-06 20:18:04,002 root         DEBUG    Dirname 3_aggregation from C:\Users\Jai\Documents\github\hacker_rank\sql\3_aggregation
+2020-12-06 20:18:04,002 root         DEBUG    Check dir - 3_aggregation
+2020-12-06 20:18:04,003 root         DEBUG    Dirname 4_basic_join from C:\Users\Jai\Documents\github\hacker_rank\sql\4_basic_join
+2020-12-06 20:18:04,003 root         DEBUG    Check dir - 4_basic_join
+2020-12-06 20:18:04,003 root         DEBUG    Dirname 5_advanced_join from C:\Users\Jai\Documents\github\hacker_rank\sql\5_advanced_join
+2020-12-06 20:18:04,003 root         DEBUG    Check dir - 5_advanced_join
+2020-12-06 20:18:04,004 root         DEBUG    Dirname 6_alternative_queries from C:\Users\Jai\Documents\github\hacker_rank\sql\6_alternative_queries
+2020-12-06 20:18:04,004 root         DEBUG    Check dir - 6_alternative_queries
+2020-12-06 20:18:04,012 root         DEBUG    DIR - Subdomain dirs:C:\Users\Jai\Documents\github\hacker_rank\sql\1_basic_select
 -C:\Users\Jai\Documents\github\hacker_rank\sql\2_advanced_select
 -C:\Users\Jai\Documents\github\hacker_rank\sql\3_aggregation
 -C:\Users\Jai\Documents\github\hacker_rank\sql\4_basic_join
 -C:\Users\Jai\Documents\github\hacker_rank\sql\5_advanced_join
 -C:\Users\Jai\Documents\github\hacker_rank\sql\6_alternative_queries
-2020-12-06 20:13:22,545 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\sql\1_basic_select
-2020-12-06 20:13:22,545 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\sql\1_basic_select
-2020-12-06 20:13:22,545 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\sql\1_basic_select\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\sql\1_basic_select\README.md
-2020-12-06 20:13:22,574 root         INFO     CHECK - 20 challenges solved
-2020-12-06 20:13:22,575 root         DEBUG    Index 0 - adding.
-2020-12-06 20:13:22,576 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,576 root         DEBUG    Index 1 - adding.
-2020-12-06 20:13:22,577 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,577 root         DEBUG    Index 2 - adding.
-2020-12-06 20:13:22,577 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,578 root         DEBUG    Index 3 - adding.
-2020-12-06 20:13:22,578 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,579 root         DEBUG    Index 4 - adding.
-2020-12-06 20:13:22,579 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,579 root         DEBUG    Index 5 - adding.
-2020-12-06 20:13:22,580 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,580 root         DEBUG    Index 6 - adding.
-2020-12-06 20:13:22,580 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,581 root         DEBUG    Index 7 - adding.
-2020-12-06 20:13:22,581 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,582 root         DEBUG    Index 8 - adding.
-2020-12-06 20:13:22,582 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,582 root         DEBUG    Index 9 - adding.
-2020-12-06 20:13:22,583 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,583 root         DEBUG    Index 10 - adding.
-2020-12-06 20:13:22,584 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,584 root         DEBUG    Index 11 - adding.
-2020-12-06 20:13:22,584 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,585 root         DEBUG    Index 12 - adding.
-2020-12-06 20:13:22,585 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,585 root         DEBUG    Index 13 - adding.
-2020-12-06 20:13:22,585 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,586 root         DEBUG    Index 14 - adding.
-2020-12-06 20:13:22,586 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,586 root         DEBUG    Index 15 - adding.
-2020-12-06 20:13:22,586 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,586 root         DEBUG    Index 16 - adding.
-2020-12-06 20:13:22,586 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,586 root         DEBUG    Index 17 - adding.
-2020-12-06 20:13:22,586 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,586 root         DEBUG    Index 18 - adding.
-2020-12-06 20:13:22,586 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,586 root         DEBUG    Index 19 - adding.
-2020-12-06 20:13:22,586 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,596 root         DEBUG    IN-file - C:\Users\Jai\Documents\github\hacker_rank\sql\1_basic_select\README.md
-2020-12-06 20:13:22,596 root         DEBUG    Files - in: C:\Users\Jai\Documents\github\hacker_rank\sql\1_basic_select\README.md, out: C:\Users\Jai\Documents\github\hacker_rank\sql\README.md
-2020-12-06 20:13:22,597 root         DEBUG    Dirname sql from C:\Users\Jai\Documents\github\hacker_rank\sql
-2020-12-06 20:13:22,597 root         DEBUG    Removing preceeding numbers from sql
-2020-12-06 20:13:22,605 root         DEBUG    Sqlsql
-2020-12-06 20:13:22,605 root         DEBUG    Writing header to ToC file:  - [Sql](#sql) 
+2020-12-06 20:18:04,013 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\sql\1_basic_select
+2020-12-06 20:18:04,013 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\sql\1_basic_select
+2020-12-06 20:18:04,013 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\sql\1_basic_select\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\sql\1_basic_select\README.md
+2020-12-06 20:18:04,030 root         INFO     CHECK - 20 challenges solved
+2020-12-06 20:18:04,031 root         DEBUG    Index 0 - adding.
+2020-12-06 20:18:04,031 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,032 root         DEBUG    Index 1 - adding.
+2020-12-06 20:18:04,032 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,032 root         DEBUG    Index 2 - adding.
+2020-12-06 20:18:04,033 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,033 root         DEBUG    Index 3 - adding.
+2020-12-06 20:18:04,034 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,034 root         DEBUG    Index 4 - adding.
+2020-12-06 20:18:04,034 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,035 root         DEBUG    Index 5 - adding.
+2020-12-06 20:18:04,035 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,035 root         DEBUG    Index 6 - adding.
+2020-12-06 20:18:04,036 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,036 root         DEBUG    Index 7 - adding.
+2020-12-06 20:18:04,036 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,037 root         DEBUG    Index 8 - adding.
+2020-12-06 20:18:04,037 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,038 root         DEBUG    Index 9 - adding.
+2020-12-06 20:18:04,038 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,038 root         DEBUG    Index 10 - adding.
+2020-12-06 20:18:04,039 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,039 root         DEBUG    Index 11 - adding.
+2020-12-06 20:18:04,039 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,040 root         DEBUG    Index 12 - adding.
+2020-12-06 20:18:04,040 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,041 root         DEBUG    Index 13 - adding.
+2020-12-06 20:18:04,041 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,043 root         DEBUG    Index 14 - adding.
+2020-12-06 20:18:04,043 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,043 root         DEBUG    Index 15 - adding.
+2020-12-06 20:18:04,043 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,044 root         DEBUG    Index 16 - adding.
+2020-12-06 20:18:04,044 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,045 root         DEBUG    Index 17 - adding.
+2020-12-06 20:18:04,045 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,045 root         DEBUG    Index 18 - adding.
+2020-12-06 20:18:04,046 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,046 root         DEBUG    Index 19 - adding.
+2020-12-06 20:18:04,047 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,052 root         DEBUG    IN-file - C:\Users\Jai\Documents\github\hacker_rank\sql\1_basic_select\README.md
+2020-12-06 20:18:04,052 root         DEBUG    Files - in: C:\Users\Jai\Documents\github\hacker_rank\sql\1_basic_select\README.md, out: C:\Users\Jai\Documents\github\hacker_rank\sql\README.md
+2020-12-06 20:18:04,054 root         DEBUG    Dirname sql from C:\Users\Jai\Documents\github\hacker_rank\sql
+2020-12-06 20:18:04,054 root         DEBUG    Removing preceeding numbers from sql
+2020-12-06 20:18:04,055 root         DEBUG    Sqlsql
+2020-12-06 20:18:04,055 root         DEBUG    Writing header to ToC file:  - [Sql](#sql) 
 
-2020-12-06 20:13:22,605 root         DEBUG    Dirname 1_basic_select from C:\Users\Jai\Documents\github\hacker_rank\sql\1_basic_select
-2020-12-06 20:13:22,606 root         DEBUG    Removing preceeding numbers from 1_basic_select
-2020-12-06 20:13:22,606 root         DEBUG    Basic Selectbasic-select
-2020-12-06 20:13:22,606 root         DEBUG    Writing header to ToC file:      - [Basic Select](#basic-select) 
+2020-12-06 20:18:04,055 root         DEBUG    Dirname 1_basic_select from C:\Users\Jai\Documents\github\hacker_rank\sql\1_basic_select
+2020-12-06 20:18:04,055 root         DEBUG    Removing preceeding numbers from 1_basic_select
+2020-12-06 20:18:04,056 root         DEBUG    Basic Selectbasic-select
+2020-12-06 20:18:04,056 root         DEBUG    Writing header to ToC file:      - [Basic Select](#basic-select) 
 
-2020-12-06 20:13:22,607 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\sql\2_advanced_select
-2020-12-06 20:13:22,607 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\sql\2_advanced_select
-2020-12-06 20:13:22,607 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\sql\2_advanced_select\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\sql\2_advanced_select\README.md
-2020-12-06 20:13:22,629 root         INFO     CHECK - 2 challenges solved
-2020-12-06 20:13:22,630 root         DEBUG    Index 0 - adding.
-2020-12-06 20:13:22,630 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,631 root         DEBUG    Index 1 - adding.
-2020-12-06 20:13:22,631 root         DEBUG    Medium - :star::star:
-2020-12-06 20:13:22,631 root         DEBUG    Index 2 - adding.
-2020-12-06 20:13:22,632 root         DEBUG    Index 2 - skipping
-2020-12-06 20:13:22,632 root         DEBUG    Index 3 - adding.
-2020-12-06 20:13:22,632 root         DEBUG    Index 3 - skipping
-2020-12-06 20:13:22,633 root         DEBUG    Index 4 - adding.
-2020-12-06 20:13:22,633 root         DEBUG    Index 4 - skipping
-2020-12-06 20:13:22,635 root         DEBUG    IN-file - C:\Users\Jai\Documents\github\hacker_rank\sql\2_advanced_select\README.md
-2020-12-06 20:13:22,637 root         DEBUG    Files - in: C:\Users\Jai\Documents\github\hacker_rank\sql\2_advanced_select\README.md, out: C:\Users\Jai\Documents\github\hacker_rank\sql\README.md
-2020-12-06 20:13:22,643 root         DEBUG    Dirname 2_advanced_select from C:\Users\Jai\Documents\github\hacker_rank\sql\2_advanced_select
-2020-12-06 20:13:22,643 root         DEBUG    Removing preceeding numbers from 2_advanced_select
-2020-12-06 20:13:22,644 root         DEBUG    Advanced Selectadvanced-select
-2020-12-06 20:13:22,644 root         DEBUG    Writing header to ToC file:      - [Advanced Select](#advanced-select) 
+2020-12-06 20:18:04,057 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\sql\2_advanced_select
+2020-12-06 20:18:04,057 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\sql\2_advanced_select
+2020-12-06 20:18:04,057 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\sql\2_advanced_select\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\sql\2_advanced_select\README.md
+2020-12-06 20:18:04,066 root         INFO     CHECK - 2 challenges solved
+2020-12-06 20:18:04,066 root         DEBUG    Index 0 - adding.
+2020-12-06 20:18:04,067 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,067 root         DEBUG    Index 1 - adding.
+2020-12-06 20:18:04,068 root         DEBUG    Medium - :star::star:
+2020-12-06 20:18:04,068 root         DEBUG    Index 2 - adding.
+2020-12-06 20:18:04,068 root         DEBUG    Index 2 - skipping
+2020-12-06 20:18:04,069 root         DEBUG    Index 3 - adding.
+2020-12-06 20:18:04,069 root         DEBUG    Index 3 - skipping
+2020-12-06 20:18:04,069 root         DEBUG    Index 4 - adding.
+2020-12-06 20:18:04,069 root         DEBUG    Index 4 - skipping
+2020-12-06 20:18:04,071 root         DEBUG    IN-file - C:\Users\Jai\Documents\github\hacker_rank\sql\2_advanced_select\README.md
+2020-12-06 20:18:04,072 root         DEBUG    Files - in: C:\Users\Jai\Documents\github\hacker_rank\sql\2_advanced_select\README.md, out: C:\Users\Jai\Documents\github\hacker_rank\sql\README.md
+2020-12-06 20:18:04,073 root         DEBUG    Dirname 2_advanced_select from C:\Users\Jai\Documents\github\hacker_rank\sql\2_advanced_select
+2020-12-06 20:18:04,073 root         DEBUG    Removing preceeding numbers from 2_advanced_select
+2020-12-06 20:18:04,073 root         DEBUG    Advanced Selectadvanced-select
+2020-12-06 20:18:04,074 root         DEBUG    Writing header to ToC file:      - [Advanced Select](#advanced-select) 
 
-2020-12-06 20:13:22,645 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\sql\3_aggregation
-2020-12-06 20:13:22,645 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\sql\3_aggregation
-2020-12-06 20:13:22,645 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\sql\3_aggregation\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\sql\3_aggregation\README.md
-2020-12-06 20:13:22,674 root         INFO     CHECK - 17 challenges solved
-2020-12-06 20:13:22,675 root         DEBUG    Index 0 - adding.
-2020-12-06 20:13:22,675 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,676 root         DEBUG    Index 1 - adding.
-2020-12-06 20:13:22,676 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,676 root         DEBUG    Index 2 - adding.
-2020-12-06 20:13:22,677 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,677 root         DEBUG    Index 3 - adding.
-2020-12-06 20:13:22,677 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,678 root         DEBUG    Index 4 - adding.
-2020-12-06 20:13:22,678 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,678 root         DEBUG    Index 5 - adding.
-2020-12-06 20:13:22,679 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,679 root         DEBUG    Index 6 - adding.
-2020-12-06 20:13:22,680 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,680 root         DEBUG    Index 7 - adding.
-2020-12-06 20:13:22,680 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,681 root         DEBUG    Index 8 - adding.
-2020-12-06 20:13:22,681 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,681 root         DEBUG    Index 9 - adding.
-2020-12-06 20:13:22,682 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,682 root         DEBUG    Index 10 - adding.
-2020-12-06 20:13:22,683 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,683 root         DEBUG    Index 11 - adding.
-2020-12-06 20:13:22,683 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,684 root         DEBUG    Index 12 - adding.
-2020-12-06 20:13:22,685 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,685 root         DEBUG    Index 13 - adding.
-2020-12-06 20:13:22,685 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,687 root         DEBUG    Index 14 - adding.
-2020-12-06 20:13:22,687 root         DEBUG    Medium - :star::star:
-2020-12-06 20:13:22,688 root         DEBUG    Index 15 - adding.
-2020-12-06 20:13:22,688 root         DEBUG    Medium - :star::star:
-2020-12-06 20:13:22,688 root         DEBUG    Index 16 - adding.
-2020-12-06 20:13:22,689 root         DEBUG    Medium - :star::star:
-2020-12-06 20:13:22,693 root         DEBUG    IN-file - C:\Users\Jai\Documents\github\hacker_rank\sql\3_aggregation\README.md
-2020-12-06 20:13:22,694 root         DEBUG    Files - in: C:\Users\Jai\Documents\github\hacker_rank\sql\3_aggregation\README.md, out: C:\Users\Jai\Documents\github\hacker_rank\sql\README.md
-2020-12-06 20:13:22,701 root         DEBUG    Dirname 3_aggregation from C:\Users\Jai\Documents\github\hacker_rank\sql\3_aggregation
-2020-12-06 20:13:22,701 root         DEBUG    Removing preceeding numbers from 3_aggregation
-2020-12-06 20:13:22,702 root         DEBUG    Aggregationaggregation
-2020-12-06 20:13:22,703 root         DEBUG    Writing header to ToC file:      - [Aggregation](#aggregation) 
+2020-12-06 20:18:04,074 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\sql\3_aggregation
+2020-12-06 20:18:04,074 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\sql\3_aggregation
+2020-12-06 20:18:04,075 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\sql\3_aggregation\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\sql\3_aggregation\README.md
+2020-12-06 20:18:04,084 root         INFO     CHECK - 17 challenges solved
+2020-12-06 20:18:04,084 root         DEBUG    Index 0 - adding.
+2020-12-06 20:18:04,085 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,085 root         DEBUG    Index 1 - adding.
+2020-12-06 20:18:04,085 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,086 root         DEBUG    Index 2 - adding.
+2020-12-06 20:18:04,086 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,087 root         DEBUG    Index 3 - adding.
+2020-12-06 20:18:04,087 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,087 root         DEBUG    Index 4 - adding.
+2020-12-06 20:18:04,088 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,088 root         DEBUG    Index 5 - adding.
+2020-12-06 20:18:04,088 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,089 root         DEBUG    Index 6 - adding.
+2020-12-06 20:18:04,089 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,090 root         DEBUG    Index 7 - adding.
+2020-12-06 20:18:04,090 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,090 root         DEBUG    Index 8 - adding.
+2020-12-06 20:18:04,091 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,091 root         DEBUG    Index 9 - adding.
+2020-12-06 20:18:04,092 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,092 root         DEBUG    Index 10 - adding.
+2020-12-06 20:18:04,093 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,093 root         DEBUG    Index 11 - adding.
+2020-12-06 20:18:04,094 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,094 root         DEBUG    Index 12 - adding.
+2020-12-06 20:18:04,094 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,095 root         DEBUG    Index 13 - adding.
+2020-12-06 20:18:04,095 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,096 root         DEBUG    Index 14 - adding.
+2020-12-06 20:18:04,096 root         DEBUG    Medium - :star::star:
+2020-12-06 20:18:04,096 root         DEBUG    Index 15 - adding.
+2020-12-06 20:18:04,097 root         DEBUG    Medium - :star::star:
+2020-12-06 20:18:04,097 root         DEBUG    Index 16 - adding.
+2020-12-06 20:18:04,098 root         DEBUG    Medium - :star::star:
+2020-12-06 20:18:04,103 root         DEBUG    IN-file - C:\Users\Jai\Documents\github\hacker_rank\sql\3_aggregation\README.md
+2020-12-06 20:18:04,104 root         DEBUG    Files - in: C:\Users\Jai\Documents\github\hacker_rank\sql\3_aggregation\README.md, out: C:\Users\Jai\Documents\github\hacker_rank\sql\README.md
+2020-12-06 20:18:04,105 root         DEBUG    Dirname 3_aggregation from C:\Users\Jai\Documents\github\hacker_rank\sql\3_aggregation
+2020-12-06 20:18:04,105 root         DEBUG    Removing preceeding numbers from 3_aggregation
+2020-12-06 20:18:04,105 root         DEBUG    Aggregationaggregation
+2020-12-06 20:18:04,106 root         DEBUG    Writing header to ToC file:      - [Aggregation](#aggregation) 
 
-2020-12-06 20:13:22,703 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\sql\4_basic_join
-2020-12-06 20:13:22,703 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\sql\4_basic_join
-2020-12-06 20:13:22,704 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\sql\4_basic_join\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\sql\4_basic_join\README.md
-2020-12-06 20:13:22,724 root         INFO     CHECK - 8 challenges solved
-2020-12-06 20:13:22,725 root         DEBUG    Index 0 - adding.
-2020-12-06 20:13:22,726 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,726 root         DEBUG    Index 1 - adding.
-2020-12-06 20:13:22,727 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,728 root         DEBUG    Index 2 - adding.
-2020-12-06 20:13:22,728 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,729 root         DEBUG    Index 3 - adding.
-2020-12-06 20:13:22,729 root         DEBUG    Medium - :star::star:
-2020-12-06 20:13:22,729 root         DEBUG    Index 4 - adding.
-2020-12-06 20:13:22,730 root         DEBUG    Medium - :star::star:
-2020-12-06 20:13:22,730 root         DEBUG    Index 5 - adding.
-2020-12-06 20:13:22,730 root         DEBUG    Medium - :star::star:
-2020-12-06 20:13:22,731 root         DEBUG    Index 6 - adding.
-2020-12-06 20:13:22,731 root         DEBUG    Medium - :star::star:
-2020-12-06 20:13:22,732 root         DEBUG    Index 7 - adding.
-2020-12-06 20:13:22,732 root         DEBUG    Medium - :star::star:
-2020-12-06 20:13:22,735 root         DEBUG    IN-file - C:\Users\Jai\Documents\github\hacker_rank\sql\4_basic_join\README.md
-2020-12-06 20:13:22,736 root         DEBUG    Files - in: C:\Users\Jai\Documents\github\hacker_rank\sql\4_basic_join\README.md, out: C:\Users\Jai\Documents\github\hacker_rank\sql\README.md
-2020-12-06 20:13:22,743 root         DEBUG    Dirname 4_basic_join from C:\Users\Jai\Documents\github\hacker_rank\sql\4_basic_join
-2020-12-06 20:13:22,744 root         DEBUG    Removing preceeding numbers from 4_basic_join
-2020-12-06 20:13:22,745 root         DEBUG    Basic Joinbasic-join
-2020-12-06 20:13:22,745 root         DEBUG    Writing header to ToC file:      - [Basic Join](#basic-join) 
+2020-12-06 20:18:04,106 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\sql\4_basic_join
+2020-12-06 20:18:04,106 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\sql\4_basic_join
+2020-12-06 20:18:04,106 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\sql\4_basic_join\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\sql\4_basic_join\README.md
+2020-12-06 20:18:04,115 root         INFO     CHECK - 8 challenges solved
+2020-12-06 20:18:04,116 root         DEBUG    Index 0 - adding.
+2020-12-06 20:18:04,116 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,116 root         DEBUG    Index 1 - adding.
+2020-12-06 20:18:04,117 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,117 root         DEBUG    Index 2 - adding.
+2020-12-06 20:18:04,117 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,118 root         DEBUG    Index 3 - adding.
+2020-12-06 20:18:04,118 root         DEBUG    Medium - :star::star:
+2020-12-06 20:18:04,119 root         DEBUG    Index 4 - adding.
+2020-12-06 20:18:04,119 root         DEBUG    Medium - :star::star:
+2020-12-06 20:18:04,119 root         DEBUG    Index 5 - adding.
+2020-12-06 20:18:04,120 root         DEBUG    Medium - :star::star:
+2020-12-06 20:18:04,120 root         DEBUG    Index 6 - adding.
+2020-12-06 20:18:04,120 root         DEBUG    Medium - :star::star:
+2020-12-06 20:18:04,121 root         DEBUG    Index 7 - adding.
+2020-12-06 20:18:04,121 root         DEBUG    Medium - :star::star:
+2020-12-06 20:18:04,124 root         DEBUG    IN-file - C:\Users\Jai\Documents\github\hacker_rank\sql\4_basic_join\README.md
+2020-12-06 20:18:04,125 root         DEBUG    Files - in: C:\Users\Jai\Documents\github\hacker_rank\sql\4_basic_join\README.md, out: C:\Users\Jai\Documents\github\hacker_rank\sql\README.md
+2020-12-06 20:18:04,127 root         DEBUG    Dirname 4_basic_join from C:\Users\Jai\Documents\github\hacker_rank\sql\4_basic_join
+2020-12-06 20:18:04,127 root         DEBUG    Removing preceeding numbers from 4_basic_join
+2020-12-06 20:18:04,127 root         DEBUG    Basic Joinbasic-join
+2020-12-06 20:18:04,128 root         DEBUG    Writing header to ToC file:      - [Basic Join](#basic-join) 
 
-2020-12-06 20:13:22,746 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\sql\5_advanced_join
-2020-12-06 20:13:22,747 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\sql\5_advanced_join
-2020-12-06 20:13:22,747 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\sql\5_advanced_join\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\sql\5_advanced_join\README.md
-2020-12-06 20:13:22,768 root         INFO     CHECK - No challenges solved.
-2020-12-06 20:13:22,768 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\sql\6_alternative_queries
-2020-12-06 20:13:22,768 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\sql\6_alternative_queries
-2020-12-06 20:13:22,769 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\sql\6_alternative_queries\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\sql\6_alternative_queries\README.md
-2020-12-06 20:13:22,789 root         INFO     CHECK - No challenges solved.
-2020-12-06 20:13:22,789 root         DEBUG    Files - in: C:\Users\Jai\Documents\github\hacker_rank\sql\README.md, out: C:\Users\Jai\Documents\github\hacker_rank\temp-readme.md
-2020-12-06 20:13:22,798 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\statistics
-2020-12-06 20:13:22,798 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\statistics
-2020-12-06 20:13:22,799 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\statistics\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\statistics\README.md
-2020-12-06 20:13:22,805 root         DEBUG    Dirname 10_days from C:\Users\Jai\Documents\github\hacker_rank\statistics\10_days
-2020-12-06 20:13:22,805 root         DEBUG    Check dir - 10_days
-2020-12-06 20:13:22,806 root         DEBUG    Dirname .ipynb_checkpoints from C:\Users\Jai\Documents\github\hacker_rank\statistics\10_days\.ipynb_checkpoints
-2020-12-06 20:13:22,806 root         DEBUG    Check dir - .ipynb_checkpoints
-2020-12-06 20:13:22,832 root         DEBUG    DIR - Subdomain dirs:C:\Users\Jai\Documents\github\hacker_rank\statistics\10_days
-2020-12-06 20:13:22,832 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\statistics\10_days
-2020-12-06 20:13:22,832 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\statistics\10_days
-2020-12-06 20:13:22,833 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\statistics\10_days\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\statistics\10_days\README.md
-2020-12-06 20:13:22,846 root         INFO     CHECK - 26 challenges solved
-2020-12-06 20:13:22,846 root         DEBUG    Index 0 - adding.
-2020-12-06 20:13:22,846 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,846 root         DEBUG    Index 1 - adding.
-2020-12-06 20:13:22,846 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,846 root         DEBUG    Index 2 - adding.
-2020-12-06 20:13:22,846 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,846 root         DEBUG    Index 3 - adding.
-2020-12-06 20:13:22,846 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,846 root         DEBUG    Index 4 - adding.
-2020-12-06 20:13:22,856 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,856 root         DEBUG    Index 5 - adding.
-2020-12-06 20:13:22,856 root         DEBUG    Multiple Choice Question - Multiple Choice
-2020-12-06 20:13:22,857 root         DEBUG    Index 6 - adding.
-2020-12-06 20:13:22,857 root         DEBUG    Multiple Choice Question - Multiple Choice
-2020-12-06 20:13:22,858 root         DEBUG    Index 7 - adding.
-2020-12-06 20:13:22,858 root         DEBUG    Multiple Choice Question - Multiple Choice
-2020-12-06 20:13:22,858 root         DEBUG    Index 8 - adding.
-2020-12-06 20:13:22,858 root         DEBUG    Multiple Choice Question - Multiple Choice
-2020-12-06 20:13:22,858 root         DEBUG    Index 9 - adding.
-2020-12-06 20:13:22,858 root         DEBUG    Multiple Choice Question - Multiple Choice
-2020-12-06 20:13:22,858 root         DEBUG    Index 10 - adding.
-2020-12-06 20:13:22,858 root         DEBUG    Multiple Choice Question - Multiple Choice
-2020-12-06 20:13:22,858 root         DEBUG    Index 11 - adding.
-2020-12-06 20:13:22,858 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,858 root         DEBUG    Index 12 - adding.
-2020-12-06 20:13:22,858 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,858 root         DEBUG    Index 13 - adding.
-2020-12-06 20:13:22,858 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,858 root         DEBUG    Index 14 - adding.
-2020-12-06 20:13:22,858 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,858 root         DEBUG    Index 15 - adding.
-2020-12-06 20:13:22,858 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,858 root         DEBUG    Index 16 - adding.
-2020-12-06 20:13:22,858 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,858 root         DEBUG    Index 17 - adding.
-2020-12-06 20:13:22,858 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,866 root         DEBUG    Index 18 - adding.
-2020-12-06 20:13:22,866 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,866 root         DEBUG    Index 19 - adding.
-2020-12-06 20:13:22,867 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,867 root         DEBUG    Index 20 - adding.
-2020-12-06 20:13:22,867 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,867 root         DEBUG    Index 21 - adding.
-2020-12-06 20:13:22,867 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,867 root         DEBUG    Index 22 - adding.
-2020-12-06 20:13:22,867 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,867 root         DEBUG    Index 23 - adding.
-2020-12-06 20:13:22,867 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,867 root         DEBUG    Index 24 - adding.
-2020-12-06 20:13:22,867 root         DEBUG    Easy - :star:
-2020-12-06 20:13:22,867 root         DEBUG    Index 25 - adding.
-2020-12-06 20:13:22,867 root         DEBUG    Multiple Choice Question - Multiple Choice
-2020-12-06 20:13:22,867 root         DEBUG    Index 26 - adding.
-2020-12-06 20:13:22,867 root         DEBUG    Index 26 - skipping
-2020-12-06 20:13:22,876 root         DEBUG    IN-file - C:\Users\Jai\Documents\github\hacker_rank\statistics\10_days\README.md
-2020-12-06 20:13:22,876 root         DEBUG    Files - in: C:\Users\Jai\Documents\github\hacker_rank\statistics\10_days\README.md, out: C:\Users\Jai\Documents\github\hacker_rank\statistics\README.md
-2020-12-06 20:13:22,886 root         DEBUG    Dirname statistics from C:\Users\Jai\Documents\github\hacker_rank\statistics
-2020-12-06 20:13:22,886 root         DEBUG    Removing preceeding numbers from statistics
-2020-12-06 20:13:22,887 root         DEBUG    Statisticsstatistics
-2020-12-06 20:13:22,887 root         DEBUG    Writing header to ToC file:  - [Statistics](#statistics) 
+2020-12-06 20:18:04,128 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\sql\5_advanced_join
+2020-12-06 20:18:04,128 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\sql\5_advanced_join
+2020-12-06 20:18:04,128 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\sql\5_advanced_join\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\sql\5_advanced_join\README.md
+2020-12-06 20:18:04,136 root         INFO     CHECK - No challenges solved.
+2020-12-06 20:18:04,136 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\sql\6_alternative_queries
+2020-12-06 20:18:04,136 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\sql\6_alternative_queries
+2020-12-06 20:18:04,136 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\sql\6_alternative_queries\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\sql\6_alternative_queries\README.md
+2020-12-06 20:18:04,145 root         INFO     CHECK - No challenges solved.
+2020-12-06 20:18:04,145 root         DEBUG    Files - in: C:\Users\Jai\Documents\github\hacker_rank\sql\README.md, out: C:\Users\Jai\Documents\github\hacker_rank\temp-readme.md
+2020-12-06 20:18:04,153 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\statistics
+2020-12-06 20:18:04,154 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\statistics
+2020-12-06 20:18:04,154 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\statistics\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\statistics\README.md
+2020-12-06 20:18:04,155 root         DEBUG    Dirname 10_days from C:\Users\Jai\Documents\github\hacker_rank\statistics\10_days
+2020-12-06 20:18:04,155 root         DEBUG    Check dir - 10_days
+2020-12-06 20:18:04,157 root         DEBUG    Dirname .ipynb_checkpoints from C:\Users\Jai\Documents\github\hacker_rank\statistics\10_days\.ipynb_checkpoints
+2020-12-06 20:18:04,157 root         DEBUG    Check dir - .ipynb_checkpoints
+2020-12-06 20:18:04,165 root         DEBUG    DIR - Subdomain dirs:C:\Users\Jai\Documents\github\hacker_rank\statistics\10_days
+2020-12-06 20:18:04,166 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\statistics\10_days
+2020-12-06 20:18:04,166 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\statistics\10_days
+2020-12-06 20:18:04,166 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\statistics\10_days\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\statistics\10_days\README.md
+2020-12-06 20:18:04,174 root         INFO     CHECK - 26 challenges solved
+2020-12-06 20:18:04,175 root         DEBUG    Index 0 - adding.
+2020-12-06 20:18:04,175 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,176 root         DEBUG    Index 1 - adding.
+2020-12-06 20:18:04,177 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,177 root         DEBUG    Index 2 - adding.
+2020-12-06 20:18:04,178 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,178 root         DEBUG    Index 3 - adding.
+2020-12-06 20:18:04,179 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,179 root         DEBUG    Index 4 - adding.
+2020-12-06 20:18:04,179 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,180 root         DEBUG    Index 5 - adding.
+2020-12-06 20:18:04,180 root         DEBUG    Multiple Choice Question - Multiple Choice
+2020-12-06 20:18:04,181 root         DEBUG    Index 6 - adding.
+2020-12-06 20:18:04,181 root         DEBUG    Multiple Choice Question - Multiple Choice
+2020-12-06 20:18:04,181 root         DEBUG    Index 7 - adding.
+2020-12-06 20:18:04,182 root         DEBUG    Multiple Choice Question - Multiple Choice
+2020-12-06 20:18:04,182 root         DEBUG    Index 8 - adding.
+2020-12-06 20:18:04,182 root         DEBUG    Multiple Choice Question - Multiple Choice
+2020-12-06 20:18:04,183 root         DEBUG    Index 9 - adding.
+2020-12-06 20:18:04,183 root         DEBUG    Multiple Choice Question - Multiple Choice
+2020-12-06 20:18:04,183 root         DEBUG    Index 10 - adding.
+2020-12-06 20:18:04,184 root         DEBUG    Multiple Choice Question - Multiple Choice
+2020-12-06 20:18:04,184 root         DEBUG    Index 11 - adding.
+2020-12-06 20:18:04,185 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,185 root         DEBUG    Index 12 - adding.
+2020-12-06 20:18:04,185 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,186 root         DEBUG    Index 13 - adding.
+2020-12-06 20:18:04,186 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,186 root         DEBUG    Index 14 - adding.
+2020-12-06 20:18:04,187 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,187 root         DEBUG    Index 15 - adding.
+2020-12-06 20:18:04,188 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,188 root         DEBUG    Index 16 - adding.
+2020-12-06 20:18:04,188 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,189 root         DEBUG    Index 17 - adding.
+2020-12-06 20:18:04,189 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,190 root         DEBUG    Index 18 - adding.
+2020-12-06 20:18:04,190 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,190 root         DEBUG    Index 19 - adding.
+2020-12-06 20:18:04,191 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,191 root         DEBUG    Index 20 - adding.
+2020-12-06 20:18:04,191 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,192 root         DEBUG    Index 21 - adding.
+2020-12-06 20:18:04,193 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,194 root         DEBUG    Index 22 - adding.
+2020-12-06 20:18:04,194 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,194 root         DEBUG    Index 23 - adding.
+2020-12-06 20:18:04,195 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,195 root         DEBUG    Index 24 - adding.
+2020-12-06 20:18:04,196 root         DEBUG    Easy - :star:
+2020-12-06 20:18:04,196 root         DEBUG    Index 25 - adding.
+2020-12-06 20:18:04,196 root         DEBUG    Multiple Choice Question - Multiple Choice
+2020-12-06 20:18:04,197 root         DEBUG    Index 26 - adding.
+2020-12-06 20:18:04,197 root         DEBUG    Index 26 - skipping
+2020-12-06 20:18:04,203 root         DEBUG    IN-file - C:\Users\Jai\Documents\github\hacker_rank\statistics\10_days\README.md
+2020-12-06 20:18:04,204 root         DEBUG    Files - in: C:\Users\Jai\Documents\github\hacker_rank\statistics\10_days\README.md, out: C:\Users\Jai\Documents\github\hacker_rank\statistics\README.md
+2020-12-06 20:18:04,211 root         DEBUG    Dirname statistics from C:\Users\Jai\Documents\github\hacker_rank\statistics
+2020-12-06 20:18:04,211 root         DEBUG    Removing preceeding numbers from statistics
+2020-12-06 20:18:04,212 root         DEBUG    Statisticsstatistics
+2020-12-06 20:18:04,212 root         DEBUG    Writing header to ToC file:  - [Statistics](#statistics) 
 
-2020-12-06 20:13:22,888 root         DEBUG    Dirname 10_days from C:\Users\Jai\Documents\github\hacker_rank\statistics\10_days
-2020-12-06 20:13:22,888 root         DEBUG    10_days in constants.number_dirs
-2020-12-06 20:13:22,895 root         DEBUG    10 Days10_days
-2020-12-06 20:13:22,896 root         DEBUG    Writing header to ToC file:      - [10 Days](#10_days) 
+2020-12-06 20:18:04,212 root         DEBUG    Dirname 10_days from C:\Users\Jai\Documents\github\hacker_rank\statistics\10_days
+2020-12-06 20:18:04,212 root         DEBUG    10_days in constants.number_dirs
+2020-12-06 20:18:04,212 root         DEBUG    10 Days10_days
+2020-12-06 20:18:04,214 root         DEBUG    Writing header to ToC file:      - [10 Days](#10_days) 
 
-2020-12-06 20:13:22,896 root         DEBUG    Files - in: C:\Users\Jai\Documents\github\hacker_rank\statistics\README.md, out: C:\Users\Jai\Documents\github\hacker_rank\temp-readme.md
-2020-12-06 20:13:22,904 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\databases
-2020-12-06 20:13:22,905 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\databases
-2020-12-06 20:13:22,905 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\databases\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\databases\README.md
-2020-12-06 20:13:22,912 root         DEBUG    Dirname 1_relational_algebra from C:\Users\Jai\Documents\github\hacker_rank\databases\1_relational_algebra
-2020-12-06 20:13:22,912 root         DEBUG    Check dir - 1_relational_algebra
-2020-12-06 20:13:22,913 root         DEBUG    Dirname 2_indexes from C:\Users\Jai\Documents\github\hacker_rank\databases\2_indexes
-2020-12-06 20:13:22,913 root         DEBUG    Check dir - 2_indexes
-2020-12-06 20:13:22,913 root         DEBUG    Dirname 3_olap from C:\Users\Jai\Documents\github\hacker_rank\databases\3_olap
-2020-12-06 20:13:22,913 root         DEBUG    Check dir - 3_olap
-2020-12-06 20:13:22,914 root         DEBUG    Dirname 4_set_and_algebra from C:\Users\Jai\Documents\github\hacker_rank\databases\4_set_and_algebra
-2020-12-06 20:13:22,914 root         DEBUG    Check dir - 4_set_and_algebra
-2020-12-06 20:13:22,914 root         DEBUG    Dirname 5_nosql_-_xml,_mapreduce from C:\Users\Jai\Documents\github\hacker_rank\databases\5_nosql_-_xml,_mapreduce
-2020-12-06 20:13:22,914 root         DEBUG    Check dir - 5_nosql_-_xml,_mapreduce
-2020-12-06 20:13:22,915 root         DEBUG    Dirname 6_database_normalization from C:\Users\Jai\Documents\github\hacker_rank\databases\6_database_normalization
-2020-12-06 20:13:22,915 root         DEBUG    Check dir - 6_database_normalization
-2020-12-06 20:13:22,927 root         DEBUG    DIR - Subdomain dirs:C:\Users\Jai\Documents\github\hacker_rank\databases\1_relational_algebra
+2020-12-06 20:18:04,214 root         DEBUG    Files - in: C:\Users\Jai\Documents\github\hacker_rank\statistics\README.md, out: C:\Users\Jai\Documents\github\hacker_rank\temp-readme.md
+2020-12-06 20:18:04,220 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\databases
+2020-12-06 20:18:04,220 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\databases
+2020-12-06 20:18:04,220 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\databases\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\databases\README.md
+2020-12-06 20:18:04,222 root         DEBUG    Dirname 1_relational_algebra from C:\Users\Jai\Documents\github\hacker_rank\databases\1_relational_algebra
+2020-12-06 20:18:04,222 root         DEBUG    Check dir - 1_relational_algebra
+2020-12-06 20:18:04,222 root         DEBUG    Dirname 2_indexes from C:\Users\Jai\Documents\github\hacker_rank\databases\2_indexes
+2020-12-06 20:18:04,222 root         DEBUG    Check dir - 2_indexes
+2020-12-06 20:18:04,224 root         DEBUG    Dirname 3_olap from C:\Users\Jai\Documents\github\hacker_rank\databases\3_olap
+2020-12-06 20:18:04,224 root         DEBUG    Check dir - 3_olap
+2020-12-06 20:18:04,224 root         DEBUG    Dirname 4_set_and_algebra from C:\Users\Jai\Documents\github\hacker_rank\databases\4_set_and_algebra
+2020-12-06 20:18:04,224 root         DEBUG    Check dir - 4_set_and_algebra
+2020-12-06 20:18:04,225 root         DEBUG    Dirname 5_nosql_-_xml,_mapreduce from C:\Users\Jai\Documents\github\hacker_rank\databases\5_nosql_-_xml,_mapreduce
+2020-12-06 20:18:04,225 root         DEBUG    Check dir - 5_nosql_-_xml,_mapreduce
+2020-12-06 20:18:04,225 root         DEBUG    Dirname 6_database_normalization from C:\Users\Jai\Documents\github\hacker_rank\databases\6_database_normalization
+2020-12-06 20:18:04,225 root         DEBUG    Check dir - 6_database_normalization
+2020-12-06 20:18:04,232 root         DEBUG    DIR - Subdomain dirs:C:\Users\Jai\Documents\github\hacker_rank\databases\1_relational_algebra
 -C:\Users\Jai\Documents\github\hacker_rank\databases\2_indexes
 -C:\Users\Jai\Documents\github\hacker_rank\databases\3_olap
 -C:\Users\Jai\Documents\github\hacker_rank\databases\4_set_and_algebra
 -C:\Users\Jai\Documents\github\hacker_rank\databases\5_nosql_-_xml,_mapreduce
 -C:\Users\Jai\Documents\github\hacker_rank\databases\6_database_normalization
-2020-12-06 20:13:22,927 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\databases\1_relational_algebra
-2020-12-06 20:13:22,928 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\databases\1_relational_algebra
-2020-12-06 20:13:22,928 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\databases\1_relational_algebra\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\databases\1_relational_algebra\README.md
-2020-12-06 20:13:22,947 root         INFO     CHECK - No challenges solved.
-2020-12-06 20:13:22,947 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\databases\2_indexes
-2020-12-06 20:13:22,947 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\databases\2_indexes
-2020-12-06 20:13:22,947 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\databases\2_indexes\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\databases\2_indexes\README.md
-2020-12-06 20:13:22,965 root         INFO     CHECK - No challenges solved.
-2020-12-06 20:13:22,966 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\databases\3_olap
-2020-12-06 20:13:22,966 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\databases\3_olap
-2020-12-06 20:13:22,966 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\databases\3_olap\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\databases\3_olap\README.md
-2020-12-06 20:13:22,981 root         INFO     CHECK - No challenges solved.
-2020-12-06 20:13:22,981 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\databases\4_set_and_algebra
-2020-12-06 20:13:22,981 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\databases\4_set_and_algebra
-2020-12-06 20:13:22,981 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\databases\4_set_and_algebra\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\databases\4_set_and_algebra\README.md
-2020-12-06 20:13:22,998 root         INFO     CHECK - No challenges solved.
-2020-12-06 20:13:22,998 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\databases\5_nosql_-_xml,_mapreduce
-2020-12-06 20:13:22,998 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\databases\5_nosql_-_xml,_mapreduce
-2020-12-06 20:13:22,998 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\databases\5_nosql_-_xml,_mapreduce\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\databases\5_nosql_-_xml,_mapreduce\README.md
-2020-12-06 20:13:23,018 root         INFO     CHECK - No challenges solved.
-2020-12-06 20:13:23,018 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\databases\6_database_normalization
-2020-12-06 20:13:23,018 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\databases\6_database_normalization
-2020-12-06 20:13:23,018 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\databases\6_database_normalization\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\databases\6_database_normalization\README.md
-2020-12-06 20:13:23,037 root         INFO     CHECK - No challenges solved.
-2020-12-06 20:13:23,037 root         DEBUG    Files - in: C:\Users\Jai\Documents\github\hacker_rank\databases\README.md, out: C:\Users\Jai\Documents\github\hacker_rank\temp-readme.md
-2020-12-06 20:13:23,037 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python
-2020-12-06 20:13:23,037 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python
-2020-12-06 20:13:23,037 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\README.md
-2020-12-06 20:13:23,048 root         DEBUG    Dirname 01_introduction from C:\Users\Jai\Documents\github\hacker_rank\python\01_introduction
-2020-12-06 20:13:23,048 root         DEBUG    Check dir - 01_introduction
-2020-12-06 20:13:23,048 root         DEBUG    Dirname 02_basic_data_types from C:\Users\Jai\Documents\github\hacker_rank\python\02_basic_data_types
-2020-12-06 20:13:23,048 root         DEBUG    Check dir - 02_basic_data_types
-2020-12-06 20:13:23,048 root         DEBUG    Dirname 03_strings from C:\Users\Jai\Documents\github\hacker_rank\python\03_strings
-2020-12-06 20:13:23,048 root         DEBUG    Check dir - 03_strings
-2020-12-06 20:13:23,048 root         DEBUG    Dirname 04_sets from C:\Users\Jai\Documents\github\hacker_rank\python\04_sets
-2020-12-06 20:13:23,048 root         DEBUG    Check dir - 04_sets
-2020-12-06 20:13:23,048 root         DEBUG    Dirname 05_math from C:\Users\Jai\Documents\github\hacker_rank\python\05_math
-2020-12-06 20:13:23,048 root         DEBUG    Check dir - 05_math
-2020-12-06 20:13:23,048 root         DEBUG    Dirname 06_itertools from C:\Users\Jai\Documents\github\hacker_rank\python\06_itertools
-2020-12-06 20:13:23,048 root         DEBUG    Check dir - 06_itertools
-2020-12-06 20:13:23,048 root         DEBUG    Dirname 07_collections from C:\Users\Jai\Documents\github\hacker_rank\python\07_collections
-2020-12-06 20:13:23,048 root         DEBUG    Check dir - 07_collections
-2020-12-06 20:13:23,048 root         DEBUG    Dirname 08_date_and_time from C:\Users\Jai\Documents\github\hacker_rank\python\08_date_and_time
-2020-12-06 20:13:23,048 root         DEBUG    Check dir - 08_date_and_time
-2020-12-06 20:13:23,048 root         DEBUG    Dirname 09_errors_and_exceptions from C:\Users\Jai\Documents\github\hacker_rank\python\09_errors_and_exceptions
-2020-12-06 20:13:23,048 root         DEBUG    Check dir - 09_errors_and_exceptions
-2020-12-06 20:13:23,048 root         DEBUG    Dirname 10_classes from C:\Users\Jai\Documents\github\hacker_rank\python\10_classes
-2020-12-06 20:13:23,048 root         DEBUG    Check dir - 10_classes
-2020-12-06 20:13:23,048 root         DEBUG    Dirname 11_built-ins from C:\Users\Jai\Documents\github\hacker_rank\python\11_built-ins
-2020-12-06 20:13:23,048 root         DEBUG    Check dir - 11_built-ins
-2020-12-06 20:13:23,048 root         DEBUG    Dirname 12_python_functionals from C:\Users\Jai\Documents\github\hacker_rank\python\12_python_functionals
-2020-12-06 20:13:23,048 root         DEBUG    Check dir - 12_python_functionals
-2020-12-06 20:13:23,048 root         DEBUG    Dirname 13_regex_and_parsing from C:\Users\Jai\Documents\github\hacker_rank\python\13_regex_and_parsing
-2020-12-06 20:13:23,048 root         DEBUG    Check dir - 13_regex_and_parsing
-2020-12-06 20:13:23,048 root         DEBUG    Dirname 14_xml from C:\Users\Jai\Documents\github\hacker_rank\python\14_xml
-2020-12-06 20:13:23,048 root         DEBUG    Check dir - 14_xml
-2020-12-06 20:13:23,048 root         DEBUG    Dirname 15_closures_and_decorators from C:\Users\Jai\Documents\github\hacker_rank\python\15_closures_and_decorators
-2020-12-06 20:13:23,048 root         DEBUG    Check dir - 15_closures_and_decorators
-2020-12-06 20:13:23,056 root         DEBUG    Dirname 16_numpy from C:\Users\Jai\Documents\github\hacker_rank\python\16_numpy
-2020-12-06 20:13:23,056 root         DEBUG    Check dir - 16_numpy
-2020-12-06 20:13:23,086 root         DEBUG    DIR - Subdomain dirs:C:\Users\Jai\Documents\github\hacker_rank\python\01_introduction
+2020-12-06 20:18:04,233 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\databases\1_relational_algebra
+2020-12-06 20:18:04,233 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\databases\1_relational_algebra
+2020-12-06 20:18:04,233 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\databases\1_relational_algebra\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\databases\1_relational_algebra\README.md
+2020-12-06 20:18:04,240 root         INFO     CHECK - No challenges solved.
+2020-12-06 20:18:04,240 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\databases\2_indexes
+2020-12-06 20:18:04,240 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\databases\2_indexes
+2020-12-06 20:18:04,241 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\databases\2_indexes\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\databases\2_indexes\README.md
+2020-12-06 20:18:04,248 root         INFO     CHECK - No challenges solved.
+2020-12-06 20:18:04,248 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\databases\3_olap
+2020-12-06 20:18:04,249 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\databases\3_olap
+2020-12-06 20:18:04,249 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\databases\3_olap\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\databases\3_olap\README.md
+2020-12-06 20:18:04,256 root         INFO     CHECK - No challenges solved.
+2020-12-06 20:18:04,256 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\databases\4_set_and_algebra
+2020-12-06 20:18:04,258 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\databases\4_set_and_algebra
+2020-12-06 20:18:04,258 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\databases\4_set_and_algebra\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\databases\4_set_and_algebra\README.md
+2020-12-06 20:18:04,258 root         INFO     CHECK - No challenges solved.
+2020-12-06 20:18:04,265 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\databases\5_nosql_-_xml,_mapreduce
+2020-12-06 20:18:04,265 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\databases\5_nosql_-_xml,_mapreduce
+2020-12-06 20:18:04,265 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\databases\5_nosql_-_xml,_mapreduce\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\databases\5_nosql_-_xml,_mapreduce\README.md
+2020-12-06 20:18:04,268 root         INFO     CHECK - No challenges solved.
+2020-12-06 20:18:04,268 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\databases\6_database_normalization
+2020-12-06 20:18:04,268 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\databases\6_database_normalization
+2020-12-06 20:18:04,268 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\databases\6_database_normalization\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\databases\6_database_normalization\README.md
+2020-12-06 20:18:04,277 root         INFO     CHECK - No challenges solved.
+2020-12-06 20:18:04,277 root         DEBUG    Files - in: C:\Users\Jai\Documents\github\hacker_rank\databases\README.md, out: C:\Users\Jai\Documents\github\hacker_rank\temp-readme.md
+2020-12-06 20:18:04,277 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python
+2020-12-06 20:18:04,277 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python
+2020-12-06 20:18:04,277 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\README.md
+2020-12-06 20:18:04,277 root         DEBUG    Dirname 01_introduction from C:\Users\Jai\Documents\github\hacker_rank\python\01_introduction
+2020-12-06 20:18:04,277 root         DEBUG    Check dir - 01_introduction
+2020-12-06 20:18:04,277 root         DEBUG    Dirname 02_basic_data_types from C:\Users\Jai\Documents\github\hacker_rank\python\02_basic_data_types
+2020-12-06 20:18:04,286 root         DEBUG    Check dir - 02_basic_data_types
+2020-12-06 20:18:04,286 root         DEBUG    Dirname 03_strings from C:\Users\Jai\Documents\github\hacker_rank\python\03_strings
+2020-12-06 20:18:04,286 root         DEBUG    Check dir - 03_strings
+2020-12-06 20:18:04,286 root         DEBUG    Dirname 04_sets from C:\Users\Jai\Documents\github\hacker_rank\python\04_sets
+2020-12-06 20:18:04,286 root         DEBUG    Check dir - 04_sets
+2020-12-06 20:18:04,286 root         DEBUG    Dirname 05_math from C:\Users\Jai\Documents\github\hacker_rank\python\05_math
+2020-12-06 20:18:04,286 root         DEBUG    Check dir - 05_math
+2020-12-06 20:18:04,286 root         DEBUG    Dirname 06_itertools from C:\Users\Jai\Documents\github\hacker_rank\python\06_itertools
+2020-12-06 20:18:04,286 root         DEBUG    Check dir - 06_itertools
+2020-12-06 20:18:04,286 root         DEBUG    Dirname 07_collections from C:\Users\Jai\Documents\github\hacker_rank\python\07_collections
+2020-12-06 20:18:04,286 root         DEBUG    Check dir - 07_collections
+2020-12-06 20:18:04,286 root         DEBUG    Dirname 08_date_and_time from C:\Users\Jai\Documents\github\hacker_rank\python\08_date_and_time
+2020-12-06 20:18:04,286 root         DEBUG    Check dir - 08_date_and_time
+2020-12-06 20:18:04,286 root         DEBUG    Dirname 09_errors_and_exceptions from C:\Users\Jai\Documents\github\hacker_rank\python\09_errors_and_exceptions
+2020-12-06 20:18:04,286 root         DEBUG    Check dir - 09_errors_and_exceptions
+2020-12-06 20:18:04,286 root         DEBUG    Dirname 10_classes from C:\Users\Jai\Documents\github\hacker_rank\python\10_classes
+2020-12-06 20:18:04,286 root         DEBUG    Check dir - 10_classes
+2020-12-06 20:18:04,286 root         DEBUG    Dirname 11_built-ins from C:\Users\Jai\Documents\github\hacker_rank\python\11_built-ins
+2020-12-06 20:18:04,286 root         DEBUG    Check dir - 11_built-ins
+2020-12-06 20:18:04,291 root         DEBUG    Dirname 12_python_functionals from C:\Users\Jai\Documents\github\hacker_rank\python\12_python_functionals
+2020-12-06 20:18:04,291 root         DEBUG    Check dir - 12_python_functionals
+2020-12-06 20:18:04,291 root         DEBUG    Dirname 13_regex_and_parsing from C:\Users\Jai\Documents\github\hacker_rank\python\13_regex_and_parsing
+2020-12-06 20:18:04,291 root         DEBUG    Check dir - 13_regex_and_parsing
+2020-12-06 20:18:04,291 root         DEBUG    Dirname 14_xml from C:\Users\Jai\Documents\github\hacker_rank\python\14_xml
+2020-12-06 20:18:04,291 root         DEBUG    Check dir - 14_xml
+2020-12-06 20:18:04,291 root         DEBUG    Dirname 15_closures_and_decorators from C:\Users\Jai\Documents\github\hacker_rank\python\15_closures_and_decorators
+2020-12-06 20:18:04,291 root         DEBUG    Check dir - 15_closures_and_decorators
+2020-12-06 20:18:04,291 root         DEBUG    Dirname 16_numpy from C:\Users\Jai\Documents\github\hacker_rank\python\16_numpy
+2020-12-06 20:18:04,291 root         DEBUG    Check dir - 16_numpy
+2020-12-06 20:18:04,307 root         DEBUG    DIR - Subdomain dirs:C:\Users\Jai\Documents\github\hacker_rank\python\01_introduction
 -C:\Users\Jai\Documents\github\hacker_rank\python\02_basic_data_types
 -C:\Users\Jai\Documents\github\hacker_rank\python\03_strings
 -C:\Users\Jai\Documents\github\hacker_rank\python\04_sets
@@ -369,72 +369,72 @@
 -C:\Users\Jai\Documents\github\hacker_rank\python\14_xml
 -C:\Users\Jai\Documents\github\hacker_rank\python\15_closures_and_decorators
 -C:\Users\Jai\Documents\github\hacker_rank\python\16_numpy
-2020-12-06 20:13:23,086 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\01_introduction
-2020-12-06 20:13:23,086 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\01_introduction
-2020-12-06 20:13:23,086 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\01_introduction\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\01_introduction\README.md
-2020-12-06 20:13:23,097 root         INFO     CHECK - No challenges solved.
-2020-12-06 20:13:23,097 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\02_basic_data_types
-2020-12-06 20:13:23,097 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\02_basic_data_types
-2020-12-06 20:13:23,097 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\02_basic_data_types\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\02_basic_data_types\README.md
-2020-12-06 20:13:23,117 root         INFO     CHECK - No challenges solved.
-2020-12-06 20:13:23,117 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\03_strings
-2020-12-06 20:13:23,117 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\03_strings
-2020-12-06 20:13:23,117 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\03_strings\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\03_strings\README.md
-2020-12-06 20:13:23,137 root         INFO     CHECK - No challenges solved.
-2020-12-06 20:13:23,137 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\04_sets
-2020-12-06 20:13:23,137 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\04_sets
-2020-12-06 20:13:23,137 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\04_sets\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\04_sets\README.md
-2020-12-06 20:13:23,166 root         INFO     CHECK - No challenges solved.
-2020-12-06 20:13:23,166 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\05_math
-2020-12-06 20:13:23,166 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\05_math
-2020-12-06 20:13:23,166 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\05_math\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\05_math\README.md
-2020-12-06 20:13:23,177 root         INFO     CHECK - No challenges solved.
-2020-12-06 20:13:23,177 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\06_itertools
-2020-12-06 20:13:23,185 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\06_itertools
-2020-12-06 20:13:23,185 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\06_itertools\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\06_itertools\README.md
-2020-12-06 20:13:23,201 root         INFO     CHECK - No challenges solved.
-2020-12-06 20:13:23,201 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\07_collections
-2020-12-06 20:13:23,201 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\07_collections
-2020-12-06 20:13:23,201 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\07_collections\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\07_collections\README.md
-2020-12-06 20:13:23,223 root         INFO     CHECK - No challenges solved.
-2020-12-06 20:13:23,223 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\08_date_and_time
-2020-12-06 20:13:23,223 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\08_date_and_time
-2020-12-06 20:13:23,223 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\08_date_and_time\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\08_date_and_time\README.md
-2020-12-06 20:13:23,237 root         INFO     CHECK - No challenges solved.
-2020-12-06 20:13:23,237 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\09_errors_and_exceptions
-2020-12-06 20:13:23,237 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\09_errors_and_exceptions
-2020-12-06 20:13:23,237 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\09_errors_and_exceptions\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\09_errors_and_exceptions\README.md
-2020-12-06 20:13:23,257 root         INFO     CHECK - No challenges solved.
-2020-12-06 20:13:23,257 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\10_classes
-2020-12-06 20:13:23,257 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\10_classes
-2020-12-06 20:13:23,257 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\10_classes\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\10_classes\README.md
-2020-12-06 20:13:23,271 root         INFO     CHECK - No challenges solved.
-2020-12-06 20:13:23,276 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\11_built-ins
-2020-12-06 20:13:23,276 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\11_built-ins
-2020-12-06 20:13:23,276 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\11_built-ins\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\11_built-ins\README.md
-2020-12-06 20:13:23,287 root         INFO     CHECK - No challenges solved.
-2020-12-06 20:13:23,287 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\12_python_functionals
-2020-12-06 20:13:23,287 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\12_python_functionals
-2020-12-06 20:13:23,287 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\12_python_functionals\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\12_python_functionals\README.md
-2020-12-06 20:13:23,308 root         INFO     CHECK - No challenges solved.
-2020-12-06 20:13:23,308 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\13_regex_and_parsing
-2020-12-06 20:13:23,308 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\13_regex_and_parsing
-2020-12-06 20:13:23,308 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\13_regex_and_parsing\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\13_regex_and_parsing\README.md
-2020-12-06 20:13:23,326 root         INFO     CHECK - No challenges solved.
-2020-12-06 20:13:23,326 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\14_xml
-2020-12-06 20:13:23,326 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\14_xml
-2020-12-06 20:13:23,326 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\14_xml\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\14_xml\README.md
-2020-12-06 20:13:23,348 root         INFO     CHECK - No challenges solved.
-2020-12-06 20:13:23,348 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\15_closures_and_decorators
-2020-12-06 20:13:23,348 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\15_closures_and_decorators
-2020-12-06 20:13:23,348 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\15_closures_and_decorators\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\15_closures_and_decorators\README.md
-2020-12-06 20:13:23,366 root         INFO     CHECK - No challenges solved.
-2020-12-06 20:13:23,366 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\16_numpy
-2020-12-06 20:13:23,366 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\16_numpy
-2020-12-06 20:13:23,366 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\16_numpy\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\16_numpy\README.md
-2020-12-06 20:13:23,388 root         INFO     CHECK - No challenges solved.
-2020-12-06 20:13:23,388 root         DEBUG    Files - in: C:\Users\Jai\Documents\github\hacker_rank\python\README.md, out: C:\Users\Jai\Documents\github\hacker_rank\temp-readme.md
-2020-12-06 20:13:23,388 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank
-2020-12-06 20:13:23,388 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\README.md
-2020-12-06 20:13:23,397 root         DEBUG    Files - in: C:\Users\Jai\Documents\github\hacker_rank\toc_readme.md, out: C:\Users\Jai\Documents\github\hacker_rank\README.md
-2020-12-06 20:13:23,397 root         DEBUG    Files - in: C:\Users\Jai\Documents\github\hacker_rank\temp-readme.md, out: C:\Users\Jai\Documents\github\hacker_rank\README.md
+2020-12-06 20:18:04,307 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\01_introduction
+2020-12-06 20:18:04,307 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\01_introduction
+2020-12-06 20:18:04,307 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\01_introduction\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\01_introduction\README.md
+2020-12-06 20:18:04,316 root         INFO     CHECK - No challenges solved.
+2020-12-06 20:18:04,316 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\02_basic_data_types
+2020-12-06 20:18:04,316 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\02_basic_data_types
+2020-12-06 20:18:04,316 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\02_basic_data_types\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\02_basic_data_types\README.md
+2020-12-06 20:18:04,316 root         INFO     CHECK - No challenges solved.
+2020-12-06 20:18:04,316 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\03_strings
+2020-12-06 20:18:04,316 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\03_strings
+2020-12-06 20:18:04,316 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\03_strings\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\03_strings\README.md
+2020-12-06 20:18:04,327 root         INFO     CHECK - No challenges solved.
+2020-12-06 20:18:04,327 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\04_sets
+2020-12-06 20:18:04,327 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\04_sets
+2020-12-06 20:18:04,327 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\04_sets\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\04_sets\README.md
+2020-12-06 20:18:04,338 root         INFO     CHECK - No challenges solved.
+2020-12-06 20:18:04,338 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\05_math
+2020-12-06 20:18:04,338 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\05_math
+2020-12-06 20:18:04,338 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\05_math\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\05_math\README.md
+2020-12-06 20:18:04,349 root         INFO     CHECK - No challenges solved.
+2020-12-06 20:18:04,349 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\06_itertools
+2020-12-06 20:18:04,349 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\06_itertools
+2020-12-06 20:18:04,349 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\06_itertools\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\06_itertools\README.md
+2020-12-06 20:18:04,357 root         INFO     CHECK - No challenges solved.
+2020-12-06 20:18:04,358 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\07_collections
+2020-12-06 20:18:04,358 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\07_collections
+2020-12-06 20:18:04,358 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\07_collections\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\07_collections\README.md
+2020-12-06 20:18:04,358 root         INFO     CHECK - No challenges solved.
+2020-12-06 20:18:04,358 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\08_date_and_time
+2020-12-06 20:18:04,366 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\08_date_and_time
+2020-12-06 20:18:04,366 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\08_date_and_time\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\08_date_and_time\README.md
+2020-12-06 20:18:04,367 root         INFO     CHECK - No challenges solved.
+2020-12-06 20:18:04,367 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\09_errors_and_exceptions
+2020-12-06 20:18:04,367 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\09_errors_and_exceptions
+2020-12-06 20:18:04,367 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\09_errors_and_exceptions\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\09_errors_and_exceptions\README.md
+2020-12-06 20:18:04,382 root         INFO     CHECK - No challenges solved.
+2020-12-06 20:18:04,382 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\10_classes
+2020-12-06 20:18:04,382 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\10_classes
+2020-12-06 20:18:04,383 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\10_classes\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\10_classes\README.md
+2020-12-06 20:18:04,390 root         INFO     CHECK - No challenges solved.
+2020-12-06 20:18:04,391 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\11_built-ins
+2020-12-06 20:18:04,391 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\11_built-ins
+2020-12-06 20:18:04,391 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\11_built-ins\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\11_built-ins\README.md
+2020-12-06 20:18:04,399 root         INFO     CHECK - No challenges solved.
+2020-12-06 20:18:04,399 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\12_python_functionals
+2020-12-06 20:18:04,400 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\12_python_functionals
+2020-12-06 20:18:04,400 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\12_python_functionals\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\12_python_functionals\README.md
+2020-12-06 20:18:04,408 root         INFO     CHECK - No challenges solved.
+2020-12-06 20:18:04,408 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\13_regex_and_parsing
+2020-12-06 20:18:04,408 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\13_regex_and_parsing
+2020-12-06 20:18:04,408 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\13_regex_and_parsing\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\13_regex_and_parsing\README.md
+2020-12-06 20:18:04,416 root         INFO     CHECK - No challenges solved.
+2020-12-06 20:18:04,416 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\14_xml
+2020-12-06 20:18:04,416 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\14_xml
+2020-12-06 20:18:04,416 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\14_xml\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\14_xml\README.md
+2020-12-06 20:18:04,416 root         INFO     CHECK - No challenges solved.
+2020-12-06 20:18:04,416 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\15_closures_and_decorators
+2020-12-06 20:18:04,416 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\15_closures_and_decorators
+2020-12-06 20:18:04,426 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\15_closures_and_decorators\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\15_closures_and_decorators\README.md
+2020-12-06 20:18:04,428 root         INFO     CHECK - No challenges solved.
+2020-12-06 20:18:04,428 root         INFO     DIR - changing to C:\Users\Jai\Documents\github\hacker_rank\python\16_numpy
+2020-12-06 20:18:04,428 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank\python\16_numpy
+2020-12-06 20:18:04,428 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\python\16_numpy\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\python\16_numpy\README.md
+2020-12-06 20:18:04,437 root         INFO     CHECK - No challenges solved.
+2020-12-06 20:18:04,437 root         DEBUG    Files - in: C:\Users\Jai\Documents\github\hacker_rank\python\README.md, out: C:\Users\Jai\Documents\github\hacker_rank\temp-readme.md
+2020-12-06 20:18:04,437 root         DEBUG    DIR - C:\Users\Jai\Documents\github\hacker_rank
+2020-12-06 20:18:04,437 root         DEBUG    DIR - created C:\Users\Jai\Documents\github\hacker_rank\pre_README.md, C:\Users\Jai\Documents\github\hacker_rank\README.md
+2020-12-06 20:18:04,437 root         DEBUG    Files - in: C:\Users\Jai\Documents\github\hacker_rank\toc_readme.md, out: C:\Users\Jai\Documents\github\hacker_rank\README.md
+2020-12-06 20:18:04,449 root         DEBUG    Files - in: C:\Users\Jai\Documents\github\hacker_rank\temp-readme.md, out: C:\Users\Jai\Documents\github\hacker_rank\README.md

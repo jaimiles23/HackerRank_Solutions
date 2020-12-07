@@ -114,13 +114,13 @@ def get_readme_helper_filenames(home_dir) -> str:
 
 
 
-def create_file(filename: str, doc_title: Optional[str] = None) -> None:
+def create_file(filename: str, header: Optional[str] = None, level: int = 2) -> None:
     """Creates table of contents support file."""
     logging.info(f"Creating file {filename}")
     with open(filename, 'w') as infile:
-        if doc_title:
-            formatted_title = f"\n**{doc_title}**"
-            infile.write(formatted_title)
+        if header:
+            formatted_header = ' '.join(['\n', '#' * level, header])
+            infile.write(formatted_header)
         infile.write('\n')
         return
 
