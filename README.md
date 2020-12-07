@@ -240,6 +240,7 @@ Number   |   Challenge                                                          
 2        |   [Python If-Else](https://www.hackerrank.com/challenges/py-if-else/problem)                  |   10      |   :star:       |   91.31%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/01_introduction/2_pythonif-else.py)          
 3        |   [Arithmetic Operators](https://www.hackerrank.com/challenges/python-arithmetic-operators)   |   10      |   :star:       |   98.44%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/01_introduction/3_arithmeticoperators.py)    
 4        |   [Python: Division](https://www.hackerrank.com/challenges/python-division)                   |   10      |   :star:       |   98.87%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/01_introduction/4_pythondivision.py)         
+5        |   [Loops](https://www.hackerrank.com/challenges/python-loops)                                 |   10      |   :star:       |   98.48%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/01_introduction/5_loops.py)                  
 
 
 
