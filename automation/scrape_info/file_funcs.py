@@ -22,7 +22,7 @@ def make_readme_setup(name: str, url: str, heading: int):
             outfile.write('\n' * 1)
             outfile.write(f"{'#' * heading} {name.title()}")
             outfile.write('\n' * 1)
-            outfile.write(f"Contains solutions to [{name}]({url}).")
+            outfile.write(f"Contains solutions to HackerRank's [{name}]({url}) challenges.")
             outfile.write('\n' * 2)
             outfile.write('<br/>')
     return

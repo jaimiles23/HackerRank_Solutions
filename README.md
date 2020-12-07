@@ -14,6 +14,7 @@
      - [10 Days](#10_days) 
  - [Databases](#databases) 
      - [Relational Algebra](#relational-algebra) 
+     - [Indexes](#indexes) 
  - [Python](#python) 
      - [Introduction](#introduction) 
 
@@ -224,6 +225,24 @@ Number   |   Challenge                                                          
 11       |   [Procedural Language](https://www.hackerrank.com/challenges/procedural-language)                                           |   2       |   Multiple Choice   |   46.76%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/1_relational_algebra/11_procedurallanguage.md)       
 12       |   [Relations - 1](https://www.hackerrank.com/challenges/relations-1)                                                         |   2       |   Multiple Choice   |   68.18%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/1_relational_algebra/12_relations-1.md)              
 13       |   [Relations - 2](https://www.hackerrank.com/challenges/relations-2/problem)                                                 |   2       |   Multiple Choice   |   74.00%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/1_relational_algebra/13_relations-2.md)              
+
+
+
+<b><a href="#hackerrank">:arrow_up: Table of Contents</a></b>
+<br/>
+<br/>
+
+
+
+
+## Indexes
+Contains solutions to [Indexes](https://www.hackerrank.com/domains/databases?filters%5Bsubdomains%5D%5B%5D=indexes).
+
+<br/>
+
+Number   |   Challenge                                                                     |   Score   |   Difficulty   |   Rate     |   Solution                                                                                                            
+--:      |   --:                                                                           |   --:     |   --:          |   --:      |   --:                                                                                                                 
+1        |   [Index Architecture Types](https://www.hackerrank.com/challenges/indexes-1)   |   2       |   -            |   61.20%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/2_indexes/1_indexarchitecturetypes.md)
 
 
 

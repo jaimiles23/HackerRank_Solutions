@@ -9,5 +9,6 @@
      - [10 Days](#10_days) 
  - [Databases](#databases) 
      - [Relational Algebra](#relational-algebra) 
+     - [Indexes](#indexes) 
  - [Python](#python) 
      - [Introduction](#introduction) 
