@@ -200,6 +200,7 @@ Number   |   Challenge                                                          
 6        |   [Basics of Sets and Relations #6](https://www.hackerrank.com/challenges/basics-of-sets-and-relational-algebra-6/problem)   |   5       |   :star:            |   97.02%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/1_relational_algebra/06_basicsofsetsandrelations6.md)
 7        |   [Basics of Sets and Relations #7](https://www.hackerrank.com/challenges/basics-of-sets-and-relational-algebra-7/problem)   |   5       |   :star:            |   98.24%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/1_relational_algebra/07_basicsofsetsandrelations7.md)
 8        |   [Relational Algebra - 3](https://www.hackerrank.com/challenges/relational-algebra-3)                                       |   2       |   Multiple Choice   |   67.45%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/1_relational_algebra/08_relationalalgebra-3.md)      
+9        |   [Relational Algebra - 4](https://www.hackerrank.com/challenges/relational-algebra-4)                                       |   2       |   Multiple Choice   |   62.70%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/1_relational_algebra/09_relationalalgebra-4.md)      
 
 
 
