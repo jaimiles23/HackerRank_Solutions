@@ -1,10 +1,16 @@
 num,name,score,difficulty,rate,url,solution_url,completed,TODO
-01,Arrays,20,Easy,96.79%,https://www.hackerrank.com/domains/data-structures/arrays,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/01_arrays.py,0.0,1.0
-02,Shape and Reshape,20,Easy,95.71%,https://www.hackerrank.com/challenges/np-shape-reshape/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/02_shapeandreshape.py,0.0,1.0
-03,Transpose and Flatten,20,Easy,96.94%,https://www.hackerrank.com/challenges/np-transpose-and-flatten,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/03_transposeandflatten.py,0.0,1.0
-04,Concatenate,20,Easy,98.93%,https://www.hackerrank.com/challenges/np-concatenate,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/04_concatenate.py,0.0,1.0
-05,Zeros and Ones,20,Easy,94.48%,https://www.hackerrank.com/challenges/np-zeros-and-ones/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/05_zerosandones.py,0.0,1.0
-06,Eye and Identity,20,Easy,92.81%,https://www.hackerrank.com/challenges/np-eye-and-identity,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/06_eyeandidentity.py,0.0,1.0
-07,Array Mathematics,20,Easy,94.61%,https://www.hackerrank.com/challenges/np-array-mathematics,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/07_arraymathematics.py,0.0,1.0
-08,"Floor, Ceil and Rint",20,Easy,95.61%,https://www.hackerrank.com/challenges/floor-ceil-and-rint,"https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/08_floor,ceilandrint.py",0.0,1.0
-09,Sum and Prod,20,Easy,98.24%,https://www.hackerrank.com/challenges/np-sum-and-prod/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/09_sumandprod.py,0.0,1.0
+1,Arrays,20,Easy,96.79%,https://www.hackerrank.com/domains/data-structures/arrays,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/01_arrays.py,0.0,1.0
+2,Shape and Reshape,20,Easy,95.71%,https://www.hackerrank.com/challenges/np-shape-reshape/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/02_shapeandreshape.py,0.0,1.0
+3,Transpose and Flatten,20,Easy,96.94%,https://www.hackerrank.com/challenges/np-transpose-and-flatten,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/03_transposeandflatten.py,0.0,1.0
+4,Concatenate,20,Easy,98.93%,https://www.hackerrank.com/challenges/np-concatenate,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/04_concatenate.py,0.0,1.0
+5,Zeros and Ones,20,Easy,94.48%,https://www.hackerrank.com/challenges/np-zeros-and-ones/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/05_zerosandones.py,0.0,1.0
+6,Eye and Identity,20,Easy,92.81%,https://www.hackerrank.com/challenges/np-eye-and-identity,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/06_eyeandidentity.py,0.0,1.0
+7,Array Mathematics,20,Easy,94.61%,https://www.hackerrank.com/challenges/np-array-mathematics,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/07_arraymathematics.py,0.0,1.0
+8,"Floor, Ceil and Rint",20,Easy,95.61%,https://www.hackerrank.com/challenges/floor-ceil-and-rint,"https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/08_floor,ceilandrint.py",0.0,1.0
+9,Sum and Prod,20,Easy,98.24%,https://www.hackerrank.com/challenges/np-sum-and-prod/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/09_sumandprod.py,0.0,1.0
+10,Min and Max,20,,98.45%,https://www.hackerrank.com/challenges/angry-children,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/10_minandmax.py,0.0,1.0
+11,"Mean, Var, and Std",20,Easy,92.27%,https://www.hackerrank.com/challenges/np-mean-var-and-std/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/11_meanvarandstd.py,0.0,1.0
+12,Dot and Cross,20,Easy,98.67%,https://www.hackerrank.com/challenges/np-dot-and-cross,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/12_dotandcross.py,0.0,1.0
+13,Inner and Outer,20,Easy,98.44%,https://www.hackerrank.com/challenges/np-inner-and-outer/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/13_innerandouter.py,0.0,1.0
+14,Polynomials,20,Easy,98.95%,https://www.hackerrank.com/challenges/np-polynomials,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/14_polynomials.py,0.0,1.0
+15,Linear Algebra,20,Easy,93.43%,https://www.hackerrank.com/challenges/np-linear-algebra,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/15_linearalgebra.py,0.0,1.0
