@@ -1,1 +1,0 @@
-Solution to [Write a function](https://www.hackerrank.com/challenges/write-a-function)

@@ -17,7 +17,6 @@ Main script to:
 import os
 from pathlib import Path
 
-
 import aux_funcs
 import constants
 from domains import problem_domains
@@ -27,11 +26,6 @@ from scrape_info.html_parser import InfoParser
 from scrape_info.saved_info import SavedInfo
 from scrape_info.webpage_info import WebPageInfo
 
-# TODO
-"""
-- Create SEPARATE script to randomly select problem & update CSV with input if problem is done.
-    - BAT script.
-"""
 
 ##########
 # Main
@@ -53,7 +47,7 @@ def scrape_info():
     logging.info(f"Directory - Home: {home_dir}")
 
     ## Driver
-    WebPageInfo.start_driver()
+    WebPageInfo.start_driver(home_dir)
 
     ## Change to domain directory
     for domain in problem_domains:

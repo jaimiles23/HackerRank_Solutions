@@ -33,7 +33,7 @@ class WebPageInfo():
     
     ##### Driver methods
     @classmethod
-    def start_driver(cls) -> object:
+    def start_driver(cls, home_dir) -> object:
         """Returns Firefox driver object.
 
         NOTE: If running the remote driver, need to create standalone server. 
@@ -46,16 +46,16 @@ class WebPageInfo():
         #     desired_capabilities=DesiredCapabilities.FIREFOX)
         """
         logging.debug("WebPageInfo: Opening Driver.")
-        cls.driver = WebPageInfo.login_hackerrank(webdriver.Firefox())
+        cls.driver = WebPageInfo.login_hackerrank(webdriver.Firefox(), home_dir)
 
     
     @staticmethod
-    def login_hackerrank(driver: object) -> object:
+    def login_hackerrank(driver: object, home_dir) -> object:
         """Returns driver after login to hackerrank.com.
         """
         logging.debug("WebPageInfo - logging into Hackerrrank.")
         driver.get( WebPageInfo.login_url)
-        account_name, account_pw = WebPageInfo.read_account_info()
+        account_name, account_pw = WebPageInfo.read_account_info(home_dir)
         
         driver.find_element_by_id('input-1').send_keys(account_name)    ## Username
         driver.find_element_by_id('input-2').send_keys(account_pw)      ## Password
@@ -66,14 +66,15 @@ class WebPageInfo():
     
 
     @staticmethod
-    def read_account_info() -> Tuple[str, str]:
+    def read_account_info(home_dir) -> Tuple[str, str]:
         """Returns Tuple representing email & account password.
 
         Returns:
             Tuple[str, str]: Email & password
         """
         logging.debug("WebPageInfo - reading account information.")
-        with open(WebPageInfo.filename_accountinfo) as infile:
+        filename = home_dir / 'automation'/ WebPageInfo.filename_accountinfo
+        with open(filename) as infile:
             return infile.readlines()
 
 

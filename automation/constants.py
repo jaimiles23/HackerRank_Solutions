@@ -10,6 +10,18 @@ number_dirs = (
 )
 
 ##########
+# INPUT 
+##########
+INPUT_REVIEW = 'r'
+
+INPUT_CHALL_DOMAIN = {
+    'py'    :   'python',
+    'sql'   :   'sql',
+    'stats' :   'statistics',
+    'db'    :   'databases'
+}
+
+##########
 # CSV
 ##########
 
@@ -40,16 +52,11 @@ SEL_CHALLENGE_CLASSNAME = 'challengecard-title'
 
 
 ##########
-# INPUT 
-##########
-INPUT_REVIEW = 'r'
-
-
-##########
 # GitHub 
 ##########
-GH_REPO_NAME = "HR-TEST"
-GH_SOL_URL = f"https://github.com/jaimiles23/{GH_REPO_NAME}" + "/blob/master/{}/{}/{}"
+GH_USERNAME = 'jaimiles23'
+GH_REPO_NAME = "HackerRank_Solutions"
+GH_SOL_URL = f"https://github.com/{GH_USERNAME}/{GH_REPO_NAME}" + "/blob/master/{}/{}/{}"
 
 
 ##########

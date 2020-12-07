@@ -12,6 +12,7 @@ import sys
 from typing import List
 
 import constants
+import aux_funcs
 
 
 ##########
@@ -25,9 +26,9 @@ def get_input() -> List[str,]:
         List[str,]: List of strings representing input.
     """
     args = sys.argv[1:]
+    logging.debug(f"SYS ARGS: {sys.argv[1:]}")
     for i in range(len(args)):
-        args[i] = constants.INPUT_CHALL_DOMAIN.get(i, args[i])
-    
+        args[i] = constants.INPUT_CHALL_DOMAIN.get(args[i], args[i])
     return args
 
 ##########
@@ -39,16 +40,19 @@ def clean_dirs(user_args: list, domain_dirs: list):
 
     deleted_dirs = 0
     for i in range(len(domain_dirs)):
-        domain = str(domain_dirs[i - deleted_dirs].resolve())
-        domain = domain[domain.rfind('\\') + 1:]
-        print(domain)
-        
-        if domain not in user_args:
+        domain = domain_dirs[i - deleted_dirs]
+        dirname = aux_funcs.get_dirname(domain)
+
+        logging.debug(f"CHECK DIR -  {dirname}")
+        flag_domain_in_args = (dirname in user_args)
+
+        if not flag_domain_in_args:
+            logging.debug(f"DEL DIR - {dirname} not in user_args {user_args}")
             del domain_dirs[i - deleted_dirs]
             deleted_dirs += 1
     
     if not len(domain_dirs):
-        raise Exception("No directories reamining!")
+        raise Exception("No directories remain!")
     return domain_dirs
 
 

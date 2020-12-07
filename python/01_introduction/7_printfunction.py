@@ -1,1 +1,0 @@
-Solution to [Print Function](https://www.hackerrank.com/challenges/python-print)

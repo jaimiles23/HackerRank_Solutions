@@ -58,9 +58,12 @@ def solve_challenge(df: 'dataframe', index: int) -> bool:
 
     ## Solution file
     solution_url = url = chall_info[CHALLENGE_INFO_CSV_HEADERS[-3]]
-    sol_filename = solution_url[ solution_url.rfind('/') + 1:]
+    print(solution_url)
+    sol_filename = solution_url[ solution_url.rfind('/') + 1:].encode('unicode-escape').decode()
+    print(sol_filename)
     logging.info(f"sol filename {sol_filename}")
     os.system(sol_filename)
+
 
     ## Open url
     url = chall_info.loc[CHALLENGE_INFO_CSV_HEADERS[-4]]
