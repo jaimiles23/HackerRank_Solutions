@@ -1,7 +1,7 @@
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6OxRFdDwjpPp8M88E5qbu5Bt7iP9ZVmCCpQ&usqp=CAU)
 
 # HackerRank
-[HackerRank](hackerrank.com) hosts programming challenges for developers to learn, practice, and refine their programming skills. This repository contains my solutions to HackerRank challenges.
+[HackerRank](hackerrank.com) hosts challenges to learn, practice, and refine your programming skills. This repository contains my solutions to HackerRank challenges.
 
 
  ## Table of Contents
@@ -200,7 +200,7 @@ Number   |   Challenge                                                          
 
 
 # Databases
-Contains solutions to [databases](https://www.hackerrank.com/domains/databases).
+Contains solutions to HackerRank's [databases](https://www.hackerrank.com/domains/databases) challenges.
 
 <br/>
 
@@ -215,6 +215,7 @@ Number   |   Challenge                                                          
 2        |   [Basics of Sets and Relations #2](https://www.hackerrank.com/challenges/basics-of-sets-and-relational-algebra-2)           |   5       |   :star:       |   97.48%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/1_relational_algebra/02_basicsofsetsandrelations2.md)
 3        |   [Basics of Sets and Relations #3](https://www.hackerrank.com/challenges/basics-of-sets-and-relational-algebra-3/problem)   |   5       |   :star:       |   97.40%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/1_relational_algebra/03_basicsofsetsandrelations3.md)
 4        |   [Basics of Sets and Relations #4](https://www.hackerrank.com/challenges/basics-of-sets-and-relational-algebra-4/problem)   |   5       |   :star:       |   96.91%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/1_relational_algebra/04_basicsofsetsandrelations4.md)
+5        |   [Basics of Sets and Relations #5](https://www.hackerrank.com/challenges/basics-of-sets-and-relational-algebra-5/problem)   |   5       |   :star:       |   97.79%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/1_relational_algebra/05_basicsofsetsandrelations5.md)
 
 
 

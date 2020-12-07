@@ -1,5 +1,5 @@
 
 # Databases
-Contains solutions to [databases](https://www.hackerrank.com/domains/databases).
+Contains solutions to HackerRank's [databases](https://www.hackerrank.com/domains/databases) challenges.
 
 <br/>
