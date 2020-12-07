@@ -5,6 +5,7 @@ account_info.txt
 *.p
 pickle
 logs.txt
+logger_*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
