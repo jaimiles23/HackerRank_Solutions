@@ -1,0 +1,1 @@
+Solution to [Inner and Outer](https://www.hackerrank.com/challenges/np-inner-and-outer/problem)

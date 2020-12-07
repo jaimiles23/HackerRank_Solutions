@@ -1,0 +1,1 @@
+Solution to [Linear Algebra](https://www.hackerrank.com/challenges/np-linear-algebra)

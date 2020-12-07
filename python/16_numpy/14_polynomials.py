@@ -1,0 +1,1 @@
+Solution to [Polynomials](https://www.hackerrank.com/challenges/np-polynomials)

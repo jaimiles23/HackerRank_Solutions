@@ -1,0 +1,1 @@
+Solution to [Words Score](https://www.hackerrank.com/challenges/words-score)

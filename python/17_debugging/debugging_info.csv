@@ -1,0 +1,3 @@
+num,name,score,difficulty,rate,url,solution_url,completed,TODO
+1,Words Score,10,Medium,95.17%,https://www.hackerrank.com/challenges/words-score,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/17_debugging/1_wordsscore.py,0.0,1.0
+2,Default Arguments,30,Medium,79.02%,https://www.hackerrank.com/challenges/default-arguments/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/17_debugging/2_defaultarguments.py,0.0,1.0

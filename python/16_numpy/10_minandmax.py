@@ -1,0 +1,1 @@
+Solution to [Min and Max](https://www.hackerrank.com/challenges/angry-children)
