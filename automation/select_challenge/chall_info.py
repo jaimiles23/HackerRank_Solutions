@@ -58,16 +58,17 @@ def solve_challenge(df: 'dataframe', index: int) -> bool:
 
     ## Solution file
     solution_url = url = chall_info[CHALLENGE_INFO_CSV_HEADERS[-3]]
-    print(solution_url)
-    sol_filename = solution_url[ solution_url.rfind('/') + 1:].encode('unicode-escape').decode()
-    print(sol_filename)
+    sol_filename = solution_url[ solution_url.rfind('/') + 1:]
     logging.info(f"sol filename {sol_filename}")
+    print(f"File: {sol_filename}")
     os.system(sol_filename)
 
-
     ## Open url
+    print(chall_info)
     url = chall_info.loc[CHALLENGE_INFO_CSV_HEADERS[-4]]
+    print(url)
     logging.debug(f"url: {url}")
+    print(f"Webpage: {url}")
     WebPageInfo(url, scrape= False)
 
     return

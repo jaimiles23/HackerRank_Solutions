@@ -1,2 +1,0 @@
-2020-12-06 21:19:55,779 git.cmd      INFO     Ignored error after process had died: OSError(9, 'The handle is invalid', None, 6, None)
-2020-12-06 21:19:55,779 git.cmd      INFO     Ignored error after process had died: OSError(9, 'The handle is invalid', None, 6, None)
