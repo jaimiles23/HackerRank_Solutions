@@ -93,10 +93,11 @@ class WebPageInfo():
     def open_url(self) -> "driver":
         """Opens URL on class driver.
         """
+        time.sleep(0.1)
         self.driver.get(self.url)
-        for _ in range(10):
+        for _ in range(5):
             self.scroll_to_bottom()
-            time.sleep(0.1)
+            time.sleep(0.05)
         return
 
     

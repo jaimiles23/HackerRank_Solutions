@@ -64,9 +64,7 @@ def solve_challenge(df: 'dataframe', index: int) -> bool:
     os.system(sol_filename)
 
     ## Open url
-    print(chall_info)
     url = chall_info.loc[CHALLENGE_INFO_CSV_HEADERS[-4]]
-    print(url)
     logging.debug(f"url: {url}")
     print(f"Webpage: {url}")
     WebPageInfo(url, scrape= False)
