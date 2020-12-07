@@ -67,7 +67,7 @@ def solve_challenge(df: 'dataframe', index: int) -> bool:
     url = chall_info.loc[CHALLENGE_INFO_CSV_HEADERS[-4]]
     logging.debug(f"url: {url}")
     print(f"Webpage: {url}")
-    WebPageInfo(url, scrape= False)
+    # WebPageInfo(url, scrape= False)
 
     return
 
