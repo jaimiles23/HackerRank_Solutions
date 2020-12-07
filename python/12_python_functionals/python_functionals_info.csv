@@ -1,0 +1,4 @@
+num,name,score,difficulty,rate,url,solution_url,completed,TODO
+1,Map and Lambda Function,20,Easy,94.63%,https://www.hackerrank.com/challenges/map-and-lambda-expression,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/12_python_functionals/1_mapandlambdafunction.py,0.0,1.0
+2,Validating Email Addresses With a Filter,20,Medium,88.91%,https://www.hackerrank.com/challenges/validate-list-of-email-address-with-filter/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/12_python_functionals/2_validatingemailaddresseswithafilter.py,0.0,1.0
+3,Reduce Function,30,Medium,98.63%,https://www.hackerrank.com/challenges/reduce-function,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/12_python_functionals/3_reducefunction.py,0.0,1.0

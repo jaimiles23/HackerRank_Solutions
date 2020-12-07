@@ -1,0 +1,1 @@
+Solution to [Array Mathematics](https://www.hackerrank.com/challenges/np-array-mathematics)

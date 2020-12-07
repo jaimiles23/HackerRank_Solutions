@@ -1,0 +1,1 @@
+Solution to [Matrix Script](https://www.hackerrank.com/challenges/matrix-script/problem)

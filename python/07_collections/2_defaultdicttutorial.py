@@ -1,0 +1,1 @@
+Solution to [DefaultDict Tutorial](https://www.hackerrank.com/challenges/defaultdict-tutorial)

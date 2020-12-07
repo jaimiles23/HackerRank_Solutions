@@ -1,0 +1,1 @@
+Solution to [Validating UID](https://www.hackerrank.com/challenges/validating-uid/problem)

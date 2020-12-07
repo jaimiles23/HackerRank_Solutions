@@ -1,0 +1,1 @@
+Solution to [Check Strict Superset](https://www.hackerrank.com/challenges/py-check-strict-superset)

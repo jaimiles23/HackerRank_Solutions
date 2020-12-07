@@ -1,0 +1,8 @@
+num,name,score,difficulty,rate,url,solution_url,completed,TODO
+1,itertools.product(),10,Easy,98.28%,https://www.hackerrank.com/challenges/itertools-product,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/06_itertools/1_itertools.product().py,0.0,1.0
+2,itertools.permutations(),10,Easy,98.21%,https://www.hackerrank.com/challenges/itertools-permutations/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/06_itertools/2_itertools.permutations().py,0.0,1.0
+3,itertools.combinations(),10,Easy,97.16%,https://www.hackerrank.com/challenges/itertools-combinations,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/06_itertools/3_itertools.combinations().py,0.0,1.0
+4,itertools.combinations_with_replacement(),10,Easy,98.85%,https://www.hackerrank.com/challenges/itertools-combinations-with-replacement,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/06_itertools/4_itertools.combinations_with_replacement().py,0.0,1.0
+5,Compress the String!,20,Medium,97.15%,https://www.hackerrank.com/challenges/compress-the-string,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/06_itertools/5_compressthestring!.py,0.0,1.0
+6,Iterables and Iterators,40,Medium,96.22%,https://www.hackerrank.com/challenges/iterables-and-iterators,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/06_itertools/6_iterablesanditerators.py,0.0,1.0
+7,Maximize It!,50,,78.91%,https://www.hackerrank.com/challenges/maximize-it,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/06_itertools/7_maximizeit!.py,0.0,1.0

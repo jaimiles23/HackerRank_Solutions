@@ -1,0 +1,1 @@
+Solution to [OLAP Cube Metadata](https://www.hackerrank.com/challenges/olap-cube-metadata/problem)

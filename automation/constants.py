@@ -1,11 +1,62 @@
 """
-Contains constants for Solution automation
+Contains constants for Solution automation 
 """
+##########
+# IRREGULAR filenames
+##########
+
+number_dirs = (
+    "10_days"
+)
 
 ##########
-# Tables
+# CSV
 ##########
-TBL_COLNAMES = (
+
+CSV_FILE_NOMENCLATURE = "{}_info.csv"
+
+CHALLENGE_INFO_CSV_HEADERS = (
+    'num',
+    'name',
+    'score',
+    'difficulty',
+    'rate',
+    'url',
+    'solution_url',
+    'completed',            # Binary. if yes, write to MD.
+    'TODO',                 # Binary. if to be solved.
+)
+
+##########
+# Hackerrank 
+##########
+
+HR_LOGIN_URL = 'https://www.hackerrank.com/auth/login'
+HR_ACCOUNT_INFO_FILENAME = 'account_info.txt'
+
+SEL_LOGIN_BUTTON_XML = "/html/body[@id='hr_v2']/div[@id='content']/div[@class='ui-kit-root']/div[@class='body-wrap community-page auth-page login-page show-cookie-banner']/div[@class='theme-m new-design']/div[@class='community-content']/div[@class='auth-container container theme-m']/div[@class='auth-content-wrap']/div[@class='auth-box-container']/div[@class='auth-box']/div[@class='ui-tabs-wrap auth-content']/div[@id='tab-1-content-1']/div[@class='login-form auth-form theme-m']/form[@class='form']/div[@class='form-item clearfix']/button[@class='ui-btn ui-btn-large ui-btn-primary auth-button ui-btn-styled']"
+SEL_LOCATE_BY = "class"
+SEL_CHALLENGE_CLASSNAME = 'challengecard-title'
+
+
+##########
+# INPUT 
+##########
+INPUT_REVIEW = 'r'
+
+
+##########
+# GitHub 
+##########
+GH_REPO_NAME = "HR-TEST"
+GH_SOL_URL = f"https://github.com/jaimiles23/{GH_REPO_NAME}" + "/blob/master/{}/{}/{}"
+
+
+##########
+# Readme 
+##########
+
+CHALL_TBL_COLNAMES = (
     'Number', 
     'Challenge', 
     'Score', 
@@ -14,15 +65,11 @@ TBL_COLNAMES = (
     'Solution',
 )
 
-
-##########
-# Table of Contents
-##########
 TOC_HEADER = "#hackerrank"
 
-## HTML identifiers
-PROBLEM_CLASS = 'challengecard-title' # class
-# PROBLEM_TAG = 'h4'                # tag
+PRE_README_FILENAME = "pre_README.md"
+README_FILENAME = "README.md"
+README_CONTENTS_FILENAME = "temp-readme.md"
+TOC_FILENAME = "toc_readme.md"
 
-## location method
-LOCATE_BY = "class"
+LINE_BREAK = "\n<br/>\n"

@@ -1,0 +1,1 @@
+Solution to [Arrays](https://www.hackerrank.com/domains/data-structures/arrays)

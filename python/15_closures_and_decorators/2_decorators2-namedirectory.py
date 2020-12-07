@@ -1,0 +1,1 @@
+Solution to [Decorators 2 - Name Directory](https://www.hackerrank.com/challenges/decorators-2-name-directory)

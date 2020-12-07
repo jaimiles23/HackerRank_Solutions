@@ -1,0 +1,1 @@
+Solution to [Relations - 2](https://www.hackerrank.com/challenges/relations-2/problem)

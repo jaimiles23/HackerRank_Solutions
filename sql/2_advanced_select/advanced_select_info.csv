@@ -1,0 +1,6 @@
+num,name,score,difficulty,rate,url,solution_url,completed,TODO
+1,Type of Triangle,20,Easy,95.81%,https://www.hackerrank.com/challenges/what-type-of-triangle,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/2_advanced_select/1_typeoftriangle.sql,1,1
+2,The PADS,30,Medium,93.19%,https://www.hackerrank.com/challenges/the-pads,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/2_advanced_select/2_thepads.sql,1,1
+3,Occupations,30,Medium,91.07%,https://www.hackerrank.com/challenges/occupations/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/2_advanced_select/3_occupations.sql,0,1
+4,Binary Tree Nodes,30,Medium,97.87%,https://www.hackerrank.com/challenges/binary-search-tree-1/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/2_advanced_select/4_binarytreenodes.sql,0,1
+5,New Companies,30,Medium,96.18%,https://www.hackerrank.com/challenges/the-company,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/2_advanced_select/5_newcompanies.sql,0,1

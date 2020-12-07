@@ -1,0 +1,1 @@
+Solution to [Input()](https://www.hackerrank.com/challenges/input)

@@ -1,0 +1,1 @@
+Solution to [Databases - Differences](https://www.hackerrank.com/challenges/databases-differences)

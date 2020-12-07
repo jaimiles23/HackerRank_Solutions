@@ -1,0 +1,1 @@
+Solution to [OLAP Operations - 1](https://www.hackerrank.com/challenges/olap-operations-1)

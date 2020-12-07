@@ -1,0 +1,1 @@
+Solution to [Database Query Languages](https://www.hackerrank.com/challenges/database-query-languages)

@@ -1,0 +1,1 @@
+Solution to [Databases - Natural Joins](https://www.hackerrank.com/challenges/databases-natural-joins/problem)

@@ -1,0 +1,5 @@
+num,name,score,difficulty,rate,url,solution_url,completed,TODO
+1,Databases - Relational Calculus,5,Medium,84.56%,https://www.hackerrank.com/challenges/databases-relational-calculus,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/4_set_and_algebra/1_databases-relationalcalculus.md,0.0,1.0
+2,Databases - Keys,5,Medium,97.91%,https://www.hackerrank.com/challenges/databases-keys,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/4_set_and_algebra/2_databases-keys.md,0.0,1.0
+3,Databases - Natural Joins,5,Medium,95.39%,https://www.hackerrank.com/challenges/databases-natural-joins/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/4_set_and_algebra/3_databases-naturaljoins.md,0.0,1.0
+4,Databases - Differences,5,Medium,96.96%,https://www.hackerrank.com/challenges/databases-differences,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/4_set_and_algebra/4_databases-differences.md,0.0,1.0

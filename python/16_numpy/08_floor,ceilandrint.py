@@ -1,0 +1,1 @@
+Solution to [Floor, Ceil and Rint](https://www.hackerrank.com/challenges/floor-ceil-and-rint)

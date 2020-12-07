@@ -1,0 +1,1 @@
+Solution to [Sum and Prod](https://www.hackerrank.com/challenges/np-sum-and-prod/problem)

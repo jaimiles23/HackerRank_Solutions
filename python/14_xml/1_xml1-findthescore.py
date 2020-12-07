@@ -1,0 +1,1 @@
+Solution to [XML 1 - Find the Score](https://www.hackerrank.com/challenges/xml-1-find-the-score)

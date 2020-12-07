@@ -1,0 +1,3 @@
+num,name,score,difficulty,rate,url,solution_url,completed,TODO
+1,Calendar Module,10,Easy,96.85%,https://www.hackerrank.com/challenges/calendar-module,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/08_date_and_time/1_calendarmodule.py,0.0,1.0
+2,Time Delta,30,Medium,90.25%,https://www.hackerrank.com/challenges/python-time-delta,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/08_date_and_time/2_timedelta.py,0.0,1.0

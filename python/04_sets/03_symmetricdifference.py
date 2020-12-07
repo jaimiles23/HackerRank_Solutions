@@ -1,0 +1,1 @@
+Solution to [Symmetric Difference](https://www.hackerrank.com/challenges/symmetric-difference)

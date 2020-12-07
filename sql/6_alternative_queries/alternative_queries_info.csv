@@ -1,0 +1,4 @@
+num,name,score,difficulty,rate,url,solution_url,completed,TODO
+1,Draw The Triangle 1,25,Easy,96.54%,https://www.hackerrank.com/challenges/draw-the-triangle-1,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/6_alternative_queries/1_drawthetriangle1.sql,0.0,1.0
+2,Draw The Triangle 2,25,Easy,98.36%,https://www.hackerrank.com/challenges/draw-the-triangle-2,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/6_alternative_queries/2_drawthetriangle2.sql,0.0,1.0
+3,Print Prime Numbers,40,Medium,95.48%,https://www.hackerrank.com/challenges/print-prime-numbers/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/6_alternative_queries/3_printprimenumbers.sql,0.0,1.0

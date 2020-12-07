@@ -1,2 +1,5 @@
 selenium
 pandas>=1.0.0
+google
+pywrangle>=0.3.2
+gitpython

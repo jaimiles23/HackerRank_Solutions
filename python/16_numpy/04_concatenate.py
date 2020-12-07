@@ -1,0 +1,1 @@
+Solution to [Concatenate](https://www.hackerrank.com/challenges/np-concatenate)

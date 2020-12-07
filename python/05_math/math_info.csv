@@ -1,0 +1,7 @@
+num,name,score,difficulty,rate,url,solution_url,completed,TODO
+1,Polar Coordinates,10,Easy,95.41%,https://www.hackerrank.com/challenges/polar-coordinates/leaderboard,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/05_math/1_polarcoordinates.py,0.0,1.0
+2,Find Angle MBC,10,Medium,87.77%,https://www.hackerrank.com/challenges/find-angle,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/05_math/2_findanglembc.py,0.0,1.0
+3,Triangle Quest 2,20,Medium,95.61%,https://www.hackerrank.com/challenges/triangle-quest-2,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/05_math/3_trianglequest2.py,0.0,1.0
+4,Mod Divmod,10,Easy,99.02%,https://www.hackerrank.com/challenges/python-mod-divmod,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/05_math/4_moddivmod.py,0.0,1.0
+5,Power - Mod Power,10,Easy,99.37%,https://www.hackerrank.com/challenges/python-power-mod-power/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/05_math/5_power-modpower.py,0.0,1.0
+6,Integers Come In All Sizes,10,Easy,99.45%,https://www.hackerrank.com/challenges/python-integers-come-in-all-sizes/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/05_math/6_integerscomeinallsizes.py,0.0,1.0

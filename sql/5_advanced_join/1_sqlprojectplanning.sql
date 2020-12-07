@@ -1,0 +1,1 @@
+Solution to [SQL Project Planning](https://www.hackerrank.com/challenges/sql-projects/problem)

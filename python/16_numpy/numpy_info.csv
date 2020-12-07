@@ -1,0 +1,10 @@
+num,name,score,difficulty,rate,url,solution_url,completed,TODO
+01,Arrays,20,Easy,96.79%,https://www.hackerrank.com/domains/data-structures/arrays,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/01_arrays.py,0.0,1.0
+02,Shape and Reshape,20,Easy,95.71%,https://www.hackerrank.com/challenges/np-shape-reshape/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/02_shapeandreshape.py,0.0,1.0
+03,Transpose and Flatten,20,Easy,96.94%,https://www.hackerrank.com/challenges/np-transpose-and-flatten,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/03_transposeandflatten.py,0.0,1.0
+04,Concatenate,20,Easy,98.93%,https://www.hackerrank.com/challenges/np-concatenate,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/04_concatenate.py,0.0,1.0
+05,Zeros and Ones,20,Easy,94.48%,https://www.hackerrank.com/challenges/np-zeros-and-ones/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/05_zerosandones.py,0.0,1.0
+06,Eye and Identity,20,Easy,92.81%,https://www.hackerrank.com/challenges/np-eye-and-identity,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/06_eyeandidentity.py,0.0,1.0
+07,Array Mathematics,20,Easy,94.61%,https://www.hackerrank.com/challenges/np-array-mathematics,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/07_arraymathematics.py,0.0,1.0
+08,"Floor, Ceil and Rint",20,Easy,95.61%,https://www.hackerrank.com/challenges/floor-ceil-and-rint,"https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/08_floor,ceilandrint.py",0.0,1.0
+09,Sum and Prod,20,Easy,98.24%,https://www.hackerrank.com/challenges/np-sum-and-prod/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/16_numpy/09_sumandprod.py,0.0,1.0

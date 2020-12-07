@@ -1,0 +1,1 @@
+Solution to [Placements](https://www.hackerrank.com/challenges/placements/problem)

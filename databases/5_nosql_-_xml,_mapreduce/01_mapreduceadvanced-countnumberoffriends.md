@@ -1,0 +1,1 @@
+Solution to [Map Reduce Advanced - Count number of friends](https://www.hackerrank.com/challenges/map-reduce-advanced-count-number-of-friends)

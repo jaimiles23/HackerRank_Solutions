@@ -1,0 +1,1 @@
+Solution to [Indexes - 2](https://www.hackerrank.com/challenges/indexes-2)

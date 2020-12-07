@@ -1,0 +1,1 @@
+Solution to [The Total View](https://www.hackerrank.com/challenges/the-total-view)

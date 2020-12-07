@@ -1,0 +1,1 @@
+Solution to [The Captain's Room](https://www.hackerrank.com/challenges/py-the-captains-room)

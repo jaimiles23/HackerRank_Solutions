@@ -1,0 +1,1 @@
+@C:\Users\Jai\Documents\github\hackerrank_test\automation\venv\Scripts\python.exe C:\Users\Jai\Documents\github\hackerrank_test\automation\_start_challenge.py & pause

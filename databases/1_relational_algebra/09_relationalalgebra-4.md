@@ -1,0 +1,1 @@
+Solution to [Relational Algebra - 4](https://www.hackerrank.com/challenges/relational-algebra-4)

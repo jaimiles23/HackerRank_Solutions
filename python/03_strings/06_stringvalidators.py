@@ -1,0 +1,1 @@
+Solution to [String Validators](https://www.hackerrank.com/challenges/string-validators)

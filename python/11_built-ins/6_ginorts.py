@@ -1,0 +1,1 @@
+Solution to [ginortS](https://www.hackerrank.com/challenges/ginorts)

@@ -1,0 +1,1 @@
+Solution to [Querying XML Datastores with XPath - 7](https://www.hackerrank.com/challenges/querying-xml-datastores-with-xpath-7)

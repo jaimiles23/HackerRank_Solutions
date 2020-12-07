@@ -1,0 +1,1 @@
+Solution to [OLAP Operation Types](https://www.hackerrank.com/challenges/olap-operation-types-2/problem)

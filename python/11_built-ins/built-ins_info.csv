@@ -1,0 +1,7 @@
+num,name,score,difficulty,rate,url,solution_url,completed,TODO
+1,Zipped!,10,Easy,97.84%,https://www.hackerrank.com/challenges/zipped,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/11_built-ins/1_zipped!.py,0.0,1.0
+2,Input(),20,Easy,94.66%,https://www.hackerrank.com/challenges/input,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/11_built-ins/2_input().py,0.0,1.0
+3,Python Evaluation,20,Easy,97.16%,https://www.hackerrank.com/challenges/python-eval,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/11_built-ins/3_pythonevaluation.py,0.0,1.0
+4,Athlete Sort,30,Medium,95.27%,https://www.hackerrank.com/challenges/python-sort-sort,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/11_built-ins/4_athletesort.py,0.0,1.0
+5,Any or All,20,Easy,93.77%,https://www.hackerrank.com/challenges/any-or-all,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/11_built-ins/5_anyorall.py,0.0,1.0
+6,ginortS,40,Medium,97.10%,https://www.hackerrank.com/challenges/ginorts,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/11_built-ins/6_ginorts.py,0.0,1.0

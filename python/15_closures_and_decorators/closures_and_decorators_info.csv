@@ -1,0 +1,3 @@
+num,name,score,difficulty,rate,url,solution_url,completed,TODO
+1,Standardize Mobile Number Using Decorators,30,Easy,97.80%,https://www.hackerrank.com/challenges/standardize-mobile-number-using-decorators,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/15_closures_and_decorators/1_standardizemobilenumberusingdecorators.py,0.0,1.0
+2,Decorators 2 - Name Directory,30,Easy,89.80%,https://www.hackerrank.com/challenges/decorators-2-name-directory,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/15_closures_and_decorators/2_decorators2-namedirectory.py,0.0,1.0

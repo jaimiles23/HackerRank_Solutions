@@ -1,0 +1,9 @@
+num,name,score,difficulty,rate,url,solution_url,completed,TODO
+1,collections.Counter(),10,Easy,98.31%,https://www.hackerrank.com/challenges/collections-counter/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/07_collections/1_collections.counter().py,0.0,1.0
+2,DefaultDict Tutorial,20,Easy,91.54%,https://www.hackerrank.com/challenges/defaultdict-tutorial,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/07_collections/2_defaultdicttutorial.py,0.0,1.0
+3,Collections.namedtuple(),20,Easy,98.22%,https://www.hackerrank.com/challenges/py-collections-namedtuple,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/07_collections/3_collections.namedtuple().py,0.0,1.0
+4,Collections.OrderedDict(),20,Easy,98.63%,https://www.hackerrank.com/challenges/py-collections-ordereddict,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/07_collections/4_collections.ordereddict().py,0.0,1.0
+5,Word Order,50,Medium,87.81%,https://www.hackerrank.com/challenges/word-order,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/07_collections/5_wordorder.py,0.0,1.0
+6,Collections.deque(),20,Easy,98.23%,https://www.hackerrank.com/challenges/py-collections-deque,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/07_collections/6_collections.deque().py,0.0,1.0
+7,Company Logo,30,Medium,88.75%,https://www.hackerrank.com/challenges/most-commons,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/07_collections/7_companylogo.py,0.0,1.0
+8,Piling Up!,50,Medium,88.53%,https://www.hackerrank.com/challenges/piling-up,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/07_collections/8_pilingup!.py,0.0,1.0

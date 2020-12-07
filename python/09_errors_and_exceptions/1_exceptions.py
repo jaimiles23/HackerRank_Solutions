@@ -1,0 +1,1 @@
+Solution to [Exceptions](https://www.hackerrank.com/challenges/exceptions)

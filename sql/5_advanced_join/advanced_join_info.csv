@@ -1,0 +1,6 @@
+num,name,score,difficulty,rate,url,solution_url,completed,TODO
+1,SQL Project Planning,40,Medium,93.44%,https://www.hackerrank.com/challenges/sql-projects/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/5_advanced_join/1_sqlprojectplanning.sql,0.0,1.0
+2,Placements,40,Medium,97.87%,https://www.hackerrank.com/challenges/placements/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/5_advanced_join/2_placements.sql,0.0,1.0
+3,Symmetric Pairs,40,Medium,95.21%,https://www.hackerrank.com/challenges/symmetric-pairs/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/5_advanced_join/3_symmetricpairs.sql,0.0,1.0
+4,Interviews,50,Hard,88.04%,https://www.hackerrank.com/challenges/interviews,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/5_advanced_join/4_interviews.sql,0.0,1.0
+5,15 Days of Learning SQL,50,Hard,81.35%,https://www.hackerrank.com/challenges/15-days-of-learning-sql,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/5_advanced_join/5_15daysoflearningsql.sql,0.0,1.0

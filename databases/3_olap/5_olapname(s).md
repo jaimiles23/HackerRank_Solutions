@@ -1,0 +1,1 @@
+Solution to [OLAP Name(s)](https://www.hackerrank.com/challenges/olap-names)

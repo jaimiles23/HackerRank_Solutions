@@ -1,0 +1,1 @@
+Solution to [Zipped!](https://www.hackerrank.com/challenges/zipped)

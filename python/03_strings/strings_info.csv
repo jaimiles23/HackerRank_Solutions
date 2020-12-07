@@ -1,0 +1,15 @@
+num,name,score,difficulty,rate,url,solution_url,completed,TODO
+1,sWAP cASE,10,Easy,98.63%,https://www.hackerrank.com/challenges/swap-case,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/01_swapcase.py,0.0,1.0
+2,String Split and Join,10,Easy,98.88%,https://www.hackerrank.com/challenges/python-string-split-and-join/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/02_stringsplitandjoin.py,0.0,1.0
+3,What's Your Name?,10,Easy,97.87%,https://www.hackerrank.com/challenges/whats-your-name,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/03_whatsyourname.py,0.0,1.0
+4,Mutations,10,Easy,98.54%,https://www.hackerrank.com/challenges/python-mutations,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/04_mutations.py,0.0,1.0
+5,Find a string,10,Easy,93.24%,https://www.hackerrank.com/challenges/find-a-string,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/05_findastring.py,0.0,1.0
+6,String Validators,10,Easy,93.34%,https://www.hackerrank.com/challenges/string-validators,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/06_stringvalidators.py,0.0,1.0
+7,Text Alignment,10,Easy,97.67%,https://www.hackerrank.com/challenges/text-alignment/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/07_textalignment.py,0.0,1.0
+8,Text Wrap,10,Easy,98.74%,https://www.hackerrank.com/challenges/text-wrap,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/08_textwrap.py,0.0,1.0
+9,Designer Door Mat,10,Easy,98.28%,https://www.hackerrank.com/challenges/designer-door-mat,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/09_designerdoormat.py,0.0,1.0
+10,String Formatting,10,Easy,90.21%,https://www.hackerrank.com/challenges/python-string-formatting,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/10_stringformatting.py,0.0,1.0
+11,Alphabet Rangoli,20,Easy,96.74%,https://www.hackerrank.com/challenges/alphabet-rangoli,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/11_alphabetrangoli.py,0.0,1.0
+12,Capitalize!,20,Easy,82.59%,https://www.hackerrank.com/challenges/capitalize/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/12_capitalize!.py,0.0,1.0
+13,The Minion Game,40,Medium,85.06%,https://www.hackerrank.com/challenges/the-minion-game,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/13_theminiongame.py,0.0,1.0
+14,Merge the Tools!,40,Medium,92.11%,https://www.hackerrank.com/challenges/merge-the-tools,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/14_mergethetools!.py,0.0,1.0

@@ -1,0 +1,9 @@
+num,name,score,difficulty,rate,url,solution_url,completed,TODO
+1,Asian Population,10,Easy,98.43%,https://www.hackerrank.com/challenges/asian-population,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/4_basic_join/1_asianpopulation.sql,1,1
+2,African Cities,10,Easy,99.37%,https://www.hackerrank.com/challenges/african-cities,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/4_basic_join/2_africancities.sql,1,1
+3,Average Population of Each Continent,10,Easy,97.94%,https://www.hackerrank.com/challenges/average-population-of-each-continent/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/4_basic_join/3_averagepopulationofeachcontinent.sql,1,1
+4,The Report,20,Medium,96.98%,https://www.hackerrank.com/challenges/the-report/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/4_basic_join/4_thereport.sql,1,1
+5,Top Competitors,30,Medium,96.11%,https://www.hackerrank.com/challenges/full-score,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/4_basic_join/5_topcompetitors.sql,1,1
+6,Ollivander's Inventory,30,Medium,94.08%,https://www.hackerrank.com/challenges/harry-potter-and-wands/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/4_basic_join/6_ollivandersinventory.sql,1,1
+7,Challenges,30,Medium,92.02%,https://www.hackerrank.com/challenges/challenges/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/4_basic_join/7_challenges.sql,1,1
+8,Contest Leaderboard,30,Medium,97.44%,https://www.hackerrank.com/challenges/contest-leaderboard,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/sql/4_basic_join/8_contestleaderboard.sql,1,1

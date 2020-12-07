@@ -1,0 +1,3 @@
+num,name,score,difficulty,rate,url,solution_url,completed,TODO
+1,XML 1 - Find the Score,20,Easy,97.24%,https://www.hackerrank.com/challenges/xml-1-find-the-score,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/14_xml/1_xml1-findthescore.py,0.0,1.0
+2,XML2 - Find the Maximum Depth,20,,96.98%,https://www.hackerrank.com/challenges/xml2-find-the-maximum-depth,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/14_xml/2_xml2-findthemaximumdepth.py,0.0,1.0

@@ -1,0 +1,1 @@
+Solution to [Database Normalization #1 - 1NF](https://www.hackerrank.com/challenges/database-normalization-1-1nf/problem)
