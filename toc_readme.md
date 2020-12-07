@@ -7,3 +7,5 @@
      - [Basic Join](#basic-join) 
  - [Statistics](#statistics) 
      - [10 Days](#10_days) 
+ - [Python](#python) 
+     - [Introduction](#introduction) 

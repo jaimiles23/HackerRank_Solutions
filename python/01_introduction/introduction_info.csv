@@ -1,8 +1,7 @@
 num,name,score,difficulty,rate,url,solution_url,completed,TODO
-1,"Say ""Hello, World!"" With Python",5,Easy,97.62%,https://www.hackerrank.com/challenges/py-hello-world,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/01_introduction/1_sayhelloworldwithpython.py,0.0,1.0
-2,Python If-Else,10,Easy,91.31%,https://www.hackerrank.com/challenges/py-if-else/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/01_introduction/2_pythonif-else.py,0.0,1.0
-3,Arithmetic Operators,10,Easy,98.44%,https://www.hackerrank.com/challenges/python-arithmetic-operators,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/01_introduction/3_arithmeticoperators.py,0.0,1.0
-4,Python: Division,10,Easy,98.87%,https://www.hackerrank.com/challenges/python-division,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/01_introduction/4_pythondivision.py,0.0,1.0
-5,Loops,10,Easy,98.48%,https://www.hackerrank.com/challenges/python-loops,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/01_introduction/5_loops.py,0.0,1.0
-6,Write a function,10,Medium,90.61%,https://www.hackerrank.com/challenges/write-a-function,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/01_introduction/6_writeafunction.py,0.0,1.0
-7,Print Function,20,Easy,96.50%,https://www.hackerrank.com/challenges/python-print,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/01_introduction/7_printfunction.py,0.0,1.0
+2,Python If-Else,10,Easy,91.31%,https://www.hackerrank.com/challenges/py-if-else/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/01_introduction/2_pythonif-else.py,1,1
+3,Arithmetic Operators,10,Easy,98.44%,https://www.hackerrank.com/challenges/python-arithmetic-operators,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/01_introduction/3_arithmeticoperators.py,0,1
+4,Python: Division,10,Easy,98.87%,https://www.hackerrank.com/challenges/python-division,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/01_introduction/4_pythondivision.py,0,1
+5,Loops,10,Easy,98.48%,https://www.hackerrank.com/challenges/python-loops,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/01_introduction/5_loops.py,0,1
+6,Write a function,10,Medium,90.61%,https://www.hackerrank.com/challenges/write-a-function,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/01_introduction/6_writeafunction.py,0,1
+7,Print Function,20,Easy,96.50%,https://www.hackerrank.com/challenges/python-print,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/01_introduction/7_printfunction.py,0,1
