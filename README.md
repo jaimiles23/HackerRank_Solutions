@@ -17,6 +17,7 @@
      - [Indexes](#indexes) 
  - [Python](#python) 
      - [Introduction](#introduction) 
+     - [Basic Data Types](#basic-data-types) 
 
 
 
@@ -274,6 +275,24 @@ Number   |   Challenge                                                          
 5        |   [Loops](https://www.hackerrank.com/challenges/python-loops)                                 |   10      |   :star:         |   98.48%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/01_introduction/5_loops.py)                  
 6        |   [Write a function](https://www.hackerrank.com/challenges/write-a-function)                  |   10      |   :star::star:   |   90.61%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/01_introduction/6_writeafunction.py)         
 7        |   [Print Function](https://www.hackerrank.com/challenges/python-print)                        |   20      |   :star:         |   96.50%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/01_introduction/7_printfunction.py)          
+
+
+
+<b><a href="#hackerrank">:arrow_up: Table of Contents</a></b>
+<br/>
+<br/>
+
+
+
+
+## Basic Data Types
+Contains solutions to [Basic Data Types](https://www.hackerrank.com/domains/python?filters%5Bsubdomains%5D%5B%5D=py-basic-data-types).
+
+<br/>
+
+Number   |   Challenge                                                                          |   Score   |   Difficulty   |   Rate     |   Solution                                                                                                               
+--:      |   --:                                                                                |   --:     |   --:          |   --:      |   --:                                                                                                                    
+1        |   [List Comprehensions](https://www.hackerrank.com/challenges/list-comprehensions)   |   10      |   :star:       |   98.27%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/02_basic_data_types/1_listcomprehensions.py)
 
 
 

@@ -49,7 +49,7 @@ def start_challenge():
         random.shuffle(domain_dirs)
     
     ## Driver
-    WebPageInfo.start_driver(home_dir)
+    # WebPageInfo.start_driver(home_dir)
 
     ## Begin tree recursion
     for domain_dir in domain_dirs:
