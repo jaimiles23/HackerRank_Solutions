@@ -3,7 +3,7 @@
 # HackerRank
 [HackerRank](hackerrank.com) hosts challenges to learn, practice, and refine your programming skills. This repository contains my solutions to HackerRank challenges.
 
-Please note that this README is dynmically updated. I created scripts in the `automation` directory (1) to webscrape challenge information, (2) update the README file, and (3) select a challenge to complete.
+Please note that this README is dynamically updated. I created scripts in the `automation` directory to (1) webscrape challenge information, (2) update this README file, and (3) select challenges to complete.
 
  ## Table of Contents
  - [Sql](#sql) 
@@ -296,6 +296,7 @@ Number   |   Challenge                                                          
 1        |   [List Comprehensions](https://www.hackerrank.com/challenges/list-comprehensions)                                  |   10      |   :star:       |   98.27%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/02_basic_data_types/1_listcomprehensions.py)    
 2        |   [Find the Runner-Up Score!](https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem)   |   10      |   :star:       |   93.80%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/02_basic_data_types/2_findtherunner-upscore!.py)
 3        |   [Nested Lists](https://www.hackerrank.com/challenges/nested-list)                                                 |   10      |   :star:       |   90.65%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/02_basic_data_types/3_nestedlists.py)           
+4        |   [Finding the percentage](https://www.hackerrank.com/challenges/finding-the-percentage)                            |   10      |   :star:       |   97.34%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/02_basic_data_types/4_findingthepercentage.py)  
 
 
 
