@@ -9,6 +9,7 @@ Number   |   Challenge                                                          
 1        |   [Index Architecture Types](https://www.hackerrank.com/challenges/indexes-1)   |   2       |   -                 |   61.20%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/2_indexes/1_indexarchitecturetypes.md)
 2        |   [Indexes - 2](https://www.hackerrank.com/challenges/indexes-2)                |   2       |   Multiple Choice   |   51.46%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/2_indexes/2_indexes-2.md)             
 3        |   [Indexes - 3](https://www.hackerrank.com/challenges/indexes-3/problem)        |   2       |   Multiple Choice   |   50.44%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/2_indexes/3_indexes-3.md)             
+4        |   [Indexes - 4](https://www.hackerrank.com/challenges/indexes-4/problem)        |   2       |   Multiple Choice   |   69.61%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/2_indexes/4_indexes-4.md)             
 
 
 
