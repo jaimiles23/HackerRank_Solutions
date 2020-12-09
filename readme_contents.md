@@ -124,7 +124,7 @@ Number   |   Challenge                                                          
 
 
 # Statistics
-Contains solutions to [10 Days of Statistics.](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics).
+Contains solutions to [10 Days of Statistics](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics).
 
 I implement all solutions in Python 3 without using 3rd party statistical libraries. Solutions in .ipynb format include relevant problem notes, formulas, and examples.
 
@@ -275,6 +275,7 @@ Number   |   Challenge                                                          
 2        |   [Find the Runner-Up Score!](https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem)   |   10      |   :star:       |   93.80%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/02_basic_data_types/2_findtherunner-upscore!.py)
 3        |   [Nested Lists](https://www.hackerrank.com/challenges/nested-list)                                                 |   10      |   :star:       |   90.65%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/02_basic_data_types/3_nestedlists.py)           
 4        |   [Finding the percentage](https://www.hackerrank.com/challenges/finding-the-percentage)                            |   10      |   :star:       |   97.34%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/02_basic_data_types/4_findingthepercentage.py)  
+6        |   [Tuples](https://www.hackerrank.com/challenges/python-tuples)                                                     |   10      |   :star:       |   98.40%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/02_basic_data_types/6_tuples.py)                
 
 
 
