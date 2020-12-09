@@ -13,3 +13,4 @@
  - [Python](#python) 
      - [Introduction](#introduction) 
      - [Basic Data Types](#basic-data-types) 
+     - [Strings](#strings) 

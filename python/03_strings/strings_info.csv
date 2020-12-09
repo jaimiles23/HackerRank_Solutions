@@ -1,5 +1,5 @@
 num,name,score,difficulty,rate,url,solution_url,completed,TODO
-1,sWAP cASE,10,Easy,98.63%,https://www.hackerrank.com/challenges/swap-case,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/01_swapcase.py,0.0,1.0
+1,sWAP cASE,10,Easy,98.63%,https://www.hackerrank.com/challenges/swap-case,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/01_swapcase.py,1.0,1.0
 2,String Split and Join,10,Easy,98.88%,https://www.hackerrank.com/challenges/python-string-split-and-join/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/02_stringsplitandjoin.py,0.0,1.0
 3,What's Your Name?,10,Easy,97.87%,https://www.hackerrank.com/challenges/whats-your-name,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/03_whatsyourname.py,0.0,1.0
 4,Mutations,10,Easy,98.54%,https://www.hackerrank.com/challenges/python-mutations,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/04_mutations.py,0.0,1.0

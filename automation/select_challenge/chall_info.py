@@ -17,7 +17,7 @@ from scrape_info.webpage_info import WebPageInfo
 # Locate Challenge
 ##########
 
-def locate_challenge(df: 'dataframe') -> Tuple[bool, int]:
+def locate_challenge(df: 'dataframe', last_chall_index: int) -> Tuple[bool, int]:
     """Returns boolean indicating if challenge located & index of challenge information
 
     Args:
@@ -30,8 +30,9 @@ def locate_challenge(df: 'dataframe') -> Tuple[bool, int]:
         logging.debug(f"CHECK - Index {index}")
 
         if (
-            row[CHALLENGE_INFO_CSV_HEADERS[-1]] and     ## TODO
-            not row[CHALLENGE_INFO_CSV_HEADERS[-2]]     ## Completed
+            row[CHALLENGE_INFO_CSV_HEADERS[-1]] and         ## TODO
+            not row[CHALLENGE_INFO_CSV_HEADERS[-2]] and     ## Completed
+            index != last_chall_index
         ):
             logging.info(f"FOUND - challenge at {index}")
             return (True, index)

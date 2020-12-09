@@ -88,3 +88,21 @@ def ask_todo() -> bool:
     return False
 
 
+
+##########
+# ask_next_chall
+##########
+def ask_next_chall() -> bool:
+    """Asks the user if they want to complete another challenge
+
+    Returns:
+        bool: If user wants to complete another challenge
+    """
+    answers = ('y', 'n')
+    question = "Complete another challenge? (y/n): "
+    while (a := input(question).lower().strip()) not in answers:
+        continue
+
+    if a == answers[0]:
+        return True
+    return False

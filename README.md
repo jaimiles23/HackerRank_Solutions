@@ -19,6 +19,7 @@ Please note that this README is dynamically updated. I created scripts in the `a
  - [Python](#python) 
      - [Introduction](#introduction) 
      - [Basic Data Types](#basic-data-types) 
+     - [Strings](#strings) 
 
 
 
@@ -298,6 +299,24 @@ Number   |   Challenge                                                          
 3        |   [Nested Lists](https://www.hackerrank.com/challenges/nested-list)                                                 |   10      |   :star:       |   90.65%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/02_basic_data_types/3_nestedlists.py)           
 4        |   [Finding the percentage](https://www.hackerrank.com/challenges/finding-the-percentage)                            |   10      |   :star:       |   97.34%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/02_basic_data_types/4_findingthepercentage.py)  
 6        |   [Tuples](https://www.hackerrank.com/challenges/python-tuples)                                                     |   10      |   :star:       |   98.40%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/02_basic_data_types/6_tuples.py)                
+
+
+
+<b><a href="#hackerrank">:arrow_up: Table of Contents</a></b>
+<br/>
+<br/>
+
+
+
+
+## Strings
+Contains solutions to [Strings](https://www.hackerrank.com/domains/python?filters%5Bsubdomains%5D%5B%5D=py-strings).
+
+<br/>
+
+Number   |   Challenge                                                      |   Score   |   Difficulty   |   Rate     |   Solution                                                                                             
+--:      |   --:                                                            |   --:     |   --:          |   --:      |   --:                                                                                                  
+1        |   [sWAP cASE](https://www.hackerrank.com/challenges/swap-case)   |   10      |   :star:       |   98.63%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/01_swapcase.py)
 
 
 
