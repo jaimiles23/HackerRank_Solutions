@@ -1,6 +1,6 @@
 num,name,score,difficulty,rate,url,solution_url,completed,TODO
 1,List Comprehensions,10,Easy,98.27%,https://www.hackerrank.com/challenges/list-comprehensions,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/02_basic_data_types/1_listcomprehensions.py,1.0,1.0
 2,Find the Runner-Up Score!,10,Easy,93.80%,https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/02_basic_data_types/2_findtherunner-upscore!.py,1.0,1.0
-3,Nested Lists,10,Easy,90.65%,https://www.hackerrank.com/challenges/nested-list,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/02_basic_data_types/3_nestedlists.py,0.0,1.0
+3,Nested Lists,10,Easy,90.65%,https://www.hackerrank.com/challenges/nested-list,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/02_basic_data_types/3_nestedlists.py,1.0,1.0
 4,Finding the percentage,10,Easy,97.34%,https://www.hackerrank.com/challenges/finding-the-percentage,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/02_basic_data_types/4_findingthepercentage.py,0.0,1.0
 6,Tuples,10,Easy,98.40%,https://www.hackerrank.com/challenges/python-tuples,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/02_basic_data_types/6_tuples.py,0.0,1.0

@@ -2,3 +2,5 @@
 
 # HackerRank
 [HackerRank](hackerrank.com) hosts challenges to learn, practice, and refine your programming skills. This repository contains my solutions to HackerRank challenges.
+
+Please note that this README is dynmically updated. I created scripts in the `automation` directory (1) to webscrape challenge information, (2) update the README file, and (3) select a challenge to complete.
