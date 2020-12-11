@@ -80,7 +80,7 @@ def solve_challenge(df: 'dataframe', index: int) -> bool:
 def get_chall_name(df: 'dataframe', index: int) -> str:
     """Returns challenge name."""
     chall_info = df.iloc[index]
-    name = ' '.join([str(index), '-', chall_info.loc[CHALLENGE_INFO_CSV_HEADERS[1]]])
+    name = ' '.join([str(index + 1), '-', chall_info.loc[CHALLENGE_INFO_CSV_HEADERS[1]]])
     logging.debug(f"Chall name {name}")
     return name
     

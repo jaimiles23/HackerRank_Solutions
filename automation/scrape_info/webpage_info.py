@@ -48,7 +48,13 @@ class WebPageInfo():
         logging.debug("WebPageInfo: Opening Driver.")
         cls.driver = WebPageInfo.login_hackerrank(webdriver.Firefox(), home_dir)
 
-    
+
+    @classmethod
+    def close(cls):
+        """Closes the webbrowser and allows the program to end."""
+        cls.driver.quit()
+
+
     @staticmethod
     def login_hackerrank(driver: object, home_dir) -> object:
         """Returns driver after login to hackerrank.com.
@@ -76,7 +82,7 @@ class WebPageInfo():
         filename = home_dir / 'automation'/ WebPageInfo.filename_accountinfo
         with open(filename) as infile:
             return infile.readlines()
-
+    
 
     ##### Init
     def __init__(self, url: str, scrape: bool = True):

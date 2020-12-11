@@ -96,11 +96,11 @@ def start_challenge():
                         aux_funcs.update_github(home_dir, commit_msg)
 
                     if not user_inputs.ask_next_chall():
+                        WebPageInfo.close()
                         return
     
     print("Did not locate a challenge.")
     ## TODO: make different message for review & regular
-
 
 
 if __name__ == "__main__":
