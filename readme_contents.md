@@ -6,7 +6,15 @@ Contains solutions to [sql](https://www.hackerrank.com/domains/sql) using MySQL.
 
 NOTE: When using Common Table Expressions (CTE), must use the MS SQL Server Console.
 
+<img
+src = "https://pngimg.com/uploads/mysql/mysql_PNG23.png"
+alt = "SQL logo"
+max-width = 100%
+height = 150>
+
 <br/>
+
+
 
 ## Basic Select
 Contains solutions to [Basic Select](https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=select).
@@ -134,6 +142,12 @@ _NOTE_:
 - TODO:
   - [ ] Change web scraping script to create 2 solution columns for ipynb files: (1) GitHub access, (2) nbviewer access.
 
+<img
+src = "https://i.pinimg.com/originals/39/26/64/3926642698819099dbf16e7062a90674.jpg"
+alt = "statistics logo"
+max-width = 100%
+height = 150>
+
 
 <br/>
 
@@ -182,6 +196,12 @@ Number   |   Challenge                                                          
 
 # Databases
 Contains solutions to HackerRank's [databases](https://www.hackerrank.com/domains/databases) challenges.
+
+<img 
+src = "https://www.clipartkey.com/mpngs/m/32-325537_cloud-database.png"
+alt = "database logo"
+max-width = 100%
+height = 150>
 
 <br/>
 
@@ -258,6 +278,13 @@ Number   |   Challenge                                                          
 
 # Python
 Contains solutions to HackerRank's [python](https://www.hackerrank.com/domains/python) challenges using Python3.
+
+<img 
+src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png" 
+alt = "python logo" 
+width = 100
+height = 100>
+
 
 <br/>
 
