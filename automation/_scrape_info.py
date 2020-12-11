@@ -55,7 +55,7 @@ def scrape_info():
         aux_funcs.change_dir(domain_dir)
 
         ## Make readme
-        file_funcs.make_readme_setup(domain.name, domain.total_url, heading = 1)
+        file_funcs.make_readme_setup(domain.total_url, domain.name, heading = 1)
 
         ## For each subdomain in Domain
         subdomain_num = 0
@@ -67,7 +67,7 @@ def scrape_info():
             aux_funcs.change_dir(subdir)
 
             ## Make pre-readme file
-            file_funcs.make_readme_setup(subdomain, url, heading = 2)
+            file_funcs.make_readme_setup(url, domain.name, subdomain, heading=2)
 
             ## Load Challenge information
             saved_info = SavedInfo(subdomain)

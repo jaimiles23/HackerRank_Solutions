@@ -14,17 +14,27 @@ import constants
 ##########
 # Make Readme
 ##########
-def make_readme_setup(name: str, url: str, heading: int):
+def make_readme_setup(url: str,  domain: str, subdomain: str = None, heading: int = 1):
     """Creates pre-readme in file."""
     filename = constants.PRE_README_FILENAME
-    if not os.path.exists( filename):
-        with open(filename, 'w') as outfile:
-            outfile.write('\n' * 1)
-            outfile.write(f"{'#' * heading} {name.title()}")
-            outfile.write('\n' * 1)
-            outfile.write(f"Contains solutions to HackerRank's [{name}]({url}) challenges.")
-            outfile.write('\n' * 2)
-            outfile.write('<br/>')
+    if os.path.exists( filename):
+        print('return')
+        return
+
+    section_title = subdomain if subdomain else domain
+    if subdomain:
+        msg = f"Contains solutions to HackerRank's {domain} [{subdomain}]({url}) challenges."
+    else:
+        msg = f"Contains solutions to HackerRank's [{domain}]({url}) challenges."
+
+    logging.debug(f"DIR - {section_title} Creating pre-readme.")
+    with open(filename, 'w') as outfile:
+        outfile.write('\n' * 1)
+        outfile.write(f"{'#' * heading} {section_title.title()}")
+        outfile.write('\n' * 1)
+        outfile.write(msg)
+        outfile.write('\n' * 2)
+        outfile.write('<br/>')
     return
 
 
