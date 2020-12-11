@@ -14,7 +14,7 @@ _NOTE_:
 src = "https://i.pinimg.com/originals/39/26/64/3926642698819099dbf16e7062a90674.jpg"
 alt = "statistics logo"
 max-width = 100%
-height = 150>
+height = 250>
 
 
 <br/>
