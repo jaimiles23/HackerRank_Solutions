@@ -55,9 +55,10 @@ Contains solutions to [Strings](https://www.hackerrank.com/domains/python?filter
 
 <br/>
 
-Number   |   Challenge                                                      |   Score   |   Difficulty   |   Rate     |   Solution                                                                                             
---:      |   --:                                                            |   --:     |   --:          |   --:      |   --:                                                                                                  
-1        |   [sWAP cASE](https://www.hackerrank.com/challenges/swap-case)   |   10      |   :star:       |   98.63%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/01_swapcase.py)
+Number   |   Challenge                                                                                             |   Score   |   Difficulty   |   Rate     |   Solution                                                                                                       
+--:      |   :--                                                                                                   |   --:     |   :--          |   :--      |   :--                                                                                                            
+1        |   [sWAP cASE](https://www.hackerrank.com/challenges/swap-case)                                          |   10      |   :star:       |   98.63%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/01_swapcase.py)          
+2        |   [String Split and Join](https://www.hackerrank.com/challenges/python-string-split-and-join/problem)   |   10      |   :star:       |   98.88%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/02_stringsplitandjoin.py)
 
 
 

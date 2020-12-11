@@ -60,6 +60,7 @@ def start_challenge():
             random.shuffle(subdomain_dirs)
         
         for sub_dir in subdomain_dirs:
+            print(domain_dir, sub_dir)
             aux_funcs.change_dir(sub_dir)
 
             ## Read CSV
@@ -91,7 +92,7 @@ def start_challenge():
 
                     if solved:
                         _write_to_md.write_to_md()
-                        commit_msg = aux_funcs.get_solution_commit_msg(chall_name)
+                        commit_msg = aux_funcs.get_solution_commit_msg(domain_dir, sub_dir, chall_name)
                         aux_funcs.update_github(home_dir, commit_msg)
 
                     if not user_inputs.ask_next_chall():

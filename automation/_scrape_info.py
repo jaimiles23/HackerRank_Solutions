@@ -110,15 +110,14 @@ def scrape_info():
             ## Domain Dir
             logging.info(f"DIR - {domain_dir}")
             os.chdir(domain_dir)
-            
+        
+        ## Update repo
+        aux_funcs.update_github(home_dir, commit_msg= f"Added challenges for: {domain.name}")
+
         ## Home dir
         logging.info(f"DIR - {home_dir}")
         os.chdir(home_dir)
 
-    ## Update repo
-    aux_funcs.update_github(home_dir, commit_msg="init")
-    
-    
 
 ##########
 # Main

@@ -57,52 +57,39 @@ def clean_dirs(user_args: list, domain_dirs: list):
 
 
 ##########
-# Solved challenge
+# Ask Questions
 ##########
+
+def ask_question(question: str) -> bool:
+    """Asks the user a yes/no question. Returns boolean, 1 & 0 respectively.
+    """
+    answers = ('y', 'n')
+    while (a := input(question).lower().strip()) not in answers:
+        continue
+
+    if a == answers[0]:
+        return True
+    return False
+
 
 def ask_solved_chall() -> bool:
     """Returns boolean if user solved challenge or not."""
-    answers = ('y', 'n')
     question = "Did you solve the challenge? (y/n): "
-    while (a := input(question).lower().strip()) not in answers:
-        continue
+    return ask_question(question)
 
-    if a == answers[0]:
-        return True
-    return False
-
-
-##########
-# Ask TODO
-##########
 
 def ask_todo() -> bool:
     """Asks the user if challenge should stay on TODO list."""
-    answers = ('y', 'n')
     question = "Should the question stay on TODO list? (y/n): "
-    while (a := input(question).lower().strip()) not in answers:
-        continue
-
-    if a == answers[0]:
-        return True
-    return False
+    return ask_question(question)
 
 
-
-##########
-# ask_next_chall
-##########
 def ask_next_chall() -> bool:
     """Asks the user if they want to complete another challenge
 
     Returns:
         bool: If user wants to complete another challenge
     """
-    answers = ('y', 'n')
     question = "Complete another challenge? (y/n): "
-    while (a := input(question).lower().strip()) not in answers:
-        continue
+    return ask_question(question)
 
-    if a == answers[0]:
-        return True
-    return False

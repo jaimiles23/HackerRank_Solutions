@@ -215,7 +215,9 @@ def update_github(home_dir: object, commit_msg: str) -> None:
     logging.debug("Pushed to repo.")
 
 
-def get_solution_commit_msg(chall_name) -> str:
+def get_solution_commit_msg(domain: Path, subdomain: Path, chall_name: str) -> str:
     """Returns commit message for adding solution."""
-    return f"Solution to {chall_name}"
+    domain_name = get_dirname(domain)
+    subdomain_name = get_dirname(subdomain)
+    return f"Solution to {domain_name} {subdomain_name} - {chall_name}"
 

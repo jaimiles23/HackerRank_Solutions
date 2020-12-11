@@ -5,7 +5,7 @@ Contains solutions to HackerRank's [databases](https://www.hackerrank.com/domain
 <br/>
 
 ## Relational Algebra
-Contains solutions to [Relational Algebra](https://www.hackerrank.com/domains/databases?filters%5Bsubdomains%5D%5B%5D=relational-algebra).
+Contains solutions to HackerRank's databases [Relational Algebra](https://www.hackerrank.com/domains/databases?filters%5Bsubdomains%5D%5B%5D=relational-algebra) challenges.
 
 <br/>
 
@@ -56,7 +56,9 @@ Number   |   Challenge                                                          
 
 
 ## Olap
-Contains solutions to [OLAP](https://www.hackerrank.com/domains/databases?filters%5Bsubdomains%5D%5B%5D=olap).
+Contains solutions to HackerRank's [OLAP](https://www.hackerrank.com/domains/databases?filters%5Bsubdomains%5D%5B%5D=olap) challenges.
+
+NOTE: OLAP - [Online Analytical Processing](https://en.wikipedia.org/wiki/Online_analytical_processing)
 
 <br/>
 
