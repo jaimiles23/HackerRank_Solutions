@@ -6,9 +6,9 @@ NOTE: OLAP - [Online Analytical Processing](https://en.wikipedia.org/wiki/Online
 
 <br/>
 
-Number   |   Challenge                                                                            |   Score   |   Difficulty   |   Rate     |   Solution                                                                                                  
---:      |   --:                                                                                  |   --:     |   --:          |   --:      |   --:                                                                                                       
-1        |   [OLAP Performance](https://www.hackerrank.com/challenges/olap-performance/problem)   |   5       |   -            |   74.77%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/3_olap/1_olapperformance.md)
+Number   |   Challenge                                                                                              |   Score   |   Difficulty   |   Rate     |   Solution                                                                                                  
+--:      |   --:                                                                                                    |   --:     |   --:          |   --:      |   --:                                                                                                       
+1        |   [OLAP Performance](https://www.hackerrank.com/challenges/olap-performance/problem?isFullScreen=true)   |   5       |   -            |   74.77%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/3_olap/1_olapperformance.md)
 
 
 

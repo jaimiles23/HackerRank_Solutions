@@ -5,7 +5,7 @@
 ##########
 
 import logging
-from constants import CHALLENGE_INFO_CSV_HEADERS, CHALL_TBL_COLNAMES
+from constants import CHALLENGE_INFO_CSV_HEADERS, CHALL_TBL_COLNAMES, FULLSCREEN_URL
 
 
 ##########
@@ -58,7 +58,7 @@ def record_challenge_info(info_table: 'pw_infotable', df: 'dataframe') -> 'infot
             logging.debug(f"Index {index} - skipping")
             continue
 
-        challenge_text = f"[{row[CHALLENGE_INFO_CSV_HEADERS[1]]}]({row[CHALLENGE_INFO_CSV_HEADERS[5]]})"
+        challenge_text = f"[{row[CHALLENGE_INFO_CSV_HEADERS[1]]}]({row[CHALLENGE_INFO_CSV_HEADERS[5]] + FULLSCREEN_URL})"
         file_extension = (row[CHALLENGE_INFO_CSV_HEADERS[-3]]
                             [row[CHALLENGE_INFO_CSV_HEADERS[-3]].rfind('.') + 1:])
         solution_text = f"[{file_extension}]({row[CHALLENGE_INFO_CSV_HEADERS[-3]]})"

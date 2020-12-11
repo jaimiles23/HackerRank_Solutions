@@ -2,7 +2,7 @@ num,name,score,difficulty,rate,url,solution_url,completed,TODO
 1,sWAP cASE,10,Easy,98.63%,https://www.hackerrank.com/challenges/swap-case,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/01_swapcase.py,1.0,1.0
 2,String Split and Join,10,Easy,98.88%,https://www.hackerrank.com/challenges/python-string-split-and-join/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/02_stringsplitandjoin.py,1.0,1.0
 3,What's Your Name?,10,Easy,97.87%,https://www.hackerrank.com/challenges/whats-your-name,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/03_whatsyourname.py,1.0,1.0
-4,Mutations,10,Easy,98.54%,https://www.hackerrank.com/challenges/python-mutations,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/04_mutations.py,0.0,1.0
+4,Mutations,10,Easy,98.54%,https://www.hackerrank.com/challenges/python-mutations,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/04_mutations.py,1.0,1.0
 5,Find a string,10,Easy,93.24%,https://www.hackerrank.com/challenges/find-a-string,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/05_findastring.py,0.0,1.0
 6,String Validators,10,Easy,93.34%,https://www.hackerrank.com/challenges/string-validators,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/06_stringvalidators.py,0.0,1.0
 7,Text Alignment,10,Easy,97.67%,https://www.hackerrank.com/challenges/text-alignment/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/07_textalignment.py,0.0,1.0

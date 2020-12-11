@@ -9,7 +9,7 @@ import webbrowser
 from typing import Tuple
 
 import pandas as pd
-from constants import CHALLENGE_INFO_CSV_HEADERS
+from constants import CHALLENGE_INFO_CSV_HEADERS, FULLSCREEN_URL
 from logger.select_chall import logging
 from scrape_info.webpage_info import WebPageInfo
 
@@ -66,7 +66,7 @@ def solve_challenge(df: 'dataframe', index: int) -> bool:
     os.system(sol_filename)
 
     ## Open url
-    url = chall_info.loc[CHALLENGE_INFO_CSV_HEADERS[-4]] + "?isFullScreen=true"      # fullscreen
+    url = chall_info.loc[CHALLENGE_INFO_CSV_HEADERS[-4]] + FULLSCREEN_URL
     logging.debug(f"url: {url}")
     print(f"Webpage: {url}")
     WebPageInfo(url, scrape= False)

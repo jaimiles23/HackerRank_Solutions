@@ -4,11 +4,12 @@ Contains solutions to [Strings](https://www.hackerrank.com/domains/python?filter
 
 <br/>
 
-Number   |   Challenge                                                                                             |   Score   |   Difficulty   |   Rate     |   Solution                                                                                                       
---:      |   :--                                                                                                   |   --:     |   :--          |   :--      |   :--                                                                                                            
-1        |   [sWAP cASE](https://www.hackerrank.com/challenges/swap-case)                                          |   10      |   :star:       |   98.63%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/01_swapcase.py)          
-2        |   [String Split and Join](https://www.hackerrank.com/challenges/python-string-split-and-join/problem)   |   10      |   :star:       |   98.88%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/02_stringsplitandjoin.py)
-3        |   [What's Your Name?](https://www.hackerrank.com/challenges/whats-your-name)                            |   10      |   :star:       |   97.87%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/03_whatsyourname.py)     
+Number   |   Challenge                                                                                                               |   Score   |   Difficulty   |   Rate     |   Solution                                                                                                       
+--:      |   :--                                                                                                                     |   --:     |   :--          |   :--      |   :--                                                                                                            
+1        |   [sWAP cASE](https://www.hackerrank.com/challenges/swap-case?isFullScreen=true)                                          |   10      |   :star:       |   98.63%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/01_swapcase.py)          
+2        |   [String Split and Join](https://www.hackerrank.com/challenges/python-string-split-and-join/problem?isFullScreen=true)   |   10      |   :star:       |   98.88%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/02_stringsplitandjoin.py)
+3        |   [What's Your Name?](https://www.hackerrank.com/challenges/whats-your-name?isFullScreen=true)                            |   10      |   :star:       |   97.87%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/03_whatsyourname.py)     
+4        |   [Mutations](https://www.hackerrank.com/challenges/python-mutations?isFullScreen=true)                                   |   10      |   :star:       |   98.54%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/04_mutations.py)         
 
 
 

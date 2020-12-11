@@ -50,6 +50,7 @@ SEL_LOGIN_BUTTON_XML = "/html/body[@id='hr_v2']/div[@id='content']/div[@class='u
 SEL_LOCATE_BY = "class"
 SEL_CHALLENGE_CLASSNAME = 'challengecard-title'
 
+FULLSCREEN_URL = "?isFullScreen=true"
 
 ##########
 # GitHub 
