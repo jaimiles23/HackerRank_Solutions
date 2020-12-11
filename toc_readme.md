@@ -10,6 +10,7 @@
  - [Databases](#databases) 
      - [Relational Algebra](#relational-algebra) 
      - [Indexes](#indexes) 
+     - [Olap](#olap) 
  - [Python](#python) 
      - [Introduction](#introduction) 
      - [Basic Data Types](#basic-data-types) 

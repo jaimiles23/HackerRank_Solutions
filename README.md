@@ -16,6 +16,7 @@ Please note that this README is dynamically updated. I created scripts in the `a
  - [Databases](#databases) 
      - [Relational Algebra](#relational-algebra) 
      - [Indexes](#indexes) 
+     - [Olap](#olap) 
  - [Python](#python) 
      - [Introduction](#introduction) 
      - [Basic Data Types](#basic-data-types) 
@@ -249,6 +250,24 @@ Number   |   Challenge                                                          
 2        |   [Indexes - 2](https://www.hackerrank.com/challenges/indexes-2)                |   2       |   Multiple Choice   |   51.46%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/2_indexes/2_indexes-2.md)             
 3        |   [Indexes - 3](https://www.hackerrank.com/challenges/indexes-3/problem)        |   2       |   Multiple Choice   |   50.44%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/2_indexes/3_indexes-3.md)             
 4        |   [Indexes - 4](https://www.hackerrank.com/challenges/indexes-4/problem)        |   2       |   Multiple Choice   |   69.61%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/2_indexes/4_indexes-4.md)             
+
+
+
+<b><a href="#hackerrank">:arrow_up: Table of Contents</a></b>
+<br/>
+<br/>
+
+
+
+
+## Olap
+Contains solutions to [OLAP](https://www.hackerrank.com/domains/databases?filters%5Bsubdomains%5D%5B%5D=olap).
+
+<br/>
+
+Number   |   Challenge                                                                            |   Score   |   Difficulty   |   Rate     |   Solution                                                                                                  
+--:      |   --:                                                                                  |   --:     |   --:          |   --:      |   --:                                                                                                       
+1        |   [OLAP Performance](https://www.hackerrank.com/challenges/olap-performance/problem)   |   5       |   -            |   74.77%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/3_olap/1_olapperformance.md)
 
 
 
