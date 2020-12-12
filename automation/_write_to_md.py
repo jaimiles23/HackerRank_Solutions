@@ -64,21 +64,31 @@ def write_to_md():
         for sub_dir in subdomain_dirs:
             aux_funcs.change_dir(sub_dir)
 
-            ## Make readme. md & write to
+            ## Make readme.md & write to
             subdomain_prereadme, subdomain_readme = readme_funcs.get_readme_names(sub_dir)
             shutil.copy(subdomain_prereadme, subdomain_readme)
 
             ## Read table
-            infotbl_subdomain = pw.TableInfo(constants.CHALL_TBL_COLNAMES)
             csv_filename = aux_funcs.get_chall_csv_filename(sub_dir)
             df = pd.read_csv(csv_filename)
-            
             if not check_challenge_solved(df):
                 continue
 
+            ## Setup Table - TODO: refactor these 2 into 1 line.
+            domain_name = aux_funcs.get_dirname(domain_dir)
+            nb_viewer = True if domain_name in constants.NB_DOMAINS else False
+
+            tbl_keys = constants.CHALL_TBL_COLNAMES
+            if nb_viewer:
+                tbl_keys = list(tbl_keys) + [constants.COL_NB_VIEWER]
+
+            infotbl_subdomain = pw.TableInfo(tbl_keys)
+
             ## Write to file
-            infotbl_subdomain = record_challenge_info(infotbl_subdomain, df)
+            infotbl_subdomain = record_challenge_info(infotbl_subdomain, df, nb_viewer)
             readme_funcs.write_newline(subdomain_readme)
+
+            # nb_viewer = True if domain_dir in 
             infotbl_subdomain.print_info(
                 markdown=True,
                 show_records_col= False,
@@ -94,7 +104,6 @@ def write_to_md():
                 domain_toc = False
             readme_funcs.write_to_toc_file(sub_dir, 2, readme_toc)
             
-
         readme_funcs.write_in_to_out_file(domain_readme, readme_contents)
     
     ## home readme

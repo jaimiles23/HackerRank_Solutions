@@ -81,3 +81,13 @@ README_CONTENTS_FILENAME = "readme_contents.md"
 TOC_FILENAME = "toc_readme.md"
 
 LINE_BREAK = "\n<br/>\n"
+
+
+########## NB VIEWER
+NB_VIEWER_SOL_TEXT = "nbviewer"
+COL_NB_VIEWER = "nb viewer solution"
+NB_VIEWER_URL = "https://nbviewer.jupyter.org/"
+
+NB_DOMAINS = (
+    "statistics",
+)

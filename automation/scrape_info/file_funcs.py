@@ -18,7 +18,6 @@ def make_readme_setup(url: str,  domain: str, subdomain: str = None, heading: in
     """Creates pre-readme in file."""
     filename = constants.PRE_README_FILENAME
     if os.path.exists( filename):
-        print('return')
         return
 
     section_title = subdomain if subdomain else domain

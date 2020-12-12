@@ -5,7 +5,10 @@
 ##########
 
 import logging
-from constants import CHALLENGE_INFO_CSV_HEADERS, CHALL_TBL_COLNAMES, FULLSCREEN_URL
+
+from constants import (CHALL_TBL_COLNAMES, CHALLENGE_INFO_CSV_HEADERS,
+                       COL_NB_VIEWER, FULLSCREEN_URL, NB_VIEWER_SOL_TEXT,
+                       NB_VIEWER_URL)
 
 
 ##########
@@ -34,7 +37,7 @@ def check_challenge_solved(df: 'dataframe') -> bool:
 # Record challenge info
 ##########
 
-def record_challenge_info(info_table: 'pw_infotable', df: 'dataframe') -> 'infotable':
+def record_challenge_info(info_table: 'pw_infotable', df: 'dataframe', nb_viewer: bool = False) -> 'infotable':
     """Returns info table with challenge information added from dataframe.
     """
     def get_star_str(difficulty: str) -> str:
@@ -63,7 +66,7 @@ def record_challenge_info(info_table: 'pw_infotable', df: 'dataframe') -> 'infot
                             [row[CHALLENGE_INFO_CSV_HEADERS[-3]].rfind('.') + 1:])
         solution_text = f"[{file_extension}]({row[CHALLENGE_INFO_CSV_HEADERS[-3]]})"
 
-        ##Num, chall_text, score, difficulty, rate, sol_text
+        ## Num, chall_text, score, difficulty, rate, sol_text
         row_dict = {
             CHALL_TBL_COLNAMES[0] :   row[CHALLENGE_INFO_CSV_HEADERS[0]],
             CHALL_TBL_COLNAMES[1] :   challenge_text,
@@ -72,5 +75,29 @@ def record_challenge_info(info_table: 'pw_infotable', df: 'dataframe') -> 'infot
             CHALL_TBL_COLNAMES[4] :   row[CHALLENGE_INFO_CSV_HEADERS[4]],
             CHALL_TBL_COLNAMES[5] :   solution_text,
         }
+        ## IF NB viewer == True
+        if nb_viewer:
+            row_dict[COL_NB_VIEWER] = get_nbviewer_sol_text(row[CHALLENGE_INFO_CSV_HEADERS[-3]])
+
         info_table.add_entry(row_dict)
     return info_table
+
+
+def get_nbviewer_sol_text(solution_url) -> str:
+    """Returns text to write into table for notebook solution
+
+    Args:
+        solution_url ([type]): url for github solution
+    Returns:
+        str: text for github solution
+    """
+    replace_components = (
+        "https://",
+        ".com",
+    )
+    for component in replace_components:
+        solution_url = solution_url.replace(component, '')
+    
+    nb_solution_url = NB_VIEWER_URL + solution_url
+    return f"[{NB_VIEWER_SOL_TEXT}]({nb_solution_url})"
+    

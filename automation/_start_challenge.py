@@ -60,7 +60,6 @@ def start_challenge():
             random.shuffle(subdomain_dirs)
         
         for sub_dir in subdomain_dirs:
-            print(domain_dir, sub_dir)
             aux_funcs.change_dir(sub_dir)
 
             ## Read CSV
