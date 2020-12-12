@@ -50,7 +50,7 @@ def record_challenge_info(info_table: 'pw_infotable', df: 'dataframe', nb_viewer
         }
         diff_str = star_str * num_stars.get(difficulty, 0)
         if difficulty == "Multiple Choice Question":
-            diff_str = "Multiple Choice"
+            diff_str = "MC"
         logging.debug(f"{difficulty} - {diff_str}")
         return diff_str if len(diff_str) else '-'
 
