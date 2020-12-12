@@ -68,6 +68,7 @@ Number   |   Challenge                                                          
 2        |   [String Split and Join](https://www.hackerrank.com/challenges/python-string-split-and-join/problem?isFullScreen=true)   |   10      |   :star:       |   98.88%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/02_stringsplitandjoin.py)
 3        |   [What's Your Name?](https://www.hackerrank.com/challenges/whats-your-name?isFullScreen=true)                            |   10      |   :star:       |   97.87%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/03_whatsyourname.py)     
 4        |   [Mutations](https://www.hackerrank.com/challenges/python-mutations?isFullScreen=true)                                   |   10      |   :star:       |   98.54%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/04_mutations.py)         
+6        |   [String Validators](https://www.hackerrank.com/challenges/string-validators?isFullScreen=true)                          |   10      |   :star:       |   93.34%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/06_stringvalidators.py)  
 
 
 

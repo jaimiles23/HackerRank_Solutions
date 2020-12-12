@@ -4,7 +4,7 @@ num,name,score,difficulty,rate,url,solution_url,completed,TODO
 3,What's Your Name?,10,Easy,97.87%,https://www.hackerrank.com/challenges/whats-your-name,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/03_whatsyourname.py,1.0,1.0
 4,Mutations,10,Easy,98.54%,https://www.hackerrank.com/challenges/python-mutations,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/04_mutations.py,1.0,1.0
 5,Find a string,10,Easy,93.24%,https://www.hackerrank.com/challenges/find-a-string,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/05_findastring.py,0.0,1.0
-6,String Validators,10,Easy,93.34%,https://www.hackerrank.com/challenges/string-validators,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/06_stringvalidators.py,0.0,1.0
+6,String Validators,10,Easy,93.34%,https://www.hackerrank.com/challenges/string-validators,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/06_stringvalidators.py,1.0,0.0
 7,Text Alignment,10,Easy,97.67%,https://www.hackerrank.com/challenges/text-alignment/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/07_textalignment.py,0.0,1.0
 8,Text Wrap,10,Easy,98.74%,https://www.hackerrank.com/challenges/text-wrap,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/08_textwrap.py,0.0,1.0
 9,Designer Door Mat,10,Easy,98.28%,https://www.hackerrank.com/challenges/designer-door-mat,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/09_designerdoormat.py,0.0,1.0

@@ -13,11 +13,12 @@ from constants import CHALLENGE_INFO_CSV_HEADERS, FULLSCREEN_URL
 from logger.select_chall import logging
 from scrape_info.webpage_info import WebPageInfo
 
+
 ##########
 # Locate Challenge
 ##########
 
-def locate_challenge(df: 'dataframe', last_chall_index: int) -> Tuple[bool, int]:
+def locate_challenge(df: 'dataframe', last_chall_index: int, flag_review: bool) -> Tuple[bool, int]:
     """Returns boolean indicating if challenge located & index of challenge information
 
     Args:
@@ -26,16 +27,19 @@ def locate_challenge(df: 'dataframe', last_chall_index: int) -> Tuple[bool, int]
     Returns:
         Tuple[bool, int]: Challenge located, index of challenge information
     """
+    if flag_review:
+        df = df.sample(frac=1).reset_index(drop=True)
+
     for index, row in df.iterrows():
         logging.debug(f"CHECK - Index {index}")
 
         if (
-            row[CHALLENGE_INFO_CSV_HEADERS[-1]] and         ## TODO
-            not row[CHALLENGE_INFO_CSV_HEADERS[-2]] and     ## Completed
+            row[CHALLENGE_INFO_CSV_HEADERS[-1]] and                 ## TODO
+            row[CHALLENGE_INFO_CSV_HEADERS[-2]] == flag_review and  ## Completed = flag_review
             index != last_chall_index
         ):
             logging.info(f"FOUND - challenge at {index}")
-            return (True, index)
+            return (True, row[CHALLENGE_INFO_CSV_HEADERS[0]])
     return (False, None)
 
 

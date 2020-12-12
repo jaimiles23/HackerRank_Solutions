@@ -71,6 +71,7 @@ def write_to_md():
             ## Read table
             csv_filename = aux_funcs.get_chall_csv_filename(sub_dir)
             df = pd.read_csv(csv_filename)
+            df.sort_values(constants.CHALLENGE_INFO_CSV_HEADERS[0], inplace = True)
             if not check_challenge_solved(df):
                 continue
 

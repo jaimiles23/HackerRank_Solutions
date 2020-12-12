@@ -23,6 +23,7 @@ import random
 from pathlib import Path
 
 import pandas as pd
+import numpy as np
 
 import _write_to_md
 import aux_funcs
@@ -38,16 +39,21 @@ from select_challenge import chall_info, user_inputs
 def start_challenge():
     home_dir = Path(__file__).resolve().parents[1]
     domain_dirs = aux_funcs.get_domain_dirs(home_dir)
-
+    
     ## Inputs
     user_args = user_inputs.get_input()
-    if len(user_args) and user_args[0] != constants.INPUT_REVIEW:
-        domain_dirs = user_inputs.clean_dirs(user_args, domain_dirs)
 
     ## Review
     if constants.INPUT_REVIEW in user_args:
+        flag_review = True
+        user_args.remove(constants.INPUT_REVIEW)
         random.shuffle(domain_dirs)
-    
+    else:
+        flag_review = False
+
+    if len(user_args):
+        domain_dirs = user_inputs.clean_dirs(user_args, domain_dirs)
+
     ## Driver
     WebPageInfo.start_driver(home_dir)
 
@@ -55,6 +61,8 @@ def start_challenge():
     for domain_dir in domain_dirs:
         aux_funcs.change_dir(domain_dir)
         subdomain_dirs = aux_funcs.get_subdomain_dirs(domain_dir)
+        if flag_review:
+            random.shuffle(subdomain_dirs)
 
         if constants.INPUT_REVIEW in user_args:
             random.shuffle(subdomain_dirs)
@@ -65,11 +73,12 @@ def start_challenge():
             ## Read CSV
             csv_filename = aux_funcs.get_chall_csv_filename(sub_dir)
             df = pd.read_csv(csv_filename)
+            df.sort_values(constants.CHALLENGE_INFO_CSV_HEADERS[0], inplace = True)
 
             flag_challenge, index = True, float('inf')
             while flag_challenge:   # continue
                 ## Locate Challenge
-                flag_challenge, index = chall_info.locate_challenge(df, index)
+                flag_challenge, index = chall_info.locate_challenge(df, index, flag_review)
                 
                 ## Open challenge url & file with vscode
                 if flag_challenge:
@@ -80,16 +89,17 @@ def start_challenge():
                     if solved:
                         chall_info.mark_completed(df, index, chall_name)
 
-                    else:
+                    flag_todo = True
+                    if not flag_review:
                         flag_todo = user_inputs.ask_todo()
                         if not flag_todo:
                             chall_info.mark_not_todo(df, index, chall_name)
                     
-                    if solved or not flag_todo:
+                    if solved or (not flag_todo) and (not flag_review):
                         logging.info(f"Saving {csv_filename}")
                         df.to_csv(csv_filename, index = False)
 
-                    if solved:
+                    if solved and (not flag_review):
                         _write_to_md.write_to_md()
                         commit_msg = aux_funcs.get_solution_commit_msg(domain_dir, sub_dir, chall_name)
                         aux_funcs.update_github(home_dir, commit_msg)
