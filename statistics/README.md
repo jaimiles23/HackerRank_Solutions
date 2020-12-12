@@ -11,10 +11,10 @@ _NOTE_:
   - [ ] Change web scraping script to create 2 solution columns for ipynb files: (1) GitHub access, (2) nbviewer access.
 
 <img
-src = "https://img.favpng.com/20/21/8/chart-business-statistics-business-statistics-logo-png-favpng-ihHgy9HeUHsirxXcum4nNkcSp.jpg"
-alt = "statistics logo"
-max-width = 100%
-height = 200>
+src="https://img.favpng.com/20/21/8/chart-business-statistics-business-statistics-logo-png-favpng-ihHgy9HeUHsirxXcum4nNkcSp.jpg"
+alt="statistics logo"
+max-width=100%
+height=200>
 
 
 <br/>
@@ -24,7 +24,7 @@ Contains solutions to HackerRank's [10 days of statistics challenge](https://www
 
 <br/>
 
-Number   |   Challenge                                                                                                                                                     |   Score   |   Difficulty   |   Rate     |   Solution                                                                                                                                      |   Nb Viewer Solution                                                                                                                                             
+Number   |   Challenge                                                                                                                                                     |   Score   |   Difficulty   |   Rate     |   Solution                                                                                                                                      |   Solution 2                                                                                                                                                     
 --:      |   :--                                                                                                                                                           |   --:     |   :--          |   :--      |   :--                                                                                                                                           |   :--                                                                                                                                                            
 1        |   [Day 0: Mean, Median, and Mode](https://www.hackerrank.com/challenges/s10-basic-statistics/problem?isFullScreen=true)                                         |   30      |   :star:       |   87.31%   |   [ipynb](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/01_day0mean,median,andmode.ipynb)                   |   [nbviewer](https://nbviewer.jupyter.org/github/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/01_day0mean,median,andmode.ipynb)                
 2        |   [Day 0: Weighted Mean](https://www.hackerrank.com/challenges/s10-weighted-mean?isFullScreen=true)                                                             |   30      |   :star:       |   96.78%   |   [ipynb](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/02_day0weightedmean.ipynb)                          |   [nbviewer](https://nbviewer.jupyter.org/github/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/02_day0weightedmean.ipynb)                       

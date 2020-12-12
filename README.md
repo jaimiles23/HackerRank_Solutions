@@ -1,8 +1,8 @@
 <img 
-src = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6OxRFdDwjpPp8M88E5qbu5Bt7iP9ZVmCCpQ&usqp=CAU"
-alt = "hackerrank logo"
-max-width = 100%
-height = auto>
+src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6OxRFdDwjpPp8M88E5qbu5Bt7iP9ZVmCCpQ&usqp=CAU"
+alt="hackerrank logo"
+max-width=100%
+height=auto>
 
 
 # HackerRank
@@ -36,10 +36,10 @@ Contains solutions to [sql](https://www.hackerrank.com/domains/sql) using MySQL.
 NOTE: When using Common Table Expressions (CTE), must use the MS SQL Server Console.
 
 <img
-src = "https://pngimg.com/uploads/mysql/mysql_PNG23.png"
-alt = "SQL logo"
-max-width = 100%
-height = 150>
+src="https://pngimg.com/uploads/mysql/mysql_PNG23.png"
+alt="SQL logo"
+max-width=100%
+height=150>
 
 <br/>
 
@@ -172,10 +172,10 @@ _NOTE_:
   - [ ] Change web scraping script to create 2 solution columns for ipynb files: (1) GitHub access, (2) nbviewer access.
 
 <img
-src = "https://img.favpng.com/20/21/8/chart-business-statistics-business-statistics-logo-png-favpng-ihHgy9HeUHsirxXcum4nNkcSp.jpg"
-alt = "statistics logo"
-max-width = 100%
-height = 200>
+src="https://img.favpng.com/20/21/8/chart-business-statistics-business-statistics-logo-png-favpng-ihHgy9HeUHsirxXcum4nNkcSp.jpg"
+alt="statistics logo"
+max-width=100%
+height=200>
 
 
 <br/>
@@ -185,7 +185,7 @@ Contains solutions to HackerRank's [10 days of statistics challenge](https://www
 
 <br/>
 
-Number   |   Challenge                                                                                                                                                     |   Score   |   Difficulty   |   Rate     |   Solution                                                                                                                                      |   Nb Viewer Solution                                                                                                                                             
+Number   |   Challenge                                                                                                                                                     |   Score   |   Difficulty   |   Rate     |   Solution                                                                                                                                      |   Solution 2                                                                                                                                                     
 --:      |   :--                                                                                                                                                           |   --:     |   :--          |   :--      |   :--                                                                                                                                           |   :--                                                                                                                                                            
 1        |   [Day 0: Mean, Median, and Mode](https://www.hackerrank.com/challenges/s10-basic-statistics/problem?isFullScreen=true)                                         |   30      |   :star:       |   87.31%   |   [ipynb](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/01_day0mean,median,andmode.ipynb)                   |   [nbviewer](https://nbviewer.jupyter.org/github/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/01_day0mean,median,andmode.ipynb)                
 2        |   [Day 0: Weighted Mean](https://www.hackerrank.com/challenges/s10-weighted-mean?isFullScreen=true)                                                             |   30      |   :star:       |   96.78%   |   [ipynb](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/02_day0weightedmean.ipynb)                          |   [nbviewer](https://nbviewer.jupyter.org/github/jaimiles23/HackerRank_Solutions/blob/master/statistics/10_days/02_day0weightedmean.ipynb)                       
@@ -227,10 +227,10 @@ Number   |   Challenge                                                          
 Contains solutions to HackerRank's [databases](https://www.hackerrank.com/domains/databases) challenges.
 
 <img 
-src = "https://www.clipartkey.com/mpngs/m/32-325537_cloud-database.png"
-alt = "database logo"
-max-width = 100%
-height = 150>
+src="https://www.clipartkey.com/mpngs/m/32-325537_cloud-database.png"
+alt="database logo"
+max-width=100%
+height=150>
 
 <br/>
 
@@ -309,10 +309,10 @@ Number   |   Challenge                                                          
 Contains solutions to HackerRank's [python](https://www.hackerrank.com/domains/python) challenges using Python3.
 
 <img 
-src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png" 
-alt = "python logo" 
-width = 100
-height = 100>
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png" 
+alt="python logo" 
+width=100
+height=100>
 
 
 <br/>

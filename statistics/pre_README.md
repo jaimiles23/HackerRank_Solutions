@@ -11,10 +11,10 @@ _NOTE_:
   - [ ] Change web scraping script to create 2 solution columns for ipynb files: (1) GitHub access, (2) nbviewer access.
 
 <img
-src = "https://img.favpng.com/20/21/8/chart-business-statistics-business-statistics-logo-png-favpng-ihHgy9HeUHsirxXcum4nNkcSp.jpg"
-alt = "statistics logo"
-max-width = 100%
-height = 200>
+src="https://img.favpng.com/20/21/8/chart-business-statistics-business-statistics-logo-png-favpng-ihHgy9HeUHsirxXcum4nNkcSp.jpg"
+alt="statistics logo"
+max-width=100%
+height=200>
 
 
 <br/>

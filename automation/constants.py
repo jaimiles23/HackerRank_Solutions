@@ -85,7 +85,7 @@ LINE_BREAK = "\n<br/>\n"
 
 ########## NB VIEWER
 NB_VIEWER_SOL_TEXT = "nbviewer"
-COL_NB_VIEWER = "nb viewer solution"
+COL_NB_VIEWER = "Solution 2"
 NB_VIEWER_URL = "https://nbviewer.jupyter.org/"
 
 NB_DOMAINS = (
