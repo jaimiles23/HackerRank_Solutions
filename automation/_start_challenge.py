@@ -85,21 +85,21 @@ def start_challenge():
                     chall_name = chall_info.get_chall_name(df, index)
                     chall_info.solve_challenge(df, index)
 
+                    flag_todo = True
                     solved = user_inputs.ask_solved_chall()
                     if solved:
                         chall_info.mark_completed(df, index, chall_name)
-
-                    flag_todo = True
-                    if not flag_review:
+                    
+                    elif not flag_review:
                         flag_todo = user_inputs.ask_todo()
                         if not flag_todo:
                             chall_info.mark_not_todo(df, index, chall_name)
                     
-                    if solved or (not flag_todo) and (not flag_review):
+                    if (solved or not flag_todo) and not flag_review:
                         logging.info(f"Saving {csv_filename}")
                         df.to_csv(csv_filename, index = False)
-
-                    if solved and (not flag_review):
+                        
+                    if solved and not flag_review:
                         _write_to_md.write_to_md()
                         commit_msg = aux_funcs.get_solution_commit_msg(domain_dir, sub_dir, chall_name)
                         aux_funcs.update_github(home_dir, commit_msg)

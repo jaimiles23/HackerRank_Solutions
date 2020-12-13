@@ -39,7 +39,8 @@ def locate_challenge(df: 'dataframe', last_chall_index: int, flag_review: bool) 
             index != last_chall_index
         ):
             logging.info(f"FOUND - challenge at {index}")
-            return (True, row[CHALLENGE_INFO_CSV_HEADERS[0]])
+            return_index = row[CHALLENGE_INFO_CSV_HEADERS[0]] if flag_review else index
+            return (True, return_index)
     return (False, None)
 
 
