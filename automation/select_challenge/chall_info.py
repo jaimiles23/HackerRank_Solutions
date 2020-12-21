@@ -62,6 +62,12 @@ def solve_challenge(df: 'dataframe', index: int) -> bool:
     chall_info = df.iloc[index]
     logging.info(f"INFO: {chall_info}")
 
+    ## Open url
+    url = chall_info.loc[CHALLENGE_INFO_CSV_HEADERS[-4]] + FULLSCREEN_URL
+    logging.debug(f"url: {url}")
+    print(f"Webpage: {url}")
+    WebPageInfo(url, scrape= False)
+
     ## Solution file
     solution_url = url = chall_info[CHALLENGE_INFO_CSV_HEADERS[-3]]
     sol_filename = solution_url[ solution_url.rfind('/') + 1:]
@@ -69,13 +75,6 @@ def solve_challenge(df: 'dataframe', index: int) -> bool:
     logging.info(f"sol filename {sol_filename}")
     print(f"File: {sol_filename}")
     os.system(sol_filename)
-
-    ## Open url
-    url = chall_info.loc[CHALLENGE_INFO_CSV_HEADERS[-4]] + FULLSCREEN_URL
-    logging.debug(f"url: {url}")
-    print(f"Webpage: {url}")
-    WebPageInfo(url, scrape= False)
-
     return
 
 
