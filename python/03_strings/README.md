@@ -14,6 +14,7 @@ Number   |   Challenge                                                          
 6        |   [String Validators](https://www.hackerrank.com/challenges/string-validators?isFullScreen=true)                          |   10      |   :star:       |   93.34%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/06_stringvalidators.py)  
 7        |   [Text Alignment](https://www.hackerrank.com/challenges/text-alignment/problem?isFullScreen=true)                        |   10      |   :star:       |   97.67%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/07_textalignment.py)     
 8        |   [Text Wrap](https://www.hackerrank.com/challenges/text-wrap?isFullScreen=true)                                          |   10      |   :star:       |   98.74%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/08_textwrap.py)          
+9        |   [Designer Door Mat](https://www.hackerrank.com/challenges/designer-door-mat?isFullScreen=true)                          |   10      |   :star:       |   98.28%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/09_designerdoormat.py)   
 
 
 
