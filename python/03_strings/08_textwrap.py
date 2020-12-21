@@ -3,6 +3,7 @@
 import textwrap
 
 def wrap(string, max_width):
+    """Returns string with new line character at every interval of max_width"""
     newline_char = "\n"
     letters = [char for char in string]
     new_lines = 0
