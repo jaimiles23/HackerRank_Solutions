@@ -46,7 +46,9 @@ CHALLENGE_INFO_CSV_HEADERS = (
 HR_LOGIN_URL = 'https://www.hackerrank.com/auth/login'
 HR_ACCOUNT_INFO_FILENAME = 'account_info.txt'
 
-SEL_LOGIN_BUTTON_XML = "/html/body[@id='hr_v2']/div[@id='content']/div[@class='ui-kit-root']/div[@class='body-wrap community-page auth-page login-page show-cookie-banner']/div[@class='theme-m new-design']/div[@class='community-content']/div[@class='auth-container container theme-m']/div[@class='auth-content-wrap']/div[@class='auth-box-container']/div[@class='auth-box']/div[@class='ui-tabs-wrap auth-content']/div[@id='tab-1-content-1']/div[@class='login-form auth-form theme-m']/form[@class='form']/div[@class='form-item clearfix']/button[@class='ui-btn ui-btn-large ui-btn-primary auth-button ui-btn-styled']"
+SEL_LOGIN_BUTTON_XML = "/html/body[@id='hr_v2']/div[@id='content']/div[@class='ui-kit-root']/div[@class='body-wrap community-page auth-page login-page']/div[@class='show-cookie-banner']/div[@class='theme-m new-design']/div[@class='community-content']/div[@class='auth-container container theme-m']/div[@class='auth-content-wrap']/div[@class='auth-box-container']/div[@class='auth-box']/div[@class='ui-tabs-wrap auth-content']/div[@id='tab-1-content-1']/div[@class='login-form auth-form theme-m']/form[@class='form']/div[@class='form-item clearfix']/button[@class='ui-btn ui-btn-large ui-btn-primary auth-button ui-btn-styled']/div[@class='ui-content align-icon-right']/span[@class='ui-text']"
+SEL_LOGIN_HTML_CLASS = "ui-btn ui-btn-large ui-btn-primary auth-button ui-btn-styled"
+
 SEL_LOCATE_BY = "class"
 SEL_CHALLENGE_CLASSNAME = 'challengecard-title'
 

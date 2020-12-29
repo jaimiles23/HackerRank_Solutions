@@ -24,8 +24,8 @@ class WebPageInfo():
     login_url = constants.HR_LOGIN_URL
     ## XML path to login button
     loginbutton_xml = constants.SEL_LOGIN_BUTTON_XML
+    loginbutton_html_class = constants.SEL_LOGIN_HTML_CLASS
     
-
     ## Selenium Class identifiers
     LOCATE_BY = constants.SEL_LOCATE_BY
     CHALLENGE_CLASSNAME = constants.SEL_CHALLENGE_CLASSNAME
@@ -66,7 +66,15 @@ class WebPageInfo():
         driver.find_element_by_id('input-1').send_keys(account_name)    ## Username
         driver.find_element_by_id('input-2').send_keys(account_pw)      ## Password
         driver.find_element_by_class_name('checkbox-input').click()     ## Remember
-        driver.find_element_by_xpath(WebPageInfo.loginbutton_xml).click()   ## Login button
+
+        ## Press login button
+        try:
+            print("logging in:")
+            print("xpath element...")
+            driver.find_element_by_xpath(WebPageInfo.loginbutton_xml).click()   ## Login button
+        except Exception as e:
+            print("html class...")
+            driver.find_element_by_class_name(WebPageInfo.loginbutton_html_class).click()
         time.sleep(0.5)
         return driver
     
