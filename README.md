@@ -387,6 +387,7 @@ Number   |   Challenge                                                          
 8        |   [Text Wrap](https://www.hackerrank.com/challenges/text-wrap?isFullScreen=true)                                          |   10      |   :star:       |   98.74%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/08_textwrap.py)          
 9        |   [Designer Door Mat](https://www.hackerrank.com/challenges/designer-door-mat?isFullScreen=true)                          |   10      |   :star:       |   98.28%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/09_designerdoormat.py)   
 10       |   [String Formatting](https://www.hackerrank.com/challenges/python-string-formatting?isFullScreen=true)                   |   10      |   :star:       |   90.21%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/10_stringformatting.py)  
+11       |   [Alphabet Rangoli](https://www.hackerrank.com/challenges/alphabet-rangoli?isFullScreen=true)                            |   20      |   :star:       |   96.74%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/11_alphabetrangoli.py)   
 
 
 
