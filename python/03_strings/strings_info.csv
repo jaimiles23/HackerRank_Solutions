@@ -11,5 +11,5 @@ num,name,score,difficulty,rate,url,solution_url,completed,TODO
 10,String Formatting,10,Easy,90.21%,https://www.hackerrank.com/challenges/python-string-formatting,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/10_stringformatting.py,1,1
 11,Alphabet Rangoli,20,Easy,96.74%,https://www.hackerrank.com/challenges/alphabet-rangoli,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/11_alphabetrangoli.py,1,1
 12,Capitalize!,20,Easy,82.59%,https://www.hackerrank.com/challenges/capitalize/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/12_capitalize!.py,1,1
-13,The Minion Game,40,Medium,85.06%,https://www.hackerrank.com/challenges/the-minion-game,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/13_theminiongame.py,0,1
+13,The Minion Game,40,Medium,85.06%,https://www.hackerrank.com/challenges/the-minion-game,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/13_theminiongame.py,1,1
 14,Merge the Tools!,40,Medium,92.11%,https://www.hackerrank.com/challenges/merge-the-tools,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/14_mergethetools!.py,0,1
