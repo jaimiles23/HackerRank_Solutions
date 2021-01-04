@@ -1,5 +1,5 @@
 
-## Olap
+## OLAP
 Contains solutions to HackerRank's [OLAP](https://www.hackerrank.com/domains/databases?filters%5Bsubdomains%5D%5B%5D=olap) challenges.
 
 [OLAP](https://en.wikipedia.org/wiki/Online_analytical_processing)
@@ -14,6 +14,7 @@ Number   |   Challenge                                                          
 2        |   [OLAP Operations - 1](https://www.hackerrank.com/challenges/olap-operations-1?isFullScreen=true)           |   5       |   MC           |   43.92%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/3_olap/2_olapoperations-1.md)
 3        |   [OLAP Operations - 2](https://www.hackerrank.com/challenges/olap-operations-2?isFullScreen=true)           |   5       |   MC           |   65.58%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/3_olap/3_olapoperations-2.md)
 4        |   [OLAP Cube Metadata](https://www.hackerrank.com/challenges/olap-cube-metadata/problem?isFullScreen=true)   |   5       |   MC           |   63.26%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/3_olap/4_olapcubemetadata.md)
+5        |   [OLAP Name(s)](https://www.hackerrank.com/challenges/olap-names?isFullScreen=true)                         |   5       |   MC           |   60.87%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/3_olap/5_olapname(s).md)     
 5        |   [OLAP Name(s)](https://www.hackerrank.com/challenges/olap-names?isFullScreen=true)                         |   5       |   MC           |   60.87%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/3_olap/5_olapname(s).md)     
 
 
