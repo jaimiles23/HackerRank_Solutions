@@ -43,20 +43,24 @@ def write_to_toc_file(domain_dir: str, level: int, toc_file: str) -> None:
         level (int): level of header
     """
     header_format = "[{}](#{})"
-    
     dirname = aux_funcs.get_dirname(domain_dir)
-    if dirname not in constants.number_dirs:
+
+    ## Get subdir
+    if dirname not in constants.TOC_NUM_DIRS:
         logging.debug(f"Removing preceeding numbers from {dirname}")
         sub_dir = dirname[dirname.find('_') + 1:]
     else:
-        logging.debug(f"{dirname} in constants.number_dirs")
+        logging.debug(f"{dirname} in constants.TOC_UPPER_DIRS")
         sub_dir = dirname
-
-    header  = sub_dir.replace('_', ' ').title()
+    
+    
+    ## Format ToC Header
+    header = sub_dir.replace('_', ' ')
+    header = header.upper() if header.upper() in constants.TOC_UPPER_DIRS else header.title()
+    
+    ## ToC link
     doc_link = sub_dir.lower()
-
-    ## Replace ToC contents based on format
-    if doc_link in constants.number_dirs:
+    if doc_link in constants.TOC_UPPER_DIRS:
         doc_link = doc_link.replace('-', '_')
     else:
         doc_link = doc_link.replace('_', '-')

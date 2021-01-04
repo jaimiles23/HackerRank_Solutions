@@ -1,13 +1,6 @@
 """
 Contains constants for Solution automation 
 """
-##########
-# IRREGULAR filenames
-##########
-
-number_dirs = (
-    "10_days"
-)
 
 ##########
 # INPUT 
@@ -66,6 +59,8 @@ GH_SOL_URL = f"https://github.com/{GH_USERNAME}/{GH_REPO_NAME}" + "/blob/master/
 # Readme 
 ##########
 
+########## Challenge Table
+
 CHALL_TBL_COLNAMES = (
     'Number', 
     'Challenge', 
@@ -74,6 +69,8 @@ CHALL_TBL_COLNAMES = (
     'Rate', 
     'Solution',
 )
+
+########## Files
 
 TOC_HEADER = "#hackerrank"
 
@@ -92,4 +89,15 @@ NB_VIEWER_URL = "https://nbviewer.jupyter.org/"
 
 NB_DOMAINS = (
     "statistics",
+)
+
+########## Table of Contents
+
+TOC_UPPER_DIRS = (
+    'SQL',
+    'OLAP',
+)
+
+TOC_NUM_DIRS = (
+    "10_days",
 )

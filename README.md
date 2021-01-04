@@ -11,17 +11,17 @@ height=auto>
 Please note that this README is dynamically updated. I created scripts in the [`automation`](https://github.com/jaimiles23/HackerRank_Solutions/tree/master/automation) directory to (1) webscrape challenge information, (2) update this README file, and (3) select challenges to complete and push commits to this repository.
 
  ## Table of Contents
- - [Sql](#sql) 
+ - [SQL](#sql) 
      - [Basic Select](#basic-select) 
      - [Advanced Select](#advanced-select) 
      - [Aggregation](#aggregation) 
      - [Basic Join](#basic-join) 
  - [Statistics](#statistics) 
-     - [10 Days](#10_days) 
+     - [10 Days](#10-days) 
  - [Databases](#databases) 
      - [Relational Algebra](#relational-algebra) 
      - [Indexes](#indexes) 
-     - [Olap](#olap) 
+     - [OLAP](#olap) 
  - [Python](#python) 
      - [Introduction](#introduction) 
      - [Basic Data Types](#basic-data-types) 
