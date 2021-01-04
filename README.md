@@ -305,7 +305,7 @@ Number   |   Challenge                                                          
 3        |   [OLAP Operations - 2](https://www.hackerrank.com/challenges/olap-operations-2?isFullScreen=true)           |   5       |   MC           |   65.58%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/3_olap/3_olapoperations-2.md)
 4        |   [OLAP Cube Metadata](https://www.hackerrank.com/challenges/olap-cube-metadata/problem?isFullScreen=true)   |   5       |   MC           |   63.26%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/3_olap/4_olapcubemetadata.md)
 5        |   [OLAP Name(s)](https://www.hackerrank.com/challenges/olap-names?isFullScreen=true)                         |   5       |   MC           |   60.87%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/3_olap/5_olapname(s).md)     
-5        |   [OLAP Name(s)](https://www.hackerrank.com/challenges/olap-names?isFullScreen=true)                         |   5       |   MC           |   60.87%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/3_olap/5_olapname(s).md)     
+6        |   [The Total View](https://www.hackerrank.com/challenges/the-total-view?isFullScreen=true)                   |   5       |   MC           |   55.59%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/3_olap/6_thetotalview.md)    
 
 
 
