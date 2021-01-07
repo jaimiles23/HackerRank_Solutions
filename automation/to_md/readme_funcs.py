@@ -60,7 +60,7 @@ def write_to_toc_file(domain_dir: str, level: int, toc_file: str) -> None:
     
     ## ToC link
     doc_link = sub_dir.lower()
-    if doc_link in constants.TOC_UPPER_DIRS:
+    if doc_link in constants.TOC_NUM_DIRS:
         doc_link = doc_link.replace('-', '_')
     else:
         doc_link = doc_link.replace('_', '-')
