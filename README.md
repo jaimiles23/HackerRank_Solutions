@@ -395,6 +395,7 @@ Number   |   Challenge                                                          
 11       |   [Alphabet Rangoli](https://www.hackerrank.com/challenges/alphabet-rangoli?isFullScreen=true)                            |   20      |   :star:         |   96.74%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/11_alphabetrangoli.py)   
 12       |   [Capitalize!](https://www.hackerrank.com/challenges/capitalize/problem?isFullScreen=true)                               |   20      |   :star:         |   82.59%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/12_capitalize!.py)       
 13       |   [The Minion Game](https://www.hackerrank.com/challenges/the-minion-game?isFullScreen=true)                              |   40      |   :star::star:   |   85.06%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/13_theminiongame.py)     
+14       |   [Merge the Tools!](https://www.hackerrank.com/challenges/merge-the-tools?isFullScreen=true)                             |   40      |   :star::star:   |   92.11%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/14_mergethetools!.py)    
 
 
 
