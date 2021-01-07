@@ -5,4 +5,4 @@ num,name,score,difficulty,rate,url,solution_url,completed,TODO
 4,OLAP Cube Metadata,5,Multiple Choice Question,63.26%,https://www.hackerrank.com/challenges/olap-cube-metadata/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/3_olap/4_olapcubemetadata.md,1,1
 5,OLAP Name(s),5,Multiple Choice Question,60.87%,https://www.hackerrank.com/challenges/olap-names,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/3_olap/5_olapname(s).md,1,1
 6,The Total View,5,Multiple Choice Question,55.59%,https://www.hackerrank.com/challenges/the-total-view,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/3_olap/6_thetotalview.md,1,1
-7,OLAP Operation Types,5,Multiple Choice Question,39.06%,https://www.hackerrank.com/challenges/olap-operation-types-2/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/3_olap/7_olapoperationtypes.md,0,1
+7,OLAP Operation Types,5,Multiple Choice Question,39.06%,https://www.hackerrank.com/challenges/olap-operation-types-2/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/3_olap/7_olapoperationtypes.md,0,0
