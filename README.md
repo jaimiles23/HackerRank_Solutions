@@ -26,6 +26,7 @@ Please note that this README is dynamically updated. I created scripts in the [`
      - [Introduction](#introduction) 
      - [Basic Data Types](#basic-data-types) 
      - [Strings](#strings) 
+     - [Sets](#sets) 
 
 
 
@@ -396,6 +397,24 @@ Number   |   Challenge                                                          
 12       |   [Capitalize!](https://www.hackerrank.com/challenges/capitalize/problem?isFullScreen=true)                               |   20      |   :star:         |   82.59%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/12_capitalize!.py)       
 13       |   [The Minion Game](https://www.hackerrank.com/challenges/the-minion-game?isFullScreen=true)                              |   40      |   :star::star:   |   85.06%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/13_theminiongame.py)     
 14       |   [Merge the Tools!](https://www.hackerrank.com/challenges/merge-the-tools?isFullScreen=true)                             |   40      |   :star::star:   |   92.11%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/03_strings/14_mergethetools!.py)    
+
+
+
+<b><a href="#hackerrank">:arrow_up: Table of Contents</a></b>
+<br/>
+<br/>
+
+
+
+
+## Sets
+Contains solutions to [Sets](https://www.hackerrank.com/domains/python?filters%5Bsubdomains%5D%5B%5D=py-sets).
+
+<br/>
+
+Number   |   Challenge                                                                                                 |   Score   |   Difficulty   |   Rate     |   Solution                                                                                                    
+--:      |   --:                                                                                                       |   --:     |   --:          |   --:      |   --:                                                                                                         
+1        |   [Introduction to Sets](https://www.hackerrank.com/challenges/py-introduction-to-sets?isFullScreen=true)   |   10      |   :star:       |   98.51%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/01_introductiontosets.py)
 
 
 
