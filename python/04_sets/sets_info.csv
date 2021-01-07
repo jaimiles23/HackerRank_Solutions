@@ -1,6 +1,6 @@
 num,name,score,difficulty,rate,url,solution_url,completed,TODO
 1,Introduction to Sets,10,Easy,98.51%,https://www.hackerrank.com/challenges/py-introduction-to-sets,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/01_introductiontosets.py,1,1
-2,No Idea!,50,Medium,85.81%,https://www.hackerrank.com/challenges/no-idea,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/02_noidea!.py,0,1
+2,No Idea!,50,Medium,85.81%,https://www.hackerrank.com/challenges/no-idea,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/02_noidea!.py,1,1
 3,Symmetric Difference,10,Easy,97.89%,https://www.hackerrank.com/challenges/symmetric-difference,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/03_symmetricdifference.py,0,1
 4,Set .add(),10,Easy,99.18%,https://www.hackerrank.com/challenges/py-set-add,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/04_set.add().py,0,1
 5,"Set .discard(), .remove() & .pop()",10,Easy,96.32%,https://www.hackerrank.com/challenges/py-set-discard-remove-pop/problem,"https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/05_set.discard(),.remove()&.pop().py",0,1
@@ -9,9 +9,9 @@ num,name,score,difficulty,rate,url,solution_url,completed,TODO
 6,Set .union() Operation,10,Easy,99.19%,https://www.hackerrank.com/challenges/py-set-union,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/06_set.union()operation.py,0,1
 6,Set .union() Operation,10,Easy,99.19%,https://www.hackerrank.com/challenges/py-set-union,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/06_set.union()operation.py,0,1
 6,Set .union() Operation,10,EasyPython (Basic),99.19%,https://www.hackerrank.com/challenges/py-set-union,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/06_set.union()operation.py,0,1
+7,Set .intersection() Operation,10,Easy,99.50%,https://www.hackerrank.com/challenges/py-set-intersection-operation,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/07_set.intersection()operation.py,0,1
+7,Set .intersection() Operation,10,Easy,99.50%,https://www.hackerrank.com/challenges/py-set-intersection-operation,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/07_set.intersection()operation.py,0,1
 7,Set .intersection() Operation,10,EasyPython (Basic),99.51%,https://www.hackerrank.com/challenges/py-set-intersection-operation/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/07_set.intersection()operation.py,0,1
-7,Set .intersection() Operation,10,Easy,99.50%,https://www.hackerrank.com/challenges/py-set-intersection-operation,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/07_set.intersection()operation.py,0,1
-7,Set .intersection() Operation,10,Easy,99.50%,https://www.hackerrank.com/challenges/py-set-intersection-operation,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/07_set.intersection()operation.py,0,1
 8,Set .difference() Operation,10,EasyPython (Basic),99.41%,https://www.hackerrank.com/challenges/py-set-difference-operation/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/08_set.difference()operation.py,0,1
 8,Set .difference() Operation,10,Easy,99.41%,https://www.hackerrank.com/challenges/py-set-difference-operation/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/08_set.difference()operation.py,0,1
 8,Set .difference() Operation,10,Easy,99.41%,https://www.hackerrank.com/challenges/py-set-difference-operation/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/08_set.difference()operation.py,0,1
