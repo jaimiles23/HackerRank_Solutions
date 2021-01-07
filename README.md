@@ -22,6 +22,7 @@ Please note that this README is dynamically updated. I created scripts in the [`
      - [Relational Algebra](#relational-algebra) 
      - [Indexes](#indexes) 
      - [OLAP](#olap) 
+     - [Set And Algebra](#set-and-algebra) 
  - [Python](#python) 
      - [Introduction](#introduction) 
      - [Basic Data Types](#basic-data-types) 
@@ -308,6 +309,24 @@ Number   |   Challenge                                                          
 4        |   [OLAP Cube Metadata](https://www.hackerrank.com/challenges/olap-cube-metadata/problem?isFullScreen=true)   |   5       |   MC           |   63.26%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/3_olap/4_olapcubemetadata.md)
 5        |   [OLAP Name(s)](https://www.hackerrank.com/challenges/olap-names?isFullScreen=true)                         |   5       |   MC           |   60.87%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/3_olap/5_olapname(s).md)     
 6        |   [The Total View](https://www.hackerrank.com/challenges/the-total-view?isFullScreen=true)                   |   5       |   MC           |   55.59%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/3_olap/6_thetotalview.md)    
+
+
+
+<b><a href="#hackerrank">:arrow_up: Table of Contents</a></b>
+<br/>
+<br/>
+
+
+
+
+## Set And Algebra
+Contains solutions to [Set and Algebra](https://www.hackerrank.com/domains/databases?filters%5Bsubdomains%5D%5B%5D=set-and-algebra).
+
+<br/>
+
+Number   |   Challenge                                                                                                                  |   Score   |   Difficulty     |   Rate     |   Solution                                                                                                                          
+--:      |   --:                                                                                                                        |   --:     |   --:            |   --:      |   --:                                                                                                                               
+1        |   [Databases - Relational Calculus](https://www.hackerrank.com/challenges/databases-relational-calculus?isFullScreen=true)   |   5       |   :star::star:   |   84.56%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/4_set_and_algebra/1_databases-relationalcalculus.md)
 
 
 

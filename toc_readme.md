@@ -11,6 +11,7 @@
      - [Relational Algebra](#relational-algebra) 
      - [Indexes](#indexes) 
      - [OLAP](#olap) 
+     - [Set And Algebra](#set-and-algebra) 
  - [Python](#python) 
      - [Introduction](#introduction) 
      - [Basic Data Types](#basic-data-types) 
