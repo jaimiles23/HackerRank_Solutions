@@ -11,6 +11,7 @@ Number   |   Challenge                                                          
 3        |   [Symmetric Difference](https://www.hackerrank.com/challenges/symmetric-difference?isFullScreen=true)                              |   10      |   :star:         |   97.89%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/03_symmetricdifference.py)           
 4        |   [Set .add()](https://www.hackerrank.com/challenges/py-set-add?isFullScreen=true)                                                  |   10      |   :star:         |   99.18%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/04_set.add().py)                     
 5        |   [Set .discard(), .remove() & .pop()](https://www.hackerrank.com/challenges/py-set-discard-remove-pop/problem?isFullScreen=true)   |   10      |   :star:         |   96.32%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/05_set.discard(),.remove()&.pop().py)
+6        |   [Set .union() Operation](https://www.hackerrank.com/challenges/py-set-union?isFullScreen=true)                                    |   10      |   :star:         |   99.19%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/06_set.union()operation.py)          
 
 
 
