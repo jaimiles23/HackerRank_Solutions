@@ -33,13 +33,13 @@ class WebPageInfo():
     
     ##### Driver methods
     @classmethod
-    def start_driver(cls, home_dir) -> object:
-        """Returns Firefox driver object.
+    def start_driver(cls, home_dir):
+        """Sets Firefox driver object.
 
         NOTE: If running the remote driver, need to create standalone server. 
         Run the following command on cmd
             >>> java -jar selenium-server-standalone-3.141.0.jar -port 4446
-
+s
         ## Remote server
         # driver = webdriver.Remote(
         #     command_executor='http://127.0.0.1:4446/wd/hub',
