@@ -298,6 +298,7 @@ Number   |   Challenge                                                          
 1        |   [Databases - Relational Calculus](https://www.hackerrank.com/challenges/databases-relational-calculus?isFullScreen=true)   |   5       |   :star::star:   |   84.56%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/4_set_and_algebra/1_databases-relationalcalculus.md)
 2        |   [Databases - Keys](https://www.hackerrank.com/challenges/databases-keys?isFullScreen=true)                                 |   5       |   :star::star:   |   97.91%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/4_set_and_algebra/2_databases-keys.md)              
 3        |   [Databases - Natural Joins](https://www.hackerrank.com/challenges/databases-natural-joins/problem?isFullScreen=true)       |   5       |   :star::star:   |   95.39%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/4_set_and_algebra/3_databases-naturaljoins.md)      
+4        |   [Databases - Differences](https://www.hackerrank.com/challenges/databases-differences?isFullScreen=true)                   |   5       |   :star::star:   |   96.96%   |   [md](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/databases/4_set_and_algebra/4_databases-differences.md)       
 
 
 
