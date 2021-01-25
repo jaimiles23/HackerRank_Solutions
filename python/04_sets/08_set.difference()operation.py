@@ -29,8 +29,8 @@ def get_inputs() -> Tuple[Set[int]]:
 ##########
 def main():
     english_class, french_class = get_inputs()
-    both_classes = english_class.difference(french_class)
-    print(len(both_classes))
+    english_only = english_class.difference(french_class)
+    print(len(english_only))
 
 
 if __name__ == "__main__":
