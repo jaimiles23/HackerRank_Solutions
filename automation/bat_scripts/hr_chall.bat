@@ -1,1 +1,1 @@
-@C:\Users\Jai\Documents\github\hacker_rank\automation\venv\Scripts\python.exe C:\Users\Jai\Documents\github\hacker_rank\automation\_start_challenge.py %*
+@"D:\github\hacker_rank\automation\venv\Scripts\python.exe" "D:\github\hacker_rank\automation\_start_challenge.py" %* & pause

@@ -446,6 +446,7 @@ Number   |   Challenge                                                          
 8        |   [Set .difference() Operation](https://www.hackerrank.com/challenges/py-set-difference-operation/problem?isFullScreen=true)                       |   10      |   -              |   99.41%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/08_set.difference()operation.py)          
 9        |   [Set .symmetric_difference() Operation](https://www.hackerrank.com/challenges/py-set-symmetric-difference-operation/problem?isFullScreen=true)   |   10      |   :star:         |   99.50%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/09_set.symmetric_difference()operation.py)
 10       |   [Set Mutations](https://www.hackerrank.com/challenges/py-set-mutations?isFullScreen=true)                                                        |   10      |   :star:         |   98.24%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/10_setmutations.py)                       
+11       |   [The Captain's Room](https://www.hackerrank.com/challenges/py-the-captains-room?isFullScreen=true)                                               |   10      |   :star:         |   89.99%   |   [py](https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/11_thecaptainsroom.py)                    
 
 
 
