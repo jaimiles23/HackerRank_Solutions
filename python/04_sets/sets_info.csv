@@ -10,5 +10,5 @@ num,name,score,difficulty,rate,url,solution_url,completed,TODO
 9,Set .symmetric_difference() Operation,10,Easy,99.50%,https://www.hackerrank.com/challenges/py-set-symmetric-difference-operation/problem,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/09_set.symmetric_difference()operation.py,1,1
 10,Set Mutations,10,Easy,98.24%,https://www.hackerrank.com/challenges/py-set-mutations,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/10_setmutations.py,1,1
 11,The Captain's Room,10,Easy,89.99%,https://www.hackerrank.com/challenges/py-the-captains-room,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/11_thecaptainsroom.py,1,1
-12,Check Subset,10,Easy,98.65%,https://www.hackerrank.com/challenges/py-check-subset,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/12_checksubset.py,0,1
+12,Check Subset,10,Easy,98.65%,https://www.hackerrank.com/challenges/py-check-subset,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/12_checksubset.py,1,1
 13,Check Strict Superset,10,Easy,94.74%,https://www.hackerrank.com/challenges/py-check-strict-superset,https://github.com/jaimiles23/HackerRank_Solutions/blob/master/python/04_sets/13_checkstrictsuperset.py,0,1
